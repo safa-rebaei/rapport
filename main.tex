@@ -159,6 +159,14 @@
 \fancyhead[L]{\small\leftmark}
 \fancyfoot[R]{\thepage}
 
+% Style "plain" : première page de chaque liste/TDM -> numéro centré
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0.5pt}%
+  \fancyfoot[C]{\thepage}%
+}
+
 % ===== PAGE DE CHAPITRE =====
 \newcommand{\mychapter}[1]{%
   \clearpage
@@ -199,6 +207,7 @@
   \clearpage
   \pagestyle{fancy}
 }
+
 % ===== DOCUMENT =====
 \begin{document}
 
@@ -206,8 +215,8 @@
 \pagenumbering{gobble}
 \input{pageDeGarde}
 
-% --- Réinitialiser la numérotation ---
-\pagenumbering{arabic}
+% ===== PAGES PRÉLIMINAIRES : numérotation romaine minuscule =====
+\pagenumbering{roman}
 \setcounter{page}{1}
 
 % ===== TABLE DES MATIÈRES =====
@@ -225,6 +234,12 @@
 % ===== LISTE DES TABLEAUX =====
 {\hypersetup{linkcolor=black}
 \listoftables}
+
+\newpage
+
+% ===== CORPS DU DOCUMENT : numérotation arabe à partir de 1 =====
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 % ===== INTRODUCTION GÉNÉRALE =====
 \input{introgenerale}

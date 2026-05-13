@@ -1,41 +1,41 @@
-\contentsline {table}{\numberline {1.1}{\ignorespaces Les phases et les étapes de la méthode GIMSI}}{22}{table.caption.5}%
-\contentsline {table}{\numberline {2.1}{\ignorespaces Priorité des cas d'utilisation}}{29}{table.caption.8}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Spécification du CU : Se Connecter}}{30}{table.caption.9}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Spécification du CU : Se Déconnecter}}{31}{table.caption.10}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Spécification du CU : Ajouter Agent}}{32}{table.caption.11}%
-\contentsline {table}{\numberline {2.5}{\ignorespaces Spécification du CU : Supprimer Agent}}{33}{table.caption.12}%
-\contentsline {table}{\numberline {2.6}{\ignorespaces Spécification du CU : Ajouter Produit}}{34}{Item.59}%
-\contentsline {table}{\numberline {2.7}{\ignorespaces Spécification du CU : Supprimer Produit}}{35}{table.caption.13}%
-\contentsline {table}{\numberline {2.8}{\ignorespaces Spécification du CU : Consulter Produit}}{36}{table.caption.14}%
-\contentsline {table}{\numberline {2.9}{\ignorespaces Spécification du CU : Modifier Produit}}{37}{table.caption.15}%
-\contentsline {table}{\numberline {2.10}{\ignorespaces Spécification du CU : Archiver Produit}}{38}{table.caption.16}%
-\contentsline {table}{\numberline {2.11}{\ignorespaces Spécification du CU : Ajouter Client}}{40}{Item.133}%
-\contentsline {table}{\numberline {2.12}{\ignorespaces Spécification du CU : Supprimer Client}}{41}{Item.148}%
-\contentsline {table}{\numberline {2.13}{\ignorespaces Spécification du CU : Consulter Client}}{42}{Item.161}%
-\contentsline {table}{\numberline {2.14}{\ignorespaces Spécification du CU : Modifier Client}}{44}{Item.177}%
-\contentsline {table}{\numberline {2.15}{\ignorespaces Spécification du CU : Archiver Client}}{45}{Item.188}%
-\contentsline {table}{\numberline {2.16}{\ignorespaces Spécification du CU : Enregistrer Vente}}{47}{Item.205}%
-\contentsline {table}{\numberline {2.17}{\ignorespaces Spécification du CU : Consulter Vente}}{49}{Item.220}%
-\contentsline {table}{\numberline {2.18}{\ignorespaces Spécification du CU : Archiver Vente}}{50}{Item.234}%
-\contentsline {table}{\numberline {2.19}{\ignorespaces Spécification du CU : Créer Facture via Facture}}{52}{Item.251}%
-\contentsline {table}{\numberline {2.20}{\ignorespaces Spécification du CU : Créer Facture via Vente}}{53}{Item.268}%
-\contentsline {table}{\numberline {2.21}{\ignorespaces Spécification du CU : Enregistrer Règlement}}{55}{Item.289}%
-\contentsline {table}{\numberline {2.22}{\ignorespaces Spécification du CU : Imprimer Facture}}{56}{Item.294}%
-\contentsline {table}{\numberline {2.23}{\ignorespaces Spécification du CU : Envoyer Facture via WhatsApp}}{57}{Item.299}%
-\contentsline {table}{\numberline {2.24}{\ignorespaces Spécification du CU : Consulter Facture}}{59}{Item.314}%
-\contentsline {table}{\numberline {2.25}{\ignorespaces Spécification du CU : Archiver Facture}}{60}{Item.329}%
-\contentsline {table}{\numberline {2.26}{\ignorespaces Spécification du CU : Marquer Notifications Comme Lues}}{61}{Item.336}%
-\contentsline {table}{\numberline {2.27}{\ignorespaces Spécification du CU : Supprimer Notification}}{62}{Item.341}%
-\contentsline {table}{\numberline {2.28}{\ignorespaces Spécification du CU : Consulter Tableaux de Bord}}{63}{Item.347}%
-\contentsline {table}{\numberline {2.29}{\ignorespaces Spécification du CU : Consulter Prévisions}}{64}{Item.351}%
-\contentsline {table}{\numberline {3.1}{\ignorespaces Conception des Indicateurs Clés de Performances}}{118}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Conception des KPIs — Tableau de Bord Chiffre d'Affaires}}{120}{table.3.2}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Conception des KPIs — Tableau de Bord Clients}}{121}{table.3.3}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Conception des KPIs — Tableau de Bord Facturation}}{125}{table.3.4}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Conception des KPIs — Tableau de Bord Prévisions}}{126}{table.3.5}%
-\contentsline {table}{\numberline {4.1}{\ignorespaces Outils de développement}}{140}{table.caption.70}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Outils de gestion de collaboration}}{140}{table.caption.71}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Frameworks et bibliothèques utilisés}}{141}{table.caption.72}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Base de données utilisée}}{142}{table.caption.74}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Outils de modélisation utilisés}}{142}{table.caption.75}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Outils de sécurité et d'authentification}}{143}{table.caption.76}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Les phases et les étapes de la méthode GIMSI}}{11}{table.caption.4}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Priorité des cas d'utilisation}}{18}{table.caption.7}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Spécification du CU : Se Connecter}}{19}{table.caption.8}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Spécification du CU : Se Déconnecter}}{20}{table.caption.9}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Spécification du CU : Ajouter Agent}}{21}{table.caption.10}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Spécification du CU : Supprimer Agent}}{22}{table.caption.11}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Spécification du CU : Ajouter Produit}}{23}{Item.59}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces Spécification du CU : Supprimer Produit}}{24}{table.caption.12}%
+\contentsline {table}{\numberline {2.8}{\ignorespaces Spécification du CU : Consulter Produit}}{25}{table.caption.13}%
+\contentsline {table}{\numberline {2.9}{\ignorespaces Spécification du CU : Modifier Produit}}{26}{table.caption.14}%
+\contentsline {table}{\numberline {2.10}{\ignorespaces Spécification du CU : Archiver Produit}}{27}{table.caption.15}%
+\contentsline {table}{\numberline {2.11}{\ignorespaces Spécification du CU : Ajouter Client}}{29}{Item.133}%
+\contentsline {table}{\numberline {2.12}{\ignorespaces Spécification du CU : Supprimer Client}}{30}{Item.148}%
+\contentsline {table}{\numberline {2.13}{\ignorespaces Spécification du CU : Consulter Client}}{31}{Item.161}%
+\contentsline {table}{\numberline {2.14}{\ignorespaces Spécification du CU : Modifier Client}}{33}{Item.177}%
+\contentsline {table}{\numberline {2.15}{\ignorespaces Spécification du CU : Archiver Client}}{34}{Item.188}%
+\contentsline {table}{\numberline {2.16}{\ignorespaces Spécification du CU : Enregistrer Vente}}{36}{Item.205}%
+\contentsline {table}{\numberline {2.17}{\ignorespaces Spécification du CU : Consulter Vente}}{38}{Item.220}%
+\contentsline {table}{\numberline {2.18}{\ignorespaces Spécification du CU : Archiver Vente}}{39}{Item.234}%
+\contentsline {table}{\numberline {2.19}{\ignorespaces Spécification du CU : Créer Facture via Facture}}{41}{Item.251}%
+\contentsline {table}{\numberline {2.20}{\ignorespaces Spécification du CU : Créer Facture via Vente}}{42}{Item.268}%
+\contentsline {table}{\numberline {2.21}{\ignorespaces Spécification du CU : Enregistrer Règlement}}{44}{Item.289}%
+\contentsline {table}{\numberline {2.22}{\ignorespaces Spécification du CU : Imprimer Facture}}{45}{Item.294}%
+\contentsline {table}{\numberline {2.23}{\ignorespaces Spécification du CU : Envoyer Facture via WhatsApp}}{46}{Item.299}%
+\contentsline {table}{\numberline {2.24}{\ignorespaces Spécification du CU : Consulter Facture}}{48}{Item.314}%
+\contentsline {table}{\numberline {2.25}{\ignorespaces Spécification du CU : Archiver Facture}}{49}{Item.329}%
+\contentsline {table}{\numberline {2.26}{\ignorespaces Spécification du CU : Marquer Notifications Comme Lues}}{50}{Item.336}%
+\contentsline {table}{\numberline {2.27}{\ignorespaces Spécification du CU : Supprimer Notification}}{51}{Item.341}%
+\contentsline {table}{\numberline {2.28}{\ignorespaces Spécification du CU : Consulter Tableaux de Bord}}{52}{Item.347}%
+\contentsline {table}{\numberline {2.29}{\ignorespaces Spécification du CU : Consulter Prévisions}}{53}{Item.351}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Conception des Indicateurs Clés de Performances}}{107}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Conception des KPIs — Tableau de Bord Chiffre d'Affaires}}{109}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Conception des KPIs — Tableau de Bord Clients}}{110}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Conception des KPIs — Tableau de Bord Facturation}}{114}{table.3.4}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Conception des KPIs — Tableau de Bord Prévisions}}{115}{table.3.5}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Outils de développement}}{129}{table.caption.69}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Outils de gestion de collaboration}}{129}{table.caption.70}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Frameworks et bibliothèques utilisés}}{130}{table.caption.71}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Base de données utilisée}}{131}{table.caption.73}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Outils de modélisation utilisés}}{131}{table.caption.74}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Outils de sécurité et d'authentification}}{132}{table.caption.75}%
