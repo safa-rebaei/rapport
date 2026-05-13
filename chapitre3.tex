@@ -1,0 +1,1396 @@
+\mychapter{Conception}
+
+\section{Introduction}
+
+Ce chapitre est consacré à la conception de notre application SalesInsight. 
+Nous commençons par présenter l'architecture logique adoptée. Nous exposons 
+ensuite les diagrammes de séquence illustrant les principaux flux d'interactions 
+entre les acteurs et le système. Nous présentons par la suite le diagramme de 
+classes des entités de notre systéme ,la Conception des Indicateurs Clés de Performances et le  schéma de la base de données, 
+afin d'assurer une compréhension claire de la structure des données.
+
+\newcommand{\colorswatch}[1]{%
+  \tikz\draw[fill=#1, draw=none] (0,0) rectangle (0.5cm,0.5cm);%
+}
+
+\section{Architecture Logique Adoptée}
+
+Nous avons utilisé le patron de conception \textbf{MVC (Modèle-Vue-Contrôleur)}, 
+un modèle couramment employé pour structurer les applications web en séparant 
+les données, la logique métier et l'affichage. Cette séparation des responsabilités 
+permet une meilleure répartition du travail au sein de l'équipe et facilite la 
+maintenance du code sur le long terme \cite{mdn_mvc}.
+
+\subsection{Composants Clés}
+
+\subsection{Modèle (Model)}
+Les modèles définissent la structure des entités métier de notre systéme
+et leur persistance en base de données via SQLAlchemy sur SQLite. Chaque entité 
+du domaine — client, produit, vente, facturation, notification, utilisateur et 
+paramètres société — y est décrite avec ses attributs, ses contraintes et ses 
+relations. Cette couche ne contient aucune logique applicative \cite{fastapi_sqlalchemy}.
+
+\subsection{Schéma (Schema)}
+Les schémas Pydantic définissent et valident la structure des données échangées 
+entre le client et le serveur. Chaque champ y est typé et contraint : valeurs 
+minimales, listes non vides, formats attendus. Toute donnée non conforme est 
+automatiquement rejetée par FastAPI avec une erreur HTTP 422\cite{pydantic_doc}.
+
+\subsection{Service}
+Les services concentrent l'intégralité de la logique métier
+ C'est ici que résident les règles spécifiques au domaine : 
+vérification de stock avant une vente, décrémentation après validation, génération 
+de numéros de vente et de références de facturation, calcul du reste à payer, 
+synchronisation du statut actif ou inactif des clients, déclenchement des alertes 
+de stock, ainsi que les analyses statistiques et les prévisions via Prophet et 
+scikit-learn. Les services peuvent collaborer entre eux de manière descendante, 
+sans jamais créer de dépendances circulaires 
+\cite{fastapi_services}.
+
+\subsection{Contrôleur (Controller)}
+Les contrôleurs, implémentés via les routeurs FastAPI, reçoivent les requêtes 
+HTTP, s'appuient sur les schémas pour la validation et délèguent entièrement le 
+traitement au service concerné. Cette couche est volontairement minimaliste : 
+aucune règle métier n'y figure 
+\cite{fastapi_router, fastapi_mvc}.
+
+\subsection{Vue (View)}
+Dans le contexte d'une API REST, la vue correspond à la réponse JSON retournée 
+au client. Elle est produite par la sérialisation des entités dans les services. 
+C'est le frontend React qui assure ensuite l'affichage de ces données à 
+l'utilisateur final 
+\cite{fastapi_mvc}.
+
+\subsection{Couche Transversale (Cross-Cutting Concerns)}
+Plusieurs mécanismes s'appliquent de manière transversale à l'ensemble des 
+couches : authentification JWT avec liste noire de tokens, hachage des mots de 
+passe via BCrypt, contrôle d'accès par rôle (CEO / agent), et un scheduler 
+d'arrière-plan qui génère périodiquement les notifications d'échéance et d'alerte 
+de stock 
+\cite{jwt_auth, fastapi_background}.
+
+\subsection{Routes}
+Les routes organisent les points d'entrée de l'API par domaine fonctionnel et 
+appliquent le middleware d'authentification de manière uniforme. Elles assurent 
+une communication structurée et sécurisée entre le frontend et le backend 
+\cite{fastapi_router}.
+
+\subsection{Architecture Frontend React}
+Le frontend applique le même principe de séparation des responsabilités, décliné 
+en trois niveaux distincts \cite{react_hooks}.
+
+\subsection{Vue (View)}
+Les composants React dans \texttt{src/views/} et \texttt{src/components/} 
+assurent l'affichage pur. Ils consomment les données exposées par les hooks sans 
+contenir aucune logique applicative ni appel réseau 
+\cite{react_hooks}.
+
+\subsection{Contrôleur (Hook)}
+Les hooks personnalisés dans \texttt{src/hooks/} gèrent l'état de l'interface, 
+orchestrent les actions utilisateur et font le lien entre la vue et la couche API 
+\cite{react_hooks}.
+
+\subsection{Couche API}
+Les fichiers dans \texttt{src/api/} encapsulent tous les appels HTTP vers le 
+backend via Axios. Cette couche est indépendante des composants visuels et ne 
+contient aucun état React 
+\cite{axios_doc}.
+
+\subsection{Avantages de l'Architecture Adoptée}
+
+\begin{itemize}
+    \item \textbf{Séparation des responsabilités.} Chaque couche a un rôle unique et bien délimité, ce qui réduit le couplage entre les modules et simplifie la maintenance à long terme.
+    \item \textbf{Testabilité.} Les services étant indépendants de la couche HTTP, la logique métier peut être testée unitairement de manière isolée.
+    \item \textbf{Sécurité uniforme.} L'authentification et le contrôle d'accès par rôle sont appliqués au niveau des routes, garantissant une protection cohérente sur l'ensemble des points d'entrée de l'API.
+\end{itemize}
+\newpage
+
+\section{Conception du Cas D'utilisation Se Connecter}
+
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Se Connecter}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{images/image.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Se Connecter}
+\end{figure}
+
+Cette traçabilité montre la réalisation du cas d'utilisation à travers les différents objets collaborant dans l'architecture du système.
+
+Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'utilisateur qui initie le processus de connexion
+  \item \textbf{IUSeConnecter :} l'interface qui permet la saisie des identifiants de connexion
+  \item \textbf{IUAccueil :} l'interface principale affichée à l'utilisateur après une connexion réussie
+  \item \textbf{ControleurAuth :} l'intermédiaire entre l'interface de connexion et l'entité utilisateur
+  \item \textbf{Utilisateur :} l'entité du système qui contient les données relatives aux utilisateurs et les traitements à appliquer
+\end{itemize}
+
+À noter que le CEO utilise également ce cas d'utilisation en suivant le même processus que l'agent commercial.
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Se Connecter}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/seqConnecter.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Se Connecter}
+  \label{fig:seqConnecter}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Se Connecter}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth, height=0.50\textheight, keepaspectratio]{images/classeConnecter.png}
+  \caption{Diagramme de classe pour le cas d'utilisation Se Connecter}
+  \label{fig:classeConnecter}
+\end{figure}
+
+\newpage
+
+\section{Conception du Cas D'utilisation Se Déconnecter}
+
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Se Déconnecter}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.1\textwidth, height=0.25\textheight]{images/mcumcdeconnecter.png}%
+  }
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Se Déconnecter}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instance de classe participant a la réalisation du cas d'utilisation Se Déconnecter
+
+L'acteur et Les classes impliquées dans cette réalisation sont les suivants :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'utilisateur qui initie le processus de déconnexion
+  \item \textbf{IUDeconnecter :} l'interface qui permet à l'utilisateur de confirmer sa déconnexion
+  \item \textbf{IUSeConnecter :} l'interface vers laquelle l'utilisateur est redirigé après la déconnexion
+  \item \textbf{IUAccueil :} l'interface depuis laquelle l'utilisateur déclenche la déconnexion
+  \item \textbf{ControleurAuth :} responsable du traitement et de la validation de la déconnexion
+\end{itemize}
+
+À noter que le CEO utilise également ce cas d'utilisation en suivant le même processus que l'agent commercial.
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Se Déconnecter}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/seqDeconnecter.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Se Déconnecter}
+  \label{fig:seqDeconnecter}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Se Déconnecter}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.05\textwidth, height=0.55\textheight]{images/classedeconnecter.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Se Déconnecter}
+  \label{fig:classeDeconnecter}
+\end{figure}
+\newpage
+
+\section{Conception des Cas D'utilisation Gérer Agents}
+
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Gérer Agents}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Gérer Agents}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instance participant à la réalisation de la classe du cas d'utilisation gérer Agents.
+L'acteur et Les classes impliquées dans cette réalisation sont les suivants :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{CEO :} l'acteur qui initie les opérations de gestion des utilisateurs
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle le CEO accède à la page de gestion des agents
+  \item \textbf{IUAgent :} l'interface principales pour gérer les agents
+  \item \textbf{IUAjouterAgent :} l'interface qui permet au CEO d'ajouter un nouvel utilisateur en définissant son email, mot de passe et rôle
+  \item \textbf{IUSupprimerAgent :} l'interface qui permet au CEO de confirmer la suppression d'un agent du système
+  \item \textbf{IUListeAgent :} l'interface qui affiche la liste des utilisateurs du système et permet au CEO de supprimer un agent
+  \item \textbf{ControleurUtilisateur :} permet de gérer les flux de contrôle entre l'interface et l'entité
+  \item \textbf{Utilisateur :} l'entité du système qui contient les données relative aux agents
+\end{itemize}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Ajouter Agent}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceAjouterUtilisateur.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Ajouter Agent}
+  \label{fig:seqAjouterAgent}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Supprimer Agent}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Agent}
+  \label{fig:seqSupprimerAgent}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Gérer Agents}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=0.95\textwidth, height=0.78\textheight]{images/MC1_DiagrammeClasseGérerUtilisateurs.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Gérer Agents}
+  \label{fig:classeAgents}
+\end{figure}
+\newpage
+
+\section{Conception des Cas D'utilisation Gérer Produits}
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Gérer Produits}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/mcumcpoduit.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Gérer Produits}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instances  de classe participant à la réalisation du cas d'utilisation Gérer Produits.
+
+L'acteur et Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'acteur qui initie les opérations de gestion des produits
+  \item \textbf{IUGérerProduit :} l'interface principale qui affiche les options de gestion des produits avec les options de recherche et de filtrage
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle l'agent accède à la page de gestion des produits
+  \item \textbf{IUAjouterProduit :} l'interface qui permet à l'agent commercial d'ajouter un nouveau produit en définissant son nom, catégorie, prix unitaire et stock
+  \item \textbf{IUModifierProduit :} l'interface qui permet à l'agent commercial de modifier les informations d'un produit existant
+  \item \textbf{IUSupprimerProduit :} l'interface qui permet à l'agent commercial de confirmer la suppression d'un produit du système
+  \item \textbf{IUArchiverProduit :} l'interface qui permet à l'agent commercial de confirmer l'archivage d'un produit
+  \item \textbf{IUConsulterDetailsProduit :} l'interface qui permet à l'agent commercial de visualiser les détails d'un produit sélectionné
+  \newpage
+  \item \textbf{IUListeProduit :} l'interface qui affiche la liste des produits
+  \item \textbf{ControleurProduit :} permet de gérer les flux de contrôle entre l'interface utilisateur et l'entité produit
+  \item \textbf{Produit :} la classe du système qui contient les données  relatives aux produits et les traitements métier associés
+  \item \textbf{LigneDeVente :} la classe du système qui contient les données  traitements métier relatives aux produits liés à une vente
+\end{itemize}
+
+Il est à noter que le CEO peut également effectuer les mêmes opérations de gestion des produits que l'agent commercial.
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Ajouter Produit}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceAjouterProduit_1.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Ajouter Produit}
+  \label{fig:seqAjouterProduit}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Supprimer Produit}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceSupprimerProduit.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Produit}
+  \label{fig:seqSupprimerProduit}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Modifier Produit}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceModifierProduit.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Modifier Produit}
+  \label{fig:seqModifierProduit}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Produit}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterProduit.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter Produit}
+  \label{fig:seqConsulterProduit}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Archiver Produit}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceArchiverProduit.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Archiver Produit}
+  \label{fig:seqArchiverProduit}
+\end{figure}
+\newpage
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Gérer Produits}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeClasseGérerProduit_2.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Gérer Produits}
+  \label{fig:classeProduits}
+\end{figure}
+\newpage
+
+\section{Conception du Cas D'utilisation Gérer Clients}
+
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Gérer Clients}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MC_tracabiliteMCUMCGererClient.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Gérer Clients}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instances de classe participant à la réalisation du cas d'utilisation Gérer Clients.
+
+L'acteur et Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'acteur qui initie les opérations de gestion des clients
+  \item \textbf{IUGérerClient :} l'interface principale qui affiche les options de gestion des clients
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle l'agent accède à la page de gestion des clients
+  \item \textbf{IUAjouterClient :} l'interface qui permet à l'agent commercial d'ajouter un nouveau client en définissant son prénom, nom, email, téléphone, ville et adresse
+  \item \textbf{IUModifierClient :} l'interface qui permet à l'agent commercial de modifier les informations d'un client existant
+  \item \textbf{IUSupprimerClient :} l'interface qui permet à l'agent commercial de confirmer la suppression d'un client du système
+  \item \textbf{IUArchiverClient :} l'interface qui permet à l'agent commercial de confirmer l'archivage d'un client
+  \item \textbf{IUConsulterDetailsClient :} l'interface qui permet à l'agent commercial de consulter les informations détaillées d'un client sélectionné
+  \newpage
+  \item \textbf{IUListeClient :} l'interface qui affiche la liste des clients avec les options de recherche et de filtrage
+  \item \textbf{ControleurGérerClient :} permet de gérer les flux de contrôle entre l'interface et l'entité client
+  \item \textbf{Client :} l'entité du système qui contient les  données et les traitements métier relative aux clients
+  \item \textbf{Vente :} l'entité du système qui contient les  données et les traitements métier aux ventes associées à chaque client
+\end{itemize}
+
+Il est à noter que le CEO peut également effectuer les mêmes opérations de gestion des clients que l'agent commercial.
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Ajouter Client}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_diagseqAjouterClient.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Ajouter Client}
+  \label{fig:seqAjouterClient}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Modifier Client}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceModifierClient.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Modifier Client}
+  \label{fig:seqModifierClient}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Supprimer Client}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceSupprimerClient_1.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Client}
+  \label{fig:seqSupprimerClient}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Client}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterClient.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter Client}
+  \label{fig:seqConsulterClient}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Archiver Client}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_diagrammedeseqArchiverClient.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Archiver Client}
+  \label{fig:seqArchiverClient}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Gérer Clients}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeClasseGererClient_2.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Gérer Clients}
+  \label{fig:classeClients}
+\end{figure}
+\newpage
+
+\section{Conception du Cas D'utilisation Traiter Ventes}
+
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Traiter Ventes}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MC_tracabilitéMCMCUVENTE_1.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Traiter Ventes}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instances de classe  participant à la réalisation du cas d'utilisation Traiter Ventes.
+
+L'acteur et Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'acteur qui initie les opérations de traitement des ventes
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle l'agent accède à la page de gestion des ventes
+  \item \textbf{IUGérerVente :} l'interface principale qui affiche les options de gestion des ventes
+  \item \textbf{IUAjouterVente :} l'interface qui permet à l'agent commercial de créer une nouvelle vente en sélectionnant un client et en ajoutant des lignes de produits avec leurs quantités
+  \item \textbf{IUArchiverVente :} l'interface qui permet à l'agent commercial de confirmer l'archivage d'une vente
+  \item \textbf{IUConsulterDetailsVente :} l'interface qui affiche les détails d'une vente spécifique avec ses lignes de produits
+  \item \textbf{IUConsulterListeVente :} l'interface qui affiche la liste des ventes avec les options de recherche et de filtrage
+  \item \textbf{ControleurVente :} permet de gérer les flux de contrôle entre l'interface et l'entité
+  \newpage
+  \item \textbf{Vente :} l'entité du système qui contient la structure de données relative aux ventes
+  \item \textbf{Client :} l'entité du système qui contient la structure de données relative aux clients associés à chaque vente
+  \item \textbf{Produit :} l'entité du système qui contient la structure de données relative aux produits inclus dans les lignes de vente
+  \item \textbf{Facture :} l'entité du système qui contient la structure de données relative aux factures générées à partir des ventes
+  \item \textbf{LigneDeVente :} l'entité du système qui contient les données et les  traitements métier relatives aux produits liés à une vente
+\end{itemize}
+
+Il est à noter que le CEO peut également effectuer les mêmes opérations de gestion des ventes que l'agent commercial.
+
+\subsection{Diagramme de Séquence du Cas D'utilisation Enregistrer Vente}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceEnregistrervente.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Enregistrer Vente}
+  \label{fig:seqEnregistrerVente}
+\end{figure}
+
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Vente}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterVentes_2.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter Vente}
+  \label{fig:seqConsulterVente}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Archiver Vente}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceArchiverVente.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Archiver Vente}
+  \label{fig:seqArchiverVente}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Traiter Ventes}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeDeClasseGérerVente.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Traiter Ventes}
+  \label{fig:classeVentes}
+\end{figure}
+
+\clearpage
+\section{Conception du Cas D'utilisation Gérer Factures}
+
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Gérer Factures}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MC_tracabiliteMCUMCGérerFacture_2.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Gérer Factures}
+\end{figure}
+è
+Cette traçabilité montre quels sont les objets instances de classe participant à la réalisation du cas d'utilisation Gérer Factures.
+
+L'acteur et les classes impliquées dans ce diagramme sont les suivants :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'acteur qui initie les opérations de gestion des factures
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle l'agent accède à la page de gestion des factures
+  \item \textbf{IUGérerFacture :} l'interface principale qui affiche les options de gestion des factures
+  \item \textbf{IUCreerFacture :} l'interface qui permet à l'agent commercial de créer une nouvelle facture à partir d'une vente
+  \item \textbf{IUListeFacture :} l'interface qui affiche la liste des factures avec les options de recherche et de filtrage par statut
+  \item \textbf{IUConsulterDetailsFacture :} l'interface qui permet à l'agent commercial de visualiser les informations détaillées d'une facture sélectionnée
+  \item \textbf{IURéglerPaiement :} l'interface qui permet à l'agent commercial d'ajouter un règlement à une facture
+  \item \textbf{IUArchiverFacture :} l'interface qui permet à l'agent commercial de confirmer l'archivage d'une facture
+  \item \textbf{IUFacturePDF :} l'interface qui permet à l'agent commercial de générer et télécharger la facture au format PDF
+  \item \textbf{ControleurGérerFacture :} permet de gérer les flux de contrôle entre l'interface et les entités facture, vente, client et règlement
+  \item \textbf{Facture :} l'entité du système qui contient la structure de données relative aux factures
+  \item \textbf{Règlement :} l'entité qui représente les versements effectués sur une facture
+  \item \textbf{Paramètre :} l'entité qui représente les paramètres de la société tels que (société\_nom, adresse, ville, téléphone)
+  \item \textbf{LigneDeVente :} l'entité du système qui contient les données et les traitements métier relatives aux produits liés à une vente
+  \item \textbf{Vente :} l'entité associée à la facture représentant la vente d'origine
+  \item \textbf{Client :} l'entité qui représente le client associé à la facture
+\end{itemize}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Créer Facture Via Facture}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Créer Facture Via Facture}
+  \label{fig:seqCreerFactureViaFacture}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Créer Facture Via Vente}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquencecreerfactureviaventes.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Créer Facture Via Vente}
+  \label{fig:seqCreerFactureViaVente}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Facture}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterFacture_2.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter Facture}
+  \label{fig:seqConsulterFacture}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Enregistrer Règlement}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Enregistrer Règlement}
+  \label{fig:seqEnregistrerReglement}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Archiver Facture}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceArchiverFacture_1.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Archiver Facture}
+  \label{fig:seqArchiverFacture}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Imprimer Facture}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceImprimerFacture.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Imprimer Facture}
+  \label{fig:seqImprimerFacture}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Envoyer via WhatsApp}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquence2.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Envoyer via WhatsApp}
+  \label{fig:seqWhatsApp}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Gérer Factures}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeClasseGérerFacture_1.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Gérer Factures}
+  \label{fig:classeFactures}
+\end{figure}
+\newpage
+
+\section{Conception du Cas D'utilisation Gérer Notifications}
+
+\needspace{0.88\textheight}
+\subsection{Traçabilité MCU/MC pour le Cas D'utilisation Gérer Notifications}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/image22.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Gérer Notifications}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instances de classe participant à la réalisation du cas d'utilisation Gérer Notifications.
+
+L'acteur et les classes impliquées dans ce diagramme sont les suivants :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Agent Commercial :} l'acteur qui initie les opérations de gestion des Notifications
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle l'agent accède à la page de gestion des Notifications
+  \item \textbf{:IUListeNotifications :} l'interface qui affiche la liste des notifications et permet à l'agent de les consulter, supprimer et marquer comme lue
+  \item \textbf{:controleurGérerNotifications :} le contrôleur qui reçoit les actions de l'interface, traite les requêtes de gestion  des notifications.
+  \item \textbf{:Notifications :} l'entité du système qui contient les données et les traitements métier relatives aux notifications
+\end{itemize}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Notifications}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterNotif.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter Notifications}
+  \label{fig:seqConsulterNotif}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Marquer Notifications Comme Lues}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquencemarquercommelue.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Marquer Notifications Comme Lues}
+  \label{fig:seqMarquerLues}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Supprimer Notifications}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéqSupprimerNotifications.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Notifications}
+  \label{fig:seqSupprimerNotif}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Gérer Notifications}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.05\textwidth, height=0.65\textheight]{images/MC_DiagrammeClasseGérerNotifications.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Gérer Notifications}
+  \label{fig:classeNotifications}
+\end{figure}
+\newpage
+
+\section{Conception des Tableaux de Bord}
+
+\subsection*{Conception des Indicateurs Clés de Performances}
+\addcontentsline{toc}{subsection}{Conception des Indicateurs Clés de Performances}
+
+\vspace{6pt}
+
+\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2.5cm}|>{\raggedright\arraybackslash}p{4cm}|>{\raggedright\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endhead
+Chiffres d'affaires total &
+Cet indicateur est chargé d'afficher le montant global de l'ensemble des ventes actives. &
+CA total = Somme des ventes actives &
+Carte avec icône &
+\colorswatch{blue!70!black} \\
+\hline
+Chiffres d'affaires mensuel &
+Cet indicateur est chargé d'afficher le montant des ventes effectuées dans le mois souhaité. &
+CA mensuel = Somme des ventes du mois souhaité &
+Carte avec icône &
+\colorswatch{blue!50} \\
+\hline
+Panier Moyen &
+Cet indicateur est chargé de mesurer le revenu moyen généré par chaque vente effectuée. &
+Panier moyen = CA Total / Nombre de ventes &
+Carte avec icône &
+\colorswatch{violet} \\
+\hline
+\textcolor{blue!70!black}{Taux de Croissance} &
+Cet indicateur est chargé de mesurer la variance du chiffre d'affaires par rapport au mois précédent. &
+Croissance = [CA(n) - CA(n-1)] / CA(n-1) x 100 &
+Carte avec icône &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{green!60!black}\\[-2pt]
+{\tiny Vert si positif}\\[4pt]
+\colorswatch{red!70}\\[-2pt]
+{\tiny Rouge si négatif}\\[4pt]
+\colorswatch{gray!50}\\[-2pt]
+{\tiny Gris si nul}
+\end{tabular} \\
+\hline
+\textcolor{blue!70!black}{Taux de marge} &
+Cet indicateur est chargé de mesurer le gain réalisé sur les ventes enregistrées, correspondant à la différence entre le chiffre d'affaires et le coût d'achat. &
+Marge brute = quantité x (prix\_vente - prix\_achat)
+
+\vspace{4pt}
+Taux de marge = marge brute / (quantité x prix\_vente) x 100 &
+Carte avec icône &
+\colorswatch{orange!80!black} \\
+\hline
+\caption{Conception des Indicateurs Clés de Performances}
+\label{tab:kpi-generaux}
+\end{longtable}
+
+\newpage
+
+\subsection*{Conception des KPIs — Tableau de Bord Chiffre d'Affaires}
+\addcontentsline{toc}{subsection}{Conception des KPIs — Tableau de Bord Chiffre d'Affaires}
+
+\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endhead
+Évolution du chiffre d'affaires &
+Ce graphique est chargé d'afficher l'évolution du chiffre d'affaires et du volume de ventes enregistrés mois par mois ou semaine par semaine. &
+Chiffres d'affaire = Somme de total (par mois/par semaine)
+
+\vspace{4pt}
+Nombres des ventes = Count nombre ventes (par mois/par semaine) &
+Graphique combiné (Barres + Aires)
+
+\vspace{4pt}
+\textit{Info\_bulle} (affiche le CA et nombre de ventes) &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{blue!70!black}\\[-2pt]
+{\tiny Barres}\\[6pt]
+\colorswatch{blue!30}\\[-2pt]
+{\tiny Aire}
+\end{tabular} \\
+\hline
+Anomalies CA &
+Est chargé d'afficher les jours anormaux du chiffre d'affaires détectés sur la période. &
+Moyenne = CA/jour / nombre-jour
+
+\vspace{4pt}
+Ecart\_type = racine( somme(CA\_jour - Moyenne)\textsuperscript{2} / n )
+
+\vspace{4pt}
+Z\_score = (CA/jour - moyenne) / ecart\_type &
+Graphique en aires &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{blue!30}\\[-2pt]
+{\tiny Aire normale}\\[4pt]
+\colorswatch{red!80}\\[-2pt]
+{\tiny Pic anormal}\\[4pt]
+\colorswatch{orange!80}\\[-2pt]
+{\tiny Creux anormal}
+\end{tabular} \\
+\hline
+Top 5 Produits par Chiffre d'affaires &
+Cette section est chargée de classer et afficher les 5 produit ayant généré plus de chiffres d'affaires. &
+CA Total d'affaire par produit = Somme de sous total (par produit)
+
+\vspace{4pt}
+Trié en ordre décroissant (5 premiers résultats) &
+Liste classée &
+\\
+\hline
+Répartition du CA Par produit/Catégorie &
+Cette section est chargée d'afficher la contribution proportionnelle de chaque produit au chiffre d'affaires regroupé par catégories. &
+Répartition du CA d'affaire par produit = CA par produit / CA total
+
+\vspace{4pt}
+Répartition du CA d'affaires par Catégories = CA par catégories / CA total &
+Diagramme en secteurs
+
+\vspace{4pt}
+\textit{Info\_bulle} (affiche nom de produit + CA en TND)
+
+\vspace{4pt}
+\textit{Panneau de légende} (affiche nom de catégorie + CA + répartition) &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{blue!70!black}\\[-2pt]
+{\tiny Rang 1}\\[4pt]
+\colorswatch{blue!55}\\[-2pt]
+{\tiny Rang 2}\\[4pt]
+\colorswatch{blue!40}\\[-2pt]
+{\tiny Rang 3}\\[4pt]
+\colorswatch{blue!25}\\[-2pt]
+{\tiny Rang 4}\\[4pt]
+\colorswatch{blue!10}\\[-2pt]
+{\tiny Rang 5}
+\end{tabular} \\
+\hline
+\caption{Conception des KPIs — Tableau de Bord Chiffre d'Affaires}
+\label{tab:kpi-ca}
+\end{longtable}
+
+\newpage
+
+\subsection*{Conception des KPIs — Tableau de Bord Clients}
+\addcontentsline{toc}{subsection}{Conception des KPIs — Tableau de Bord Clients}
+
+\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endhead
+Top 5 clients par Chiffre d'affaires &
+Cette section est chargée de classer et afficher les 5 clients ayant généré plus de chiffres d'affaires. &
+CA Total d'affaire par clients = Somme de total (par clients)
+
+\vspace{4pt}
+Trié en ordre décroissant (5 premiers résultats) &
+Liste classée &
+\\
+\hline
+Répartition du CA Par Client/Type &
+Cette section est chargée d'afficher la contribution proportionnelle de chaque client au chiffre d'affaires segmenté par type de client. &
+Répartition du CA d'affaire par client = CA par client / CA total
+
+\vspace{4pt}
+Répartition du CA d'affaires par types = CA par types / CA total &
+Diagramme en secteurs
+
+\vspace{4pt}
+\textit{Info\_bulle} (affiche nom de client + CA en TND)
+
+\vspace{4pt}
+\textit{Panneau de légende} (affiche nom de type + CA + répartition) &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{blue!70!black}\\[-2pt]
+{\tiny Rang 1}\\[4pt]
+\colorswatch{blue!55}\\[-2pt]
+{\tiny Rang 2}\\[4pt]
+\colorswatch{blue!40}\\[-2pt]
+{\tiny Rang 3}\\[4pt]
+\colorswatch{blue!25}\\[-2pt]
+{\tiny Rang 4}\\[4pt]
+\colorswatch{blue!10}\\[-2pt]
+{\tiny Rang 5}
+\end{tabular} \\
+\hline
+\caption{Conception des KPIs — Tableau de Bord Clients}
+\label{tab:kpi-clients}
+\end{longtable}
+
+\newpage
+
+\subsection*{Conception des KPIs — Tableau de Bord Facturation}
+\addcontentsline{toc}{subsection}{Conception des KPIs — Tableau de Bord Facturation}
+
+\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Formule}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endhead
+Répartition des factures par Statut &
+Cet indicateur est chargé de visualiser la distribution des factures selon leur statut de paiement (payé/non payé/Partiellement payé). &
+Montant des factures par statut = Somme des factures par statut
+
+\vspace{4pt}
+Part des factures par statut = (Montant par statut / Montant total des factures) x 100
+
+\vspace{4pt}
+Nombre de factures par type = Count factures (par statut) &
+Graphique en anneau (donut chart)
+
+\vspace{4pt}
+\textit{Centre de graphique} affiche le nombre total de factures + montant total en TND
+
+\vspace{4pt}
+\textit{Info\_bulle} (affiche nom de statut + montant + nombre) &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{green!60!black}\\[-2pt]
+{\tiny payé}\\[6pt]
+\colorswatch{orange!80}\\[-2pt]
+{\tiny partiellement\_payé}\\[6pt]
+\colorswatch{red!70}\\[-2pt]
+{\tiny non payé}
+\end{tabular} \\
+\hline
+Répartition des factures par Type &
+Cet indicateur est chargé d'afficher la répartition entre les paiements en Comptant et en Facilité sur l'ensemble des factures. &
+Montant des factures par type = Somme des factures par type
+
+\vspace{4pt}
+Part des factures par type = (Montant par type / Montant total des factures) x 100
+
+\vspace{4pt}
+Nombre de factures (avec au moins un paiement enregistré) par type = Count facture (par type) &
+Graphique en anneau (donut chart)
+
+\vspace{4pt}
+\textit{Centre de graphique} affiche le nombre de factures + montant total en TND
+
+\vspace{4pt}
+\textit{Info\_bulle} (affiche nom de type + montant + nombre) &
+\colorswatch{green!60!black} \\
+\hline
+Répartition des règlements par mode &
+Cet indicateur est chargé d'afficher la distribution des règlements selon le mode de paiement (Espèces, Chèque, Virement, Carte bancaire, etc.). &
+Montant des règlements par mode = Somme des règlements par mode
+
+\vspace{4pt}
+Part des règlements par mode = (Montant par mode / Montant total des règlements) x 100
+
+\vspace{4pt}
+Nombre de règlements par mode = Count règlements (par mode) &
+Graphique en anneau (donut chart)
+
+\vspace{4pt}
+\textit{Centre de graphique} affiche le nombre de règlements + montant total en TND
+
+\vspace{4pt}
+\textit{Info\_bulle} (affiche nom de mode + montant + nombre) &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{green!60!black}\\[-2pt]
+{\tiny vert si Espèces}\\[4pt]
+\colorswatch{blue!60}\\[-2pt]
+{\tiny bleu si carte bancaire}\\[4pt]
+\colorswatch{orange!80}\\[-2pt]
+{\tiny orange si chèque}\\[4pt]
+\colorswatch{violet}\\[-2pt]
+{\tiny violet si virement}
+\end{tabular} \\
+\hline
+Total encaissé &
+Est chargé d'afficher le montant des paiements effectivement reçus (réglées). &
+Total encaissé = Somme des factures payé + partie encaissée de partiellement payé &
+Panneau de légende &
+\colorswatch{green!60!black} \\
+\hline
+Total attendu &
+Est chargé d'afficher le montant des paiements non encore reçus (attente de règlements). &
+Total attendu = Somme des factures non payé + solde restant de partiellement payé &
+Panneau de légende &
+\colorswatch{orange!80} \\
+\hline
+Top 5 Clients fidèles &
+Cette section est chargée de classer et afficher les clients fidèles ayant généré le plus nombres de ventes. &
+Clients fidèles = Count nombre des ventes (par client)
+
+\vspace{4pt}
+Trié en ordre décroissant (5 premiers résultats) &
+Liste classée &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{blue!70!black}\\[-2pt]
+{\tiny rang1}\\[4pt]
+\colorswatch{blue!55}\\[-2pt]
+{\tiny rang2}\\[4pt]
+\colorswatch{blue!40}\\[-2pt]
+{\tiny rang3}\\[4pt]
+\colorswatch{blue!25}\\[-2pt]
+{\tiny rang4}\\[4pt]
+\colorswatch{blue!10}\\[-2pt]
+{\tiny rang5}
+\end{tabular} \\
+\hline
+\caption{Conception des KPIs — Tableau de Bord Facturation}
+\label{tab:kpi-facturation}
+\end{longtable}
+
+\newpage
+
+\subsection*{Conception des KPIs — Tableau de Bord Prévisions}
+\addcontentsline{toc}{subsection}{Conception des KPIs — Tableau de Bord Prévisions}
+
+\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2cm}|>{\raggedright\arraybackslash}p{3cm}|>{\raggedright\arraybackslash}p{2.8cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Algorithme}} &
+\textcolor{black}{\textbf{Type IA}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Algorithme}} &
+\textcolor{black}{\textbf{Type IA}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endhead
+Prévision CA &
+Cette section est chargée d'afficher les prévisions futures du CA basées sur les tendances historiques. &
+Régression Linéaire &
+ML supervisé &
+Graphique en courbe aires &
+\\
+\hline
+Prévision ventes par produit &
+Cette section est chargée de prédire la quantité et le CA pour chaque produit à partir de son historique. &
+Régression Linéaire &
+ML supervisé &
+Graphique en barres horizontales &
+\\
+\hline
+Clients à risque de perte &
+Cette section permet d'identifier les clients inactifs ou en baisse. &
+Modèle RFM (Récence, Fréquence, Montant) &
+ML non supervisé (scoring) &
+Graphique en bulles &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{red!80}\\[-2pt]
+{\tiny Risque}\\[4pt]
+\colorswatch{orange!80}\\[-2pt]
+{\tiny Critique}\\[4pt]
+\colorswatch{green!60!black}\\[-2pt]
+{\tiny Actif}
+\end{tabular} \\
+\hline
+Clients mauvais payeurs &
+Cette section est chargée de calculer et d'afficher le score pour chaque client ayant des factures en retard de paiement. &
+Score crédit pondéré &
+Scoring expert &
+Graphique en barres empilées &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{red!80}\\[-2pt]
+{\tiny Critique}\\[4pt]
+\colorswatch{orange!80}\\[-2pt]
+{\tiny Élevé}\\[4pt]
+\colorswatch{yellow!80!black}\\[-2pt]
+{\tiny Faible}
+\end{tabular} \\
+\hline
+\caption{Conception des KPIs — Tableau de Bord Prévisions}
+\label{tab:kpi-previsions}
+\end{longtable}
+
+\newpage
+
+\subsection*{Conception de Cas D'utilisation Consulter  Tableaux de Bord}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png}
+  \caption{Traçabilité MCU/MC pour le ca d'utilisation consulter tableaux de bord}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instances de classe participant à la réalisation du cas d'utilisation Consulter Tableaux de Bord.
+
+L'acteur et les classes impliquées dans ce diagramme sont les suivants :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{CEO :} l'acteur qui initie la consultation des tableaux de bord afin de suivre less indicateurs clés de performances
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle le CEO accède à la page de consultation des tableaux de bord
+  \item \textbf{IUConsulterTableauDeBord :} l'interface qui affiche les indicateurs et les  graphiques synthétiques du système,
+  \item \textbf{controleur consulterTableaux de bord :} le contrôleur qui reçoit les actions de l'interface, traite les requêtes de consultations et recupére les données apres les calculrer
+  \item \textbf{Facture :} l'entité du système qui contient les données et les traitements métier relatives aux factures émises tels que (le montant total,la date de creation,le statut de paiement)
+  \item \textbf{Client :} l'entité qui représente le client enregistré dans le systéme utiliser pour calculer les indicateurs tels que (les meilleurs client selon le CA généré,le nombre de vente effectuées par client..)
+  \item \textbf{Règlement :} l'entité qui représente les versements total ou partiels effectués sur une facture ,utiliser pour calculer (le montatnt total encaissé,le solde restant du ..)
+  \item \textbf{LigneDeVente :} l'entité du système qui contient les données et les traitements métier relatives aux produits liés à une vente,avec sa quantité,son prix de vente et son sous total ,utiliser pour calculer le CA par produitet la marge brute
+  \item \textbf{Produit :} l'entité du système qui contient la structure de données et les traitements relative aux produits,utiliser pour nomer et regrouper les lignes de vente par produit ou par catégorie
+  \item \textbf{Vente :} l'entité associée à la vente représentant la vente d'origine,utiliser pour calculer les indicateurs d'évolution du CA
+\end{itemize}
+
+\clearpage
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Tableaux de Bord}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio]{images/seq.pdf}
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter Tableaux de Bord}
+  \label{fig:ConsulterTableauxdeBord}
+\end{figure}
+\clearpage
+
+\subsection{Diagramme de Classe du Cas D'utilisation Consulter Tableaux de Bord}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.05\textwidth, height=0.65\textheight]{images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Consulter Tableaux de Bord}
+  \label{fig:classetableauxdeBord}
+\end{figure}
+
+\newpage
+
+%----------------------------------
+\section{Processus ETL}
+%----------------------------------
+
+Afin d'assurer une migration fluide et fiable des données historiques du client 
+vers notre nouveau système, nous avons mis en place un processus ETL structuré 
+en trois phases distinctes.
+
+L'ETL (Extract, Transform, Load) est un processus d'intégration de données qui 
+combine des données provenant de l'ancien système Odoo utilisé par le client et 
+destiné à être remplacé par la solution développée dans le cadre de ce projet, 
+exportées sous format CSV, en un ensemble de données unifié, cohérent et adapté 
+à notre nouveau système. Ce processus consiste à extraire des données brutes à 
+partir des fichiers CSV contenant les informations sur les clients, les produits, 
+les ventes et les factures, à les transformer afin de les nettoyer pour répondre 
+à des exigences spécifiques, puis à les charger dans un entrepôt de données. 
+Il en résulte un référentiel centralisé de données structurées et de haute qualité, 
+prêt à être analysées et visualisées dans les tableaux de bord décisionnel 
+\cite{etl_ovh}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{images/etl.png}
+  \caption{Schéma du processus ETL}
+  \label{fig:etl-process}
+\end{figure}
+
+\subsection{Extraction}
+
+La phase d'extraction dans notre système est conçue pour lire les données brutes 
+issues des fichiers CSV exportés depuis l'ancien système (Odoo), représentant 
+l'historique de la société. Cette extraction n'effectue aucune modification sur 
+les données sources ; elle garantit la préservation de leur état original ainsi 
+que l'intégrité de la migration.
+
+\subsection{Transformation}
+
+La phase de transformation dans notre système consiste à appliquer des règles de 
+nettoyage et de conformité nécessaires à l'intégration des données. Ce processus 
+implique le filtrage des données non pertinentes, la normalisation des dates et 
+des formats, ainsi que la séparation des champs.
+
+\subsection{Chargement}
+
+La phase de chargement consiste à charger les données transformées dans la base 
+de données de notre système. Ces données, désormais organisées, nettoyées et 
+conformes à la structure des tables actuelles, sont prêtes à être exploitées 
+pour l'analyse et le reporting.
+
+\clearpage
+\subsection*{Conception de Cas D'utilisation Consulter Prévisions}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MC_tracabilitéMCUMCConsulterPrevision.png}
+  \caption{Traçabilité MCU/MC pour le cas d'utilisation Consulter Prévisions}
+\end{figure}
+
+Cette traçabilité montre quels sont les objets instances de classe participant à la réalisation du cas d'utilisation  Consulter Prévisions
+
+L'acteur et les classes impliquées dans ce diagramme sont les suivants :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{CEO :} l'acteur qui initie la consultation des
+  \item \textbf{IUAccueil :} l'interface principale depuis laquelle l'agent accède à la page de gestion des
+  \item \textbf{IU Prévisions :} l'interface qui affiche les résultats des prévisions sous forme de graphiques et d'indicateurs synthétiques
+  \item \textbf{controleur Consulter prévisions :} le contrôleur qui reçoit les actions de l'interface , applique les algorithmes de prévision et retourne les projections calculées à l'interface pour affichage.
+  \item \textbf{Facture :} utilisée pour analyser les historiques de facturation et d'encaissement, afin de prévoir les flux de trésorerie futurs et estimer le taux de recouvrement attendu sur les périodes à venir.
+  \item \textbf{Client :} l'entité utilisée pour segmenter les prévisions par client, identifier les clients à potentiel élevé et anticiper l'évolution du chiffre d'affaires généré par chaque client sur les périodes futures.
+  \item \textbf{LigneDeVente :} l'entité du système qui contient les données et les traitements métier relatives aux produits liés à une ventepour calculer les tendances de vente par produit et alimenter les modèles de prévision.
+  \item \textbf{Produit :} l'entité du système qui contient la structure de données et les traitements relative aux produits, utiliser pour identifier les produits les plus performants et prévoir leur évolution future et projeter l'évolution future du volume et du chiffre d'affaires
+\end{itemize}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Séquence du Cas D'utilisation Consulter Prévisions}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterprevisions_1.png}%
+  }
+  \caption{Diagramme de séquence pour le cas d'utilisation Consulter prévisions}
+  \label{fig:Consulterprévisions}
+\end{figure}
+
+\needspace{0.88\textheight}
+\subsection{Diagramme de Classe du Cas D'utilisation Consulter prévisions}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.05\textwidth, height=0.85\textheight]{images/MC_DiagrammeClasseConsulterPrévisions (1).png}%
+  }
+  \caption{Diagramme de classe pour le cas d'utilisation Consulter prévisions}
+  \label{fig:classeprévisions}
+\end{figure}
+
+\newpage
+
+\section{Diagramme de Classes Entité du systéme }
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.05\textwidth, height=0.85\textheight]{images/Packagevierge_DiagrammeClasse_2.png}%
+  }
+  \caption{Diagramme de classes}
+  \label{fig:diagrammeClasse}
+\end{figure}
+
+\newpage
+
+\section{Schéma de la Base de Données}
+
+\sloppy
+
+\noindent\textbf{Users (}\underline{id}, email, mot\_de\_passe, role\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Clients (}\underline{id}, type\_client, nom, prenom, email, telephone, ville, adresse, matricule\_fiscal, date\_creation, statut\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Produits (}\underline{id}, nom, categories, prix\_achat, prix\_vente, stock, date\_creation, statut\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Ventes (}\underline{id}, numero, total, date\_vente, statut, \#id\_client\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Ligne\_vente (}\underline{id}, sous\_total, quantite, prix\_vente, prix\_achat, \#id\_produit, \#id\_vente\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Facturations (}\underline{id}, ref\_facture, total, montant\_paye, reste, date\_echeance,
+date\_paiement, type\_paiement, statut, \#id\_vente\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Reglements (}\underline{id}, numero, date\_reglement, montant, mode, \#id\_facturation\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{Notifications (}\underline{id}, type, titre, message, lue, date, reference\textbf{)}
+
+\vspace{6pt}
+\noindent\textbf{parametres (}\underline{id}, societe\_nom, societe\_adresse, societe\_ville\textbf{)}
+
+\fussy
+
+\section*{Conclusion}
+Ce chapitre a exposé la conception de notre systéme , en incluant l'architecture logique adopté, les diagrammes de séquence, les diagrammes de  Classes, les indicateurs clés de performance, ainsi que le schéma de la base.
+tous ces éléments constituent une base solide pour Les détails sur l'implémentation de l'application seront fournis dans le chapitre suivant.

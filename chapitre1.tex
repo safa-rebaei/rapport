@@ -1,0 +1,436 @@
+\mychapter{Contexte Géneral}
+
+%------------------------------------------
+\section{Introduction}
+%------------------------------------------
+
+Ce chapitre offre une perspective globale du projet. Il commence par la présentation
+de l'organisme d'accueil Teknovat Solutions, qui comprend son historique, ses secteurs
+d'activité et son organisation structurelle. Il présente ensuite le cadre du projet,
+l'analyse du système existant et de ses limites, ainsi que les objectifs et la solution
+proposée. Finalement, les méthodes utilisées sont décrites à savoir le Processus Unifié
+pour le développement logiciel et la gestion de projet. La méthode GIMSI pour créer
+des tableaux de bord, ainsi que la planification du projet à l'aide d'un diagramme
+de Gantt est présentée.
+
+%------------------------------------------
+\section{Présentation de l'organisme d'accueil}
+%------------------------------------------
+
+Teknovat Solutions est une start-up tunisienne spécialisée dans la conception et la
+réalisation de solutions logicielles. Elle se consacre à concevoir des réalisations
+sophistiquées et adaptées aux exigences spécifiques de chaque client, en s'appuyant
+sur le travail sérieux, flexible et collaboratif de son équipe.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{logoteknovat.png}
+    \caption{Logo Teknovat}
+    \label{fig:logo-teknovat}
+\end{figure}
+
+%------------------------------------------
+\subsection{Historique}
+%------------------------------------------
+
+Teknovat Solutions est une start-up tunisienne, fondée en 2020 par Amine Zaghdoudi
+et son équipe à Sousse. Elle est spécialisée dans le développement de solutions cloud
+innovantes pour des entreprises plus intelligentes.
+
+%------------------------------------------
+\subsection{Secteurs d'activité}
+%------------------------------------------
+
+Teknovat Solutions est spécialisée dans plusieurs domaines interconnectés de
+l'innovation technologique :
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Développement Web :}o	Conception et développement de solutions digitales pour la 
+   Création de sites web dynamiques et interactifs et Soutient les processus métiers grâce à des applications web personnalisées
+   applications web personnalisées qui soutiennent les processus métiers.
+
+    \item \textbf{Intelligence Artificielle (IA) :} Intégration de fonctionnalités intelligentes dans les applications et les systèmeso	Intégration de fonctionnalités intelligentes dans les applications et les systèmes
+    analyse des données,
+    l'automatisation de la prise de décision, le traitement du langage naturel,
+    la vision par ordinateur et la reconnaissance vocale.
+
+    \item \textbf{Solutions Cloud :} Conception et mise en œuvre de systèmes basés
+    sur le cloud qui améliorent l'accessibilité des données et la disponibilité des
+    applications, avec un espace cloud sécurisé en plus d'une gestion de l'infrastructure
+    fiable.
+
+    \item \textbf{Marketing et Publicité :} Services de marketing électronique
+    qui améliorent la visibilité de la marque via le marketing par
+    e-mail et d'autres modes de promotion des produits.
+\end{itemize}
+
+%------------------------------------------
+\subsection{Organigramme}
+%------------------------------------------
+L'équipe de Teknovat Solutions est composée de profils complémentaires et expérimentés :
+
+Le directeur de la technologie ou directeur technique est un poste de cadre dans une entreprise 
+ou une autre entité dont le travail est axé sur les questions scientifiques et techniques au sein 
+de l'entreprise. Le CTO est un poste clé au sein d'une entreprise, particulièrement dans les 
+secteurs technologiques. Ses principales responsabilités incluent :
+\begin{itemize}
+    \item \textbf{Gestion technique :} Supervise les équipes techniques et définit les orientations 
+    technologiques de l'entreprise.
+    \item \textbf{Développement :} Responsable du développement et de l'implémentation des 
+    solutions technologiques.
+    \item \textbf{Stratégie :} Élabore la stratégie technologique pour garantir la performance 
+    des systèmes informatiques.
+\end{itemize}
+
+Le CTO est responsable de l'architecture technique, des choix technologiques et de la qualité 
+du code. Chez Teknovat Solutions, il définit la stratégie technologique et coordonne les équipes 
+de développement et d'opérations pour garantir la sécurité, la performance et la scalabilité 
+des solutions.
+
+\bigskip
+
+\textbf{CPO (Chief Product Officer) :} Le Chief Product Officer (CPO) est le responsable ultime 
+de la stratégie et de l'exécution produit au sein d'une entreprise. Ce rôle est souvent défini 
+comme le chef d'orchestre qui harmonise vision business et réalité technique. À la tête du 
+département de product management, ce profil clé supervise l'ensemble du cycle de vie des 
+produits, de leur conceptualisation jusqu'à l'analyse de leurs performances post-lancement. 
+Voici ce qu'il faut retenir de ce poste :
+\begin{itemize}
+    \item \textbf{Un rôle stratégique :} Le CPO, positionné au niveau C-level, développe une 
+    vision produit claire alignée avec les objectifs business.
+    \item \textbf{Les missions clés :} Élaboration de la roadmap, gestion du cycle de vie des 
+    produits et coordination interdépartementale.
+    \item \textbf{Les compétences requises :} Expertise technique en méthodologies agiles, 
+    leadership inspirant et capacité d'analyse stratégique.
+\end{itemize}
+
+Le CPO est chargé de la vision produit et de l'alignement entre les besoins business et les 
+solutions techniques. Il supervise le cycle de vie des produits (idéation, conception, 
+développement, lancement) et collabore avec les équipes techniques, marketing et commerciales.
+
+\bigskip
+
+\textbf{DevOps :} Le DevOps combine deux dimensions : le Dev (Développement), qui concerne 
+la création et l'évolution des applications, et le Ops (Operations), qui gère les serveurs, 
+la sécurité et la stabilité des environnements. Chez Teknovat Solutions, il assure l'intégration 
+et le déploiement continus, l'automatisation et la surveillance des systèmes. Outils utilisés : 
+Docker pour les conteneurs, Jenkins et GitHub Actions pour les pipelines CI/CD, et des serveurs 
+cloud comme AWS et Azure.
+
+\bigskip
+Cette organisation (CTO, CPO et DevOps) permet à Teknovat Solutions d'être agile, réactive et 
+innovante, tout en maintenant un haut niveau d'exigence technique. Durant mon stage d'initiation, 
+j'ai pu observer comment ces rôles et outils s'articulent pour transformer des idées en solutions 
+digitales concrètes et performantes.
+
+%------------------------------------------
+\subsection{Domaines d'expertise}
+%------------------------------------------
+Teknovat Solutions intervient dans plusieurs domaines clés :
+
+\subsubsection{Logiciels métiers \& ERP}
+Conception d'applications sur mesure, ERP, gestion RH, finance, achats, ventes et production.
+
+\newpage
+%------------------------------------------
+\section{Contexte du projet}
+%------------------------------------------
+
+\subsection{Cadre du projet}
+
+Notre projet s'inscrit dans le cadre pédagogique d'un projet de fin d'études en vue
+de l'obtention du diplôme en Informatique de Gestion à l'Institut Supérieur de
+Gestion de Sousse. Il consiste en la conception et la réalisation d'un systéme de gestion et de suivi des ventes pour un dépôt de boissons, intégrant des
+fonctionnalités de Business Intelligence ainsi que l'implémentation d'un module
+de prévision des ventes. Cette solution est destinée à un acteur du secteur de
+la distribution, visant à optimiser la gestion des activités commerciales, à
+assurer un suivi efficace des ventes et à faciliter la prise de décision stratégique.
+
+\subsection{Définition du projet}
+
+Notre projet vise à concevoir et mettre en œuvre un systéme de gestion et
+de suivi des ventes pour un dépôt de boissons. Ce systéme intègre des
+fonctionnalités d'analyse et de reporting permettant de structurer et de visualiser
+les données de vente à travers des tableaux de bord interactifs, des indicateurs
+clés de performance (KPI) et des représentations graphiques. Le système comprend
+également un module de prévision des ventes permettant d'analyser les tendances
+historiques et d'estimer la demande future en produits (eaux, boissons gazeuses,jus).
+Il permet par ailleurs la centralisation des données, notamment les informations
+relatives aux clients (cafés, restaurants), aux produits, aux ventes
+et aux paiements, au sein d'un environnement organisé et cohérent.
+
+%------------------------------------------
+\section{Étude de l'existant}
+%------------------------------------------
+
+\subsection{Description de l'existant}
+
+Notre systéme s'inscrit dans le cadre d'une solution destinée à un dépôt
+spécialisé dans la commercialisation de boissons (eau,boisson gazeuze ,jus) qui fait face à des obstacles
+dans la gestion actuelle de ses ventes.
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Organisation actuelle de la gestion des ventes :}
+    Actuellement, les opérations de vente au sein de ce dépôt reposent sur un ERP
+    (Odoo) à travers deux modules principaux :
+    \begin{itemize}[noitemsep]
+        \item \textbf{Module Vente :} Ce module permet de gérer les produits,
+        d'enregistrer les informations des clients ainsi que leurs interactions,
+        et assure le suivi des détails de paiement.
+        \item \textbf{Module Facturation :} Ce module permet de générer
+        automatiquement les factures depuis lesVentes confirmées, avec la
+        possibilité de les imprimer.
+    \end{itemize}
+
+    \item \textbf{Système de reporting actuel :}
+    Concernant l’évaluation des performances de vente, Odoo offre certains tableaux de bord au sein de ces deux modules, qui permettent de suivre l’activité commerciale de dépôt notamment une vue générale sur les ventes, les factures et les paiements.
+    Cependant, ces indicateurs restent génériques et ne reflètent pas les besoins spécifiques d’un Dépôt , Ce qui limite l’utilité dans la prise de décision.
+
+
+    \item \textbf{Absence de module de prévision :}
+    Il n'existe aucun moyen d'analyse prédictive, ni de système d'estimation du
+    chiffre d'affaires futur, ni d'outil automatique de prévision des tendances
+    commerciales. Les décisions stratégiques reposent donc sur l'expérience ou
+    sur des analyses manuelles des résultats passés.
+\end{itemize}
+
+\subsection{Critique de l'existant}
+
+L'analyse de la situation actuelle met en évidence plusieurs limites qui impactent
+négativement l'efficacité du pilotage commercial au sein de l'entreprise :
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Complexité fonctionnelle excessive :}
+    Odoo offre un grand nombre de fonctionnalités dont la majorité sont inutiles
+    pour un dépôt, ce qui rend le système inutilement complexe et difficile à
+    utiliser au quotidien.
+
+    \item \textbf{Tableaux de bord non adaptés :}
+    Les indicateurs proposés sont génériques et ne reflètent pas les besoins
+    spécifiques du dépôt. Il manque notamment plusieurs détails essentiels tels que les  KPI concernant l'encaissement,
+    les clients, les produits ainsi que d'autres détails de vente et de facturation,
+    ce qui limite considérablement le suivi et la prise de décision.
+
+    \item \textbf{Manque de prévision structurée des ventes :}
+    Aucun mécanisme automatique ne permet d'anticiper les évolutions futures
+    du chiffre d'affaires.
+
+    \item \textbf{Coût élevé :}
+    La licence Odoo est très élevée pour un rapport de taille modeste ce qui conséquent une charge financière récurrente
+    et difficilement justifiable, en plus la majorité des fonctionnalités payants ne sont pas exploitées.
+\end{itemize}
+
+%------------------------------------------
+\section{Objectifs du projet et solution proposée}
+%------------------------------------------
+
+\subsection{Objectifs du projet}
+
+Notre projet a pour objectif de développer un systéme  de gestion et de suivi
+des ventes avec des fonctionnalités de Business Intelligence (BI) et un module de
+prévision. Les principaux objectifs sont :
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item Concevoir une interface simple et claire contenant uniquement les
+    fonctionnalités nécessaires.
+    \item Mettre en place un mécanisme de prévision pour anticiper l'évolution en future.
+    \item Aider à la prise de décision concernant les ventes actuelles et futures.
+    \item Assurer un suivi pertinent des clients, des produits, des factures et
+    des ventes.
+\end{itemize}
+
+\subsection{Solution proposée}
+
+Pour atteindre ces objectifs, la solution mise en œuvre propose :
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Modules CRUD :}
+    Développement de formulaires et d'interfaces pour ajouter, modifier, supprimer
+    et consulter les clients, produits et ventes.
+
+    \item \textbf{Calcul automatisé des KPI :}
+    Mise en place des requêtes et de scripts pour générer le chiffre d'affaires,
+    le panier moyen et les ventes par produit et par client.
+
+    \item \textbf{Tableaux de bord interactifs :}
+    Graphiques et filtres dynamiques pour faciliter l'analyse visuelle des ventes.
+
+    \item \textbf{Prévision des ventes :}
+    Implémentation d'un algorithme de régression linéaire pour estimer les
+    tendances futures des ventes.
+
+    \item \textbf{Interface web intuitive :}
+    Création d'une interface claire et ergonomique pour un usage facile
+    par les utilisateurs.
+\end{itemize}
+
+%------------------------------------------
+\section{Choix méthodologique pour le projet}
+%------------------------------------------
+
+\subsection{Méthode de gestion et de développement : Processus Unifié}
+
+Le Processus Unifié (UP -- Unified Process) est une méthode générique de
+développement de logiciels orientée objet, élaborée par Ivar Jacobson, Grady Booch
+et James Rumbaugh, les créateurs du langage UML \cite{uml}.
+Il constitue un cadre méthodologique qui structure l'ensemble des activités
+nécessaires à la conception, à la réalisation et à la mise en œuvre d'un système
+logiciel, depuis l'expression des besoins jusqu'à la livraison du produit final.
+
+\textbf{Principales caractéristiques du Processus Unifié :}
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Piloté par les cas d'utilisation :} Le développement est orienté
+    par rapport aux besoins des utilisateurs.
+
+    \item \textbf{Itératif et incrémental :} : Le développement itératif et incrémental consiste à découper le projet logiciel en plusieurs
+    mini projets appelés itérations.
+    Chaque itération permet d’améliorer progressivement le système et de corriger les erreurs rapidement
+
+    \item \textbf{Centré sur l'architecture :} Une architecture globale du système
+    est définie dès le début du projet, progressivement affinée au fil des itérations.
+    en fonction de la maturité des cas d’utilisation
+    \item \textbf{Orienté risques :} Les risques du projet sont identifiés dès le
+    départ et suivis tout au long du développement afin de les maîtriser.
+\end{itemize}
+
+\textbf{Principales activités dans un Processus Unifié :}
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Expression des besoins :}
+    Compréhension et identification des besoins fonctionnels et non fonctionnels
+    offerts par le système à ses utilisateurs. Le principal artefact est le modèle
+    de cas d'utilisation.
+
+    \item \textbf{Conception :}
+    Réalisation du modèle de conception en définissant l'architecture du système,
+    en termes de classes de conception et d'interactions entre objets, en tenant
+    compte des contraintes techniques afin de préparer l'implémentation.
+    Elle permet aussi de produire le module de déploiement.
+
+    \item \textbf{Implémentation :}
+     Consiste à développer l’application en réalisant les  composants, les logiciels qui implémentent les classes définies 
+     lors de la conception ce qui permet d’obtenir le modèle d’implémentation.
+
+    \item \textbf{Test :}
+    Vérification des résultats de l'implémentation en testant le bon fonctionnement
+    du système ce qui permet de réaliser le modèle de test.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{processus-unifie.png}
+    \caption{Cycle de vie du Processus Unifié}
+    \label{fig:processus-unifie}
+\end{figure}
+
+\subsection{Langage de modélisation unifié (UML)}
+
+UML est le langage de modélisation de la technologie objet, standard adopté par les grands acteurs du marché
+Il permet de concevoir des modèles orientés objet tout en
+restant indépendant de tout langage de programmation. Grâce à ses nombreux diagrammes,
+UML permet de visualiser le fonctionnement des différents composants d'un système et
+de détailler les spécifications techniques, facilitant ainsi la résolution des problèmes
+d'intégration entre les différents modules du système \cite{guibert_uml}.
+
+Dans ce projet, les diagrammes UML suivants sont utilisés :
+
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Diagramme de cas d'utilisation :}
+    Décrit les fonctionnalités du système du point de vue de l'utilisateur (acteur). Il
+    représente les relations entre un acteur et ses besoins fonctionnels offerts
+    par le système visant à produire un résultat observable et utile pour cet acteur \cite{audibert_usecase}.
+
+    \item \textbf{Diagramme de classes :}
+    Représente la structure statique du système en décrivant les différentes classes, leurs attributs, leurs opérations ainsi que les relations qui les relient, telles que l’association, la généralisation spécialisation,
+     l’agrégation et la composition.
+     Il constitue ainsi une vue logique de l’architecture du système
+ \cite{audibert_classes}.
+
+    \item \textbf{Diagramme de séquence :}
+    Représente la séquence de messages entre les objets au cours d'une interaction.
+    Il comprend un groupe d'objets, représentés par des lignes de vie, et les messages que ces objets échangent lors de l’interaction
+ \cite{ibm_sequence}.
+
+    \item \textbf{Diagramme de déploiement :}
+    Présente les nœuds matériels sur lesquels le système sera réparti.
+    Les nœuds peuvent êtres des ordinateurs, des détecteurs et des imprimantes, ainsi que d'autres périphériques qui prennent en charge l'environnement d'exécution d'un système
+ \cite{ibm_deploiement}.
+
+    \item \textbf{Diagramme de composants :}
+   Il décrit le système modélisé sous forme de composants logiciels et met en évidence les relations de dépendance entre ces composants
+   permettant ainsi de représenter l’architecture logicielle du système
+ \cite{wiki_composants}.
+\end{itemize}
+
+\subsection{La méthode GIMSI}
+
+GIMSI est une méthode coopérative de conception de systèmes d'aide à la décision,
+et plus précisément d'assistance au pilotage par tableaux de bord. Structurée en
+10 étapes successives, notre projet n'en nécessite que 8. Elle s'inscrit dans un
+mode de management moderne, fondé sur de solides principes de gouvernance et de
+développement durable. La méthode privilégie la coopération et le partage des
+connaissances \cite{gimsi}.
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{3cm}|>{\raggedright\arraybackslash}X|}
+\hline
+\textbf{Phase} & \textbf{Étapes et description} \\
+\hline
+
+\textbf{1 -- Identification} &
+\textbf{Étape 1 : Environnement de l'entreprise} : Analyse de l'environnement
+économique et de la stratégie de l'entreprise. \newline
+\textbf{Étape 2 : Identification de l'entreprise} : Analyse des structures de
+l'entreprise pour identifier les processus, activités et acteurs concernés. \\
+\hline
+
+\textbf{2 -- Conception} &
+\textbf{Étape 3 : Définition des objectifs} : Sélection des objectifs tactiques en fonction de la stratégie générale. \newline
+\textbf{Étape 4 : Construction du tableau de bord} : Définition du tableau de
+bord de chaque équipe. \newline
+\textbf{Étape 5 : Choix des indicateurs} : Choix des indicateurs en fonction
+des objectifs choisis, du contexte et des acteurs concernés. \newline
+\textbf{Étape 6 : Collecte des informations} : Identification des informations
+nécessaires à la construction des indicateurs. \newline
+\textbf{Étape 7 : Le système de tableau de bord} : Construction du système de
+tableau de bord et contrôle de la cohérence globale. \\
+\hline
+
+\textbf{3 -- Mise en œuvre} &
+\textbf{Étape 8 : Intégration et déploiement} : Implantation des progiciels
+et déploiement au sein de l'entreprise. \\
+\hline
+
+\end{tabularx}
+\caption{Les phases et les étapes de la méthode GIMSI}
+\end{table}
+
+%------------------------------------------
+\section{Planification du projet : diagramme de Gantt}
+%------------------------------------------
+
+Notre projet est structuré en plusieurs activités principales bien définies, planifiées
+selon des dates de début et de fin, afin de suivre l'avancement du projet de manière
+visuelle.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{gantt.png}
+    \caption{Diagramme de Gantt}
+    \label{fig:gantt}
+\end{figure}
+
+%------------------------------------------
+\section{Conclusion}
+%------------------------------------------
+
+Ce chapitre a présenté le contexte général du projet ainsi que l'analyse de l'existant,
+mettant en évidence les limites du système actuel et la nécessité d'une solution
+performante. Les objectifs du projet ont été définis, visant le développement d'une
+application web de gestion des ventes intégrant des fonctionnalités de Business
+Intelligence et un module de prévision. Le choix du Processus Unifié, de la
+modélisation UML et de la méthode GIMSI a permis d'adopter une démarche structurée
+et cohérente. Le chapitre suivant sera consacré à l'identification et à la
+spécification détaillée des besoins.

@@ -1,0 +1,436 @@
+\documentclass[12pt, oneside, a4paper]{report}
+
+% Supprimer la première page blanche
+\usepackage{atbegshi}
+\AtBeginShipoutNext{\AtBeginShipoutDiscard}
+
+\usepackage{amsmath}
+
+% ===== MARGES =====
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+% ===== POLICE TIMES NEW ROMAN =====
+\usepackage{mathptmx}
+
+% ===== ENCODAGE =====
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% ===== OPTIMISATION =====
+\usepackage[final]{microtype}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=3em
+
+% ===== TEXTE =====
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\raggedbottom
+
+% ===== ESPACE AVANT TITRES =====
+\usepackage{needspace}
+
+% ===== PAGES VIDES SANS EN-TÊTE =====
+\usepackage{emptypage}
+
+% ===== COULEURS =====
+\usepackage[table]{xcolor}
+
+% ===== IMAGES =====
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+% ===== ESPACEMENT =====
+\usepackage{setspace}
+\onehalfspacing
+
+% ===== TABLEAUX =====
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+
+% ===== PAYSAGE =====
+\usepackage{pdflscape}
+\usepackage{afterpage}
+
+% ===== LISTES =====
+\usepackage{enumitem}
+
+% ===== FLOAT =====
+\usepackage{float}
+
+% ===== CAPTION =====
+\usepackage{caption}
+\captionsetup[table]{
+  position=below,
+  labelsep=endash,
+  textfont=sc,
+  labelfont=sc,
+  justification=centering
+}
+
+% ===== TIKZ =====
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+
+% ===== TCOLORBOX =====
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable, skins}
+
+\newtcolorbox{fichecu}[2][]{
+  breakable,
+  enhanced,
+  colback=white,
+  colframe=blue!70!black,
+  colbacktitle=blue!70!black,
+  coltitle=white,
+  fonttitle=\bfseries\large,
+  title={#2},
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  boxed title style={
+    colback=blue!70!black,
+    colframe=blue!70!black,
+    sharp corners
+  },
+  sharp corners,
+  top=8pt,
+  left=8pt,
+  right=8pt,
+  bottom=8pt,
+  #1
+}
+
+\newcommand{\champcu}[2]{%
+  \textbf{#1 :} #2\par\smallskip
+}
+
+% ===== TABLE DES MATIÈRES =====
+\usepackage{tocloft}
+\renewcommand{\contentsname}{\centering\Huge\bfseries Table des matières}
+\setlength{\cftbeforetoctitleskip}{-1em}
+\setlength{\cftaftertoctitleskip}{2em}
+
+% ===== LISTE DES FIGURES =====
+\renewcommand{\listfigurename}{\centering\Huge\bfseries Liste des figures}
+
+% ===== LISTE DES TABLEAUX =====
+\renewcommand{\listtablename}{\centering\Huge\bfseries Liste des tableaux}
+
+% ===== TITRES =====
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+  {\normalfont\fontsize{16}{20}\bfseries}{}{0pt}{}
+\titlespacing*{\chapter}{0pt}{0pt}{10pt}
+
+\titleformat{\section}
+  {\normalfont\fontsize{14}{18}\bfseries\color{blue!70!black}}
+  {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus .2ex}{1ex}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{12}{16}\bfseries\color{blue!70!black}}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{1ex plus .2ex}{0.5ex}
+
+% ===== HYPERLINKS =====
+\usepackage[
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    urlcolor=blue!70!black,
+    citecolor=blue!70!black,
+    pdfencoding=auto,
+    unicode=true
+]{hyperref}
+
+% ===== URL =====
+\usepackage{url}
+
+% ===== HEADER / FOOTER =====
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-0.5pt}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\leftmark}
+\fancyfoot[R]{\thepage}
+
+% ===== PAGE DE CHAPITRE =====
+\newcommand{\mychapter}[1]{%
+  \clearpage
+  \refstepcounter{chapter}
+  \addcontentsline{toc}{chapter}{%
+    \protect\numberline{\thechapter}\texorpdfstring{#1}{#1}%
+  }
+  \chaptermark{#1}
+  \thispagestyle{empty}
+  \vspace*{\fill}
+  \begin{center}
+    \begin{tikzpicture}
+      \node[
+        draw=blue!70!black,
+        line width=2pt,
+        inner sep=6pt,
+        rounded corners=3pt
+      ] {
+        \begin{tikzpicture}
+          \node[
+            draw=blue!70!black,
+            line width=1pt,
+            inner sep=22pt,
+            text width=12cm,
+            align=center,
+            rounded corners=2pt
+          ] {
+            {\fontsize{16}{20}\bfseries\color{blue!70!black}
+              \texorpdfstring{\MakeUppercase{\chaptertitlename}}{\chaptertitlename}
+              \ \thechapter}\\[20pt]
+            {\fontsize{28}{34}\selectfont\bfseries\color{black} #1}
+          };
+        \end{tikzpicture}
+      };
+    \end{tikzpicture}
+  \end{center}
+  \vspace*{\fill}
+  \clearpage
+  \pagestyle{fancy}
+}
+% ===== DOCUMENT =====
+\begin{document}
+
+% --- Page de garde sans numérotation ---
+\pagenumbering{gobble}
+\input{pageDeGarde}
+
+% --- Réinitialiser la numérotation ---
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ===== TABLE DES MATIÈRES =====
+{\hypersetup{linkcolor=black}
+\tableofcontents}
+
+\newpage
+
+% ===== LISTE DES FIGURES =====
+{\hypersetup{linkcolor=black}
+\listoffigures}
+
+\newpage
+
+% ===== LISTE DES TABLEAUX =====
+{\hypersetup{linkcolor=black}
+\listoftables}
+
+% ===== INTRODUCTION GÉNÉRALE =====
+\input{introgenerale}
+
+\input{chapitre1}
+\input{chapitre2}
+\input{chapitre3}
+\input{chapitre4}
+
+
+
+% ===== WEBOGRAPHIE =====
+\renewcommand{\bibname}{Webographie}
+\begin{thebibliography}{99}
+
+\bibitem{uml}
+Scribd,
+\textit{Processus Unifié},
+Disponible sur : \url{https://fr.scribd.com/document/682789373/processuc-unifie-2},
+Consulté le : avril 2025.
+
+\bibitem{vscode}
+Comment Coder,
+\textit{Visual Studio Code},
+Disponible sur : \url{https://www.commentcoder.com/visual-studio-code/},
+Consulté le : 06 février 2026.
+
+\bibitem{github}
+GitHub Documentation,
+\textit{À propos de GitHub et Git},
+Disponible sur : \url{https://docs.github.com/fr/get-started/start-your-journey/about-github-and-git},
+Consulté le : 06 février 2026.
+
+\bibitem{reactjs}
+Hostinger,
+\textit{Outils de développement web},
+Disponible sur : \url{https://www.hostinger.com/fr/tutoriels/outils-developpement-web},
+Consulté le : 07 février 2026.
+
+\bibitem{fastapi}
+DataCamp,
+\textit{Introduction à FastAPI},
+Disponible sur : \url{https://www.datacamp.com/fr/tutorial/introduction-fastapi-tutorial},
+Consulté le : 11 février 2026.
+
+\bibitem{recharts}
+IronPDF,
+\textit{Recharts NPM},
+Disponible sur : \url{https://ironpdf.com/fr/nodejs/blog/node-help/recharts-npm/},
+Consulté le : 07 février 2026.
+
+\bibitem{tailwind}
+LinkedIn,
+\textit{Tailwind CSS},
+Disponible sur : \url{https://www.linkedin.com/posts/agence-tbd_tailwind-css},
+Consulté le : 07 février 2026.
+
+\bibitem{python}
+Python Documentation,
+\textit{Tutoriel Python},
+Disponible sur : \url{https://docs.python.org/fr/3/tutorial/},
+Consulté le : 07 février 2026.
+
+\bibitem{javascript}
+ITG,
+\textit{JavaScript},
+Disponible sur : \url{https://www.itg.fr/portage-salarial/informatique/programmation-informatique/javascript},
+Consulté le : 08 février 2026.
+
+\bibitem{sqlite}
+Stéphane Robert,
+\textit{SQLite : base légère pour admins systèmes},
+Disponible sur : \url{https://blog.stephane-robert.info/docs/services/bdd/relationnelles/sqlite/},
+Consulté le : 11 février 2026.
+
+\bibitem{sqlalchemy}
+Liora.io,
+\textit{SQLAlchemy -- Tout savoir},
+Disponible sur : \url{https://liora.io/sqlalchemy-tout-savoir},
+Consulté le : 06 mai 2026.
+
+\bibitem{ibm}
+IBM Rational Software Architect Designer,
+Disponible sur : \url{https://ibm-rational-software-architect-designer.software.informer.com},
+Consulté le : 11 février 2026.
+
+\bibitem{jwt}
+IONOS,
+\textit{JSON Web Token (JWT)},
+Disponible sur : \url{https://www.ionos.fr/digitalguide/sites-internet/developpement-web/json-web-token-jwt/},
+Consulté le : 20 février 2026.
+
+\bibitem{mdn_mvc}
+MDN Web Docs,
+\textit{MVC},
+Disponible sur : \url{https://developer.mozilla.org/fr/docs/Glossary/MVC},
+Consulté le : 30 avril 2026.
+
+\bibitem{fastapi_sqlalchemy}
+FastAPI Documentation,
+\textit{SQL (Relational) Databases},
+Disponible sur : \url{https://fastapi.tiangolo.com/tutorial/sql-databases/},
+Consulté le : 06 mai 2026.
+
+\bibitem{pydantic_doc}
+Pydantic Documentation,
+\textit{Pydantic -- Data Validation},
+Disponible sur : \url{https://docs.pydantic.dev/latest/},
+Consulté le : 06 mai 2026.
+
+\bibitem{fastapi_services}
+Zhanymkanov,
+\textit{FastAPI Best Practices},
+Disponible sur : \url{https://github.com/zhanymkanov/fastapi-best-practices},
+Consulté le : 06 mai 2026.
+
+\bibitem{fastapi_router}
+FastAPI Documentation,
+\textit{Bigger Applications -- Multiple Files},
+Disponible sur : \url{https://fastapi.tiangolo.com/tutorial/bigger-applications/},
+Consulté le : 06 mai 2026.
+
+\bibitem{fastapi_errors}
+FastAPI Documentation,
+\textit{Handling Errors},
+Disponible sur : \url{https://fastapi.tiangolo.com/tutorial/handling-errors/},
+Consulté le : 06 mai 2026.
+
+\bibitem{fastapi_mvc}
+ViktorViskov,
+\textit{FastAPI MVC -- Model View Controller Pattern},
+Disponible sur : \url{https://github.com/ViktorViskov/fastapi-mvc},
+Consulté le : 06 mai 2026.
+
+\bibitem{react_hooks}
+React Documentation,
+\textit{Hooks -- React},
+Disponible sur : \url{https://react.dev/reference/react},
+Consulté le : 06 mai 2026.
+
+\bibitem{axios_doc}
+Axios Documentation,
+\textit{Axios -- Promise based HTTP client},
+Disponible sur : \url{https://axios-http.com/docs/intro},
+Consulté le : 06 mai 2026.
+
+\bibitem{fastapi_background}
+FastAPI Documentation,
+\textit{Background Tasks},
+Disponible sur : \url{https://fastapi.tiangolo.com/tutorial/background-tasks/},
+Consulté le : 06 mai 2026.
+
+\bibitem{guibert_uml}
+Guibert, Nicolas,
+\textit{UML -- Unified Modeling Language},
+Université de Bordeaux, LaBRI,
+Disponible sur : \url{https://www.labri.fr/perso/guibert/DocumentsEnseignement/UML.pdf},
+Consulté le : mai 2025.
+
+\bibitem{audibert_usecase}
+Audibert, Laurent,
+\textit{Cours UML -- Diagramme de cas d'utilisation},
+Disponible sur : \url{https://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-cas-utilisation},
+Consulté le : 20 février 2026.
+
+\bibitem{audibert_classes}
+Audibert, Laurent,
+\textit{Cours UML -- Diagramme de classes},
+Disponible sur : \url{https://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-classes},
+Consulté le : 20 février 2026.
+
+\bibitem{ibm_sequence}
+IBM Documentation,
+\textit{Diagrammes de séquence -- UML},
+Disponible sur : \url{https://www.ibm.com/docs/fr/rsas/7.5.0?topic=uml-sequence-diagrams},
+Consulté le : 20 février 2026.
+
+\bibitem{ibm_deploiement}
+IBM Documentation,
+\textit{Diagrammes de déploiement},
+Disponible sur : \url{https://www.ibm.com/docs/fr/rsas/7.5.0?topic=topologies-deployment-diagrams},
+Consulté le : 20 février 2026.
+
+\bibitem{wiki_composants}
+Wikipedia,
+\textit{Component diagram},
+Disponible sur : \url{https://en.wikipedia.org/wiki/Component_diagram},
+Consulté le : 20 février 2026.
+
+\bibitem{gimsi}
+Piloter.org,
+\textit{Méthode GIMSI -- Les 10 points},
+Disponible sur : \url{https://www.piloter.org/mesurer/methode/methode-gimsi-10-points.htm},
+Consulté le : 20 février 2026.
+
+\bibitem{sklearn}
+Liora.io,
+\textit{Cinq fonctions de Scikit-learn},
+Disponible sur : \url{https://liora.io/cinq-fonctions-de-scikit-learn},
+Consulté le : 06 mai 2026.
+
+\bibitem{etl_ovh}
+OVHcloud,
+\textit{Qu'est-ce que l'ETL ?},
+Disponible sur : \url{https://www.ovhcloud.com/fr-tn/learn/what-is-etl/},
+Consulté le : 06 mai 2026.
+
+\end{thebibliography}
+\end{document}

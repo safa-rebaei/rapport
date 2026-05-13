@@ -1,0 +1,94 @@
+\thispagestyle{empty}
+\begin{minipage}[t][\textheight][s]{\linewidth}
+\begin{tikzpicture}[remember picture, overlay]
+  \path (current page.north west) ++(8pt,-8pt)   coordinate (pgNW);
+  \path (current page.south east) ++(-8pt,8pt)   coordinate (pgSE);
+  \draw[black, line width=2pt]   (pgNW) rectangle (pgSE);
+  \path (current page.north west) ++(14pt,-14pt) coordinate (pgNWi);
+  \path (current page.south east) ++(-14pt,14pt) coordinate (pgSEi);
+  \draw[black, line width=1.5pt] (pgNWi) rectangle (pgSEi);
+\end{tikzpicture}%
+\begin{center}
+
+% ── Logos + Texte université ──────────────────────────────────────────
+\begin{minipage}[c]{0.22\textwidth}
+    \centering
+    \includegraphics[width=3cm]{download.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.50\textwidth}
+    \centering
+    {\small République Tunisienne\\[2pt]
+    Ministère de l'Enseignement Supérieur\\
+    et de la Recherche Scientifique\\[2pt]
+    Université de Sousse\\[2pt]
+    \textbf{Institut Supérieur de Gestion de Sousse}}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.22\textwidth}
+    \centering
+    \includegraphics[width=3cm]{images/soussse.jpg}
+\end{minipage}
+
+\vfill
+\noindent\rule{\linewidth}{0.8pt}
+\vspace{0.2cm}
+
+{\large \textbf{RAPPORT DE PROJET DE FIN D'ÉTUDES}}
+
+\vspace{0.2cm}
+\noindent\rule{\linewidth}{0.4pt}
+\vspace{0.2cm}
+
+{\small \textit{Présenté en vue de l'obtention du}}\\[0.15cm]
+{\normalsize \textbf{Diplôme National en Informatique de Gestion\\[4pt]
+Spécialité : Business Intelligence}}
+
+\vfill
+
+\begin{tcolorbox}[
+    colback=white, colframe=black,
+    boxrule=1.2pt, arc=5pt,
+    width=0.88\textwidth, halign=center,
+    left=10pt, right=10pt, top=8pt, bottom=8pt
+]
+    {\large \textbf{Conception et Réalisation d'un Système\\[4pt]
+    de Gestion et de Suivi des Ventes \\[4pt]
+    avec Tableau de Bord Analytique et Prévisionne}}
+\end{tcolorbox}
+
+\vfill
+
+{\small \textit{Organisme d'accueil}}\\[0.2cm]
+\includegraphics[width=7.5cm]{logoteknovat.png}
+
+\vfill
+\noindent\rule{\linewidth}{0.4pt}
+\vspace{0.2cm}
+
+\begin{minipage}[t]{0.42\textwidth}
+    \raggedright
+    \textbf{Réalisé par :}\\[0.15cm]
+    \textit{Ranim Maalel \& Safa Rebaei}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.55\textwidth}
+    \raggedright
+    \mbox{\textbf{Encadrant entreprise :} \textit{M. Amine Zaghdoudi}}\\[0.15cm]
+    \mbox{\textbf{Encadrant académique :} \textit{Mme. Olfa Mraihi}}
+\end{minipage}
+
+\vfill
+\noindent\rule{\linewidth}{0.4pt}
+\vspace{0.2cm}
+
+\begin{tcolorbox}[
+    colback=white, colframe=black,
+    boxrule=1pt, arc=4pt,
+    width=0.55\textwidth, halign=center
+]
+    \textbf{Année Universitaire 2025/2026}
+\end{tcolorbox}
+
+\end{center}
+\end{minipage}

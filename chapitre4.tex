@@ -1,0 +1,851 @@
+
+\mychapter{Implémentation}
+%----------------------------------
+\section{Introduction}
+%----------------------------------
+
+Dans ce chapitre, nous décrivons les outils et technologies impliqués dans
+l'implémentation de notre application en précisant leur importance pour l'efficacité,
+la maintenabilité et l'évolutivité du système. Nous couvrons également
+l'implémentation des fonctionnalités les plus essentielles telles que la gestion
+des clients, des produits, des ventes et des factures, et les tableaux de bord
+interactifs.et les prévisions.
+
+%----------------------------------
+\section{Environnement logiciel}
+%----------------------------------
+
+\subsection{Outils de développement}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/vscode.jpg} &
+\textbf{\centering Visual Studio Code} \newline
+Visual Studio Code est un éditeur de code complet créé par Microsoft en 2015 et
+qui offre des fonctionnalités de débogage. Nous l'avons utilisé comme environnement
+principal pour l'implémentation du frontend et du backend \cite{vscode}. \\
+\hline
+\end{tabular}
+\caption{Outils de développement}
+\end{table}
+
+\subsection{Gestion de collaboration}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/github.png} &
+\textbf{\centering GitHub} \newline
+GitHub est une plateforme basée sur le cloud où nous pouvons stocker, partager
+et travailler avec d'autres pour écrire du code. Le stockage de notre code dans
+un référentiel sur GitHub nous permet de :
+\begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+  \item Présenter ou partager notre travail
+  \item Suivre et gérer les modifications apportées à notre code
+  \item Collaborer sur un projet partagé \cite{github}
+\end{itemize} \\
+\hline
+\end{tabular}
+\caption{Outils de gestion de collaboration}
+\end{table}
+
+\subsection{Frameworks et bibliothèques}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/reactjs.jpg} &
+\textbf{\centering React JS} \newline
+ReactJS est une bibliothèque JavaScript gratuite et open-source permettant de
+créer des interfaces utilisateur modernes et réactives pour le web et les
+applications mobiles. L'un des principaux avantages de l'utilisation de ReactJS
+est que nous pouvons facilement créer et réutiliser des composants. Nous l'avons
+utilisée pour l'implémentation d'une interface utilisateur moderne de notre
+système \cite{reactjs}. \\
+\hline
+\centering\includegraphics[width=2.5cm]{images/fastapi.png} &
+\textbf{\centering FastAPI} \newline
+FastAPI est un framework web performant pour la construction d'API avec Python 3.7+,
+basé sur les indices de type standard de Python. Il nous aide à créer une application
+rapidement et efficacement. Construit au-dessus du serveur web Starlette, il intègre
+des fonctionnalités clés telles que la validation automatique des données, la gestion
+des erreurs et la génération de documents interactifs. Nous avons choisi FastAPI pour
+traiter nos requêtes en raison de ses performances élevées \cite{fastapi}. \\
+\hline
+\centering\includegraphics[width=2.5cm]{images/recharts.png} &
+\textbf{\centering Recharts} \newline
+Recharts est une bibliothèque de graphiques composables construite sur des composants
+React indépendants, offrant une solution robuste et facile à utiliser pour créer des
+visualisations. Nous l'avons utilisée pour visualiser les données de notre système
+sous forme de graphiques interactifs \cite{recharts}. \\
+\hline
+\centering\includegraphics[width=2.5cm]{images/tailwind.jpg} &
+\textbf{\centering Tailwind CSS} \newline
+Tailwind CSS s'est imposé comme l'un des frameworks CSS les plus populaires, grâce
+à son approche utility-first qui nous donne l'opportunité de créer des interfaces
+complexes en combinant des classes prédéfinies dans notre interface \cite{tailwind}. \\
+\hline
+\end{tabular}
+\caption{Frameworks et bibliothèques utilisés}
+\end{table}
+
+\newpage
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/skitlearn.png} &
+\textbf{\centering Scikit-learn} \newline
+Scikit-learn est une bibliothèque Python destinée au Machine Learning, permettant
+l'apprentissage supervisé et non supervisé. Elle offre également la possibilité
+d'analyser des modèles avec des moyens statistiques. Nous l'avons utilisée pour
+implémenter le module de prévision de notre système \cite{sklearn}. \\
+\hline
+\end{tabular}
+\end{table}
+\subsection{Base de données}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/sqlite.jpg} &
+\textbf{\centering SQLite} \newline
+SQLite est une base de données relationnelle embarquée largement utilisée pour sa
+légèreté et sa simplicité. Nous l'avons utilisé pour gérer les données de
+l'application de manière structurée et fiable \cite{sqlite}. \\
+\hline
+\centering\includegraphics[width=2.5cm]{images/alchemy.jpg} &
+\textbf{\centering SQLAlchemy} \newline
+SQLAlchemy est un outil fondé sur le principe du mapping objet-relationnel (ORM).
+Il s'agit d'une technique qui établit une correspondance entre le schéma d'une
+base de données relationnelle et les classes d'un langage de programmation orienté
+objet, Nous l'avons utilisé pour gérer l'interaction entre notre
+backend FastAPI et la base de données SQLite \cite{sqlalchemy}. \\
+\hline
+\end{tabular}
+\caption{Base de données utilisée}
+\end{table}
+
+\subsection{Outils de modélisation}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/ibm.png} &
+\textbf{\centering IBM Rational Software Architect Designer} \newline
+C'est un outil complet de conception, de modélisation et de développement pour
+la livraison de logiciels de bout en bout. Il utilise le langage de modélisation
+unifié (UML) pour la conception d'applications Java d'entreprise et de services
+web. Nous l'avons utilisé pour modéliser l'architecture du système et créer les
+différents diagrammes UML \cite{ibm}. \\
+\hline
+\end{tabular}
+\caption{Outils de modélisation utilisés}
+\end{table}
+
+\subsection{Sécurité et authentification}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering\includegraphics[width=2.5cm]{images/jwt.png} &
+\textbf{\centering JSON Web Token} \newline
+Un JSON Web Token est un access token aux normes RFC 7519 qui permet un échange
+sécurisé de données entre deux parties. Il contient toutes les informations
+importantes sur une entité, ce qui rend la consultation d'une base de données
+superflue et la session n'a pas besoin d'être stockée sur le serveur \cite{jwt}. \\
+\hline
+\end{tabular}
+\caption{Outils de sécurité et d'authentification}
+\end{table}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Se Connecter}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Se Connecter}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMISECONNECTER.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Se Connecter}
+\end{figure}
+
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Se Connecter illustre la correspondance entre les classes du modèle de conception  (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+Chaque classe du MC est implémentée par un ou plusieurs composant du MI comme suit :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUSeConnecter :} représente l'interface utilisateur de connexion elle est implémentée par deux composants :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Login.jsx} : qui affiche le formulaire de connexion
+  \end{itemize}
+  \item \textbf{ControleurAuth :} assure la logique métier de l'authentification il est implémenté par trois composants :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{auth\_service.py} : qui gère le hachage des mots de passe et la génération des tokens JWT
+    \item \texttt{auth.py(routes)} : gère les points d'accès de connexion et de déconnexion
+  \end{itemize}
+  \item \textbf{Utilisateur :} représente l'entité de l'utilisateur implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{user.py} : composant Permet de gérer les utilisateurs : (id, email, mot de passe, rôle)
+    \item \texttt{auth\_service.py} : composant qui utilise le modele utilisateur pour gerer l'authentification
+  \end{itemize}
+\end{itemize}
+
+\newpage
+\subsection{Diagramme de composants du Cas D'utilisation Se Connecter}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{images/MI_DiagrammeComposantSeConnecter_1.png}
+  \caption{Diagramme de composants du Cas D'utilisation Se Connecter}
+\end{figure}
+
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Se Déconnecter}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Se Déconnecter}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMISEdeconnecter.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Se Déconnecter}
+\end{figure}
+
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Se Déconnecter illustre la correspondance entre les classes du modèle  de conception  (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface de la page d'accueil après connexion elle est implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Navbar.jsx} : composant contenant le bouton de déconnexion
+  \end{itemize}
+  \item \textbf{IUSeConnecter :} représente l'interface de connexion elle est implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Login.jsx} : composant qui contient le formulaire de connexion
+  \end{itemize}
+  \item \textbf{IUDéconnecter :} représente l'interface de confirmation de déconnexion implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{confirmDialog.jsx} : composant qui contient le message de confirmation de déconnexion
+  \end{itemize}
+  \item \textbf{ControleurAuth :} gère la logique de déconnexion il est implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Auth.py(routes)} : le composant qui traite la demande de déconnexion côté serveur
+    \item \texttt{Token\_blacklist.py} : composant qui stocke les jetons invalides (token)
+  \end{itemize}
+\end{itemize}
+
+\subsection{Diagramme de composants du Cas D'utilisation Se Déconnecter}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{images/MI_DiagrammeComposantSeDéconnecter_1.png}
+  \caption{Diagramme de composants du cas d'utilisation Se Déconnecter}
+\end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Gérer Agents}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Gérer Agents}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{images/MI_tracabilitéMCMIGérerUtilisateurs_1.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Agents}
+\end{figure}
+
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Agents illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+
+Les classes impliquées dans ce diagramme sont les suivantes :
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAgents :} représente l'interface de la page de gestion des agents, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{listeUtilisateurs.jsx} : page principale affichant la liste des agents et le formulaire d'ajout
+  \end{itemize}
+  \item \textbf{IUAjouterAgent :} représente l'interface d'ajout et de modification d'un agent, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{UtilisateurForm.jsx} : formulaire contenant les champs email, mot de passe et rôle
+  \end{itemize}
+  \item \textbf{IUSupprimerAgent :} représente l'interface de confirmation de suppression d'un agent, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{confirmDialog.jsx} : composant affichant le message de confirmation de suppression de l'agent
+  \end{itemize}
+  \item \textbf{ControleurUtilisateur :} gère la logique métier de la gestion des agents, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{user.py (routes)} : composant qui reçoit les requêtes d'ajout et de suppression des agents
+    \item \texttt{user\_service.py} : composant qui contient la logique métier et les traitements liés à la gestion des agents
+  \end{itemize}
+  \item \textbf{Utilisateur :} représente l'entité de l'utilisateur, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{user.py (models)} : représente la structure des données et les principales opérations liées à la gestion des agents en base de données
+  \end{itemize}
+\end{itemize}
+
+\subsection{Diagramme de composants du Cas D'utilisation Gérer Agents}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_diagrammedecomposantgererutilisateurs.png}
+  \caption{Diagramme de composants du cas d'utilisation Gérer Agents}
+\end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Gérer Produits}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Gérer Produits}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_Main.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Produits}
+\end{figure}
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Produit illustre la correspondance entre les classes du modèle de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+
+Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface qui permet à l'agent commercial d'accéder à la page de gestion des produits, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation contenant le lien vers la page de gestion des produits
+  \end{itemize}
+  \item \textbf{IUGérerProduit :} représente l'interface principale de gestion des produits, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{listeProduit.jsx} : composant affichant la liste des produits avec les onglets de filtrage et la barre de recherche
+  \end{itemize}
+  \item \textbf{IUListeProduit :} représente l'interface d'affichage de la liste des produits, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{produitColumns.jsx} : composant définissant les colonnes du tableau (nom, catégorie, prix, stock, statut, date de création)
+  \end{itemize}
+  \item \textbf{IUAjouterProduit :} représente l'interface qui permet à l'agent d'ajouter un nouveau produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ProduitForm.jsx} : formulaire affiché pour remplir les informations du nouveau produit
+  \end{itemize}
+  \item \textbf{IUModifierProduit :} représente l'interface de modification d'un produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ProduitForm.jsx} : formulaire affiché pour modifier les informations du produit
+  \end{itemize}
+  \item \textbf{IUSupprimerProduit :} représente l'interface de confirmation de suppression d'un produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{confirmDialog.jsx} : fenêtre qui propose l'archivage si le produit est lié à une vente ou confirme la suppression définitive
+  \end{itemize}
+  \item \textbf{IUConsulterDetailesProduit :} représente l'interface de consultation des détails d'un produit sélectionné, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ProduitForm.jsx} : formulaire contenant les données du produit tels que (nom, catégorie, prix\_unitaire, prix\_achat, stock, date de création, statut)
+  \end{itemize}
+  \item \textbf{IUArchiverProduit :} représente l'interface de confirmation d'archivage d'un produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{confirmDialog.jsx} : fenêtre de confirmation ou d'annulation de l'archivage
+  \end{itemize}
+  \item \textbf{ControleurProduit :} gère la logique métier de la gestion des produits, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{produit.py (routes)} : composant qui reçoit les requêtes des opérations liées à la gestion des produits
+    \item \texttt{produit\_service.py} : composant qui contient la logique métier et les traitements liés aux produits
+  \end{itemize}
+  \item \textbf{Produit :} représente l'entité du produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{produit.py (models)} : représente la structure des données et les principales opérations liées à la gestion des produits en base de données
+  \end{itemize}
+  \item \textbf{LigneDeVente :} représente l'entité de la ligne de vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux lignes de vente en base de données
+  \end{itemize}
+\end{itemize}
+\newpage
+\subsection{Diagramme de composants du Cas D'utilisation Gérer Produits}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantGérerProduit_2.png}
+  \caption{Diagramme de composants du cas d'utilisation Gérer Produits}
+\end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Gérer Clients}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Gérer Clients}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMIgererclient.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Clients}
+\end{figure}
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Clients illustre la correspondance entre les classes du modèle  de conception  (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+Les classes impliquées dans ce diagramme sont les suivantes :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface qui permet aux agents d'accéder à la page de gestion des Clients, elle est implémentée par :
+  \item \textbf{IUGérerClient :} représente l'interface principale de gestion des clients implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation contenant le lien vers la page de gestion des clients
+  \end{itemize}
+  \item \textbf{IUListeClient :} représente l'interface d'affichage de la liste des clients implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{clientColumns.jsx} : composant définissant les colonnes du tableau (type, nom, prénom, email, téléphone, ville)
+  \end{itemize}
+  \item \textbf{IUModifierClient :} représente l'interface modification d'un client implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ProduitForm.jsx} : formulaire affiché pour modifier les informations du client souhaité
+  \end{itemize}
+  \item \textbf{IUSupprimerClient :} représente l'interface de confirmation de suppression d'un client implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+ \item \texttt{confirmDialog.jsx} :fenêtre qui propose l'archivage si le client lié a une vente ou confirme la suppression définitive
+  \end{itemize}
+  \item \textbf{IUArchiverClient :} représente l'interface de confirmation d'archivage d'un client implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ConfirmDialog.jsx} : fenêtre de confirmation ou d'annulation de l'archivage
+  \end{itemize}
+  \item \textbf{ControleurClient :} gère la logique de gestion des clients implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Produit.py(routes)} : composant qui reçoit les requêtes des opérations liées à la gestion des clients et la vérification du lien avec la vente
+  \end{itemize}
+  \item \textbf{Vente :} représente l'entité de la vente implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py(models)} : représente la structure des données et les principales opérations liées à la vente en base de données
+  \end{itemize}
+\end{itemize}
+
+\subsection{Diagramme de composants du Cas D'utilisation Gérer Clients}
+
+\begin{figure}[H]
+  \centering
+ \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{images/MI_DiagrammeComposantGérerClient_1.png}
+  \caption{Diagramme de composants du cas d'utilisation Gérer Clients}
+\end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Traiter Vente}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Traiter Vente}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{images/11.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Traiter Vente}
+\end{figure}
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Traiter Vente illustre la correspondance entre les classes du modèle de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+
+Les classes impliquées dans ce diagramme sont les suivantes :
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface principale depuis laquelle l'agent accède à la page de gestion des ventes, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation latérale permettant d'accéder aux différentes sections de l'application
+  \end{itemize}
+  \item \textbf{IUGererVente :} représente l'interface principale de gestion des ventes contenant le bouton d'ajout d'une nouvelle vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ListeVentes.jsx} : composant qui affiche la liste des ventes avec les onglets de filtrage
+  \end{itemize}
+  \item \textbf{IUAjouterVente :} représente l'interface d'ajout et de modification d'une vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{venteForm.jsx} : formulaire affiché pour saisir les informations d'une nouvelle vente
+  \end{itemize}
+  \item \textbf{IUListeVente :} représente l'interface d'affichage de la liste des ventes sous forme de tableau, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{produitColumns.jsx} : composant définissant les colonnes du tableau (numero, clientNom, total, dateVente, statut)
+  \end{itemize}
+  \item \textbf{IUConsulterDetailesVente :} représente l'interface de consultation des détails d'une vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{venteDetailModal.jsx} : composant qui affiche les détails complets d'une vente sélectionnée
+  \end{itemize}
+  \item \textbf{IUArchiverVente :} représente l'interface de confirmation d'archivage d'une vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ConfirmDialog.jsx} : fenêtre de confirmation ou d'annulation de l'archivage
+  \end{itemize}
+  \item \textbf{ControleurVente :} gère la logique métier de la gestion des ventes, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (routes)} : composant qui reçoit les requêtes des opérations liées à la gestion des ventes
+    \item \texttt{vente\_service.py} : composant qui contient la logique métier et les traitements liés aux ventes
+  \end{itemize}
+  \item \textbf{Vente :} représente l'entité de la vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées à la vente en base de données
+  \end{itemize}
+  \item \textbf{Produit :} représente l'entité du produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{produit.py (models)} : représente la structure des données et les principales opérations liées à la gestion des produits en base de données
+  \end{itemize}
+  \item \textbf{Client :} représente l'entité du client, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées à la gestion des clients en base de données
+  \end{itemize}
+  \item \textbf{Facture :} représente l'entité de la facture associée à la vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (models)} : représente la structure des données ainsi que les principales opérations liées à la gestion des factures associées aux ventes et aux règlements
+  \end{itemize}
+\end{itemize}
+
+\subsection{Diagramme de composants du Cas D'utilisation Traiter Vente}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{images/MI_DiagrammeComposantTraiterVente_1.png}
+  \caption{Diagramme de composants du cas d'utilisation Traiter Vente}
+\end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Gérer Factures}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Gérer Factures}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth, height=0.65\textheight, keepaspectratio]{images/MI_tracabilitéMCMIGérerFacture_3.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Factures}
+\end{figure}
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Facture illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+Les classes impliquées dans ce diagramme sont les suivantes :
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface principale depuis laquelle l'agent accède à la page de gestion des factures, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation latérale permettant d'accéder aux différentes sections de l'application
+  \end{itemize}
+  \item \textbf{IUGérerFacture :} représente l'interface principale de gestion des factures, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ListeFacturation.jsx} : composant qui affiche la liste des factures avec les onglets de filtrage
+  \end{itemize}
+  \item \textbf{IUCreerFacture :} représente l'interface de création d'une nouvelle facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{FacturationForm.jsx} : formulaire affiché pour saisir les informations d'une nouvelle facture
+  \end{itemize}
+  \item \textbf{IUreglerPaiement :} représente l'interface d'enregistrement d'un paiement sur une facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{paiementModal.jsx} : composant qui affiche le formulaire d'enregistrement d'un paiement
+  \end{itemize}
+  \item \textbf{IUConsulterDetailsFacture :} représente l'interface de consultation des détails d'une facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{FactureModal.jsx} : composant qui affiche les détails complets d'une facture sélectionnée
+  \end{itemize}
+  \item \textbf{IUConsulteListeFacture :} représente l'interface d'affichage de la liste des factures sous forme de tableau, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Facturationcolumns.jsx} : composant définissant les colonnes du tableau (référence, client, montant, statut, date)
+  \end{itemize}
+  \item \textbf{IUFacturePDF :} représente l'interface de génération et d'affichage du PDF de la facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturePDF.js} : composant qui génère et affiche la facture au format PDF
+  \end{itemize}
+  \item \textbf{IUArchiverFacture :} représente l'interface de confirmation d'archivage d'une facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{confirmDialog.jsx} : fenêtre de confirmation ou d'annulation de l'archivage
+  \end{itemize}
+  \item \textbf{controleurGérerFacture :} gère la logique métier de la gestion des factures, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (routes)} : composant qui reçoit les requêtes des opérations liées à la gestion des factures
+    \item \texttt{facturation\_service.py} : composant qui contient la logique métier et les traitements liés aux factures
+  \end{itemize}
+  \item \textbf{facture :} représente l'entité de la facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (models)} : représente la structure des données et les principales opérations liées à la gestion des factures en base de données
+  \end{itemize}
+  \item \textbf{reglement :} représente l'entité du règlement associé à une facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (models)} : représente la structure des données et les principales opérations liées aux règlements en base de données
+  \end{itemize}
+  \item \textbf{vente :} représente l'entité de la vente associée à la facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux ventes en base de données
+  \end{itemize}
+  \item \textbf{ligneDeVente :} représente l'entité des lignes de vente associées à la facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux lignes de vente en base de données
+  \end{itemize}
+  \item \textbf{client :} représente l'entité du client associé à la facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées aux clients en base de données
+  \end{itemize}
+  \item \textbf{parametres :} représente l'entité des paramètres du système utilisés lors de la génération des factures, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{parametre.py (models)} : représente la structure des données et les principales opérations liées aux paramètres de l'application en base de données
+  \end{itemize}
+\end{itemize}
+\newpage
+\subsection{Diagramme de composants du Cas D'utilisation Gérer Factures}
+
+ \begin{figure}[H]
+   \centering
+   \includegraphics[width=\textwidth]{images/MI_facturemcmi_1.png}
+    \caption{Diagramme de composants du cas d'utilisation Gérer Factures}
+  \end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Consulter Notifications}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Consulter Notifications}
+
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Consulter Notifications illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+Les classes impliquées dans ce diagramme sont les suivantes :
+
+
+ \begin{figure}[H]
+   \centering
+   \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMIconsulterNotification.png}
+   \caption{Traçabilité MC/MI pour le cas d'utilisation Consulter Notifications}
+ \end{figure}
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface qui permet aux agents d'accéder à la boutton consulter notifications, elle est implémentée par :
+  \item \textbf{IUListeNotifications :} l'interface qui affiche la liste des notifications, elle est implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ListeNotifications.jsx} : composant qui affiche la liste des notifications reçues
+  \end{itemize}
+  \item \textbf{controleurGérerNotifications :} gère la logique de consultation des notifications, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{notifications.py (routes)} : composant qui reçoit les requêtes liées à la récupération et la gestion des notifications
+  \end{itemize}
+  \item \textbf{Notifications :} représente l'entité de la notification, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{notifications.py (models)} : représente la structure des données et les principales opérations liées aux notifications en base de données
+  \end{itemize}
+\end{itemize}
+\subsection{Diagramme de composants du Cas D'utilisation Consulter Notifications}
+
+
+ \begin{figure}[H]
+   \centering
+   \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantConsulterNotifications.png}
+   \caption{Diagramme de composants du cas d'utilisation Consulter Notifications}
+ \end{figure}
+
+\newpage
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Consulter Tableau de Bord}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Consulter Tableau de Bord}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_TracabiltéMCMIConsulterTableauDeBord.png}
+  \caption{Traçabilité MC/MI pour le cas d'utilisation Consulter Tableau de Bord}
+\end{figure}
+
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Consulter Tableau de Bord illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+
+Les classes impliquées dans ce diagramme sont les suivantes :
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface qui permet aux agents d'accéder à la page du tableau de bord, elle est implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation contenant le lien vers la page du tableau de bord
+  \end{itemize}
+  \item \textbf{IUTableauDeBord :} représente l'interface principale d'affichage du tableau de bord, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Dashbord.jsx} : composant qui affiche les indicateurs et graphiques du tableau de bord
+  \end{itemize}
+  \item \textbf{controleurTableauDeBord :} gère la logique de consultation du tableau de bord, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Dashboard.py (routes)} : composant qui reçoit les requêtes liées à la récupération des données du tableau de bord
+  \end{itemize}
+  \item \textbf{DashbordService :} gère les traitements métier liés au tableau de bord, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{dashboard\_service.py} : composant qui effectue les calculs et agrégations des données pour le tableau de bord
+  \end{itemize}
+  \item \textbf{Produit :} représente l'entité du produit, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{Produit.py (models)} : représente la structure des données et les principales opérations liées à la gestion des produits en base de données
+  \end{itemize}
+  \item \textbf{client :} représente l'entité du client, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées à la gestion des clients en base de données
+  \end{itemize}
+  \item \textbf{vente :} représente l'entité de la vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées à la vente en base de données
+  \end{itemize}
+  \item \textbf{ligneDeVente :} représente l'entité de la ligne de vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées à la ligne de vente en base de données
+  \end{itemize}
+  \item \textbf{facture :} représente l'entité de la facture, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (models)} : représente la structure des données et les principales opérations liées à la gestion des factures en base de données
+  \end{itemize}
+  \item \textbf{reglement :} représente l'entité du règlement, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (models)} : représente la structure des données et les principales opérations liées à la gestion des règlements en base de données
+  \end{itemize}
+\end{itemize}
+\newpage
+
+\subsection{Diagramme de composants du Cas D'utilisation Consulter Tableau de Bord}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantconsulterprevisions.png}
+  \caption{Diagramme de composants du cas d'utilisation Consulter Tableau de Bord}
+\end{figure}
+
+%----------------------------------
+\section{Implémentation du Cas D'utilisation Consulter Prévisions}
+%----------------------------------
+
+\subsection{Traçabilité MC/MI pour le Cas D'utilisation Consulter Prévisions}
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=\textwidth]{images/MI_tracabiltéMCMIConsulterPrévisions_1.png}
+   \caption{Traçabilité MC/MI pour le cas d'utilisation Consulter Prévisions}
+ \end{figure}
+Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Consulter Prévisions illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
+
+Les classes impliquées dans ce diagramme sont les suivantes :
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface principale depuis laquelle l'agent accède à la page de consultation des prévisions, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation latérale permettant d'accéder aux différentes sections de l'application
+  \end{itemize}
+  \item \textbf{IUConsulterPrévisions :} représente l'interface principale d'affichage des prévisions et des indicateurs synthétiques, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{prevision.jsx} : composant qui affiche les graphiques et les résultats des prévisions
+  \end{itemize}
+  \item \textbf{controleurConsulterPrevision :} gère la logique métier de consultation des prévisions, applique les algorithmes de prévision et retourne les projections calculées, implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ai\_service.py} : composant qui contient la logique métier et les algorithmes de calcul des prévisions
+    \item \texttt{ai.py (routes)} : composant qui reçoit les requêtes liées à la consultation des prévisions et retourne les résultats à l'interface
+  \end{itemize}
+  \item \textbf{facture :} représente l'entité de la facture utilisée pour analyser les historiques de facturation et prévoir les flux de trésorerie futurs, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{facturation.py (models)} : représente la structure des données et les principales opérations liées aux factures en base de données
+  \end{itemize}
+  \item \textbf{client :} représente l'entité du client utilisée pour segmenter les prévisions par client et anticiper l'évolution du chiffre d'affaires, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées aux clients en base de données
+  \end{itemize}
+  \item \textbf{vente :} représente l'entité de la vente utilisée pour calculer les tendances et alimenter les modèles de prévision, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux ventes en base de données
+  \end{itemize}
+  \item \textbf{ligneDeVente :} représente l'entité des lignes de vente utilisée pour calculer les tendances de vente par produit et alimenter les modèles de prévision, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux lignes de vente en base de données
+  \end{itemize}
+\end{itemize}
+
+\subsection{Diagramme de composants du Cas D'utilisation Consulter Prévisions}
+
+ \begin{figure}[H]
+   \centering
+  \includegraphics[width=\textwidth]{images/MI_previsions_1.png}
+   \caption{Diagramme de composants du cas d'utilisation Consulter Prévisions}
+ \end{figure}
+ \section*{Conclusion}
+Après ce chapitre, nous avons exposé l'environnement technologique mis en place, couvrant la pile technique complète ainsi que les outils de développement utilisés dans notre systéme
+Les technologies choisies sont complémentaires, formant un cadre cohérent qui assure la scalabilité et  la maintenabilité.
+\chapter*{}
+\begin{center}
+{\fontsize{16}{20}\bfseries Conclusion Générale}
+\end{center}
+\addcontentsline{toc}{chapter}{Conclusion Générale}
+\markboth{Conclusion Générale}{Conclusion Générale}
+
+Ce projet de fin d'études a constitué un parcours complet et enrichissant, depuis
+l'analyse critique du système existant jusqu'à la livraison d'un autre systéme répondant aux besoins concrets du dépôt de boissons,
+client de Teknovat Solutions. À travers une démarche rigoureuse et progressive,
+nous avons conçu et développé un système intégré de gestion
+et de suivi des ventes doté de fonctionnalités de Business Intelligence et d'un
+module de prévision.
+
+Le développement de notre système constitue une réponse directe aux limites du
+système ERP Odoo utilisé antérieurement : complexité fonctionnelle excessive pour
+une structure de taille modeste, coût de licence élevé, indicateurs de performance
+génériques inadaptés aux spécificités du dépôt, et absence totale de mécanisme
+de prévision. En centralisant la gestion des boissons, des clients, des ventes
+et des factures au sein d'une interface unique et intuitive, en automatisant les
+alertes de rupture de stock et d'échéance de règlement via un système de
+notifications en temps réel, et en offrant au CEO des tableaux de bord analytiques
+ainsi qu'un module de prévision appuyé sur les données historiques, notre application
+transforme la manière dont le dépôt pilote son activité de vente  au quotidien
+et à long terme.
+
+L'approche méthodologique adoptée --- combinant le Processus Unifié pour structurer
+les phases d'expression des besoins, de conception et d'implémentation, la
+modélisation UML pour formaliser les interactions entre acteurs et système, ainsi
+que la méthode GIMSI pour concevoir des indicateurs clés de performance cohérents
+et pertinents ---  Cette rigueur méthodologique a été déterminante pour aligner chaque
+décision  sur les objectifs fonctionnels,Non fonctionnelles et décisionnels identifiés dès
+la phase d'analyse.
+
+La pile technologique retenue pour notre projet --- React JS et Tailwind CSS pour une
+interface moderne , FastAPI et Python pour un back-end performant,
+SQLite via SQLAlchemy pour la persistance des données, Pydantic pour la validation
+des échanges, JWT et BCrypt pour la sécurisation des accès par rôle, Recharts
+pour la visualisation graphique, et Prophet conjointement avec scikit-learn pour
+les algorithmes de prévision --- s'est révélée cohérente et bien adaptée aux
+exigences du projet. L'architecture MVC adoptée, tant côté back-end que côté
+front-end, a assuré une séparation claire des responsabilités, facilitant la
+lisibilité, la maintenance  du code.
+
+Sur le plan des apports concrets, notre système a permis de délivrer plusieurs
+bénéfices tangibles :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item Une gestion centralisée et fiable des boissons, des clients (personnes
+  physiques et entreprises), des ventes et des factures, avec des mécanismes
+  d'archivage protégeant l'intégrité des données historiques
+  \item Un suivi précis des règlements, incluant le calcul automatique du reste
+  à payer, la mise à jour des statuts de facture et de vente, ainsi que la
+  génération de factures en PDF et leur envoi direct via WhatsApp
+  \item Un système de notifications automatiques en temps réel alertant les
+  utilisateurs des ruptures de stock et des échéances de paiement imminentes
+  \item Des tableaux de bord analytiques permettant au CEO de visualiser les
+  indicateurs clés : chiffre d'affaires, panier moyen, taux de marge, top
+  produits, top clients fidèles et détection des journées commerciales anormales
+  \item Un module de prévision des ventes offrant une estimation du chiffre
+  d'affaires sur trois mois, l'identification des clients mauvais payeurs et des
+  clients à risque de perte, ainsi qu'un commentaire analytique automatique
+\end{itemize}
+
+Sur le plan personnel, ce projet a représenté une occasion précieuse de mobiliser
+les connaissances théoriques acquises au cours de notre formation en Informatique
+de Gestion à l'Institut Supérieur de Gestion de Sousse, et de les confronter aux
+contraintes d'un projet réel. Il nous a permis de maîtriser un ensemble de
+technologies modernes de développement web full-stack, d'appréhender les enjeux
+de la Business Intelligence appliquée au contexte commercial, et de développer
+une vision globale allant de l'analyse des besoins à la livraison d'une solution
+utilisable.
+
+En perspective, notre application pose des fondations solides pour de futures
+évolutions. Parmi les pistes d'amélioration envisageables : l'intégration d'un
+module de gestion des fournisseurs et des achats, le renforcement des modèles
+de prévision par des algorithmes d'apprentissage automatique plus avancés, ou
+encore le développement d'une version mobile pour étendre l'accessibilité du
+système aux agents en déplacement.
+
+En définitive, notre solution ne représente pas uniquement un aboutissement
+académique, mais un outil opérationnel concret qui accompagne le dépôt de boissons
+dans sa transition numérique. En substituant un ERP surdimensionné et coûteux
+par une solution sur mesure, simple, ciblée et intelligente, ce projet illustre
+comment l'ingénierie logicielle, alliée à une analyse rigoureuse des besoins
+métier, peut générer une valeur ajoutée réelle et durable.
