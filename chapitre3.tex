@@ -12,99 +12,56 @@ afin d'assurer une compréhension claire de la structure des données.
 \newcommand{\colorswatch}[1]{%
   \tikz\draw[fill=#1, draw=none] (0,0) rectangle (0.5cm,0.5cm);%
 }
-
 \section{Architecture Logique Adoptée}
 
-Nous avons utilisé le patron de conception \textbf{MVC (Modèle-Vue-Contrôleur)}, 
-un modèle couramment employé pour structurer les applications web en séparant 
-les données, la logique métier et l'affichage. Cette séparation des responsabilités 
-permet une meilleure répartition du travail au sein de l'équipe et facilite la 
-maintenance du code sur le long terme \cite{mdn_mvc}.
+Notre application repose sur une architecture \textbf{API RESTful inspirée du patron MVC}. 
+Cette architecture permet de séparer clairement les différentes responsabilités du système 
+afin de faciliter la maintenance, la sécurité et l’évolution de l’application. 
+Elle assure également une communication efficace entre le frontend React et le backend FastAPI.
 
-\subsection{Composants Clés}
+\subsection{Vue (View)}
+
+La vue représente la partie visible par l’utilisateur. Elle est développée avec React sous 
+forme d’une application monopage (SPA). Elle permet la gestion des clients, des produits, 
+des ventes et des facturations à travers des interfaces interactives et responsives.
+
+Les composants React communiquent avec le backend via des appels HTTP REST afin de récupérer 
+et d’envoyer les données nécessaires. La vue assure également l’affichage du tableau de bord, 
+des statistiques, des prévisions ainsi que la génération des documents PDF.
 
 \subsection{Modèle (Model)}
-Les modèles définissent la structure des entités métier de notre systéme
-et leur persistance en base de données via SQLAlchemy sur SQLite. Chaque entité 
-du domaine — client, produit, vente, facturation, notification, utilisateur et 
-paramètres société — y est décrite avec ses attributs, ses contraintes et ses 
-relations.\cite{fastapi_sqlalchemy}.
 
-\subsection{Schéma (Schema)}
-Les schémas Pydantic définissent et valident la structure des données échangées 
-entre le client et le serveur. Chaque champ y est typé et contraint : valeurs 
-minimales, listes non vides, formats attendus. Toute donnée non conforme est 
-automatiquement rejetée par FastAPI avec une erreur HTTP 422\cite{pydantic_doc}.
+Le modèle représente les différentes entités métier du système telles que :
+\textit{Client, Produit, Vente, LigneVente, Facturation, Règlement, Notification et Utilisateur}.
 
-\subsection{Service}
-Les services concentrent l'intégralité de la logique métier
- C'est ici que résident les règles spécifiques au domaine : 
-vérification de stock avant une vente, décrémentation après validation, génération 
-de numéros de vente et de références de facturation, calcul du reste à payer, 
-synchronisation du statut actif ou inactif des clients, déclenchement des alertes 
-de stock, ainsi que les analyses statistiques et les prévisions via Prophet et 
-scikit-learn. Les services peuvent collaborer entre eux de manière descendante, 
-sans jamais créer de dépendances circulaires 
-\cite{fastapi_services}.
+Il assure la gestion et la persistance des données dans la base SQLite grâce à SQLAlchemy. 
+Le modèle définit également les relations entre les entités ainsi que les contraintes de 
+chaque champ afin de garantir l’intégrité des données.
 
 \subsection{Contrôleur (Controller)}
-Les contrôleurs, implémentés via les routeurs FastAPI, reçoivent les requêtes 
-HTTP, s'appuient sur les schémas pour la validation et délèguent entièrement le 
-traitement au service concerné. Cette couche est volontairement minimaliste : 
-aucune règle métier n'y figure 
-\cite{fastapi_router, fastapi_mvc}.
 
-\subsection{Vue (View)}
-Dans le contexte d'une API REST, la vue correspond à la réponse JSON retournée 
-au client. Elle est produite par la sérialisation des entités dans les services. 
-C'est le frontend React qui assure ensuite l'affichage de ces données à 
-l'utilisateur final 
-\cite{fastapi_mvc}.
-
-\subsection{Couche Transversale (Cross-Cutting Concerns)}
-Plusieurs mécanismes s'appliquent de manière transversale à l'ensemble des 
-couches : authentification JWT avec liste noire de tokens, hachage des mots de 
-passe via BCrypt, contrôle d'accès par rôle (CEO / agent), et un scheduler 
-d'arrière-plan qui génère périodiquement les notifications d'échéance et d'alerte 
-de stock 
-\cite{jwt_auth, fastapi_background}.
-
-\subsection{Routes}
-Les routes organisent les points d'entrée de l'API par domaine fonctionnel et 
-appliquent le middleware d'authentification de manière uniforme. Elles assurent 
-une communication structurée et sécurisée entre le frontend et le backend 
-\cite{fastapi_router}.
-
-\subsection{Architecture Frontend React}
-Le frontend applique le même principe de séparation des responsabilités, décliné 
-en trois niveaux distincts \cite{react_hooks}.
-
-\subsection{Vue (View)}
-Les composants React dans \texttt{src/views/} et \texttt{src/components/} 
-assurent l'affichage pur. Ils consomment les données exposées par les hooks sans 
-contenir aucune logique applicative ni appel réseau 
-\cite{react_hooks}.
-
-\subsection{Contrôleur (Hook)}
-Les hooks personnalisés dans \texttt{src/hooks/} gèrent l'état de l'interface, 
-orchestrent les actions utilisateur et font le lien entre la vue et la couche API 
-\cite{react_hooks}.
-
-\subsection{Couche API}
-Les fichiers dans \texttt{src/api/} encapsulent tous les appels HTTP vers le 
-backend via Axios. Cette couche est indépendante des composants visuels et ne 
-contient aucun état React 
-\cite{axios_doc}.
-
-\subsection{Avantages de l'Architecture Adoptée}
+Le contrôleur constitue la partie centrale du traitement des opérations métier. 
+Il est composé principalement des routes et des services.
 
 \begin{itemize}
-    \item \textbf{Séparation des responsabilités.} Chaque couche a un rôle unique et bien délimité, ce qui réduit le couplage entre les modules et simplifie la maintenance à long terme.
-    \item \textbf{Testabilité.} Les services étant indépendants de la couche HTTP, la logique métier peut être testée unitairement de manière isolée.
-    \item \textbf{Sécurité uniforme.} L'authentification et le contrôle d'accès par rôle sont appliqués au niveau des routes, garantissant une protection cohérente sur l'ensemble des points d'entrée de l'API.
-\end{itemize}
-\newpage
+    \item Les \textbf{routes} reçoivent les requêtes provenant du frontend, appliquent 
+    l’authentification JWT ainsi que le contrôle d’accès par rôle, puis transmettent 
+    les traitements aux services concernés.
 
+    \item Les \textbf{services} regroupent toute la logique métier du système : 
+    vérification du stock, gestion des ventes, calcul des montants, génération des 
+    références, création des notifications automatiques et préparation des données 
+    envoyées au frontend.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/1_eqghG-tH1flMjAOFcsOjIQ.png}
+    \caption{Architecture MVC adoptée dans le système}
+    \label{fig:mvc_architecture}
+\end{figure}
+
+\newpage
 \section{Conception du Cas D'utilisation Se Connecter}
 
 \needspace{0.88\textheight}
@@ -112,7 +69,7 @@ contient aucun état React
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{images/image.png}
+  \includegraphics[width=1\textwidth]{images/MC1_DiagrammeFormatConnecter.png}
   \caption{Traçabilité MCU/MC pour le cas d'utilisation Se Connecter}
 \end{figure}
 
@@ -128,7 +85,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \item \textbf{Utilisateur :} l'entité du système qui contient les données relatives aux utilisateurs et les traitements à appliquer
 \end{itemize}
 
-À noter que le CEO utilise également ce cas d'utilisation en suivant le même processus que l'agent commercial.
+
 
 \needspace{0.88\textheight}
 \subsection{Diagramme de Séquence du Cas D'utilisation Se Connecter}
@@ -136,12 +93,12 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/seqConnecter.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceSeConnecter_1.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Se Connecter}
   \label{fig:seqConnecter}
 \end{figure}
-
+À noter que le CEO utilise également ce cas d'utilisation en suivant le même processus que l'agent commercial.
 \needspace{0.88\textheight}
 \subsection{Diagramme de Classe du Cas D'utilisation Se Connecter}
 
@@ -162,7 +119,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.1\textwidth, height=0.25\textheight]{images/mcumcdeconnecter.png}%
+    \includegraphics[width=1.1\textwidth, height=0.25\textheight]{images/MC1_tracabiltéMCUMCseDéconnecter.png}%
   }
   \caption{Traçabilité MCU/MC pour le cas d'utilisation Se Déconnecter}
 \end{figure}
@@ -187,7 +144,7 @@ L'acteur et Les classes impliquées dans cette réalisation sont les suivants :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/seqDeconnecter.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceSeDéconnecter.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Se Déconnecter}
   \label{fig:seqDeconnecter}
@@ -228,7 +185,7 @@ L'acteur et Les classes impliquées dans cette réalisation sont les suivants :
   \item \textbf{IUSupprimerAgent :} l'interface qui permet au CEO de confirmer la suppression d'un agent du système
   \item \textbf{IUListeAgent :} l'interface qui affiche la liste des utilisateurs du système et permet au CEO de supprimer un agent
   \item \textbf{ControleurUtilisateur :} permet de gérer les flux de contrôle entre l'interface et l'entité
-  \item \textbf{Utilisateur :} l'entité du système qui contient les données relative aux agents
+  \item \textbf{Utilisateur :} l'entité du système qui contient les données relative aux agents et les traitements métiers associés
 \end{itemize}
 
 \needspace{0.88\textheight}
@@ -237,7 +194,7 @@ L'acteur et Les classes impliquées dans cette réalisation sont les suivants :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceAjouterUtilisateur.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceSupprimerUtilisateur_1.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Ajouter Agent}
   \label{fig:seqAjouterAgent}
@@ -254,14 +211,14 @@ L'acteur et Les classes impliquées dans cette réalisation sont les suivants :
   \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Agent}
   \label{fig:seqSupprimerAgent}
 \end{figure}
-
+Il est à noter que le CEO peut également effectuer les mêmes opérations de gestion des Agents
 \needspace{0.88\textheight}
 \subsection{Diagramme de Classe du Cas D'utilisation Gérer Agents}
 
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=0.95\textwidth, height=0.78\textheight]{images/MC1_DiagrammeClasseGérerUtilisateurs.png}%
+    \includegraphics[width=0.95\textwidth, height=0.78\textheight]{images/MC1_DiagrammeClasseGérerUtilisateurs_1.png}%
   }
   \caption{Diagramme de classe pour le cas d'utilisation Gérer Agents}
   \label{fig:classeAgents}
@@ -295,10 +252,9 @@ L'acteur et Les classes impliquées dans ce diagramme sont les suivantes :
   \item \textbf{IUListeProduit :} l'interface qui affiche la liste des produits
   \item \textbf{ControleurProduit :} permet de gérer les flux de contrôle entre l'interface utilisateur et l'entité produit
   \item \textbf{Produit :} la classe du système qui contient les données  relatives aux produits et les traitements métier associés
-  \item \textbf{LigneDeVente :} la classe du système qui contient les données  traitements métier relatives aux produits liés à une vente
+  \item \textbf{LigneDeVente :} la classe du système qui contient les données et les traitements métier relatives aux produits liés à une vente
 \end{itemize}
 
-Il est à noter que le CEO peut également effectuer les mêmes opérations de gestion des produits que l'agent commercial.
 
 \needspace{0.88\textheight}
 \subsection{Diagramme de Séquence du Cas D'utilisation Ajouter Produit}
@@ -350,7 +306,7 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 
 \needspace{0.88\textheight}
 \subsection{Diagramme de Séquence du Cas D'utilisation Archiver Produit}
-
+Il est à noter que le CEO peut également effectuer les mêmes opérations de gestion des produits que l'agent commercial.
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
@@ -504,7 +460,7 @@ L'acteur et Les classes impliquées dans ce diagramme sont les suivantes :
   \item \textbf{IUConsulterDetailsVente :} l'interface qui affiche les détails d'une vente spécifique avec ses lignes de produits
   \item \textbf{IUConsulterListeVente :} l'interface qui affiche la liste des ventes avec les options de recherche et de filtrage
   \item \textbf{ControleurVente :} permet de gérer les flux de contrôle entre l'interface et l'entité
-  \newpage
+  \newpage"
   \item \textbf{Vente :} l'entité du système qui contient la structure de données relative aux ventes
   \item \textbf{Client :} l'entité du système qui contient la structure de données relative aux clients associés à chaque vente
   \item \textbf{Produit :} l'entité du système qui contient la structure de données relative aux produits inclus dans les lignes de vente

@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.13)  14 MAY 2026 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.29)  14 MAY 2026 18:23
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**c:/Users/rebae/Downloads/notrepfe/rapport/main.tex
+(c:/Users/rebae/Downloads/notrepfe/rapport/main.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+L3 programming layer <2026-03-20>
+(C:\Program Files\Application Verifier\tex\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Program Files\Application Verifier\tex\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -22,30 +23,25 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \c@table=\count283
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+\bibindent=\dimen150
+) (C:\Program Files\Application Verifier\tex\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Program Files\Application Verifier\tex\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen149
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen151
+)) (C:\Program Files\Application Verifier\tex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen150
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen152
+) (C:\Program Files\Application Verifier\tex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count284
@@ -65,7 +61,7 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen151
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
 \macc@depth=\count289
@@ -83,47 +79,41 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \column@=\count294
 \maxfields@=\count295
 \andhelp@=\toks19
-\eqnshift@=\dimen152
-\alignsep@=\dimen153
-\tagshift@=\dimen154
-\tagwidth@=\dimen155
-\totwidth@=\dimen156
-\lineht@=\dimen157
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks20
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Program Files\Application Verifier\tex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Program Files\Application Verifier\tex\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count296
 \Gm@cntv=\count297
 \c@Gm@tempcnt=\count298
-\Gm@bindingoffset=\dimen158
-\Gm@wd@mp=\dimen159
-\Gm@odd@mp=\dimen160
-\Gm@even@mp=\dimen161
-\Gm@layoutwidth=\dimen162
-\Gm@layoutheight=\dimen163
-\Gm@layouthoffset=\dimen164
-\Gm@layoutvoffset=\dimen165
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
 \Gm@dimlist=\toks23
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/geometry\geometry.cfg)) (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -158,66 +148,45 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
-6.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 116.
+ (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+)) (C:\Program Files\Application Verifier\tex\tex/generic/babel\babel.sty
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count299
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2068.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2070.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2072.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2073.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2074.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2076.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2101.
-\U@D=\dimen166
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
+\U@D=\dimen168
 \l@unhyphenated=\language79
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Program Files\Application Verifier\tex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count300
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4196.
+(babel)             Reported on input line 4206.
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-
-french.tex)
+(C:\Program Files\Application Verifier\tex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\Application Verifier\tex\tex/generic/babel/locale/fr\babel-french.tex)
 Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 4320.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ld
-f
+(babel)             from babel-fr.ini. Reported on input line 4330.
+ (C:\Program Files\Application Verifier\tex\tex/generic/babel-french\french.ldf
 Language: french 2025-08-15 v4.0e French support from the babel system
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.l
-df
+ (C:\Program Files\Application Verifier\tex\tex/generic/babel-french\french3.ldf
 Language: french 2025-08-15 v3.7e French support from the babel system
 \FB@stdchar=\count301
 Package babel Info: Making : an active character on input line 273.
@@ -226,26 +195,23 @@ Package babel Info: Making ! an active character on input line 275.
 Package babel Info: Making ? an active character on input line 276.
 \FBguill@level=\count302
 \FBold@everypar=\toks26
-\FB@Mht=\dimen167
+\FB@Mht=\dimen169
 \mc@charclass=\count303
 \mc@charfam=\count304
 \mc@charslot=\count305
 \std@mcc=\count306
 \dec@mcc=\count307
-\FB@pardim=\dimen168
-\listindentFB=\dimen169
-\descindentFB=\dimen170
-\labelindentFB=\dimen171
-\labelwidthFB=\dimen172
-\leftmarginFB=\dimen173
-\parindentFFN=\dimen174
-\FBfnindent=\dimen175
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+\FB@pardim=\dimen170
+\listindentFB=\dimen171
+\descindentFB=\dimen172
+\labelindentFB=\dimen173
+\labelwidthFB=\dimen174
+\leftmarginFB=\dimen175
+\parindentFFN=\dimen176
+\FBfnindent=\dimen177
+))) (C:\Program Files\Application Verifier\tex\tex/latex/carlisle\scalefnt.sty) (C:\Program Files\Application Verifier\tex\tex/latex/microtype\microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count308
 )
@@ -257,44 +223,34 @@ LaTeX Info: Redefining \leftprotrusion on input line 1085.
 \MT@prot@toks=\toks28
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen176
+\MT@outer@kern=\dimen178
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count310
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdft
-ex.def
+ (C:\Program Files\Application Verifier\tex\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip54
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+ (C:\Program Files\Application Verifier\tex\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/needspace\needspace.sty
 Package: needspace 2025/03/13 v1.3e reserve vertical space
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.st
-y
-Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
-pages
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/emptypage\emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
+) (C:\Program Files\Application Verifier\tex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Program Files\Application Verifier\tex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Program Files\Application Verifier\tex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
-)
+) (C:\Program Files\Application Verifier\tex\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -304,14 +260,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen177
+\col@sep=\dimen179
 \ar@mcellbox=\box56
-\extrarowheight=\dimen178
+\extrarowheight=\dimen180
 \NC@list=\toks29
 \extratabsurround=\skip55
 \backup@length=\skip56
@@ -320,53 +275,44 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \everycr=\toks30
 \minrowclearance=\skip57
 \rownum=\count311
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
+) (C:\Program Files\Application Verifier\tex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
-\Gin@req@height=\dimen179
-\Gin@req@width=\dimen180
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
+) (C:\Program Files\Application Verifier\tex\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen181
-\TX@old@table=\dimen182
-\TX@old@col=\dimen183
-\TX@target=\dimen184
-\TX@delta=\dimen185
+\TX@col@width=\dimen183
+\TX@old@table=\dimen184
+\TX@old@col=\dimen185
+\TX@target=\dimen186
+\TX@delta=\dimen187
 \TX@cols=\count312
 \TX@ftn=\toks31
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip58
 \multirow@cntb=\count313
 \multirow@dima=\skip59
-\bigstrutjot=\dimen186
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+\bigstrutjot=\dimen188
+) (C:\Program Files\Application Verifier\tex\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip60
 \LTright=\skip61
 \LTpre=\skip62
 \LTpost=\skip63
 \LTchunksize=\count314
-\LTcapwidth=\dimen187
+\LTcapwidth=\dimen189
 \LT@head=\box58
 \LT@firsthead=\box59
 \LT@foot=\box60
@@ -377,56 +323,46 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@tables=\count317
 \c@LT@chunks=\count318
 \LT@p@ftn=\toks32
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
-tadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Program Files\Application Verifier\tex\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+)) (C:\Program Files\Application Verifier\tex\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@output=\toks33
 \AP@partial=\box63
 \AP@footins=\box64
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip64
-\enit@outerparindent=\dimen188
+\enit@outerparindent=\dimen190
 \enit@toks=\toks34
 \enit@inbox=\box65
 \enit@count@id=\count319
 \enitdp@description=\count320
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count321
 \float@exts=\toks35
 \float@box=\box66
 \@float@everytoks=\toks36
 \@floatcapt=\box67
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen189
-\captionmargin=\dimen190
-\caption@leftmargin=\dimen191
-\caption@rightmargin=\dimen192
-\caption@width=\dimen193
-\caption@indent=\dimen194
-\caption@parindent=\dimen195
-\caption@hangindent=\dimen196
+\caption@tempdima=\dimen191
+\captionmargin=\dimen192
+\caption@leftmargin=\dimen193
+\caption@rightmargin=\dimen194
+\caption@width=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
@@ -434,59 +370,36 @@ Package caption Info: french babel package is loaded.
 \c@continuedfloat=\count323
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
-ty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-common.tex
+)) (C:\Program Files\Application Verifier\tex\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\Application Verifier\tex\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\Application Verifier\tex\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks37
-\pgfutil@tempdima=\dimen197
-\pgfutil@tempdimb=\dimen198
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-latex.def
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box68
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
-ode.tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\Application Verifier\tex\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
-ty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
-ty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-.code.tex
+ (C:\Program Files\Application Verifier\tex\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\Application Verifier\tex\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\Application Verifier\tex\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks38
 \pgfkeys@temptoks=\toks39
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
-ibraryfiltered.code.tex
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks40
 ))
-\pgf@x=\dimen199
-\pgf@y=\dimen256
-\pgf@xa=\dimen257
-\pgf@ya=\dimen258
-\pgf@xb=\dimen259
-\pgf@yb=\dimen260
-\pgf@xc=\dimen261
-\pgf@yc=\dimen262
-\pgf@xd=\dimen263
-\pgf@yd=\dimen264
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\pgf@xd=\dimen265
+\pgf@yd=\dimen266
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count324
@@ -497,227 +410,128 @@ ibraryfiltered.code.tex
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
 \pgf@sys@id@count=\count328
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
-g
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--pdftex.def
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--common-pdf.def
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-softpath.code.tex
+))) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count329
 \pgfsyssoftpath@bigbuffer@items=\count330
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-protocol.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-.code.tex
+)) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
-ode.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
-.code.tex
-\pgfmath@dimen=\dimen265
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen267
 \pgfmath@count=\count331
 \pgfmath@box=\box69
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
 \pgfmath@stack@operation=\toks46
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.basic.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.trigonometric.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.random.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.comparison.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.base.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.round.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.misc.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.integerarithmetics.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
-ode.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
-code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count332
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
-ex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-points.code.tex
+)) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen266
-\pgf@picmaxx=\dimen267
-\pgf@picminy=\dimen268
-\pgf@picmaxy=\dimen269
-\pgf@pathminx=\dimen270
-\pgf@pathmaxx=\dimen271
-\pgf@pathminy=\dimen272
-\pgf@pathmaxy=\dimen273
-\pgf@xx=\dimen274
-\pgf@xy=\dimen275
-\pgf@yx=\dimen276
-\pgf@yy=\dimen277
-\pgf@zx=\dimen278
-\pgf@zy=\dimen279
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathconstruct.code.tex
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen280
-\pgf@path@lasty=\dimen281
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathusage.code.tex
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen282
-\pgf@shorten@start@additional=\dimen283
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-scopes.code.tex
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box70
 \pgf@hbox=\box71
 \pgf@layerbox@main=\box72
 \pgf@picture@serial@count=\count333
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-graphicstate.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen284
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transformations.code.tex
+\pgflinewidth=\dimen286
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen285
-\pgf@pt@y=\dimen286
-\pgf@pt@temp=\dimen287
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-quick.code.tex
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-objects.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathprocessing.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-arrows.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen288
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-shade.code.tex
+\pgfarrowsep=\dimen290
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen289
+\pgf@max=\dimen291
 \pgf@sys@shading@range@num=\count334
 \pgf@shadingcount=\count335
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-image.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-external.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box73
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-layers.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transparency.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-patterns.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-rdf.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
-hapes.code.tex
+))) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box74
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
-lot.code.tex
+) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
-p-version-0-65.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen290
-\pgf@nodesepend=\dimen291
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
-p-version-1-18.sty
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
+) (C:\Program Files\Application Verifier\tex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
-y
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
-ode.tex
+)) (C:\Program Files\Application Verifier\tex\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\Application Verifier\tex\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\Application Verifier\tex\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\Application Verifier\tex\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen292
-\pgffor@skip=\dimen293
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
 \pgffor@stack=\toks47
 \pgffor@toks=\toks48
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-\tikz.code.tex
+)) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryplothandlers.code.tex
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count336
-\pgfplotmarksize=\dimen294
+\pgfplotmarksize=\dimen296
 )
-\tikz@lastx=\dimen295
-\tikz@lasty=\dimen296
-\tikz@lastxsaved=\dimen297
-\tikz@lastysaved=\dimen298
-\tikz@lastmovetox=\dimen299
-\tikz@lastmovetoy=\dimen300
-\tikzleveldistance=\dimen301
-\tikzsiblingdistance=\dimen302
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
 \tikz@figbox=\box75
 \tikz@figbox@bg=\box76
 \tikz@tempbox=\box77
@@ -726,42 +540,29 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count338
 \tikznumberofcurrentchild=\count339
 \tikz@fig@count=\count340
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
-atrix.code.tex
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count341
 \pgfmatrixcurrentcolumn=\count342
 \pgf@matrix@numberofcolumns=\count343
 )
 \tikz@expandcount=\count344
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarytopaths.code.tex
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryshapes.geometric.code.tex
+))) (C:\Program Files\Application Verifier\tex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
-gflibraryshapes.geometric.code.tex
+ (C:\Program Files\Application Verifier\tex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+)) (C:\Program Files\Application Verifier\tex\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks49
 \verbatim@line=\toks50
 \verbatim@in@stream=\read4
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.st
-y
+ (C:\Program Files\Application Verifier\tex\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box79
@@ -772,49 +573,36 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@tcblayer=\count346
 \c@tcolorbox@number=\count347
 \l__tcobox_tmpa_box=\box83
-\l__tcobox_tmpa_dim=\dimen303
+\l__tcobox_tmpa_dim=\dimen305
 \tcb@temp=\box84
 \tcb@temp=\box85
 \tcb@temp=\box86
 \tcb@temp=\box87
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.c
-ode.tex
+) (C:\Program Files\Application Verifier\tex\tex/latex/tcolorbox\tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+(C:\Program Files\Application Verifier\tex\tex/latex/pdfcol\pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Program Files\Application Verifier\tex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+) (C:\Program Files\Application Verifier\tex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ))
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@testbox=\box88
 \tcb@totalupperbox=\box89
 \tcb@totallowerbox=\box90
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.
-tex
+) (C:\Program Files\Application Verifier\tex\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.
-sty
-Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill
-.image.code.tex
-File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
-\l__tikzfill_tmpa_dim=\dimen304
-\l__tikzfill_tmpb_dim=\dimen305
+(C:\Program Files\Application Verifier\tex\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2026/03/26 v1.1.0 Image filling library for TikZ
+ (C:\Program Files\Application Verifier\tex\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2026/03/26 v1.1.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen306
+\l__tikzfill_tmpb_dim=\dimen307
 \l__tikzfill_img_box=\box91
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw
-.code.tex
+)) (C:\Program Files\Application Verifier\tex\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
-)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+)) (C:\Program Files\Application Verifier\tex\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip65
@@ -853,146 +641,112 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip96
 \cfttabindent=\skip97
 \cfttabnumwidth=\skip98
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box92
 \beforetitleunit=\skip99
 \aftertitleunit=\skip100
-\ttl@plus=\dimen306
-\ttl@minus=\dimen307
+\ttl@plus=\dimen308
+\ttl@minus=\dimen309
 \ttl@toksa=\toks51
-\titlewidth=\dimen308
-\titlewidthlast=\dimen309
-\titlewidthfirst=\dimen310
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+\titlewidth=\dimen310
+\titlewidthlast=\dimen311
+\titlewidthfirst=\dimen312
+) (C:\Program Files\Application Verifier\tex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+ (C:\Program Files\Application Verifier\tex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+) (C:\Program Files\Application Verifier\tex\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+) (C:\Program Files\Application Verifier\tex\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+ (C:\Program Files\Application Verifier\tex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Program Files\Application Verifier\tex\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+ (C:\Program Files\Application Verifier\tex\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
+) (C:\Program Files\Application Verifier\tex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count350
+) (C:\Program Files\Application Verifier\tex\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
-y
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\@linkdim=\dimen311
+\@linkdim=\dimen313
 \Hy@linkcounter=\count351
 \Hy@pagecounter=\count352
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+ (C:\Program Files\Application Verifier\tex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Program Files\Application Verifier\tex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count353
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+ (C:\Program Files\Application Verifier\tex\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
-Package hyperref Info: Option `unicode' set `true' on input line 4066.
-Package hyperref Info: Option `unicode' set `true' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count354
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen312
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen314
+ (C:\Program Files\Application Verifier\tex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Program Files\Application Verifier\tex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count355
-\Field@Width=\dimen313
-\Fld@charsize=\dimen314
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring ON on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Field@Width=\dimen315
+\Fld@charsize=\dimen316
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring ON on input line 6102.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count356
 \c@Item=\count357
 \c@Hfootnote=\count358
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+ (C:\Program Files\Application Verifier\tex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count359
 \c@bookmark@seq@number=\count360
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
+ (C:\Program Files\Application Verifier\tex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+ (C:\Program Files\Application Verifier\tex\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip101
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip102
 \f@nch@offset@elh=\skip103
 \f@nch@offset@erh=\skip104
@@ -1015,13 +769,10 @@ Package french3.ldf Info: Setting StandardItemizeEnv=true for
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumitem package,
 (french3.ldf)             reported on input line 212.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+ (C:\Program Files\Application Verifier\tex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count361
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
@@ -1042,6 +793,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 212.
 LaTeX Font Info:    ... okay on input line 212.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 212.
 LaTeX Font Info:    ... okay on input line 212.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1096,79 +848,63 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+(C:\Program Files\Application Verifier\tex\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
+) (C:\Program Files\Application Verifier\tex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
-\scratchdimen=\dimen315
+\scratchdimen=\dimen317
 \scratchbox=\box93
 \nofMPsegments=\count363
 \nofMParguments=\count364
 \everyMPshowfont=\toks53
 \MPscratchCnt=\count365
-\MPscratchDim=\dimen316
+\MPscratchDim=\dimen318
 \MPnumerator=\count366
 \makeMPintoPDFobject=\count367
 \everyMPtoPDFconversion=\toks54
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
+) (C:\Program Files\Application Verifier\tex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
-g
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\Application Verifier\tex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 212.
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  (pageDeGarde.tex
-<images/download.jpg, id=6, 264.99pt x 191.71625pt>
+<images/download.jpg, id=726, 264.99pt x 191.71625pt>
 File: images/download.jpg Graphic file (type jpg)
 <use images/download.jpg>
 Package pdftex.def Info: images/download.jpg  used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 61.75415pt.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 17.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 17.
+ (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 17.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 17.
+ (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 17.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 17.
+ (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 17.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 17.
+ (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-7.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 17.
+ (C:\Program Files\Application Verifier\tex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1177,12 +913,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
-<images/soussse.jpg, id=7, 225.84375pt x 224.84pt>
+<images/soussse.jpg, id=727, 225.84375pt x 224.84pt>
 File: images/soussse.jpg Graphic file (type jpg)
 <use images/soussse.jpg>
 Package pdftex.def Info: images/soussse.jpg  used on input line 30.
 (pdftex.def)             Requested size: 85.35826pt x 84.98036pt.
-<images/logoteknovat.png, id=8, 301.6068pt x 80.4606pt>
+<images/logoteknovat.png, id=728, 301.6068pt x 80.4606pt>
 File: images/logoteknovat.png Graphic file (type png)
 <use images/logoteknovat.png>
 Package pdftex.def Info: images/logoteknovat.png  used on input line 63.
@@ -1196,29 +932,24 @@ LaTeX Info: Completed page discarded.
 
 Overfull \vbox (6.0pt too high) has occurred while \output is active []
 
- [2{C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/as
-us/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/downloa
-d.jpg> <./images/soussse.jpg> <./images/logoteknovat.png>]
-No file main.toc.
+ [2{C:/Users/rebae/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/Application Verifier/tex/fonts/enc/dvips/base/8r.enc} <./images/download.jpg> <./images/soussse.jpg> <./images/logoteknovat.png>] (main.toc [1]
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 74.
+ [2] [3] [4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-[1]
-No file main.lof.
+ [5] (main.lof [6] [7])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-[2]
-No file main.lot.
+ [8] (main.lot [9])
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
-[3] (introgenerale.tex [1
+ [10] (introgenerale.tex [1
 
-]) (chapitre1.tex
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 1.
- [2] [3
+]) (chapitre1.tex [2] [3
 
 ]
 File: images/logoteknovat.png Graphic file (type png)
@@ -1227,91 +958,55 @@ Package pdftex.def Info: images/logoteknovat.png  used on input line 27.
 (pdftex.def)             Requested size: 170.71652pt x 45.54381pt.
 
 Underfull \hbox (badness 1014) in paragraph at lines 52--56
-[]\T1/ptm/b/n/12 (+20) Intelligence Ar-ti-fi-cielle (IA) : \T1/ptm/m/n/12 (+20)
- In-t�-gra-tion de fonc-tion-na-li-t�s in-tel-li-gentes dans les
+[]\T1/ptm/b/n/12 (+20) Intelligence Ar-ti-fi-cielle (IA) : \T1/ptm/m/n/12 (+20) In-t�-gra-tion de fonc-tion-na-li-t�s in-tel-li-gentes dans les
  []
 
 [4
 
 ]
-<images/organigramme.png, id=54, 1541.76pt x 1027.84pt>
+<images/organigramme.png, id=1213, 1541.76pt x 1027.84pt>
 File: images/organigramme.png Graphic file (type png)
 <use images/organigramme.png>
 Package pdftex.def Info: images/organigramme.png  used on input line 78.
 (pdftex.def)             Requested size: 455.24411pt x 303.49248pt.
- [5 <./images/organigramme.png (PNG copy)>] [6] [7] [8]
-
-LaTeX Warning: Citation `uml' on page 9 undefined on input line 278.
-
-[9]
-<images/processus-unifie.png, id=90, 526.6074pt x 264.99pt>
+ [5 <./images/organigramme.png (PNG copy)>] [6] [7] [8] [9]
+<images/processus-unifie.png, id=1237, 526.6074pt x 264.99pt>
 File: images/processus-unifie.png Graphic file (type png)
 <use images/processus-unifie.png>
 Package pdftex.def Info: images/processus-unifie.png  used on input line 325.
 (pdftex.def)             Requested size: 364.19667pt x 183.26785pt.
-
-
-LaTeX Warning: Citation `guibert_uml' on page 10 undefined on input line 337.
-
-
-LaTeX Warning: Citation `audibert_usecase' on page 10 undefined on input line 3
-45.
-
-
-LaTeX Warning: Citation `audibert_classes' on page 10 undefined on input line 3
-51.
-
-
-LaTeX Warning: Citation `ibm_sequence' on page 10 undefined on input line 355.
-
-
-LaTeX Warning: Citation `ibm_deploiement' on page 10 undefined on input line 36
-0.
-
-[10 <./images/processus-unifie.png>]
-
-LaTeX Warning: Citation `wiki_composants' on page 11 undefined on input line 36
-5.
-
-
-LaTeX Warning: Citation `gimsi' on page 11 undefined on input line 375.
-
-<images/gantt.png, id=98, 464.4552pt x 172.4844pt>
+ [10 <./images/processus-unifie.png>]
+<images/gantt.png, id=1254, 464.4552pt x 172.4844pt>
 File: images/gantt.png Graphic file (type png)
 <use images/gantt.png>
 Package pdftex.def Info: images/gantt.png  used on input line 423.
 (pdftex.def)             Requested size: 455.24411pt x 169.06776pt.
-[11]) (chapitre2.tex [12 <./images/gantt.png>] [13
+ [11]) (chapitre2.tex [12 <./images/gantt.png>] [13
 
 ] [14
 
 ] [15]
-<images/MCU_DiagrammeCasUtilisationGlobal.png, id=131, 715.17188pt x 938.00438p
-t>
+<images/MCU_DiagrammeCasUtilisationGlobal.png, id=1280, 715.17188pt x 938.00438pt>
 File: images/MCU_DiagrammeCasUtilisationGlobal.png Graphic file (type png)
 <use images/MCU_DiagrammeCasUtilisationGlobal.png>
-Package pdftex.def Info: images/MCU_DiagrammeCasUtilisationGlobal.png  used on 
-input line 66.
+Package pdftex.def Info: images/MCU_DiagrammeCasUtilisationGlobal.png  used on input line 66.
 (pdftex.def)             Requested size: 546.31898pt x 653.5786pt.
  [16 <./images/MCU_DiagrammeCasUtilisationGlobal.png>] [17] [18] [19] [20]
 Underfull \hbox (badness 3713) in paragraph at lines 285--285
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-t
-ions
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-tions
  []
 
 [21] [22]
-ignored error: Infinite glue shrinkage found in box being split [23
+ignored: Infinite glue shrinkage found in box being split [23
 
-] [24]
-[25] [26] [27] [28]
+] [24] [25] [26] [27] [28]
 Underfull \hbox (badness 5771) in paragraph at lines 613--613
 []|\T1/ptm/b/n/12 (+20) Description br�ve
  []
 
 
 Underfull \hbox (badness 3977) in paragraph at lines 637--638
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-t
-ions
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-tions
  []
 
 
@@ -1319,7 +1014,8 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 607--655
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [29] [30]
+
+ignored: Infinite glue shrinkage found in box being split [29] [30]
 Overfull \hbox (0.4pt too wide) in alignment at lines 660--705
  [] [] 
  []
@@ -1331,8 +1027,7 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 710--753
 
 [32]
 Underfull \hbox (badness 3977) in paragraph at lines 796--797
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-t
-ions
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-tions
  []
 
 
@@ -1340,21 +1035,20 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 758--808
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [33] [34]
+
+ignored: Infinite glue shrinkage found in box being split [33] [34]
 Overfull \hbox (0.4pt too wide) in alignment at lines 812--850
  [] [] 
  []
 
 [35]
 Underfull \hbox (badness 3439) in paragraph at lines 882--883
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me per-met � l'agent com-mer-cial de choi-sir l
-es
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me per-met � l'agent com-mer-cial de choi-sir les
  []
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 883--884
-[]\T1/ptm/m/n/12 (+20) L'agent com-mer-cial s�-lec-tionne un client, un ou plu-
-sieurs
+[]\T1/ptm/m/n/12 (+20) L'agent com-mer-cial s�-lec-tionne un client, un ou plu-sieurs
  []
 
 
@@ -1362,26 +1056,26 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 858--909
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [36] [37]
+
+ignored: Infinite glue shrinkage found in box being split [36] [37]
 Overfull \hbox (0.4pt too wide) in alignment at lines 915--960
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [38] [39]
+
+ignored: Infinite glue shrinkage found in box being split [38] [39]
 Overfull \hbox (0.4pt too wide) in alignment at lines 966--1010
  [] [] 
  []
 
 [40]
 Underfull \hbox (badness 1546) in paragraph at lines 1035--1036
-[]\T1/ptm/m/n/12 (+20) L'agent com-mer-cial choisi une vente et ren-seigne la d
-ate
+[]\T1/ptm/m/n/12 (+20) L'agent com-mer-cial choisi une vente et ren-seigne la date
  []
 
 
 Underfull \hbox (badness 3977) in paragraph at lines 1052--1053
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-t
-ions
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-tions
  []
 
 
@@ -1389,10 +1083,10 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1017--1063
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [41] [42]
+
+ignored: Infinite glue shrinkage found in box being split [41] [42]
 Underfull \hbox (badness 1888) in paragraph at lines 1102--1103
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me d�-tecte qu'il ya des in-for-ma-tions obli-g
-a-toires
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me d�-tecte qu'il ya des in-for-ma-tions obli-ga-toires
  []
 
 
@@ -1407,8 +1101,7 @@ Underfull \hbox (badness 5592) in paragraph at lines 1138--1139
 
 
 Underfull \hbox (badness 3977) in paragraph at lines 1166--1167
-[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-t
-ions
+[]\T1/ptm/m/n/12 (+20) Le sys-t�me in-forme l'agent de rem-plir les in-for-ma-tions
  []
 
 
@@ -1416,15 +1109,15 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1119--1182
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [44] [45]
+
+ignored: Infinite glue shrinkage found in box being split [44] [45]
 Overfull \hbox (0.4pt too wide) in alignment at lines 1188--1215
  [] [] 
  []
 
 [46]
 Underfull \hbox (badness 3612) in paragraph at lines 1227--1228
-[]|\T1/ptm/m/n/12 (+20) Ce cas d'uti-li-sa-tion per-met � l'agent com-mer-cial 
-d'en-voyer
+[]|\T1/ptm/m/n/12 (+20) Ce cas d'uti-li-sa-tion per-met � l'agent com-mer-cial d'en-voyer
  []
 
 
@@ -1437,7 +1130,8 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1253--1298
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [48] [49]
+
+ignored: Infinite glue shrinkage found in box being split [48] [49]
 Overfull \hbox (0.4pt too wide) in alignment at lines 1303--1348
  [] [] 
  []
@@ -1455,7 +1149,6 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1397--1424
 [52]
 Underfull \hbox (badness 1127) in paragraph at lines 1450--1451
 \T1/ptm/m/n/12 (+20) moyen, l'�vo-lu-tion du chiffre d'af-faires mois par mois,
-
  []
 
 
@@ -1465,8 +1158,7 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1432--1468
 
 [53]
 Underfull \hbox (badness 2452) in paragraph at lines 1497--1498
-[]\T1/ptm/b/n/12 (+20) Pr�vision des Ano-ma-lies : \T1/ptm/m/n/12 (+20) Iden-ti
--fi-ca-tion les p�-riodes
+[]\T1/ptm/b/n/12 (+20) Pr�vision des Ano-ma-lies : \T1/ptm/m/n/12 (+20) Iden-ti-fi-ca-tion les p�-riodes
  []
 
 
@@ -1475,1181 +1167,878 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1475--1510
  []
 
 [54]
-<images/MCU_DiagrammeCasUtilisationRaffiné.png, id=721, 1196.97188pt x 1388.18
-625pt>
+<images/MCU_DiagrammeCasUtilisationRaffiné.png, id=1801, 1680.2775pt x 1666.72687pt>
 File: images/MCU_DiagrammeCasUtilisationRaffiné.png Graphic file (type png)
 <use images/MCU_DiagrammeCasUtilisationRaffiné.png>
-Package pdftex.def Info: images/MCU_DiagrammeCasUtilisationRaffiné.png  used o
-n input line 1518.
-(pdftex.def)             Requested size: 557.51765pt x 646.58023pt.
-) (chapitre3.tex [55 <./images/MCU_DiagrammeCasUtilisationRaffiné.png>]
-[56] [57
+Package pdftex.def Info: images/MCU_DiagrammeCasUtilisationRaffiné.png  used on input line 1518.
+(pdftex.def)             Requested size: 591.8236pt x 587.05081pt.
+) (chapitre3.tex [55 <./images/MCU_DiagrammeCasUtilisationRaffiné.png>] [56] [57
+
+] [58
 
 ]
+<images/1_eqghG-tH1flMjAOFcsOjIQ.png, id=1820, 943.525pt x 790.955pt>
+File: images/1_eqghG-tH1flMjAOFcsOjIQ.png Graphic file (type png)
+<use images/1_eqghG-tH1flMjAOFcsOjIQ.png>
+Package pdftex.def Info: images/1_eqghG-tH1flMjAOFcsOjIQ.png  used on input line 59.
+(pdftex.def)             Requested size: 409.71692pt x 343.47127pt.
+ [59 <./images/1_eqghG-tH1flMjAOFcsOjIQ.png>]
+<images/MC1_DiagrammeFormatConnecter.png, id=1826, 691.08188pt x 185.19188pt>
+File: images/MC1_DiagrammeFormatConnecter.png Graphic file (type png)
+<use images/MC1_DiagrammeFormatConnecter.png>
+Package pdftex.def Info: images/MC1_DiagrammeFormatConnecter.png  used on input line 72.
+(pdftex.def)             Requested size: 455.24411pt x 121.99529pt.
+ [60 <./images/MC1_DiagrammeFormatConnecter.png>]
+<images/MC_DiagrammeSéquenceSeConnecter_1.png, id=1832, 1026.08344pt x 845.40843pt>
+File: images/MC_DiagrammeSéquenceSeConnecter_1.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceSeConnecter_1.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceSeConnecter_1.png  used on input line 97.
+(pdftex.def)             Requested size: 523.53049pt x 548.18028pt.
+ [61 <./images/MC_DiagrammeSéquenceSeConnecter_1.png>]
+<images/classeConnecter.png, id=1838, 469.2732pt x 328.1058pt>
+File: images/classeConnecter.png Graphic file (type png)
+<use images/classeConnecter.png>
+Package pdftex.def Info: images/classeConnecter.png  used on input line 107.
+(pdftex.def)             Requested size: 341.44238pt x 238.72922pt.
+ [62 <./images/classeConnecter.png>]
+<images/mcumcdeconnecter.png, id=1845, 469.2732pt x 78.5334pt>
+File: images/mcumcdeconnecter.png Graphic file (type png)
+<use images/mcumcdeconnecter.png>
+Package pdftex.def Info: images/mcumcdeconnecter.png  used on input line 123.
+(pdftex.def)             Requested size: 500.79266pt x 175.6991pt.
+ [63 <./images/mcumcdeconnecter.png>]
+<images/seqDeconnecter.png, id=1851, 469.2732pt x 333.8874pt>
+File: images/seqDeconnecter.png Graphic file (type png)
+<use images/seqDeconnecter.png>
+Package pdftex.def Info: images/seqDeconnecter.png  used on input line 148.
+(pdftex.def)             Requested size: 523.54881pt x 548.18515pt.
+ [64 <./images/seqDeconnecter.png>]
+<images/classedeconnecter.png, id=1857, 469.2732pt x 369.0588pt>
+File: images/classedeconnecter.png Graphic file (type png)
+<use images/classedeconnecter.png>
+Package pdftex.def Info: images/classedeconnecter.png  used on input line 160.
+(pdftex.def)             Requested size: 478.02936pt x 386.5602pt.
+ [65 <./images/classedeconnecter.png>]
+<images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png, id=1863, 809.27344pt x 212.29312pt>
+File: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png Graphic file (type png)
+<use images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png>
+Package pdftex.def Info: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png  used on input line 173.
+(pdftex.def)             Requested size: 455.24411pt x 119.4243pt.
+ [66 <./images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png>]
+<images/MC1_DiagrammeSéquenceAjouterUtilisateur.png, id=1869, 2144.76282pt x 2278.01062pt>
+File: images/MC1_DiagrammeSéquenceAjouterUtilisateur.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceAjouterUtilisateur.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterUtilisateur.png  used on input line 198.
+(pdftex.def)             Requested size: 523.52428pt x 548.15887pt.
+ [67 <./images/MC1_DiagrammeSéquenceAjouterUtilisateur.png>]
+<images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png, id=1875, 2357.05594pt x 1520.68124pt>
+File: images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png  used on input line 210.
+(pdftex.def)             Requested size: 523.51718pt x 548.18736pt.
+ [68 <./images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png>]
+<images/MC1_DiagrammeClasseGérerUtilisateurs.png, id=1882, 1176.64594pt x 520.19344pt>
+File: images/MC1_DiagrammeClasseGérerUtilisateurs.png Graphic file (type png)
+<use images/MC1_DiagrammeClasseGérerUtilisateurs.png>
+Package pdftex.def Info: images/MC1_DiagrammeClasseGérerUtilisateurs.png  used on input line 222.
+(pdftex.def)             Requested size: 432.47952pt x 548.17184pt.
+ [69 <./images/MC1_DiagrammeClasseGérerUtilisateurs.png>]
+<images/mcumcpoduit.png, id=1888, 469.2732pt x 145.5036pt>
+File: images/mcumcpoduit.png Graphic file (type png)
+<use images/mcumcpoduit.png>
+Package pdftex.def Info: images/mcumcpoduit.png  used on input line 234.
+(pdftex.def)             Requested size: 455.24411pt x 141.1583pt.
+ [70 <./images/mcumcpoduit.png>] [71]
+<images/MC1_DiagrammeSéquenceAjouterProduit_1.png, id=1898, 2298.33656pt x 2667.21469pt>
+File: images/MC1_DiagrammeSéquenceAjouterProduit_1.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceAjouterProduit_1.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterProduit_1.png  used on input line 267.
+(pdftex.def)             Requested size: 523.52118pt x 548.1663pt.
+ [72 <./images/MC1_DiagrammeSéquenceAjouterProduit_1.png>]
+<images/MC1_DiagrammeSéquenceSupprimerProduit.png, id=1904, 2334.47156pt x 1964.08781pt>
+File: images/MC1_DiagrammeSéquenceSupprimerProduit.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceSupprimerProduit.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerProduit.png  used on input line 279.
+(pdftex.def)             Requested size: 523.52364pt x 548.17264pt.
+ [73 <./images/MC1_DiagrammeSéquenceSupprimerProduit.png>]
+<images/MC1_DiagrammeSéquenceModifierProduit.png, id=1910, 1770.615pt x 1807.5028pt>
+File: images/MC1_DiagrammeSéquenceModifierProduit.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceModifierProduit.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceModifierProduit.png  used on input line 291.
+(pdftex.def)             Requested size: 523.51567pt x 548.18478pt.
+ [74 <./images/MC1_DiagrammeSéquenceModifierProduit.png>]
+<images/MC_DiagrammeSéquenceConsulterProduit.png, id=1917, 2061.95343pt x 1829.33438pt>
+File: images/MC_DiagrammeSéquenceConsulterProduit.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceConsulterProduit.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterProduit.png  used on input line 303.
+(pdftex.def)             Requested size: 523.51012pt x 548.16255pt.
+ [75 <./images/MC_DiagrammeSéquenceConsulterProduit.png>]
+<images/MC1_DiagrammeSéquenceArchiverProduit.png, id=1923, 2038.61626pt x 1834.60406pt>
+File: images/MC1_DiagrammeSéquenceArchiverProduit.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceArchiverProduit.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverProduit.png  used on input line 315.
+(pdftex.def)             Requested size: 523.52643pt x 548.17397pt.
+ [76 <./images/MC1_DiagrammeSéquenceArchiverProduit.png>]
+<images/MC_DiagrammeClasseGérerProduit_2.png, id=1929, 8421.71344pt x 5753.74594pt>
+File: images/MC_DiagrammeClasseGérerProduit_2.png Graphic file (type png)
+<use images/MC_DiagrammeClasseGérerProduit_2.png>
+Package pdftex.def Info: images/MC_DiagrammeClasseGérerProduit_2.png  used on input line 328.
+(pdftex.def)             Requested size: 523.40019pt x 548.10406pt.
+ [77 <./images/MC_DiagrammeClasseGérerProduit_2.png>]
+<images/MC_tracabiliteMCUMCGererClient.png, id=1935, 1038.88126pt x 398.23781pt>
+File: images/MC_tracabiliteMCUMCGererClient.png Graphic file (type png)
+<use images/MC_tracabiliteMCUMCGererClient.png>
+Package pdftex.def Info: images/MC_tracabiliteMCUMCGererClient.png  used on input line 341.
+(pdftex.def)             Requested size: 455.24411pt x 174.50813pt.
+ [78 <./images/MC_tracabiliteMCUMCGererClient.png>] [79]
+<images/MC_diagseqAjouterClient.png, id=1945, 2952.53062pt x 2926.18219pt>
+File: images/MC_diagseqAjouterClient.png Graphic file (type png)
+<use images/MC_diagseqAjouterClient.png>
+Package pdftex.def Info: images/MC_diagseqAjouterClient.png  used on input line 374.
+(pdftex.def)             Requested size: 523.50345pt x 548.16667pt.
+ [80 <./images/MC_diagseqAjouterClient.png>]
+<images/MC_DiagrammeSéquenceModifierClient.png, id=1952, 1925.69438pt x 1815.78375pt>
+File: images/MC_DiagrammeSéquenceModifierClient.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceModifierClient.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceModifierClient.png  used on input line 386.
+(pdftex.def)             Requested size: 523.49986pt x 548.17494pt.
+ [81 <./images/MC_DiagrammeSéquenceModifierClient.png>]
+<images/MC_DiagrammeSéquenceSupprimerClient_1.png, id=1958, 2338.23563pt x 1942.25626pt>
+File: images/MC_DiagrammeSéquenceSupprimerClient_1.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceSupprimerClient_1.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceSupprimerClient_1.png  used on input line 398.
+(pdftex.def)             Requested size: 523.51147pt x 548.15497pt.
+ [82 <./images/MC_DiagrammeSéquenceSupprimerClient_1.png>]
+<images/MC_DiagrammeSéquenceConsulterClient.png, id=1964, 2575.37157pt x 3482.51062pt>
+File: images/MC_DiagrammeSéquenceConsulterClient.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceConsulterClient.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterClient.png  used on input line 410.
+(pdftex.def)             Requested size: 523.51404pt x 548.12636pt.
+ [83 <./images/MC_DiagrammeSéquenceConsulterClient.png>]
+<images/MC_diagrammedeseqArchiverClient.png, id=1970, 1866.22218pt x 1717.91812pt>
+File: images/MC_diagrammedeseqArchiverClient.png Graphic file (type png)
+<use images/MC_diagrammedeseqArchiverClient.png>
+Package pdftex.def Info: images/MC_diagrammedeseqArchiverClient.png  used on input line 422.
+(pdftex.def)             Requested size: 523.53532pt x 548.17224pt.
+ [84 <./images/MC_diagrammedeseqArchiverClient.png>]
+<images/MC_DiagrammeClasseGererClient_2.png, id=1976, 4181.87344pt x 3499.0725pt>
+File: images/MC_DiagrammeClasseGererClient_2.png Graphic file (type png)
+<use images/MC_DiagrammeClasseGererClient_2.png>
+Package pdftex.def Info: images/MC_DiagrammeClasseGererClient_2.png  used on input line 434.
+(pdftex.def)             Requested size: 523.49863pt x 548.11693pt.
+ [85 <./images/MC_DiagrammeClasseGererClient_2.png>]
+<images/MC_tracabilitéMCMCUVENTE_1.png, id=1982, 872.50969pt x 253.69781pt>
+File: images/MC_tracabilitéMCMCUVENTE_1.png Graphic file (type png)
+<use images/MC_tracabilitéMCMCUVENTE_1.png>
+Package pdftex.def Info: images/MC_tracabilitéMCMCUVENTE_1.png  used on input line 447.
+(pdftex.def)             Requested size: 455.24411pt x 132.36879pt.
+ [86 <./images/MC_tracabilitéMCMCUVENTE_1.png>]
+<images/MC1_DiagrammeSéquenceEnregistrervente.png, id=1989, 2830.575pt x 2952.53062pt>
+File: images/MC1_DiagrammeSéquenceEnregistrervente.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceEnregistrervente.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceEnregistrervente.png  used on input line 480.
+(pdftex.def)             Requested size: 523.51862pt x 548.14685pt.
+ [87]
+<images/MC_DiagrammeSéquenceConsulterVentes_2.png, id=1994, 5432.295pt x 6060.14063pt>
+File: images/MC_DiagrammeSéquenceConsulterVentes_2.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceConsulterVentes_2.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterVentes_2.png  used on input line 491.
+(pdftex.def)             Requested size: 523.4506pt x 548.16324pt.
+ [88 <./images/MC1_DiagrammeSéquenceEnregistrervente.png>] [89 <./images/MC_DiagrammeSéquenceConsulterVentes_2.png>]
+<images/MC1_DiagrammeSéquenceArchiverVente.png, id=2005, 1554.55782pt x 1531.22063pt>
+File: images/MC1_DiagrammeSéquenceArchiverVente.png Graphic file (type png)
+<use images/MC1_DiagrammeSéquenceArchiverVente.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverVente.png  used on input line 503.
+(pdftex.def)             Requested size: 523.53763pt x 548.17825pt.
+ [90 <./images/MC1_DiagrammeSéquenceArchiverVente.png>]
+<images/MC1_DiagrammeDeClasseGérerVente.png, id=2011, 4798.42688pt x 3299.5772pt>
+File: images/MC1_DiagrammeDeClasseGérerVente.png Graphic file (type png)
+<use images/MC1_DiagrammeDeClasseGérerVente.png>
+Package pdftex.def Info: images/MC1_DiagrammeDeClasseGérerVente.png  used on input line 515.
+(pdftex.def)             Requested size: 523.50873pt x 548.13246pt.
+ [91 <./images/MC1_DiagrammeDeClasseGérerVente.png>]
+<images/MC_tracabiliteMCUMCGérerFacture_2.png, id=2017, 1454.43375pt x 555.57562pt>
+File: images/MC_tracabiliteMCUMCGérerFacture_2.png Graphic file (type png)
+<use images/MC_tracabiliteMCUMCGérerFacture_2.png>
+Package pdftex.def Info: images/MC_tracabiliteMCUMCGérerFacture_2.png  used on input line 527.
+(pdftex.def)             Requested size: 455.24411pt x 173.8967pt.
+ [92
 
-LaTeX Warning: Citation `mdn_mvc' on page 58 undefined on input line 22.
+ <./images/MC_tracabiliteMCUMCGérerFacture_2.png>] [93]
+<images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png, id=2028, 2660.43938pt x 3914.625pt>
+File: images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png  used on input line 561.
+(pdftex.def)             Requested size: 523.51291pt x 548.16324pt.
+ [94 <./images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png>]
+<images/MC_DiagrammeSéquencecreerfactureviaventes.png, id=2034, 2932.9575pt x 3504.3422pt>
+File: images/MC_DiagrammeSéquencecreerfactureviaventes.png Graphic file (type png)
+<use images/MC_DiagrammeSéquencecreerfactureviaventes.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquencecreerfactureviaventes.png  used on input line 573.
+(pdftex.def)             Requested size: 523.52376pt x 548.14032pt.
+ [95 <./images/MC_DiagrammeSéquencecreerfactureviaventes.png>]
+<images/MC_DiagrammeSéquenceConsulterFacture_2.png, id=2040, 8394.61218pt x 6444.075pt>
+File: images/MC_DiagrammeSéquenceConsulterFacture_2.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceConsulterFacture_2.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterFacture_2.png  used on input line 585.
+(pdftex.def)             Requested size: 523.50916pt x 548.08328pt.
+ [96 <./images/MC_DiagrammeSéquenceConsulterFacture_2.png>]
+<images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png, id=2046, 4455.89719pt x 7382.83218pt>
+File: images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png  used on input line 597.
+(pdftex.def)             Requested size: 523.46602pt x 548.16855pt.
+ [97 <./images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png>]
+<images/MC_DiagrammeSéquenceArchiverFacture_1.png, id=2052, 2341.9997pt x 2779.38374pt>
+File: images/MC_DiagrammeSéquenceArchiverFacture_1.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceArchiverFacture_1.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceArchiverFacture_1.png  used on input line 609.
+(pdftex.def)             Requested size: 523.53229pt x 548.1483pt.
+ [98 <./images/MC_DiagrammeSéquenceArchiverFacture_1.png>]
+<images/MC_DiagrammeSéquenceImprimerFacture.png, id=2059, 3941.72626pt x 2046.89719pt>
+File: images/MC_DiagrammeSéquenceImprimerFacture.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceImprimerFacture.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceImprimerFacture.png  used on input line 621.
+(pdftex.def)             Requested size: 523.50925pt x 548.17207pt.
+ [99 <./images/MC_DiagrammeSéquenceImprimerFacture.png>]
+<images/MC_DiagrammeSéquence2.png, id=2065, 3292.80188pt x 1989.68344pt>
+File: images/MC_DiagrammeSéquence2.png Graphic file (type png)
+<use images/MC_DiagrammeSéquence2.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquence2.png  used on input line 633.
+(pdftex.def)             Requested size: 523.49272pt x 548.1817pt.
+ [100 <./images/MC_DiagrammeSéquence2.png>]
+<images/MC_DiagrammeClasseGérerFacture_1.png, id=2071, 6239.31pt x 4912.10156pt>
+File: images/MC_DiagrammeClasseGérerFacture_1.png Graphic file (type png)
+<use images/MC_DiagrammeClasseGérerFacture_1.png>
+Package pdftex.def Info: images/MC_DiagrammeClasseGérerFacture_1.png  used on input line 645.
+(pdftex.def)             Requested size: 523.52725pt x 548.12791pt.
+ [101 <./images/MC_DiagrammeClasseGérerFacture_1.png>]
+<images/image22.png, id=2077, 520.19344pt x 165.61874pt>
+File: images/image22.png Graphic file (type png)
+<use images/image22.png>
+Package pdftex.def Info: images/image22.png  used on input line 658.
+(pdftex.def)             Requested size: 455.24411pt x 144.9413pt.
+ [102 <./images/image22.png>]
+<images/MC_DiagrammeSéquenceConsulterNotif.png, id=2083, 2150.0325pt x 1397.22pt>
+File: images/MC_DiagrammeSéquenceConsulterNotif.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceConsulterNotif.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterNotif.png  used on input line 681.
+(pdftex.def)             Requested size: 523.53111pt x 548.17555pt.
+ [103 <./images/MC_DiagrammeSéquenceConsulterNotif.png>]
+<images/MC_DiagrammeSéquencemarquercommelue.png, id=2089, 1960.32375pt x 1533.47906pt>
+File: images/MC_DiagrammeSéquencemarquercommelue.png Graphic file (type png)
+<use images/MC_DiagrammeSéquencemarquercommelue.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquencemarquercommelue.png  used on input line 693.
+(pdftex.def)             Requested size: 523.52145pt x 548.16782pt.
+ [104 <./images/MC_DiagrammeSéquencemarquercommelue.png>]
+<images/MC_DiagrammeSéqSupprimerNotifications.png, id=2096, 1906.12125pt x 1096.84781pt>
+File: images/MC_DiagrammeSéqSupprimerNotifications.png Graphic file (type png)
+<use images/MC_DiagrammeSéqSupprimerNotifications.png>
+Package pdftex.def Info: images/MC_DiagrammeSéqSupprimerNotifications.png  used on input line 705.
+(pdftex.def)             Requested size: 523.53056pt x 548.17151pt.
+ [105 <./images/MC_DiagrammeSéqSupprimerNotifications.png>]
+<images/MC_DiagrammeClasseGérerNotifications.png, id=2102, 1757.06438pt x 1300.86pt>
+File: images/MC_DiagrammeClasseGérerNotifications.png Graphic file (type png)
+<use images/MC_DiagrammeClasseGérerNotifications.png>
+Package pdftex.def Info: images/MC_DiagrammeClasseGérerNotifications.png  used on input line 717.
+(pdftex.def)             Requested size: 478.00635pt x 456.79654pt.
+ [106 <./images/MC_DiagrammeClasseGérerNotifications.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 726.
 
 
-LaTeX Warning: Citation `fastapi_sqlalchemy' on page 58 undefined on input line
- 31.
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 736--736
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
 
 
-LaTeX Warning: Citation `pydantic_doc' on page 58 undefined on input line 37.
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 745--745
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
+
+[107]
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 804--804
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
 
 
-LaTeX Warning: Citation `fastapi_services' on page 58 undefined on input line 4
-8.
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 813--813
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
 
 
-LaTeX Warning: Citation `fastapi_router' on page 58 undefined on input line 55.
+Overfull \hbox (18.80339pt too wide) in paragraph at lines 862--862
+ \T1/ptm/b/n/12 (-20) pro-duit/Cat�gorie| 
+ []
 
 
+Overfull \hbox (4.30327pt too wide) in paragraph at lines 868--869
+ []|\T1/ptm/m/n/12 (-20) Diagramme 
+ []
 
-LaTeX Warning: Citation `fastapi_mvc' on page 58 undefined on input line 55.
 
-[58
+Overfull \hbox (1.69247pt too wide) in paragraph at lines 874--874
+ \T1/ptm/m/n/12 (-20) r�-par-ti-tion)| 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [108] [109]
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 903--903
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
+
+
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 912--912
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
+
+
+Overfull \hbox (4.30327pt too wide) in paragraph at lines 931--932
+ []|\T1/ptm/m/n/12 (-20) Diagramme 
+ []
+
+
+Overfull \hbox (1.69247pt too wide) in paragraph at lines 937--937
+ \T1/ptm/m/n/12 (-20) r�-par-ti-tion)| 
+ []
+
+[110]
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 966--966
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
+
+
+Overfull \hbox (3.67996pt too wide) in paragraph at lines 975--975
+ []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
+ []
+
+
+Overfull \hbox (3.31021pt too wide) in paragraph at lines 995--1003
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.13416pt too wide) in paragraph at lines 1038--1048
+ []|[]| 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [111]
+ignored: Infinite glue shrinkage found in box being split [112]
+ignored: Infinite glue shrinkage found in box being split [113] [114]
+Overfull \hbox (0.57669pt too wide) in paragraph at lines 1122--1122
+ \T1/ptm/m/n/12 (-20) ho-ri-zon-tales| 
+ []
+
+[115]
+<images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png, id=2145, 1178.90437pt x 524.71031pt>
+File: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png Graphic file (type png)
+<use images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png>
+Package pdftex.def Info: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png  used on input line 1163.
+(pdftex.def)             Requested size: 455.24411pt x 202.61858pt.
+ [116 <./images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png>] [117]
+
+pdfTeX warning: pdflatex (file ./images/seq.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/seq.pdf, id=2156, 845.07718pt x 1194.98447pt>
+File: images/seq.pdf Graphic file (type pdf)
+<use images/seq.pdf>
+Package pdftex.def Info: images/seq.pdf  used on input line 1188.
+(pdftex.def)             Requested size: 422.46019pt x 597.38136pt.
+[118
+
+ <./images/seq.pdf>]
+<images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png, id=2170, 3821.27625pt x 3811.48969pt>
+File: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png Graphic file (type png)
+<use images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png>
+Package pdftex.def Info: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png  used on input line 1200.
+(pdftex.def)             Requested size: 478.00821pt x 456.77745pt.
+ [119
+
+ <./images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png>]
+<images/etl.png, id=2177, 401.24907pt x 179.16937pt>
+File: images/etl.png Graphic file (type png)
+<use images/etl.png>
+Package pdftex.def Info: images/etl.png  used on input line 1229.
+(pdftex.def)             Requested size: 341.43307pt x 152.46965pt.
+ [120 <./images/etl.png>] [121]
+<images/MC_tracabilitéMCUMCConsulterPrevision.png, id=2188, 1278.27562pt x 587.94656pt>
+File: images/MC_tracabilitéMCUMCConsulterPrevision.png Graphic file (type png)
+<use images/MC_tracabilitéMCUMCConsulterPrevision.png>
+Package pdftex.def Info: images/MC_tracabilitéMCUMCConsulterPrevision.png  used on input line 1261.
+(pdftex.def)             Requested size: 455.24411pt x 209.39085pt.
+ [122
+
+ <./images/MC_tracabilitéMCUMCConsulterPrevision.png>] [123]
+<images/MC_DiagrammeSéquenceConsulterprevisions_1.png, id=2199, 4257.9075pt x 3809.98407pt>
+File: images/MC_DiagrammeSéquenceConsulterprevisions_1.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceConsulterprevisions_1.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterprevisions_1.png  used on input line 1287.
+(pdftex.def)             Requested size: 523.46614pt x 548.16058pt.
+ [124 <./images/MC_DiagrammeSéquenceConsulterprevisions_1.png>]
+<images/MC_DiagrammeClasseConsulterPrévisions (1).png, id=2205, 3431.31938pt x 3783.63562pt>
+File: images/MC_DiagrammeClasseConsulterPrévisions (1).png Graphic file (type png)
+<use images/MC_DiagrammeClasseConsulterPrévisions (1).png>
+Package pdftex.def Info: images/MC_DiagrammeClasseConsulterPrévisions (1).png  used on input line 1299.
+(pdftex.def)             Requested size: 477.97299pt x 597.36911pt.
+ [125 <./images/MC_DiagrammeClasseConsulterPrévisions (1).png>]
+<images/Packagevierge_DiagrammeClasse_2.png, id=2211, 5528.655pt x 3131.7pt>
+File: images/Packagevierge_DiagrammeClasse_2.png Graphic file (type png)
+<use images/Packagevierge_DiagrammeClasse_2.png>
+Package pdftex.def Info: images/Packagevierge_DiagrammeClasse_2.png  used on input line 1311.
+(pdftex.def)             Requested size: 477.98589pt x 597.3707pt.
+ [126 <./images/Packagevierge_DiagrammeClasse_2.png>]) (chapitre4.tex [127] [128
 
 ]
+<images/vscode.jpg, id=2226, 84.315pt x 89.58469pt>
+File: images/vscode.jpg Graphic file (type jpg)
+<use images/vscode.jpg>
+Package pdftex.def Info: images/vscode.jpg  used on input line 26.
+(pdftex.def)             Requested size: 71.13188pt x 75.57867pt.
+<images/github.png, id=2228, 103.13531pt x 79.79813pt>
+File: images/github.png Graphic file (type png)
+<use images/github.png>
+Package pdftex.def Info: images/github.png  used on input line 44.
+(pdftex.def)             Requested size: 71.13188pt x 55.03639pt.
+<images/reactjs.jpg, id=2230, 97.86563pt x 87.32625pt>
+File: images/reactjs.jpg Graphic file (type jpg)
+<use images/reactjs.jpg>
+Package pdftex.def Info: images/reactjs.jpg  used on input line 67.
+(pdftex.def)             Requested size: 71.13188pt x 63.47446pt.
 
-LaTeX Warning: Citation `fastapi_mvc' on page 59 undefined on input line 62.
+Underfull \hbox (badness 4328) in paragraph at lines 68--75
+\T1/ptm/m/n/12 (+20) ReactJS est une bi-blio-th�que Ja-vaS-cript gra-tuite et
+ []
 
+<images/fastapi.png, id=2232, 120.45pt x 114.4275pt>
+File: images/fastapi.png Graphic file (type png)
+<use images/fastapi.png>
+Package pdftex.def Info: images/fastapi.png  used on input line 76.
+(pdftex.def)             Requested size: 71.13188pt x 67.57623pt.
 
-LaTeX Warning: Citation `jwt_auth' on page 59 undefined on input line 70.
+Underfull \hbox (badness 2828) in paragraph at lines 77--84
+\T1/ptm/m/n/12 (+20) FastAPI est un fra-me-work web per-for-mant pour la
+ []
 
+<images/recharts.png, id=2234, 103.88812pt x 103.88812pt>
+File: images/recharts.png Graphic file (type png)
+<use images/recharts.png>
+Package pdftex.def Info: images/recharts.png  used on input line 85.
+(pdftex.def)             Requested size: 71.13188pt x 71.13438pt.
 
-LaTeX Warning: Citation `fastapi_background' on page 59 undefined on input line
- 70.
+Underfull \hbox (badness 1490) in paragraph at lines 86--91
+\T1/ptm/m/n/12 (+20) don-n�es de notre sys-t�me sous forme de gra-phiques
+ []
 
+<images/tailwind.jpg, id=2236, 122.5305pt x 90.3375pt>
+File: images/tailwind.jpg Graphic file (type jpg)
+<use images/tailwind.jpg>
+Package pdftex.def Info: images/tailwind.jpg  used on input line 92.
+(pdftex.def)             Requested size: 71.13188pt x 52.44539pt.
+[129
 
-LaTeX Warning: Citation `fastapi_router' on page 59 undefined on input line 76.
+ <./images/vscode.jpg> <./images/github.png>] [130 <./images/reactjs.jpg> <./images/fastapi.png> <./images/recharts.png> <./images/tailwind.jpg>]
+<images/skitlearn.png, id=2255, 192.72pt x 120.45pt>
+File: images/skitlearn.png Graphic file (type png)
+<use images/skitlearn.png>
+Package pdftex.def Info: images/skitlearn.png  used on input line 110.
+(pdftex.def)             Requested size: 71.13188pt x 44.45735pt.
 
+Underfull \hbox (badness 1540) in paragraph at lines 111--116
+\T1/ptm/m/n/12 (+20) Lear-ning, per-met-tant l'ap-pren-tis-sage su-per-vis� et non
+ []
 
+<images/sqlite.jpg, id=2257, 159.3225pt x 67.3425pt>
+File: images/sqlite.jpg Graphic file (type jpg)
+<use images/sqlite.jpg>
+Package pdftex.def Info: images/sqlite.jpg  used on input line 127.
+(pdftex.def)             Requested size: 71.13188pt x 30.06544pt.
+<images/alchemy.jpg, id=2259, 356.33125pt x 142.5325pt>
+File: images/alchemy.jpg Graphic file (type jpg)
+<use images/alchemy.jpg>
+Package pdftex.def Info: images/alchemy.jpg  used on input line 133.
+(pdftex.def)             Requested size: 71.13188pt x 28.45161pt.
+<images/ibm.png, id=2261, 130.086pt x 103.1052pt>
+File: images/ibm.png Graphic file (type png)
+<use images/ibm.png>
+Package pdftex.def Info: images/ibm.png  used on input line 153.
+(pdftex.def)             Requested size: 71.13188pt x 56.38078pt.
+<images/jwt.png, id=2263, 130.98938pt x 84.315pt>
+File: images/jwt.png Graphic file (type png)
+<use images/jwt.png>
+Package pdftex.def Info: images/jwt.png  used on input line 173.
+(pdftex.def)             Requested size: 71.13188pt x 45.78671pt.
+[131 <./images/skitlearn.png> <./images/sqlite.jpg> <./images/alchemy.jpg> <./images/ibm.png>] [132 <./images/jwt.png>]
+<images/MI_tracabilitéMCMISECONNECTER.png, id=2282, 512.66531pt x 135.50626pt>
+File: images/MI_tracabilitéMCMISECONNECTER.png Graphic file (type png)
+<use images/MI_tracabilitéMCMISECONNECTER.png>
+Package pdftex.def Info: images/MI_tracabilitéMCMISECONNECTER.png  used on input line 193.
+(pdftex.def)             Requested size: 455.24411pt x 120.3293pt.
 
-LaTeX Warning: Citation `react_hooks' on page 59 undefined on input line 80.
+Overfull \hbox (11.39162pt too wide) in paragraph at lines 197--199
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion Se Connec-ter illustre la cor-res-pon-dance
+ []
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-LaTeX Warning: Citation `react_hooks' on page 59 undefined on input line 86.
-
-
-LaTeX Warning: Citation `react_hooks' on page 59 undefined on input line 91.
-
-
-LaTeX Warning: Citation `axios_doc' on page 59 undefined on input line 97.
-
-[59] [60]
-<images/image.png, id=766, 469.2732pt x 136.8312pt>
-File: images/image.png Graphic file (type png)
-<use images/image.png>
-Package pdftex.def Info: images/image.png  used on input line 115.
-(pdftex.def)             Requested size: 455.24411pt x 132.74489pt.
- [61 <./images/image.png>]
-<images/seqConnecter.png, id=775, 1368.11125pt x 1175.39125pt>
-File: images/seqConnecter.png Graphic file (type png)
-<use images/seqConnecter.png>
-Package pdftex.def Info: images/seqConnecter.png  used on input line 140.
-(pdftex.def)             Requested size: 523.54092pt x 548.16544pt.
- [62 <./images/seqConnecter.png>]
-<images/classeConnecter.png, id=783, 469.2732pt x 328.1058pt>
-File: images/classeConnecter.png Graphic file (type png)
-<use images/classeConnecter.png>
-Package pdftex.def Info: images/classeConnecter.png  used on input line 150.
-(pdftex.def)             Requested size: 341.44238pt x 238.72922pt.
- [63 <./images/classeConnecter.png>]
-<images/mcumcdeconnecter.png, id=792, 469.2732pt x 78.5334pt>
-File: images/mcumcdeconnecter.png Graphic file (type png)
-<use images/mcumcdeconnecter.png>
-Package pdftex.def Info: images/mcumcdeconnecter.png  used on input line 166.
-(pdftex.def)             Requested size: 500.79266pt x 175.6991pt.
- [64 <./images/mcumcdeconnecter.png>]
-<images/seqDeconnecter.png, id=801, 469.2732pt x 333.8874pt>
-File: images/seqDeconnecter.png Graphic file (type png)
-<use images/seqDeconnecter.png>
-Package pdftex.def Info: images/seqDeconnecter.png  used on input line 191.
-(pdftex.def)             Requested size: 523.54881pt x 548.18515pt.
- [65 <./images/seqDeconnecter.png>]
-<images/classedeconnecter.png, id=809, 469.2732pt x 369.0588pt>
-File: images/classedeconnecter.png Graphic file (type png)
-<use images/classedeconnecter.png>
-Package pdftex.def Info: images/classedeconnecter.png  used on input line 203.
-(pdftex.def)             Requested size: 478.02936pt x 386.5602pt.
- [66 <./images/classedeconnecter.png>]
-<images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png, id=817, 809.27344pt x 21
-2.29312pt>
-File: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png Graphic file (type p
-ng)
-<use images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png>
-Package pdftex.def Info: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png  
-used on input line 216.
-(pdftex.def)             Requested size: 455.24411pt x 119.4243pt.
- [67 <./images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png>]
-<images/MC1_DiagrammeSéquenceAjouterUtilisateur.png, id=826, 2144.76282pt x 22
-78.01062pt>
-File: images/MC1_DiagrammeSéquenceAjouterUtilisateur.png Graphic file (type pn
-g)
-<use images/MC1_DiagrammeSéquenceAjouterUtilisateur.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterUtilisateur.png  u
-sed on input line 241.
-(pdftex.def)             Requested size: 523.52428pt x 548.15887pt.
- [68 <./images/MC1_DiagrammeSéquenceAjouterUtilisateur.png>]
-<images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png, id=834, 2357.05594pt x 
-1520.68124pt>
-File: images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png Graphic file (type 
-png)
-<use images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png 
- used on input line 253.
-(pdftex.def)             Requested size: 523.51718pt x 548.18736pt.
- [69 <./images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png>]
-<images/MC1_DiagrammeClasseGérerUtilisateurs.png, id=843, 1176.64594pt x 520.1
-9344pt>
-File: images/MC1_DiagrammeClasseGérerUtilisateurs.png Graphic file (type png)
-<use images/MC1_DiagrammeClasseGérerUtilisateurs.png>
-Package pdftex.def Info: images/MC1_DiagrammeClasseGérerUtilisateurs.png  used
- on input line 265.
-(pdftex.def)             Requested size: 432.47952pt x 548.17184pt.
- [70 <./images/MC1_DiagrammeClasseGérerUtilisateurs.png>]
-<images/mcumcpoduit.png, id=851, 469.2732pt x 145.5036pt>
-File: images/mcumcpoduit.png Graphic file (type png)
-<use images/mcumcpoduit.png>
-Package pdftex.def Info: images/mcumcpoduit.png  used on input line 277.
-(pdftex.def)             Requested size: 455.24411pt x 141.1583pt.
- [71 <./images/mcumcpoduit.png>] [72]
-<images/MC1_DiagrammeSéquenceAjouterProduit_1.png, id=864, 2298.33656pt x 2667
-.21469pt>
-File: images/MC1_DiagrammeSéquenceAjouterProduit_1.png Graphic file (type png)
-
-<use images/MC1_DiagrammeSéquenceAjouterProduit_1.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterProduit_1.png  use
-d on input line 310.
-(pdftex.def)             Requested size: 523.52118pt x 548.1663pt.
- [73 <./images/MC1_DiagrammeSéquenceAjouterProduit_1.png>]
-<images/MC1_DiagrammeSéquenceSupprimerProduit.png, id=872, 2334.47156pt x 1964
-.08781pt>
-File: images/MC1_DiagrammeSéquenceSupprimerProduit.png Graphic file (type png)
-
-<use images/MC1_DiagrammeSéquenceSupprimerProduit.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerProduit.png  use
-d on input line 322.
-(pdftex.def)             Requested size: 523.52364pt x 548.17264pt.
- [74 <./images/MC1_DiagrammeSéquenceSupprimerProduit.png>]
-<images/MC1_DiagrammeSéquenceModifierProduit.png, id=880, 1770.615pt x 1807.50
-28pt>
-File: images/MC1_DiagrammeSéquenceModifierProduit.png Graphic file (type png)
-<use images/MC1_DiagrammeSéquenceModifierProduit.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceModifierProduit.png  used
- on input line 334.
-(pdftex.def)             Requested size: 523.51567pt x 548.18478pt.
- [75 <./images/MC1_DiagrammeSéquenceModifierProduit.png>]
-<images/MC_DiagrammeSéquenceConsulterProduit.png, id=889, 2061.95343pt x 1829.
-33438pt>
-File: images/MC_DiagrammeSéquenceConsulterProduit.png Graphic file (type png)
-<use images/MC_DiagrammeSéquenceConsulterProduit.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterProduit.png  used
- on input line 346.
-(pdftex.def)             Requested size: 523.51012pt x 548.16255pt.
- [76 <./images/MC_DiagrammeSéquenceConsulterProduit.png>]
-<images/MC1_DiagrammeSéquenceArchiverProduit.png, id=897, 2038.61626pt x 1834.
-60406pt>
-File: images/MC1_DiagrammeSéquenceArchiverProduit.png Graphic file (type png)
-<use images/MC1_DiagrammeSéquenceArchiverProduit.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverProduit.png  used
- on input line 358.
-(pdftex.def)             Requested size: 523.52643pt x 548.17397pt.
- [77 <./images/MC1_DiagrammeSéquenceArchiverProduit.png>]
-<images/MC_DiagrammeClasseGérerProduit_2.png, id=905, 8421.71344pt x 5753.7459
-4pt>
-File: images/MC_DiagrammeClasseGérerProduit_2.png Graphic file (type png)
-<use images/MC_DiagrammeClasseGérerProduit_2.png>
-Package pdftex.def Info: images/MC_DiagrammeClasseGérerProduit_2.png  used on 
-input line 371.
-(pdftex.def)             Requested size: 523.40019pt x 548.10406pt.
-
-[78 <./images/MC_DiagrammeClasseGérerProduit_2.png>]
-<images/MC_tracabiliteMCUMCGererClient.png, id=913, 1038.88126pt x 398.23781pt>
-
-File: images/MC_tracabiliteMCUMCGererClient.png Graphic file (type png)
-<use images/MC_tracabiliteMCUMCGererClient.png>
-Package pdftex.def Info: images/MC_tracabiliteMCUMCGererClient.png  used on inp
-ut line 384.
-(pdftex.def)             Requested size: 455.24411pt x 174.50813pt.
- [79 <./images/MC_tracabiliteMCUMCGererClient.png>] [80]
-<images/MC_diagseqAjouterClient.png, id=926, 2952.53062pt x 2926.18219pt>
-File: images/MC_diagseqAjouterClient.png Graphic file (type png)
-<use images/MC_diagseqAjouterClient.png>
-Package pdftex.def Info: images/MC_diagseqAjouterClient.png  used on input line
- 417.
-(pdftex.def)             Requested size: 523.50345pt x 548.16667pt.
- [81 <./images/MC_diagseqAjouterClient.png>]
-<images/MC_DiagrammeSéquenceModifierClient.png, id=935, 1925.69438pt x 1815.78
-375pt>
-File: images/MC_DiagrammeSéquenceModifierClient.png Graphic file (type png)
-<use images/MC_DiagrammeSéquenceModifierClient.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceModifierClient.png  used o
-n input line 429.
-(pdftex.def)             Requested size: 523.49986pt x 548.17494pt.
-
-[82 <./images/MC_DiagrammeSéquenceModifierClient.png>]
-<images/MC_DiagrammeSéquenceSupprimerClient_1.png, id=943, 2338.23563pt x 1942
-.25626pt>
-File: images/MC_DiagrammeSéquenceSupprimerClient_1.png Graphic file (type png)
-
-<use images/MC_DiagrammeSéquenceSupprimerClient_1.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceSupprimerClient_1.png  use
-d on input line 441.
-(pdftex.def)             Requested size: 523.51147pt x 548.15497pt.
- [83 <./images/MC_DiagrammeSéquenceSupprimerClient_1.png>]
-<images/MC_DiagrammeSéquenceConsulterClient.png, id=951, 2575.37157pt x 3482.5
-1062pt>
-File: images/MC_DiagrammeSéquenceConsulterClient.png Graphic file (type png)
-<use images/MC_DiagrammeSéquenceConsulterClient.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterClient.png  used 
-on input line 453.
-(pdftex.def)             Requested size: 523.51404pt x 548.12636pt.
- [84 <./images/MC_DiagrammeSéquenceConsulterClient.png>]
-<images/MC_diagrammedeseqArchiverClient.png, id=959, 1866.22218pt x 1717.91812p
-t>
-File: images/MC_diagrammedeseqArchiverClient.png Graphic file (type png)
-<use images/MC_diagrammedeseqArchiverClient.png>
-Package pdftex.def Info: images/MC_diagrammedeseqArchiverClient.png  used on in
-put line 465.
-(pdftex.def)             Requested size: 523.53532pt x 548.17224pt.
- [85 <./images/MC_diagrammedeseqArchiverClient.png>]
-<images/MC_DiagrammeClasseGererClient_2.png, id=967, 4181.87344pt x 3499.0725pt
->
-File: images/MC_DiagrammeClasseGererClient_2.png Graphic file (type png)
-<use images/MC_DiagrammeClasseGererClient_2.png>
-Package pdftex.def Info: images/MC_DiagrammeClasseGererClient_2.png  used on in
-put line 477.
-(pdftex.def)             Requested size: 523.49863pt x 548.11693pt.
- [86 <./images/MC_DiagrammeClasseGererClient_2.png>]
-<images/MC_tracabilitéMCMCUVENTE_1.png, id=975, 872.50969pt x 253.69781pt>
-File: images/MC_tracabilitéMCMCUVENTE_1.png Graphic file (type png)
-<use images/MC_tracabilitéMCMCUVENTE_1.png>
-Package pdftex.def Info: images/MC_tracabilitéMCMCUVENTE_1.png  used on input 
-line 490.
-(pdftex.def)             Requested size: 455.24411pt x 132.36879pt.
- [87 <./images/MC_tracabilitéMCMCUVENTE_1.png>]
-<images/MC1_DiagrammeSéquenceEnregistrervente.png, id=985, 2830.575pt x 2952.5
-3062pt>
-File: images/MC1_DiagrammeSéquenceEnregistrervente.png Graphic file (type png)
-
-<use images/MC1_DiagrammeSéquenceEnregistrervente.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceEnregistrervente.png  use
-d on input line 523.
-(pdftex.def)             Requested size: 523.51862pt x 548.14685pt.
- [88]
-<images/MC_DiagrammeSéquenceConsulterVentes_2.png, id=991, 5432.295pt x 6060.1
-4063pt>
-File: images/MC_DiagrammeSéquenceConsulterVentes_2.png Graphic file (type png)
-
-<use images/MC_DiagrammeSéquenceConsulterVentes_2.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterVentes_2.png  use
-d on input line 534.
-(pdftex.def)             Requested size: 523.4506pt x 548.16324pt.
- [89 <./images/MC1_DiagrammeSéquenceEnregistrervente.png>]
-[90 <./images/MC_DiagrammeSéquenceConsulterVentes_2.png>]
-<images/MC1_DiagrammeSéquenceArchiverVente.png, id=1005, 1554.55782pt x 1531.2
-2063pt>
-File: images/MC1_DiagrammeSéquenceArchiverVente.png Graphic file (type png)
-<use images/MC1_DiagrammeSéquenceArchiverVente.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverVente.png  used o
-n input line 546.
-(pdftex.def)             Requested size: 523.53763pt x 548.17825pt.
- [91 <./images/MC1_DiagrammeSéquenceArchiverVente.png>]
-<images/MC1_DiagrammeDeClasseGérerVente.png, id=1013, 4798.42688pt x 3299.5772
-pt>
-File: images/MC1_DiagrammeDeClasseGérerVente.png Graphic file (type png)
-<use images/MC1_DiagrammeDeClasseGérerVente.png>
-Package pdftex.def Info: images/MC1_DiagrammeDeClasseGérerVente.png  used on i
-nput line 558.
-(pdftex.def)             Requested size: 523.50873pt x 548.13246pt.
- [92 <./images/MC1_DiagrammeDeClasseGérerVente.png>]
-<images/MC_tracabiliteMCUMCGérerFacture_2.png, id=1021, 1454.43375pt x 555.575
-62pt>
-File: images/MC_tracabiliteMCUMCGérerFacture_2.png Graphic file (type png)
-<use images/MC_tracabiliteMCUMCGérerFacture_2.png>
-Package pdftex.def Info: images/MC_tracabiliteMCUMCGérerFacture_2.png  used on
- input line 570.
-(pdftex.def)             Requested size: 455.24411pt x 173.8967pt.
- [93
-
- <./images/MC_tracabiliteMCUMCGérerFacture_2.png>] [94]
-<images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png, id=1035, 2660.43938p
-t x 3914.625pt>
-File: images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png Graphic file (ty
-pe png)
-<use images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceCreerFactureviafacture_1.p
-ng  used on input line 604.
-(pdftex.def)             Requested size: 523.51291pt x 548.16324pt.
- [95 <./images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png>]
-<images/MC_DiagrammeSéquencecreerfactureviaventes.png, id=1043, 2932.9575pt x 
-3504.3422pt>
-File: images/MC_DiagrammeSéquencecreerfactureviaventes.png Graphic file (type 
-png)
-<use images/MC_DiagrammeSéquencecreerfactureviaventes.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquencecreerfactureviaventes.png 
- used on input line 616.
-(pdftex.def)             Requested size: 523.52376pt x 548.14032pt.
- [96 <./images/MC_DiagrammeSéquencecreerfactureviaventes.png>]
-<images/MC_DiagrammeSéquenceConsulterFacture_2.png, id=1051, 8394.61218pt x 64
-44.075pt>
-File: images/MC_DiagrammeSéquenceConsulterFacture_2.png Graphic file (type png
-)
-<use images/MC_DiagrammeSéquenceConsulterFacture_2.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterFacture_2.png  us
-ed on input line 628.
-(pdftex.def)             Requested size: 523.50916pt x 548.08328pt.
- [97 <./images/MC_DiagrammeSéquenceConsulterFacture_2.png>]
-<images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png, id=1059, 4455.89719pt
- x 7382.83218pt>
-File: images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png Graphic file (typ
-e png)
-<use images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceEnregistrerRèglement_4.pn
-g  used on input line 640.
-(pdftex.def)             Requested size: 523.46602pt x 548.16855pt.
- [98 <./images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png>]
-<images/MC_DiagrammeSéquenceArchiverFacture_1.png, id=1067, 2341.9997pt x 2779
-.38374pt>
-File: images/MC_DiagrammeSéquenceArchiverFacture_1.png Graphic file (type png)
-
-<use images/MC_DiagrammeSéquenceArchiverFacture_1.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceArchiverFacture_1.png  use
-d on input line 652.
-(pdftex.def)             Requested size: 523.53229pt x 548.1483pt.
- [99 <./images/MC_DiagrammeSéquenceArchiverFacture_1.png>]
-<images/MC_DiagrammeSéquenceImprimerFacture.png, id=1076, 3941.72626pt x 2046.
-89719pt>
-File: images/MC_DiagrammeSéquenceImprimerFacture.png Graphic file (type png)
-<use images/MC_DiagrammeSéquenceImprimerFacture.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceImprimerFacture.png  used 
-on input line 664.
-(pdftex.def)             Requested size: 523.50925pt x 548.17207pt.
- [100 <./images/MC_DiagrammeSéquenceImprimerFacture.png>]
-<images/MC_DiagrammeSéquence2.png, id=1084, 3292.80188pt x 1989.68344pt>
-File: images/MC_DiagrammeSéquence2.png Graphic file (type png)
-<use images/MC_DiagrammeSéquence2.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquence2.png  used on input line 
-676.
-(pdftex.def)             Requested size: 523.49272pt x 548.1817pt.
- [101 <./images/MC_DiagrammeSéquence2.png>]
-<images/MC_DiagrammeClasseGérerFacture_1.png, id=1092, 6239.31pt x 4912.10156p
-t>
-File: images/MC_DiagrammeClasseGérerFacture_1.png Graphic file (type png)
-<use images/MC_DiagrammeClasseGérerFacture_1.png>
-Package pdftex.def Info: images/MC_DiagrammeClasseGérerFacture_1.png  used on 
-input line 688.
-(pdftex.def)             Requested size: 523.52725pt x 548.12791pt.
- [102 <./images/MC_DiagrammeClasseGérerFacture_1.png>]
-<images/image22.png, id=1100, 520.19344pt x 165.61874pt>
-File: images/image22.png Graphic file (type png)
-<use images/image22.png>
-Package pdftex.def Info: images/image22.png  used on input line 701.
-(pdftex.def)             Requested size: 455.24411pt x 144.9413pt.
- [103 <./images/image22.png>]
-<images/MC_DiagrammeSéquenceConsulterNotif.png, id=1109, 2150.0325pt x 1397.22
-pt>
-File: images/MC_DiagrammeSéquenceConsulterNotif.png Graphic file (type png)
-<use images/MC_DiagrammeSéquenceConsulterNotif.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterNotif.png  used o
-n input line 724.
-(pdftex.def)             Requested size: 523.53111pt x 548.17555pt.
- [104 <./images/MC_DiagrammeSéquenceConsulterNotif.png>]
-<images/MC_DiagrammeSéquencemarquercommelue.png, id=1117, 1960.32375pt x 1533.
-47906pt>
-File: images/MC_DiagrammeSéquencemarquercommelue.png Graphic file (type png)
-<use images/MC_DiagrammeSéquencemarquercommelue.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquencemarquercommelue.png  used 
-on input line 736.
-(pdftex.def)             Requested size: 523.52145pt x 548.16782pt.
-
-[105 <./images/MC_DiagrammeSéquencemarquercommelue.png>]
-<images/MC_DiagrammeSéqSupprimerNotifications.png, id=1126, 1906.12125pt x 109
-6.84781pt>
-File: images/MC_DiagrammeSéqSupprimerNotifications.png Graphic file (type png)
-
-<use images/MC_DiagrammeSéqSupprimerNotifications.png>
-Package pdftex.def Info: images/MC_DiagrammeSéqSupprimerNotifications.png  use
-d on input line 748.
-(pdftex.def)             Requested size: 523.53056pt x 548.17151pt.
- [106 <./images/MC_DiagrammeSéqSupprimerNotifications.png>]
-<images/MC_DiagrammeClasseGérerNotifications.png, id=1134, 1757.06438pt x 1300
-.86pt>
-File: images/MC_DiagrammeClasseGérerNotifications.png Graphic file (type png)
-<use images/MC_DiagrammeClasseGérerNotifications.png>
-Package pdftex.def Info: images/MC_DiagrammeClasseGérerNotifications.png  used
- on input line 760.
-(pdftex.def)             Requested size: 478.00635pt x 456.79654pt.
- [107 <./images/MC_DiagrammeClasseGérerNotifications.png>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 769.
-
-
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 779--779
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 788--788
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-[108]
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 847--847
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 856--856
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (18.80339pt too wide) in paragraph at lines 905--905
- \T1/ptm/b/n/12 (-20) pro-duit/Cat�gorie| 
- []
-
-
-Overfull \hbox (4.30327pt too wide) in paragraph at lines 911--912
- []|\T1/ptm/m/n/12 (-20) Diagramme 
- []
-
-
-Overfull \hbox (1.69247pt too wide) in paragraph at lines 917--917
- \T1/ptm/m/n/12 (-20) r�-par-ti-tion)| 
- []
-
-ignored error: Infinite glue shrinkage found in box being split [109] [110]
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 946--946
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 955--955
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (4.30327pt too wide) in paragraph at lines 974--975
- []|\T1/ptm/m/n/12 (-20) Diagramme 
- []
-
-
-Overfull \hbox (1.69247pt too wide) in paragraph at lines 980--980
- \T1/ptm/m/n/12 (-20) r�-par-ti-tion)| 
- []
-
-[111]
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 1009--1009
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (3.67996pt too wide) in paragraph at lines 1018--1018
- []|[]\T1/ptm/b/n/12 (-20) Graphique[]| 
- []
-
-
-Overfull \hbox (3.31021pt too wide) in paragraph at lines 1038--1046
- []|[]| 
- []
-
-
-Overfull \hbox (8.13416pt too wide) in paragraph at lines 1081--1091
- []|[]| 
- []
-
-ignored error: Infinite glue shrinkage found in box being split [112]
-ignored error: Infinite glue shrinkage found in box being split [113]
-ignored error: Infinite glue shrinkage found in box being split [114] [115]
-Overfull \hbox (0.57669pt too wide) in paragraph at lines 1165--1165
- \T1/ptm/m/n/12 (-20) ho-ri-zon-tales| 
- []
-
-[116]
-<images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png, id=1186, 1178.9043
-7pt x 524.71031pt>
-File: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png Graphic file (
-type png)
-<use images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png>
-Package pdftex.def Info: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1)
-.png  used on input line 1206.
-(pdftex.def)             Requested size: 455.24411pt x 202.61858pt.
- [117 <./images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png>]
-[118]
-
-pdfTeX warning: pdflatex.exe (file ./images/seq.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-<images/seq.pdf, id=1198, 845.07718pt x 1194.98447pt>
-File: images/seq.pdf Graphic file (type pdf)
-<use images/seq.pdf>
-Package pdftex.def Info: images/seq.pdf  used on input line 1231.
-(pdftex.def)             Requested size: 422.46019pt x 597.38136pt.
-[119
-
- <./images/seq.pdf>]
-<images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png, id=1214, 3821.27625pt x
- 3811.48969pt>
-File: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png Graphic file (type 
-png)
-<use images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png>
-Package pdftex.def Info: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png 
- used on input line 1243.
-(pdftex.def)             Requested size: 478.00821pt x 456.77745pt.
- [120
-
- <./images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png>]
-
-LaTeX Warning: Citation `etl_ovh' on page 121 undefined on input line 1268.
-
-<images/etl.png, id=1222, 401.24907pt x 179.16937pt>
-File: images/etl.png Graphic file (type png)
-<use images/etl.png>
-Package pdftex.def Info: images/etl.png  used on input line 1272.
-(pdftex.def)             Requested size: 341.43307pt x 152.46965pt.
-[121 <./images/etl.png>] [122]
-<images/MC_tracabilitéMCUMCConsulterPrevision.png, id=1237, 1278.27562pt x 587
-.94656pt>
-File: images/MC_tracabilitéMCUMCConsulterPrevision.png Graphic file (type png)
-
-<use images/MC_tracabilitéMCUMCConsulterPrevision.png>
-Package pdftex.def Info: images/MC_tracabilitéMCUMCConsulterPrevision.png  use
-d on input line 1304.
-(pdftex.def)             Requested size: 455.24411pt x 209.39085pt.
- [123
-
- <./images/MC_tracabilitéMCUMCConsulterPrevision.png>] [124]
-<images/MC_DiagrammeSéquenceConsulterprevisions_1.png, id=1249, 4257.9075pt x 
-3809.98407pt>
-File: images/MC_DiagrammeSéquenceConsulterprevisions_1.png Graphic file (type 
-png)
-<use images/MC_DiagrammeSéquenceConsulterprevisions_1.png>
-Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterprevisions_1.png 
- used on input line 1330.
-(pdftex.def)             Requested size: 523.46614pt x 548.16058pt.
- [125 <./images/MC_DiagrammeSéquenceConsulterprevisions_1.png>]
-<images/MC_DiagrammeClasseConsulterPrévisions (1).png, id=1257, 3431.31938pt x
- 3783.63562pt>
-File: images/MC_DiagrammeClasseConsulterPrévisions (1).png Graphic file (type 
-png)
-<use images/MC_DiagrammeClasseConsulterPrévisions (1).png>
-Package pdftex.def Info: images/MC_DiagrammeClasseConsulterPrévisions (1).png 
- used on input line 1342.
-(pdftex.def)             Requested size: 477.97299pt x 597.36911pt.
- [126 <./images/MC_DiagrammeClasseConsulterPrévisions (1).png>]
-<images/Packagevierge_DiagrammeClasse_2.png, id=1265, 5528.655pt x 3131.7pt>
-File: images/Packagevierge_DiagrammeClasse_2.png Graphic file (type png)
-<use images/Packagevierge_DiagrammeClasse_2.png>
-Package pdftex.def Info: images/Packagevierge_DiagrammeClasse_2.png  used on in
-put line 1354.
-(pdftex.def)             Requested size: 477.98589pt x 597.3707pt.
- [127 <./images/Packagevierge_DiagrammeClasse_2.png>]) (chapitre4.tex [128] [12
-9
-
-]
-<images/vscode.jpg, id=1284, 84.315pt x 89.58469pt>
-File: images/vscode.jpg Graphic file (type jpg)
-<use images/vscode.jpg>
-Package pdftex.def Info: images/vscode.jpg  used on input line 26.
-(pdftex.def)             Requested size: 71.13188pt x 75.57867pt.
-
-
-LaTeX Warning: Citation `vscode' on page 130 undefined on input line 30.
-
-<images/github.png, id=1285, 103.13531pt x 79.79813pt>
-File: images/github.png Graphic file (type png)
-<use images/github.png>
-Package pdftex.def Info: images/github.png  used on input line 44.
-(pdftex.def)             Requested size: 71.13188pt x 55.03639pt.
-
-LaTeX Warning: Citation `github' on page 130 undefined on input line 52.
-
-<images/reactjs.jpg, id=1286, 97.86563pt x 87.32625pt>
-File: images/reactjs.jpg Graphic file (type jpg)
-<use images/reactjs.jpg>
-Package pdftex.def Info: images/reactjs.jpg  used on input line 67.
-(pdftex.def)             Requested size: 71.13188pt x 63.47446pt.
-
-LaTeX Warning: Citation `reactjs' on page 130 undefined on input line 74.
-
-
-Underfull \hbox (badness 4328) in paragraph at lines 68--75
-\T1/ptm/m/n/12 (+20) ReactJS est une bi-blio-th�que Ja-vaS-cript gra-tuite et
- []
-
-<images/fastapi.png, id=1287, 120.45pt x 114.4275pt>
-File: images/fastapi.png Graphic file (type png)
-<use images/fastapi.png>
-Package pdftex.def Info: images/fastapi.png  used on input line 76.
-(pdftex.def)             Requested size: 71.13188pt x 67.57623pt.
-
-LaTeX Warning: Citation `fastapi' on page 130 undefined on input line 83.
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 77--84
-\T1/ptm/m/n/12 (+20) FastAPI est un fra-me-work web per-for-mant pour la
- []
-
-<images/recharts.png, id=1288, 103.88812pt x 103.88812pt>
-File: images/recharts.png Graphic file (type png)
-<use images/recharts.png>
-Package pdftex.def Info: images/recharts.png  used on input line 85.
-(pdftex.def)             Requested size: 71.13188pt x 71.13438pt.
-
-LaTeX Warning: Citation `recharts' on page 130 undefined on input line 90.
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 86--91
-\T1/ptm/m/n/12 (+20) don-n�es de notre sys-t�me sous forme de gra-phiques
- []
-
-<images/tailwind.jpg, id=1289, 122.5305pt x 90.3375pt>
-File: images/tailwind.jpg Graphic file (type jpg)
-<use images/tailwind.jpg>
-Package pdftex.def Info: images/tailwind.jpg  used on input line 92.
-(pdftex.def)             Requested size: 71.13188pt x 52.44539pt.
-
-LaTeX Warning: Citation `tailwind' on page 130 undefined on input line 96.
-
-[130
-
- <./images/vscode.jpg> <./images/github.png>] [131 <./images/reactjs.jpg> <./im
-ages/fastapi.png> <./images/recharts.png> <./images/tailwind.jpg>]
-<images/skitlearn.png, id=1309, 192.72pt x 120.45pt>
-File: images/skitlearn.png Graphic file (type png)
-<use images/skitlearn.png>
-Package pdftex.def Info: images/skitlearn.png  used on input line 110.
-(pdftex.def)             Requested size: 71.13188pt x 44.45735pt.
-
-
-LaTeX Warning: Citation `sklearn' on page 132 undefined on input line 115.
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 111--116
-\T1/ptm/m/n/12 (+20) Lear-ning, per-met-tant l'ap-pren-tis-sage su-per-vis� et 
-non
- []
-
-<images/sqlite.jpg, id=1310, 159.3225pt x 67.3425pt>
-File: images/sqlite.jpg Graphic file (type jpg)
-<use images/sqlite.jpg>
-Package pdftex.def Info: images/sqlite.jpg  used on input line 127.
-(pdftex.def)             Requested size: 71.13188pt x 30.06544pt.
-
-LaTeX Warning: Citation `sqlite' on page 132 undefined on input line 131.
-
-<images/alchemy.jpg, id=1311, 356.33125pt x 142.5325pt>
-File: images/alchemy.jpg Graphic file (type jpg)
-<use images/alchemy.jpg>
-Package pdftex.def Info: images/alchemy.jpg  used on input line 133.
-(pdftex.def)             Requested size: 71.13188pt x 28.45161pt.
-
-LaTeX Warning: Citation `sqlalchemy' on page 132 undefined on input line 139.
-
-<images/ibm.png, id=1312, 130.086pt x 103.1052pt>
-File: images/ibm.png Graphic file (type png)
-<use images/ibm.png>
-Package pdftex.def Info: images/ibm.png  used on input line 153.
-(pdftex.def)             Requested size: 71.13188pt x 56.38078pt.
-
-LaTeX Warning: Citation `ibm' on page 132 undefined on input line 159.
-
-<images/jwt.png, id=1313, 130.98938pt x 84.315pt>
-File: images/jwt.png Graphic file (type png)
-<use images/jwt.png>
-Package pdftex.def Info: images/jwt.png  used on input line 173.
-(pdftex.def)             Requested size: 71.13188pt x 45.78671pt.
-
-LaTeX Warning: Citation `jwt' on page 132 undefined on input line 178.
-
-[132 <./images/skitlearn.png> <./images/sqlite.jpg> <./images/alchemy.jpg> <./i
-mages/ibm.png>] [133 <./images/jwt.png>]
-<images/MI_tracabilitéMCMISECONNECTER.png, id=1332, 512.66531pt x 135.50626pt>
-
-File: images/MI_tracabilitéMCMISECONNECTER.png Graphic file (type png)
-<use images/MI_tracabilitéMCMISECONNECTER.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMISECONNECTER.png  used on inp
-ut line 193.
-(pdftex.def)             Requested size: 455.24411pt x 120.3293pt.
-
-Overfull \hbox (11.39162pt too wide) in paragraph at lines 197--199
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion Se Connec-ter illustre la cor-res-pon-dance
- []
-
-
 Overfull \hbox (22.3839pt too wide) in paragraph at lines 213--214
-[]\T1/cmtt/m/n/12 auth_service.py \T1/ptm/m/n/12 (-20) : com-po-sant qui uti-li
-se le mo-dele uti-li-sa-teur pour ge-rer l'au-then-ti-fi-ca-tion 
+[]\T1/cmtt/m/n/12 auth_service.py \T1/ptm/m/n/12 (-20) : com-po-sant qui uti-lise le mo-dele uti-li-sa-teur pour ge-rer l'au-then-ti-fi-ca-tion 
  []
 
-[134 <./images/MI_tracabilitéMCMISECONNECTER.png>]
-<images/MI_DiagrammeComposantSeConnecter_1.png, id=1341, 450.18187pt x 233.3718
-7pt>
+[133 <./images/MI_tracabilitéMCMISECONNECTER.png>]
+<images/MI_DiagrammeComposantSeConnecter_1.png, id=2289, 450.18187pt x 233.37187pt>
 File: images/MI_DiagrammeComposantSeConnecter_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantSeConnecter_1.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantSeConnecter_1.png  used on
- input line 222.
+Package pdftex.def Info: images/MI_DiagrammeComposantSeConnecter_1.png  used on input line 222.
 (pdftex.def)             Requested size: 455.26398pt x 236.0064pt.
-<images/MI_tracabilitéMCMISEdeconnecter.png, id=1342, 691.08188pt x 162.6075pt
->
+<images/MI_tracabilitéMCMISEdeconnecter.png, id=2290, 691.08188pt x 162.6075pt>
 File: images/MI_tracabilitéMCMISEdeconnecter.png Graphic file (type png)
 <use images/MI_tracabilitéMCMISEdeconnecter.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMISEdeconnecter.png  used on i
-nput line 234.
+Package pdftex.def Info: images/MI_tracabilitéMCMISEdeconnecter.png  used on input line 234.
 (pdftex.def)             Requested size: 455.24411pt x 107.11781pt.
 
 Overfull \hbox (22.48122pt too wide) in paragraph at lines 238--240
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion Se D�-con-nec-ter illustre la cor-res-pon-dance
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion Se D�-con-nec-ter illustre la cor-res-pon-dance
  []
 
-[135 <./images/MI_DiagrammeComposantSeConnecter_1.png> <./images/MI_tracabilit�
-�MCMISEdeconnecter.png>]
+[134 <./images/MI_DiagrammeComposantSeConnecter_1.png> <./images/MI_tracabilitéMCMISEdeconnecter.png>]
 Overfull \hbox (18.20576pt too wide) in paragraph at lines 252--253
-[]\T1/cmtt/m/n/12 confirmDialog.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui cont
-ient le mes-sage de confir-ma-tion de d�-con-nexion 
+[]\T1/cmtt/m/n/12 confirmDialog.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui contient le mes-sage de confir-ma-tion de d�-con-nexion 
  []
 
-<images/MI_DiagrammeComposantSeDéconnecter_1.png, id=1355, 335.75438pt x 311.6
-6437pt>
+<images/MI_DiagrammeComposantSeDéconnecter_1.png, id=2298, 335.75438pt x 311.66437pt>
 File: images/MI_DiagrammeComposantSeDéconnecter_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantSeDéconnecter_1.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantSeDéconnecter_1.png  used
- on input line 265.
+Package pdftex.def Info: images/MI_DiagrammeComposantSeDéconnecter_1.png  used on input line 265.
 (pdftex.def)             Requested size: 341.43307pt x 316.93756pt.
-[136 <./images/MI_DiagrammeComposantSeDéconnecter_1.png>]
-<images/MI_tracabilitéMCMIGérerUtilisateurs_1.png, id=1363, 704.6325pt x 286.
-06876pt>
-File: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png Graphic file (type png
-)
+[135 <./images/MI_DiagrammeComposantSeDéconnecter_1.png>]
+<images/MI_tracabilitéMCMIGérerUtilisateurs_1.png, id=2304, 704.6325pt x 286.06876pt>
+File: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png  us
-ed on input line 278.
+Package pdftex.def Info: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png  used on input line 278.
 (pdftex.def)             Requested size: 432.48051pt x 175.57985pt.
 
 Overfull \hbox (11.37984pt too wide) in paragraph at lines 282--283
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion G�-rer Agents illustre la cor-res-pon-dance
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion G�-rer Agents illustre la cor-res-pon-dance
  []
 
 
 Overfull \hbox (1.27083pt too wide) in paragraph at lines 288--289
-[]\T1/cmtt/m/n/12 listeUtilisateurs.jsx \T1/ptm/m/n/12 (-20) : page prin-ci-pal
-e af-fi-chant la liste des agents et le for-mu-laire
+[]\T1/cmtt/m/n/12 listeUtilisateurs.jsx \T1/ptm/m/n/12 (-20) : page prin-ci-pale af-fi-chant la liste des agents et le for-mu-laire
  []
 
-[137 <./images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>]
-<images/MI_diagrammedecomposantgererutilisateurs.png, id=1372, 740.0147pt x 325
-.215pt>
-File: images/MI_diagrammedecomposantgererutilisateurs.png Graphic file (type pn
-g)
+[136 <./images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>]
+<images/MI_diagrammedecomposantgererutilisateurs.png, id=2310, 740.0147pt x 325.215pt>
+File: images/MI_diagrammedecomposantgererutilisateurs.png Graphic file (type png)
 <use images/MI_diagrammedecomposantgererutilisateurs.png>
-Package pdftex.def Info: images/MI_diagrammedecomposantgererutilisateurs.png  u
-sed on input line 313.
+Package pdftex.def Info: images/MI_diagrammedecomposantgererutilisateurs.png  used on input line 313.
 (pdftex.def)             Requested size: 455.24411pt x 200.06807pt.
- [138 <./images/MI_diagrammedecomposantgererutilisateurs.png>]
-<images/MI_Main.png, id=1380, 1598.97375pt x 639.89063pt>
+ [137 <./images/MI_diagrammedecomposantgererutilisateurs.png>]
+<images/MI_Main.png, id=2316, 1598.97375pt x 639.89063pt>
 File: images/MI_Main.png Graphic file (type png)
 <use images/MI_Main.png>
 Package pdftex.def Info: images/MI_Main.png  used on input line 326.
 (pdftex.def)             Requested size: 455.24411pt x 182.17543pt.
 
 Overfull \hbox (12.69695pt too wide) in paragraph at lines 329--330
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion G�-rer Pro-duit illustre la cor-res-pon-dance
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion G�-rer Pro-duit illustre la cor-res-pon-dance
  []
 
 
 Overfull \hbox (1.83438pt too wide) in paragraph at lines 344--345
-[]\T1/cmtt/m/n/12 produitColumns.jsx \T1/ptm/m/n/12 (-20) : com-po-sant d�-fi-n
-is-sant les co-lonnes du ta-bleau (nom, ca-t�-go-rie,
+[]\T1/cmtt/m/n/12 produitColumns.jsx \T1/ptm/m/n/12 (-20) : com-po-sant d�-fi-nis-sant les co-lonnes du ta-bleau (nom, ca-t�-go-rie,
  []
 
-[139 <./images/MI_Main.png>]
+[138 <./images/MI_Main.png>]
 Overfull \hbox (10.44598pt too wide) in paragraph at lines 373--374
-[]\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
-ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
+[]\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
-[140]
-<images/MI_DiagrammeComposantGérerProduit_2.png, id=1393, 672.26157pt x 462.22
-687pt>
+[139]
+<images/MI_DiagrammeComposantGérerProduit_2.png, id=2326, 672.26157pt x 462.22687pt>
 File: images/MI_DiagrammeComposantGérerProduit_2.png Graphic file (type png)
 <use images/MI_DiagrammeComposantGérerProduit_2.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantGérerProduit_2.png  used 
-on input line 385.
+Package pdftex.def Info: images/MI_DiagrammeComposantGérerProduit_2.png  used on input line 385.
 (pdftex.def)             Requested size: 455.24411pt x 313.01236pt.
- [141 <./images/MI_DiagrammeComposantGérerProduit_2.png>]
-<images/MI_tracabilitéMCMIgererclient.png, id=1402, 938.00438pt x 374.90062pt>
-
+ [140 <./images/MI_DiagrammeComposantGérerProduit_2.png>]
+<images/MI_tracabilitéMCMIgererclient.png, id=2333, 938.00438pt x 374.90062pt>
 File: images/MI_tracabilitéMCMIgererclient.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIgererclient.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMIgererclient.png  used on inp
-ut line 398.
+Package pdftex.def Info: images/MI_tracabilitéMCMIgererclient.png  used on input line 398.
 (pdftex.def)             Requested size: 455.24411pt x 181.9467pt.
 
 Overfull \hbox (11.39131pt too wide) in paragraph at lines 401--403
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion G�-rer Clients illustre la cor-res-pon-dance
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion G�-rer Clients illustre la cor-res-pon-dance
  []
 
-[142 <./images/MI_tracabilitéMCMIgererclient.png>]
+[141 <./images/MI_tracabilitéMCMIgererclient.png>]
 Overfull \hbox (11.92526pt too wide) in paragraph at lines 422--423
-[]\T1/ptm/b/n/12 (-20) IUArchiverClient : \T1/ptm/m/n/12 (-20) re-pr�-sente l'i
-n-ter-face de confir-ma-tion d'ar-chi-vage d'un client im-pl�-men-t�e
+[]\T1/ptm/b/n/12 (-20) IUArchiverClient : \T1/ptm/m/n/12 (-20) re-pr�-sente l'in-ter-face de confir-ma-tion d'ar-chi-vage d'un client im-pl�-men-t�e
  []
 
-<images/MI_DiagrammeComposantGérerClient_1.png, id=1411, 597.73312pt x 441.148
-13pt>
+<images/MI_DiagrammeComposantGérerClient_1.png, id=2339, 597.73312pt x 441.14813pt>
 File: images/MI_DiagrammeComposantGérerClient_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantGérerClient_1.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantGérerClient_1.png  used o
-n input line 440.
+Package pdftex.def Info: images/MI_DiagrammeComposantGérerClient_1.png  used on input line 440.
 (pdftex.def)             Requested size: 428.51602pt x 316.25993pt.
-[143 <./images/MI_DiagrammeComposantGérerClient_1.png>]
-<images/11.png, id=1419, 1769.86218pt x 560.0925pt>
+[142 <./images/MI_DiagrammeComposantGérerClient_1.png>]
+<images/11.png, id=2345, 1769.86218pt x 560.0925pt>
 File: images/11.png Graphic file (type png)
 <use images/11.png>
 Package pdftex.def Info: images/11.png  used on input line 453.
 (pdftex.def)             Requested size: 455.23825pt x 144.06519pt.
 
 Overfull \hbox (9.6277pt too wide) in paragraph at lines 456--457
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion Trai-ter Vente illustre la cor-res-pon-dance
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion Trai-ter Vente illustre la cor-res-pon-dance
  []
 
-[144 <./images/11.png>]
+[143 <./images/11.png>]
 Overfull \hbox (16.7322pt too wide) in paragraph at lines 480--481
-[]\T1/ptm/b/n/12 (-20) IUArchiverVente : \T1/ptm/m/n/12 (-20) re-pr�-sente l'in
--ter-face de confir-ma-tion d'ar-chi-vage d'une vente, im-pl�-men-t�e
+[]\T1/ptm/b/n/12 (-20) IUArchiverVente : \T1/ptm/m/n/12 (-20) re-pr�-sente l'in-ter-face de confir-ma-tion d'ar-chi-vage d'une vente, im-pl�-men-t�e
  []
 
 
 Overfull \hbox (10.44598pt too wide) in paragraph at lines 495--496
-[]\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
-ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
+[]\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 
 Overfull \hbox (4.27249pt too wide) in paragraph at lines 499--500
-[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
-uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
+[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 
 Overfull \hbox (16.85338pt too wide) in paragraph at lines 503--504
-[]\T1/cmtt/m/n/12 facturation.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente l
-a struc-ture des don-n�es ainsi que les prin-ci-pales
+[]\T1/cmtt/m/n/12 facturation.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es ainsi que les prin-ci-pales
  []
 
-<images/MI_DiagrammeComposantTraiterVente_1.png, id=1428, 1326.45563pt x 358.33
-875pt>
+<images/MI_DiagrammeComposantTraiterVente_1.png, id=2351, 1326.45563pt x 358.33875pt>
 File: images/MI_DiagrammeComposantTraiterVente_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantTraiterVente_1.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantTraiterVente_1.png  used o
-n input line 511.
+Package pdftex.def Info: images/MI_DiagrammeComposantTraiterVente_1.png  used on input line 511.
 (pdftex.def)             Requested size: 455.23936pt x 122.9818pt.
-[145] [146 <./images/MI_DiagrammeComposantTraiterVente_1.png>]
-<images/MI_tracabilitéMCMIGérerFacture_3.png, id=1440, 1017.04968pt x 466.743
-74pt>
+[144] [145 <./images/MI_DiagrammeComposantTraiterVente_1.png>]
+<images/MI_tracabilitéMCMIGérerFacture_3.png, id=2361, 1017.04968pt x 466.74374pt>
 File: images/MI_tracabilitéMCMIGérerFacture_3.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIGérerFacture_3.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMIGérerFacture_3.png  used on
- input line 524.
+Package pdftex.def Info: images/MI_tracabilitéMCMIGérerFacture_3.png  used on input line 524.
 (pdftex.def)             Requested size: 455.24718pt x 208.92172pt.
 
 Overfull \hbox (13.15201pt too wide) in paragraph at lines 527--529
-[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
-li-sa-tion G�-rer Fac-ture illustre la cor-res-pon-dance
+[]\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-li-sa-tion G�-rer Fac-ture illustre la cor-res-pon-dance
  []
 
 
 Overfull \hbox (1.83598pt too wide) in paragraph at lines 540--541
-[]\T1/cmtt/m/n/12 FacturationForm.jsx \T1/ptm/m/n/12 (-20) : for-mu-laire af-fi
--ch� pour sai-sir les in-for-ma-tions d'une nou-velle
+[]\T1/cmtt/m/n/12 FacturationForm.jsx \T1/ptm/m/n/12 (-20) : for-mu-laire af-fi-ch� pour sai-sir les in-for-ma-tions d'une nou-velle
  []
 
-[147 <./images/MI_tracabilitéMCMIGérerFacture_3.png>]
+[146 <./images/MI_tracabilitéMCMIGérerFacture_3.png>]
 Overfull \hbox (18.95914pt too wide) in paragraph at lines 548--549
-[]\T1/cmtt/m/n/12 FactureModal.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui af-fi
-che les d�-tails com-plets d'une fac-ture s�-lec-tion-n�e 
+[]\T1/cmtt/m/n/12 FactureModal.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui af-fiche les d�-tails com-plets d'une fac-ture s�-lec-tion-n�e 
  []
 
 
 Overfull \hbox (1.03352pt too wide) in paragraph at lines 552--553
-[]\T1/cmtt/m/n/12 Facturationcolumns.jsx \T1/ptm/m/n/12 (-20) : com-po-sant d�-
-fi-nis-sant les co-lonnes du ta-bleau (r�-f�-rence,
+[]\T1/cmtt/m/n/12 Facturationcolumns.jsx \T1/ptm/m/n/12 (-20) : com-po-sant d�-fi-nis-sant les co-lonnes du ta-bleau (r�-f�-rence,
  []
 
 
 Overfull \hbox (6.15202pt too wide) in paragraph at lines 565--566
-[]\T1/cmtt/m/n/12 facturation_service.py \T1/ptm/m/n/12 (-20) : com-po-sant qui
- contient la lo-gique m�-tier et les trai-te-ments
+[]\T1/cmtt/m/n/12 facturation_service.py \T1/ptm/m/n/12 (-20) : com-po-sant qui contient la lo-gique m�-tier et les trai-te-ments
+ []
+
+[147]
+Overfull \hbox (4.27249pt too wide) in paragraph at lines 585--586
+[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 [148]
-Overfull \hbox (4.27249pt too wide) in paragraph at lines 585--586
-[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
-uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
- []
-
-[149]
-<images/MI_facturemcmi_1.png, id=1458, 541.27219pt x 444.15938pt>
+<images/MI_facturemcmi_1.png, id=2376, 541.27219pt x 444.15938pt>
 File: images/MI_facturemcmi_1.png Graphic file (type png)
 <use images/MI_facturemcmi_1.png>
 Package pdftex.def Info: images/MI_facturemcmi_1.png  used on input line 597.
 (pdftex.def)             Requested size: 455.24411pt x 373.57928pt.
- [150 <./images/MI_facturemcmi_1.png>]
+ [149 <./images/MI_facturemcmi_1.png>]
 Overfull \hbox (11.06429pt too wide) in paragraph at lines 608--610
-\T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-t
-ion (MC) et les com-po-sants d'im-pl�-men-ta-tion
+\T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-tion (MC) et les com-po-sants d'im-pl�-men-ta-tion
  []
 
-<images/MI_tracabilitéMCMIconsulterNotification.png, id=1466, 503.63156pt x 34
-7.79938pt>
-File: images/MI_tracabilitéMCMIconsulterNotification.png Graphic file (type pn
-g)
+<images/MI_tracabilitéMCMIconsulterNotification.png, id=2382, 503.63156pt x 347.79938pt>
+File: images/MI_tracabilitéMCMIconsulterNotification.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIconsulterNotification.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMIconsulterNotification.png  u
-sed on input line 614.
+Package pdftex.def Info: images/MI_tracabilitéMCMIconsulterNotification.png  used on input line 614.
 (pdftex.def)             Requested size: 455.24411pt x 314.38574pt.
 
 Overfull \hbox (3.98216pt too wide) in paragraph at lines 624--625
-[]\T1/ptm/b/n/12 (-20) controleurG�rerNotifications : \T1/ptm/m/n/12 (-20) g�re
- la lo-gique de consul-ta-tion des no-ti-fi-ca-tions, im-pl�-ment�
+[]\T1/ptm/b/n/12 (-20) controleurG�rerNotifications : \T1/ptm/m/n/12 (-20) g�re la lo-gique de consul-ta-tion des no-ti-fi-ca-tions, im-pl�-ment�
  []
 
 
 Overfull \hbox (12.21907pt too wide) in paragraph at lines 626--627
-[]\T1/cmtt/m/n/12 notifications.py (routes) \T1/ptm/m/n/12 (-20) : com-po-sant 
-qui re-�oit les re-qu�tes li�es � la r�-cu-p�-ra-tion
+[]\T1/cmtt/m/n/12 notifications.py (routes) \T1/ptm/m/n/12 (-20) : com-po-sant qui re-�oit les re-qu�tes li�es � la r�-cu-p�-ra-tion
  []
 
-[151 <./images/MI_tracabilitéMCMIconsulterNotification.png>]
-<images/MI_DiagrammeComposantConsulterNotifications.png, id=1475, 557.08125pt x
- 260.47313pt>
-File: images/MI_DiagrammeComposantConsulterNotifications.png Graphic file (type
- png)
+[150 <./images/MI_tracabilitéMCMIconsulterNotification.png>]
+<images/MI_DiagrammeComposantConsulterNotifications.png, id=2388, 557.08125pt x 260.47313pt>
+File: images/MI_DiagrammeComposantConsulterNotifications.png Graphic file (type png)
 <use images/MI_DiagrammeComposantConsulterNotifications.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantConsulterNotifications.png
-  used on input line 638.
+Package pdftex.def Info: images/MI_DiagrammeComposantConsulterNotifications.png  used on input line 638.
 (pdftex.def)             Requested size: 455.24411pt x 212.86201pt.
- [152 <./images/MI_DiagrammeComposantConsulterNotifications.png>]
-<images/MI_TracabiltéMCMIConsulterTableauDeBord.png, id=1483, 895.09406pt x 40
-2.00188pt>
-File: images/MI_TracabiltéMCMIConsulterTableauDeBord.png Graphic file (type pn
-g)
+ [151 <./images/MI_DiagrammeComposantConsulterNotifications.png>]
+<images/MI_TracabiltéMCMIConsulterTableauDeBord.png, id=2394, 895.09406pt x 402.00188pt>
+File: images/MI_TracabiltéMCMIConsulterTableauDeBord.png Graphic file (type png)
 <use images/MI_TracabiltéMCMIConsulterTableauDeBord.png>
-Package pdftex.def Info: images/MI_TracabiltéMCMIConsulterTableauDeBord.png  u
-sed on input line 651.
+Package pdftex.def Info: images/MI_TracabiltéMCMIConsulterTableauDeBord.png  used on input line 651.
 (pdftex.def)             Requested size: 455.24411pt x 204.46004pt.
- [153 <./images/MI_TracabiltéMCMIConsulterTableauDeBord.png>]
+ [152 <./images/MI_TracabiltéMCMIConsulterTableauDeBord.png>]
 Overfull \hbox (10.44598pt too wide) in paragraph at lines 677--678
-[]\T1/cmtt/m/n/12 Produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
-ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
+[]\T1/cmtt/m/n/12 Produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 
 Overfull \hbox (4.27249pt too wide) in paragraph at lines 681--682
-[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
-uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
+[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
-[154]
-<images/MI_DiagrammeComposantconsulterprevisions.png, id=1497, 1021.56656pt x 3
-06.39468pt>
-File: images/MI_DiagrammeComposantconsulterprevisions.png Graphic file (type pn
-g)
+[153]
+<images/MI_DiagrammeComposantconsulterprevisions.png, id=2405, 1021.56656pt x 306.39468pt>
+File: images/MI_DiagrammeComposantconsulterprevisions.png Graphic file (type png)
 <use images/MI_DiagrammeComposantconsulterprevisions.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantconsulterprevisions.png  u
-sed on input line 706.
+Package pdftex.def Info: images/MI_DiagrammeComposantconsulterprevisions.png  used on input line 706.
 (pdftex.def)             Requested size: 455.24411pt x 136.53922pt.
-<images/MI_tracabiltéMCMIConsulterPrévisions_1.png, id=1498, 647.41875pt x 30
-7.1475pt>
-File: images/MI_tracabiltéMCMIConsulterPrévisions_1.png Graphic file (type pn
-g)
+<images/MI_tracabiltéMCMIConsulterPrévisions_1.png, id=2406, 647.41875pt x 307.1475pt>
+File: images/MI_tracabiltéMCMIConsulterPrévisions_1.png Graphic file (type png)
 <use images/MI_tracabiltéMCMIConsulterPrévisions_1.png>
-Package pdftex.def Info: images/MI_tracabiltéMCMIConsulterPrévisions_1.png  u
-sed on input line 718.
+Package pdftex.def Info: images/MI_tracabiltéMCMIConsulterPrévisions_1.png  used on input line 718.
 (pdftex.def)             Requested size: 455.24411pt x 215.97661pt.
 
 Overfull \hbox (11.06429pt too wide) in paragraph at lines 721--722
-\T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-t
-ion (MC) et les com-po-sants d'im-pl�-men-ta-tion
+\T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-tion (MC) et les com-po-sants d'im-pl�-men-ta-tion
  []
 
-[155 <./images/MI_DiagrammeComposantconsulterprevisions.png> <./images/MI_traca
-biltéMCMIConsulterPrévisions_1.png>]
+[154 <./images/MI_DiagrammeComposantconsulterprevisions.png> <./images/MI_tracabiltéMCMIConsulterPrévisions_1.png>]
 Overfull \hbox (4.27249pt too wide) in paragraph at lines 744--745
-[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
-uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
+[]\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la struc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
-<images/MI_previsions_1.png, id=1510, 511.15968pt x 453.19313pt>
+<images/MI_previsions_1.png, id=2413, 511.15968pt x 453.19313pt>
 File: images/MI_previsions_1.png Graphic file (type png)
 <use images/MI_previsions_1.png>
 Package pdftex.def Info: images/MI_previsions_1.png  used on input line 760.
 (pdftex.def)             Requested size: 455.24411pt x 403.61722pt.
-[156] [157 <./images/MI_previsions_1.png>]
+[155] [156 <./images/MI_previsions_1.png>]
 Overfull \hbox (2.8122pt too wide) in paragraph at lines 814--817
-[]\T1/ptm/m/n/12 (-20) Une ges-tion cen-tra-li-s�e et fiable des bois-sons, des
- clients (per-sonnes phy-siques et en-tre-prises),
+[]\T1/ptm/m/n/12 (-20) Une ges-tion cen-tra-li-s�e et fiable des bois-sons, des clients (per-sonnes phy-siques et en-tre-prises),
  []
 
-[158
+[157
 
-]) [159]
+]) [158]
 Underfull \hbox (badness 2608) in paragraph at lines 259--263
-[]\T1/ptm/m/n/12 (+20) Scribd, \T1/ptm/m/it/12 (+20) Pro-ces-sus Uni-fi�\T1/ptm
-/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / fr . scribd
- . com / document /
+[]\T1/ptm/m/n/12 (+20) Scribd, \T1/ptm/m/it/12 (+20) Pro-ces-sus Uni-fi�\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / fr . scribd . com / document /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 271--275
-\T1/cmtt/m/n/12 github . com / fr / get-[]started / start-[]your-[]journey / ab
-out-[]github-[]and-[]git$[][]\T1/ptm/m/n/12 (+20) ,
+\T1/cmtt/m/n/12 github . com / fr / get-[]started / start-[]your-[]journey / about-[]github-[]and-[]git$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
 
 Underfull \hbox (badness 3525) in paragraph at lines 295--299
-[]\T1/ptm/m/n/12 (+20) LinkedIn, \T1/ptm/m/it/12 (+20) Tail-wind CSS\T1/ptm/m/n
-/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / www . linkedin 
-. com / posts /
+[]\T1/ptm/m/n/12 (+20) LinkedIn, \T1/ptm/m/it/12 (+20) Tail-wind CSS\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / www . linkedin . com / posts /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 307--311
-[]\T1/ptm/m/n/12 (+20) ITG, \T1/ptm/m/it/12 (+20) Ja-vaS-cript\T1/ptm/m/n/12 (+
-20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / www . itg . fr / port
-age-[]salarial /
+[]\T1/ptm/m/n/12 (+20) ITG, \T1/ptm/m/it/12 (+20) Ja-vaS-cript\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / www . itg . fr / portage-[]salarial /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 313--317
-\T1/cmtt/m/n/12 / / blog . stephane-[]robert . info / docs / services / bdd / r
-elationnelles / sqlite/$[][]\T1/ptm/m/n/12 (+20) ,
+\T1/cmtt/m/n/12 / / blog . stephane-[]robert . info / docs / services / bdd / relationnelles / sqlite/$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
 
 Underfull \hbox (badness 8170) in paragraph at lines 319--323
-[]\T1/ptm/m/n/12 (+20) Liora.io, \T1/ptm/m/it/12 (+20) SQ-LAl-chemy -- Tout sa-
-voir\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / 
-liora . io /
+[]\T1/ptm/m/n/12 (+20) Liora.io, \T1/ptm/m/it/12 (+20) SQ-LAl-chemy -- Tout sa-voir\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / liora . io /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 325--328
-[]\T1/ptm/m/n/12 (+20) IBM Ra-tio-nal Soft-ware Ar-chi-tect De-si-gner, Dis-po-
-nible sur : [][]$\T1/cmtt/m/n/12 https : / /
+[]\T1/ptm/m/n/12 (+20) IBM Ra-tio-nal Soft-ware Ar-chi-tect De-si-gner, Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 325--328
-\T1/cmtt/m/n/12 ibm-[]rational-[]software-[]architect-[]designer . software . i
-nformer . com$[][]\T1/ptm/m/n/12 (+20) ,
+\T1/cmtt/m/n/12 ibm-[]rational-[]software-[]architect-[]designer . software . informer . com$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
 
 Underfull \hbox (badness 4940) in paragraph at lines 330--334
-[]\T1/ptm/m/n/12 (+20) IONOS, \T1/ptm/m/it/12 (+20) JSON Web To-ken (JWT)\T1/pt
-m/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / www . iono
-s . fr /
+[]\T1/ptm/m/n/12 (+20) IONOS, \T1/ptm/m/it/12 (+20) JSON Web To-ken (JWT)\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / www . ionos . fr /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 330--334
-\T1/cmtt/m/n/12 digitalguide / sites-[]internet / developpement-[]web / json-[]
-web-[]token-[]jwt/$[][]\T1/ptm/m/n/12 (+20) ,
+\T1/cmtt/m/n/12 digitalguide / sites-[]internet / developpement-[]web / json-[]web-[]token-[]jwt/$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
-[160
+[159
 
 ]
 Underfull \hbox (badness 2626) in paragraph at lines 354--358
-[]\T1/ptm/m/n/12 (+20) Zhanymkanov, \T1/ptm/m/it/12 (+20) Fas-tAPI Best Prac-ti
-ces\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / g
-ithub . com /
+[]\T1/ptm/m/n/12 (+20) Zhanymkanov, \T1/ptm/m/it/12 (+20) Fas-tAPI Best Prac-tices\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / github . com /
  []
 
 
 Underfull \hbox (badness 2042) in paragraph at lines 390--394
-[]\T1/ptm/m/n/12 (+20) FastAPI Do-cu-men-ta-tion, \T1/ptm/m/it/12 (+20) Back-gr
-ound Tasks\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https 
-: / / fastapi .
+[]\T1/ptm/m/n/12 (+20) FastAPI Do-cu-men-ta-tion, \T1/ptm/m/it/12 (+20) Back-ground Tasks\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / fastapi .
  []
 
 
 Underfull \hbox (badness 2970) in paragraph at lines 403--407
-[]\T1/ptm/m/n/12 (+20) Audibert, Laurent, \T1/ptm/m/it/12 (+20) Cours UML -- Di
-a-gramme de cas d'uti-li-sa-tion\T1/ptm/m/n/12 (+20) , Dis-po-nible
+[]\T1/ptm/m/n/12 (+20) Audibert, Laurent, \T1/ptm/m/it/12 (+20) Cours UML -- Dia-gramme de cas d'uti-li-sa-tion\T1/ptm/m/n/12 (+20) , Dis-po-nible
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--407
-\T1/ptm/m/n/12 (+20) sur : [][]$\T1/cmtt/m/n/12 https : / / laurent-[]audibert 
-. developpez . com / Cours-[]UML / ?page =
+\T1/ptm/m/n/12 (+20) sur : [][]$\T1/cmtt/m/n/12 https : / / laurent-[]audibert . developpez . com / Cours-[]UML / ?page =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 409--413
-\T1/cmtt/m/n/12 / / laurent-[]audibert . developpez . com / Cours-[]UML / ?page
- = diagramme-[]classes$[][]\T1/ptm/m/n/12 (+20) ,
+\T1/cmtt/m/n/12 / / laurent-[]audibert . developpez . com / Cours-[]UML / ?page = diagramme-[]classes$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
-[161]
+[160]
 Underfull \hbox (badness 3471) in paragraph at lines 439--443
-[]\T1/ptm/m/n/12 (+20) Liora.io, \T1/ptm/m/it/12 (+20) Cinq fonc-tions de Sciki
-t-learn\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : /
- / liora . io /
+[]\T1/ptm/m/n/12 (+20) Liora.io, \T1/ptm/m/it/12 (+20) Cinq fonc-tions de Scikit-learn\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / liora . io /
  []
 
-[162] (main.aux)
+[161] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  ED76D885475F3E3B2A49A8AA3BB1B142;57230.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C45838B67E18E1CEEC1C0EF6DA09B7A0;55591.
  ) 
 Here is how much of TeX's memory you used:
- 33765 strings out of 467871
- 670248 string characters out of 5418860
- 1112184 words of memory out of 5000000
- 60866 multiletter control sequences out of 15000+600000
- 705596 words of font info for 345 fonts, out of 8000000 for 9000
+ 33973 strings out of 467691
+ 673800 string characters out of 5416396
+ 1125746 words of memory out of 5000000
+ 61243 multiletter control sequences out of 15000+600000
+ 705694 words of font info for 345 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,15n,94p,1003b,1171s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\asus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
-200.pk><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1
-/urw/times/utmb8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/times/utmr8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on main.pdf (166 pages, 20255369 bytes).
+ 84i,15n,94p,1043b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\rebae\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Program Files/Application Verifier/tex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (172 pages, 20511808 bytes).
 PDF statistics:
- 1904 PDF objects out of 2073 (max. 8388607)
- 859 named destinations out of 1000 (max. 500000)
- 84431 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 2789 PDF objects out of 2984 (max. 8388607)
+ 857 named destinations out of 1000 (max. 500000)
+ 85876 words of extra memory for PDF output out of 89155 (max. 10000000)
 

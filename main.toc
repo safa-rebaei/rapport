@@ -68,123 +68,113 @@
 \contentsline {chapter}{\numberline {3}Conception}{57}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{58}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Architecture Logique Adoptée}{58}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Composants Clés}{58}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Vue (View)}{58}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Modèle (Model)}{58}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Schéma (Schema)}{58}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Service}{58}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Contrôleur (Controller)}{59}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Vue (View)}{59}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Couche Transversale (Cross-Cutting Concerns)}{59}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Routes}{59}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Architecture Frontend React}{59}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Vue (View)}{59}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11}Contrôleur (Hook)}{59}{subsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.2.12}Couche API}{59}{subsection.3.2.12}%
-\contentsline {subsection}{\numberline {3.2.13}Avantages de l'Architecture Adoptée}{60}{subsection.3.2.13}%
-\contentsline {section}{\numberline {3.3}Conception du Cas D'utilisation Se Connecter}{61}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Traçabilité MCU/MC pour le Cas D'utilisation Se Connecter}{61}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Diagramme de Séquence du Cas D'utilisation Se Connecter}{62}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Diagramme de Classe du Cas D'utilisation Se Connecter}{63}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conception du Cas D'utilisation Se Déconnecter}{64}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Traçabilité MCU/MC pour le Cas D'utilisation Se Déconnecter}{64}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Diagramme de Séquence du Cas D'utilisation Se Déconnecter}{65}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Diagramme de Classe du Cas D'utilisation Se Déconnecter}{66}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Conception des Cas D'utilisation Gérer Agents}{67}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Agents}{67}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Diagramme de Séquence du Cas D'utilisation Ajouter Agent}{68}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Diagramme de Séquence du Cas D'utilisation Supprimer Agent}{69}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Diagramme de Classe du Cas D'utilisation Gérer Agents}{70}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Conception des Cas D'utilisation Gérer Produits}{71}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Produits}{71}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Diagramme de Séquence du Cas D'utilisation Ajouter Produit}{73}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Diagramme de Séquence du Cas D'utilisation Supprimer Produit}{74}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Diagramme de Séquence du Cas D'utilisation Modifier Produit}{75}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}Diagramme de Séquence du Cas D'utilisation Consulter Produit}{76}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Diagramme de Séquence du Cas D'utilisation Archiver Produit}{77}{subsection.3.6.6}%
-\contentsline {subsection}{\numberline {3.6.7}Diagramme de Classe du Cas D'utilisation Gérer Produits}{78}{subsection.3.6.7}%
-\contentsline {section}{\numberline {3.7}Conception du Cas D'utilisation Gérer Clients}{79}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Clients}{79}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Diagramme de Séquence du Cas D'utilisation Ajouter Client}{81}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Diagramme de Séquence du Cas D'utilisation Modifier Client}{82}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Diagramme de Séquence du Cas D'utilisation Supprimer Client}{83}{subsection.3.7.4}%
-\contentsline {subsection}{\numberline {3.7.5}Diagramme de Séquence du Cas D'utilisation Consulter Client}{84}{subsection.3.7.5}%
-\contentsline {subsection}{\numberline {3.7.6}Diagramme de Séquence du Cas D'utilisation Archiver Client}{85}{subsection.3.7.6}%
-\contentsline {subsection}{\numberline {3.7.7}Diagramme de Classe du Cas D'utilisation Gérer Clients}{86}{subsection.3.7.7}%
-\contentsline {section}{\numberline {3.8}Conception du Cas D'utilisation Traiter Ventes}{87}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Traçabilité MCU/MC pour le Cas D'utilisation Traiter Ventes}{87}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Diagramme de Séquence du Cas D'utilisation Enregistrer Vente}{89}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3}Diagramme de Séquence du Cas D'utilisation Consulter Vente}{90}{subsection.3.8.3}%
-\contentsline {subsection}{\numberline {3.8.4}Diagramme de Séquence du Cas D'utilisation Archiver Vente}{91}{subsection.3.8.4}%
-\contentsline {subsection}{\numberline {3.8.5}Diagramme de Classe du Cas D'utilisation Traiter Ventes}{92}{subsection.3.8.5}%
-\contentsline {section}{\numberline {3.9}Conception du Cas D'utilisation Gérer Factures}{93}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Factures}{93}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2}Diagramme de Séquence du Cas D'utilisation Créer Facture Via Facture}{95}{subsection.3.9.2}%
-\contentsline {subsection}{\numberline {3.9.3}Diagramme de Séquence du Cas D'utilisation Créer Facture Via Vente}{96}{subsection.3.9.3}%
-\contentsline {subsection}{\numberline {3.9.4}Diagramme de Séquence du Cas D'utilisation Consulter Facture}{97}{subsection.3.9.4}%
-\contentsline {subsection}{\numberline {3.9.5}Diagramme de Séquence du Cas D'utilisation Enregistrer Règlement}{98}{subsection.3.9.5}%
-\contentsline {subsection}{\numberline {3.9.6}Diagramme de Séquence du Cas D'utilisation Archiver Facture}{99}{subsection.3.9.6}%
-\contentsline {subsection}{\numberline {3.9.7}Diagramme de Séquence du Cas D'utilisation Imprimer Facture}{100}{subsection.3.9.7}%
-\contentsline {subsection}{\numberline {3.9.8}Diagramme de Séquence du Cas D'utilisation Envoyer via WhatsApp}{101}{subsection.3.9.8}%
-\contentsline {subsection}{\numberline {3.9.9}Diagramme de Classe du Cas D'utilisation Gérer Factures}{102}{subsection.3.9.9}%
-\contentsline {section}{\numberline {3.10}Conception du Cas D'utilisation Gérer Notifications}{103}{section.3.10}%
-\contentsline {subsection}{\numberline {3.10.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Notifications}{103}{subsection.3.10.1}%
-\contentsline {subsection}{\numberline {3.10.2}Diagramme de Séquence du Cas D'utilisation Consulter Notifications}{104}{subsection.3.10.2}%
-\contentsline {subsection}{\numberline {3.10.3}Diagramme de Séquence du Cas D'utilisation Marquer Notifications Comme Lues}{105}{subsection.3.10.3}%
-\contentsline {subsection}{\numberline {3.10.4}Diagramme de Séquence du Cas D'utilisation Supprimer Notifications}{106}{subsection.3.10.4}%
-\contentsline {subsection}{\numberline {3.10.5}Diagramme de Classe du Cas D'utilisation Gérer Notifications}{107}{subsection.3.10.5}%
-\contentsline {section}{\numberline {3.11}Conception des Tableaux de Bord}{108}{section.3.11}%
-\contentsline {subsection}{Conception des Indicateurs Clés de Performances}{108}{section*.61}%
-\contentsline {subsection}{Conception des KPIs — Tableau de Bord Chiffre d'Affaires}{109}{table.3.1}%
-\contentsline {subsection}{Conception des KPIs — Tableau de Bord Clients}{111}{table.3.2}%
-\contentsline {subsection}{Conception des KPIs — Tableau de Bord Facturation}{112}{table.3.3}%
-\contentsline {subsection}{Conception des KPIs — Tableau de Bord Prévisions}{116}{table.3.4}%
-\contentsline {subsection}{\numberline {3.11.1}Diagramme de Séquence du Cas D'utilisation Consulter Tableaux de Bord}{119}{subsection.3.11.1}%
-\contentsline {subsection}{\numberline {3.11.2}Diagramme de Classe du Cas D'utilisation Consulter Tableaux de Bord}{120}{subsection.3.11.2}%
-\contentsline {section}{\numberline {3.12}Processus ETL}{121}{section.3.12}%
-\contentsline {subsection}{\numberline {3.12.1}Extraction}{121}{subsection.3.12.1}%
-\contentsline {subsection}{\numberline {3.12.2}Transformation}{121}{subsection.3.12.2}%
-\contentsline {subsection}{\numberline {3.12.3}Chargement}{122}{subsection.3.12.3}%
-\contentsline {subsection}{\numberline {3.12.4}Diagramme de Séquence du Cas D'utilisation Consulter Prévisions}{125}{subsection.3.12.4}%
-\contentsline {subsection}{\numberline {3.12.5}Diagramme de Classe du Cas D'utilisation Consulter prévisions}{126}{subsection.3.12.5}%
-\contentsline {section}{\numberline {3.13}Diagramme de Classes Entité du systéme }{127}{section.3.13}%
-\contentsline {section}{\numberline {3.14}Schéma de la Base de Données}{128}{section.3.14}%
-\contentsline {chapter}{\numberline {4}Implémentation}{129}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{130}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Environnement logiciel}{130}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Outils de développement}{130}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Gestion de collaboration}{130}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Frameworks et bibliothèques}{131}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Base de données}{132}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Outils de modélisation}{132}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Sécurité et authentification}{133}{subsection.4.2.6}%
-\contentsline {section}{\numberline {4.3}Implémentation du Cas D'utilisation Se Connecter}{134}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Traçabilité MC/MI pour le Cas D'utilisation Se Connecter}{134}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Diagramme de composants du Cas D'utilisation Se Connecter}{135}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Implémentation du Cas D'utilisation Se Déconnecter}{135}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Traçabilité MC/MI pour le Cas D'utilisation Se Déconnecter}{135}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Diagramme de composants du Cas D'utilisation Se Déconnecter}{136}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Implémentation du Cas D'utilisation Gérer Agents}{137}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Agents}{137}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Diagramme de composants du Cas D'utilisation Gérer Agents}{138}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Implémentation du Cas D'utilisation Gérer Produits}{139}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Produits}{139}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Diagramme de composants du Cas D'utilisation Gérer Produits}{141}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Implémentation du Cas D'utilisation Gérer Clients}{142}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Clients}{142}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Diagramme de composants du Cas D'utilisation Gérer Clients}{143}{subsection.4.7.2}%
-\contentsline {section}{\numberline {4.8}Implémentation du Cas D'utilisation Traiter Vente}{144}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Traçabilité MC/MI pour le Cas D'utilisation Traiter Vente}{144}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Diagramme de composants du Cas D'utilisation Traiter Vente}{146}{subsection.4.8.2}%
-\contentsline {section}{\numberline {4.9}Implémentation du Cas D'utilisation Gérer Factures}{147}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Factures}{147}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}Diagramme de composants du Cas D'utilisation Gérer Factures}{150}{subsection.4.9.2}%
-\contentsline {section}{\numberline {4.10}Implémentation du Cas D'utilisation Consulter Notifications}{151}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Notifications}{151}{subsection.4.10.1}%
-\contentsline {subsection}{\numberline {4.10.2}Diagramme de composants du Cas D'utilisation Consulter Notifications}{152}{subsection.4.10.2}%
-\contentsline {section}{\numberline {4.11}Implémentation du Cas D'utilisation Consulter Tableau de Bord}{153}{section.4.11}%
-\contentsline {subsection}{\numberline {4.11.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Tableau de Bord}{153}{subsection.4.11.1}%
-\contentsline {subsection}{\numberline {4.11.2}Diagramme de composants du Cas D'utilisation Consulter Tableau de Bord}{155}{subsection.4.11.2}%
-\contentsline {section}{\numberline {4.12}Implémentation du Cas D'utilisation Consulter Prévisions}{155}{section.4.12}%
-\contentsline {subsection}{\numberline {4.12.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Prévisions}{155}{subsection.4.12.1}%
-\contentsline {subsection}{\numberline {4.12.2}Diagramme de composants du Cas D'utilisation Consulter Prévisions}{157}{subsection.4.12.2}%
-\contentsline {chapter}{Conclusion Générale}{158}{chapter*.97}%
+\contentsline {subsection}{\numberline {3.2.3}Contrôleur (Controller)}{58}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Conception du Cas D'utilisation Se Connecter}{60}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Traçabilité MCU/MC pour le Cas D'utilisation Se Connecter}{60}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Diagramme de Séquence du Cas D'utilisation Se Connecter}{61}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Diagramme de Classe du Cas D'utilisation Se Connecter}{62}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Conception du Cas D'utilisation Se Déconnecter}{63}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Traçabilité MCU/MC pour le Cas D'utilisation Se Déconnecter}{63}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Diagramme de Séquence du Cas D'utilisation Se Déconnecter}{64}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Diagramme de Classe du Cas D'utilisation Se Déconnecter}{65}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Conception des Cas D'utilisation Gérer Agents}{66}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Agents}{66}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Diagramme de Séquence du Cas D'utilisation Ajouter Agent}{67}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Diagramme de Séquence du Cas D'utilisation Supprimer Agent}{68}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Diagramme de Classe du Cas D'utilisation Gérer Agents}{69}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Conception des Cas D'utilisation Gérer Produits}{70}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Produits}{70}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Diagramme de Séquence du Cas D'utilisation Ajouter Produit}{72}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Diagramme de Séquence du Cas D'utilisation Supprimer Produit}{73}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Diagramme de Séquence du Cas D'utilisation Modifier Produit}{74}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Diagramme de Séquence du Cas D'utilisation Consulter Produit}{75}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Diagramme de Séquence du Cas D'utilisation Archiver Produit}{76}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}Diagramme de Classe du Cas D'utilisation Gérer Produits}{77}{subsection.3.6.7}%
+\contentsline {section}{\numberline {3.7}Conception du Cas D'utilisation Gérer Clients}{78}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Clients}{78}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Diagramme de Séquence du Cas D'utilisation Ajouter Client}{80}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Diagramme de Séquence du Cas D'utilisation Modifier Client}{81}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Diagramme de Séquence du Cas D'utilisation Supprimer Client}{82}{subsection.3.7.4}%
+\contentsline {subsection}{\numberline {3.7.5}Diagramme de Séquence du Cas D'utilisation Consulter Client}{83}{subsection.3.7.5}%
+\contentsline {subsection}{\numberline {3.7.6}Diagramme de Séquence du Cas D'utilisation Archiver Client}{84}{subsection.3.7.6}%
+\contentsline {subsection}{\numberline {3.7.7}Diagramme de Classe du Cas D'utilisation Gérer Clients}{85}{subsection.3.7.7}%
+\contentsline {section}{\numberline {3.8}Conception du Cas D'utilisation Traiter Ventes}{86}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Traçabilité MCU/MC pour le Cas D'utilisation Traiter Ventes}{86}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Diagramme de Séquence du Cas D'utilisation Enregistrer Vente}{88}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}Diagramme de Séquence du Cas D'utilisation Consulter Vente}{89}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Diagramme de Séquence du Cas D'utilisation Archiver Vente}{90}{subsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.8.5}Diagramme de Classe du Cas D'utilisation Traiter Ventes}{91}{subsection.3.8.5}%
+\contentsline {section}{\numberline {3.9}Conception du Cas D'utilisation Gérer Factures}{92}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Factures}{92}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Diagramme de Séquence du Cas D'utilisation Créer Facture Via Facture}{94}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Diagramme de Séquence du Cas D'utilisation Créer Facture Via Vente}{95}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Diagramme de Séquence du Cas D'utilisation Consulter Facture}{96}{subsection.3.9.4}%
+\contentsline {subsection}{\numberline {3.9.5}Diagramme de Séquence du Cas D'utilisation Enregistrer Règlement}{97}{subsection.3.9.5}%
+\contentsline {subsection}{\numberline {3.9.6}Diagramme de Séquence du Cas D'utilisation Archiver Facture}{98}{subsection.3.9.6}%
+\contentsline {subsection}{\numberline {3.9.7}Diagramme de Séquence du Cas D'utilisation Imprimer Facture}{99}{subsection.3.9.7}%
+\contentsline {subsection}{\numberline {3.9.8}Diagramme de Séquence du Cas D'utilisation Envoyer via WhatsApp}{100}{subsection.3.9.8}%
+\contentsline {subsection}{\numberline {3.9.9}Diagramme de Classe du Cas D'utilisation Gérer Factures}{101}{subsection.3.9.9}%
+\contentsline {section}{\numberline {3.10}Conception du Cas D'utilisation Gérer Notifications}{102}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Traçabilité MCU/MC pour le Cas D'utilisation Gérer Notifications}{102}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Diagramme de Séquence du Cas D'utilisation Consulter Notifications}{103}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Diagramme de Séquence du Cas D'utilisation Marquer Notifications Comme Lues}{104}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}Diagramme de Séquence du Cas D'utilisation Supprimer Notifications}{105}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}Diagramme de Classe du Cas D'utilisation Gérer Notifications}{106}{subsection.3.10.5}%
+\contentsline {section}{\numberline {3.11}Conception des Tableaux de Bord}{107}{section.3.11}%
+\contentsline {subsection}{Conception des Indicateurs Clés de Performances}{107}{section*.62}%
+\contentsline {subsection}{Conception des KPIs — Tableau de Bord Chiffre d'Affaires}{108}{table.3.1}%
+\contentsline {subsection}{Conception des KPIs — Tableau de Bord Clients}{110}{table.3.2}%
+\contentsline {subsection}{Conception des KPIs — Tableau de Bord Facturation}{111}{table.3.3}%
+\contentsline {subsection}{Conception des KPIs — Tableau de Bord Prévisions}{115}{table.3.4}%
+\contentsline {subsection}{\numberline {3.11.1}Diagramme de Séquence du Cas D'utilisation Consulter Tableaux de Bord}{118}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Diagramme de Classe du Cas D'utilisation Consulter Tableaux de Bord}{119}{subsection.3.11.2}%
+\contentsline {section}{\numberline {3.12}Processus ETL}{120}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Extraction}{120}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Transformation}{120}{subsection.3.12.2}%
+\contentsline {subsection}{\numberline {3.12.3}Chargement}{121}{subsection.3.12.3}%
+\contentsline {subsection}{\numberline {3.12.4}Diagramme de Séquence du Cas D'utilisation Consulter Prévisions}{124}{subsection.3.12.4}%
+\contentsline {subsection}{\numberline {3.12.5}Diagramme de Classe du Cas D'utilisation Consulter prévisions}{125}{subsection.3.12.5}%
+\contentsline {section}{\numberline {3.13}Diagramme de Classes Entité du systéme }{126}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Schéma de la Base de Données}{127}{section.3.14}%
+\contentsline {chapter}{\numberline {4}Implémentation}{128}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{129}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Environnement logiciel}{129}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Outils de développement}{129}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Gestion de collaboration}{129}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Frameworks et bibliothèques}{130}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Base de données}{131}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Outils de modélisation}{131}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Sécurité et authentification}{132}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Implémentation du Cas D'utilisation Se Connecter}{133}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Traçabilité MC/MI pour le Cas D'utilisation Se Connecter}{133}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Diagramme de composants du Cas D'utilisation Se Connecter}{134}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Implémentation du Cas D'utilisation Se Déconnecter}{134}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Traçabilité MC/MI pour le Cas D'utilisation Se Déconnecter}{134}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Diagramme de composants du Cas D'utilisation Se Déconnecter}{135}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Implémentation du Cas D'utilisation Gérer Agents}{136}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Agents}{136}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Diagramme de composants du Cas D'utilisation Gérer Agents}{137}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Implémentation du Cas D'utilisation Gérer Produits}{138}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Produits}{138}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Diagramme de composants du Cas D'utilisation Gérer Produits}{140}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Implémentation du Cas D'utilisation Gérer Clients}{141}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Clients}{141}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Diagramme de composants du Cas D'utilisation Gérer Clients}{142}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Implémentation du Cas D'utilisation Traiter Vente}{143}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Traçabilité MC/MI pour le Cas D'utilisation Traiter Vente}{143}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Diagramme de composants du Cas D'utilisation Traiter Vente}{145}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Implémentation du Cas D'utilisation Gérer Factures}{146}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Factures}{146}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Diagramme de composants du Cas D'utilisation Gérer Factures}{149}{subsection.4.9.2}%
+\contentsline {section}{\numberline {4.10}Implémentation du Cas D'utilisation Consulter Notifications}{150}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Notifications}{150}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Diagramme de composants du Cas D'utilisation Consulter Notifications}{151}{subsection.4.10.2}%
+\contentsline {section}{\numberline {4.11}Implémentation du Cas D'utilisation Consulter Tableau de Bord}{152}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Tableau de Bord}{152}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Diagramme de composants du Cas D'utilisation Consulter Tableau de Bord}{154}{subsection.4.11.2}%
+\contentsline {section}{\numberline {4.12}Implémentation du Cas D'utilisation Consulter Prévisions}{154}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Prévisions}{154}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Diagramme de composants du Cas D'utilisation Consulter Prévisions}{156}{subsection.4.12.2}%
+\contentsline {chapter}{Conclusion Générale}{157}{chapter*.98}%
