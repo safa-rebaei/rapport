@@ -7,13 +7,13 @@ puis Les besoins fonctionnels, non fonctionnels et les besoins décisionnels qui
 Enfin, nous élaborons ces besoins par des  spécifications détaillées des cas d'utilisation, présentée par un diagramme  de cas d'utilisation raffiné
 \section{Identifications des acteurs}
 
-Un acteur est une abstraction d'un rôle joué par les utilisateurs du système prouvent être une personne ou un autre système qui interagissent directement avec le système à modéliser.
+Un acteur est une abstraction d'un rôle joué par les utilisateurs du système pouvent  être une personne ou un autre système qui interagissent directement avec le système à modéliser.
 
-Notre système est utilisé par deux acteurs : l'administrateur et l'agent commercial.
+Notre système est utilisé par deux acteurs :CEO (l'administrateur) et l'agent commercial.
 
 \subsection*{CEO(Admin)}
 
-C'est le propriétaires du dépôt de boissons, il détient le niveau d'accès le plus élevé du système.
+C'est le propriétaire du dépôt de boissons, il détient le niveau d'accès le plus élevé du système.
 
 Il bénéficie d'un accès global lui permettant de gérer l'ensemble des opérations.
 
@@ -27,7 +27,7 @@ L'agent commercial est responsable de la gestion opérationnelle des activités 
 
 Il assure le bon déroulement du processus de vente, la bonne gestion des clients et des boissons, générer des factures ainsi que la validation des paiements.
 
-Il s'occupe également de la consultation et de l'impression des factures.
+Il s'occupe également de la consultation et de l'impression des factures et de l'envoi via whatsapp
 
 \section{Identification des besoins}
 
@@ -41,7 +41,7 @@ Il s'occupe également de la consultation et de l'impression des factures.
 
 \item \textbf{Gérer client:} Permet à l'agent commercial et au CEO d'ajouter, modifier, archiver, consulter les informations relatives aux clients et les supprimer uniquement s'ils ne sont pas encore associés à une vente.
 
-\item \textbf{Traiter vente :} Permet à l'agent commercial et au CEO d'enregistrer les nouvelles ventes, de suivre leur état, de consulter l'historique des ventes et d'effectuer l'archivage d'une vente
+\item \textbf{Traiter vente :} Permet à l'agent commercial et au CEO d'enregistrer les nouvelles ventes, de suivre leur état, de consulter l'historique des ventes et d'effectuer l'archivage d'une vente.
 
 \item \textbf{Gérer Facture :} permet à l'agent commercial et au CEO de créer, consulter, archiver, enregistrer un règlement ainsi que de suivre les détails de paiement (mode, type, montant payé, date de paiement et date d'échéance) avec la possibilité de l'imprimer ou de l'envoyer via WhatsApp.
 
@@ -53,7 +53,7 @@ Ils ont la possibilité de les marquer comme lues ou de les supprimer s'ils n'en
 
 \item \textbf{Consulter les tableaux de bord :} Permet au CEO de visualiser les indicateurs clés de performance (KPI) et les statistiques des ventes sous forme de graphiques.
 
-\item \textbf{Consulter les prévisions des ventes :} Permet au CEO de visualiser les prévisions des ventes futures, basées sur les données historiques des ventes, afin d'aider à la prise de décision stratégique
+\item \textbf{Consulter les prévisions des ventes :} Permet au CEO de visualiser les prévisions des ventes futures, basées sur les données historiques des ventes, afin d'aider à la prise de décision stratégique.
 
 \end{itemize}
 \newpage
@@ -62,7 +62,7 @@ Ils ont la possibilité de les marquer comme lues ou de les supprimer s'ils n'en
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.2\textwidth, height=0.93\textheight]{images/seqGlobale.png}%
+    \includegraphics[width=1.2\textwidth, height=0.93\textheight]{images/MCU_DiagrammeCasUtilisationGlobal.png}%
   }
   \caption{Diagramme de cas d'utilisation globale}
   \label{fig:usecaseglobal}
@@ -76,8 +76,6 @@ Ils ont la possibilité de les marquer comme lues ou de les supprimer s'ils n'en
 \begin{itemize}
 
 \item \textbf{Sécurité :} le système protège les données des utilisateurs ainsi que les informations privilégiées (telles que les informations liées aux clients, aux ventes et aux factures).
-
-\item \textbf{Traçabilité :} le système enregistre toutes les actions importantes achevées par les utilisateurs.
 
 \item \textbf{Fiabilité :} le système est capable de fonctionner d'une manière efficace, sans erreur.
 
@@ -105,7 +103,7 @@ Le système permet au CEO de détecter les anomalies liées aux transactions et 
 
 \item \textbf{Les décisions stratégiques}
 
-Le système met à disposition des tableaux de bord stratégiques offrant une vision claire et synthétique de la situation de l'entreprise. Ces outils permettent d'identifier les produits les plus performants, les clients les plus actifs et les clients fidèles, de suivre le volume des ventes par période, le chiffre d'affaires ainsi que la répartition des paiements (au comptant ou à crédit).
+Le système met à disposition du CEO des tableaux de bord stratégiques offrant une vision claire et synthétique de la situation de l'entreprise. Ces outils permettent d'identifier les produits les plus performants, les clients les plus actifs et les clients fidèles, de suivre le volume des ventes par période, le chiffre d'affaires ainsi que la répartition des paiements (au comptant ou à crédit).
 
 Le système offre également des tableaux de prévision des ventes, permettant d'anticiper l'évolution future de l'activité à partir des données historiques.
 
@@ -134,11 +132,11 @@ Le tableau suivant présente l'ensemble des cas d'utilisation ainsi que leur niv
 \hline
 Se connecter & 1 \\
 \hline
-Gérer Boissons & 1 \\
+Gérer Produit & 1 \\
 \hline
 Gérer Clients & 1 \\
 \hline
-Gérer Utilisateurs & 1 \\
+Gérer Agents & 1 \\
 \hline
 Traiter Ventes & 2 \\
 \hline
@@ -176,7 +174,7 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Scénario de base :} &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'utilisateur accède à la page accueil
+  \item L'utilisateur accède à la page de connexion
   \item Le système permet à l'utilisateur d'entrer son email et mot de passe
   \item L'utilisateur confirme son identification
   \item Le système vérifie la validité des information remplies
@@ -185,7 +183,7 @@ Se Déconnecter & 5 \\
 \end{enumerate} \\
 \hline
 \textbf{Autre(s) scénario(s)} &
-\textbf{4.a. information obligatoires manquantes}
+\textbf{4.a. information obligatoires manquantes ou invalide}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent qu'il y a des informations obligatoires manquants
   \item Le système retourne à l'étape 2 du scénario de base
@@ -213,7 +211,7 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Description brève :} & Ce cas d'utilisation permet aux acteurs de se déconnecter de leur espace de travail \\
 \hline
-\textbf{Pré-condition(s)} & Le système d'identification est disponible \\
+\textbf{Pré-condition(s)} & L'utilisateur est connecté \\
 \hline
 \textbf{Post-condition(s)} & L'utilisateur est déconnecté du système et redirigé vers la page de connexion \\
 \hline
@@ -227,7 +225,7 @@ Se Déconnecter & 5 \\
 \end{enumerate} \\
 \hline
 \textbf{Autre(s) scénario(s)} &
-\textbf{3a. L'utilisateur demande d'annuler la déconnexion}
+\textbf{4a. L'utilisateur demande d'annuler la déconnexion}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'utilisateur que l'opération est annulée
   \item Le système reste dans l'espace de travail
@@ -311,7 +309,8 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Scénario de base :} &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le CEO demande la page paramètres
+  \item Le CEO demande la page Agents
+  \item le systéme cherche tous les agents existants
   \item Système affiche la liste des agents.
   \item Le CEO sélectionne l'agent à supprimer.
   \item Le CEO demande de supprimer l'agent sélectionner
@@ -354,10 +353,9 @@ Se Déconnecter & 5 \\
 \textbf{Pré-condition(s)} &
 \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial est connecté.
-  \item Au moins une catégorie de produits est définie dans le système.
 \end{itemize} \\
 \hline
-\textbf{Postcondition(s)} & Le produit est enregistré et devient disponible à la vente \\
+\textbf{Postcondition(s)} & Le produit est enregistré avec le statut disponible à la vente ou faible \\
 \hline
 \textbf{Scénario de base :} &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
@@ -368,7 +366,7 @@ Se Déconnecter & 5 \\
   \item L'Agent commercial demande d'enregistrer tous les détails du produit
   \item Le système vérifie si toutes les informations obligatoires sont remplies et sont valides
   \item Le système vérifie si le produit existe déjà
-  \item Le système enregistre le produit
+  \item Le système enregistre le produit avec l'etat disponible
   \item Le système informe l'agent que le produit est ajouté avec sucées
   \item le systéme affecté un etat au produit en fonction de la valeur de stock introduit par l'agent
 \end{enumerate} \\
@@ -380,10 +378,19 @@ Se Déconnecter & 5 \\
   \item Le système informe l'agent de remplir les informations manquantes
   \item Le système retourne à l'étape 4 du scénario de base
 \end{enumerate}
+\textbf{6.b quantite de stock = 0 :}
+\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+  \item Le système informe l'agent que le stock doit être supérieur à 0
+  \item Le système retourne à l'étape 4 du scénario de base
+\end{enumerate}
 \textbf{7.a Produit déjà enregistrer dans le système :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent que le produit existe déjà
   \item Le CU se termine sans ajout d'un nouveau produit
+\end{enumerate}
+\textbf{8.a quantite de stock <= 5 :}
+\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+  \item Le système enregistre le produit avec l'etat faible
 \end{enumerate} \\
 \hline
 \caption{Spécification du CU : Ajouter Produit}
@@ -414,7 +421,7 @@ Se Déconnecter & 5 \\
 \textbf{Scénario de base :} &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des produits.
-  \item $\langle\langle$include$\rangle\rangle$ consulter produits
+  \item <<include>> consulter produit
   \item L'Agent commercial demande de supprimer un produit
   \item Le système vérifie si le produit est associé à une vente existante
   \item Le système affiche un message pour confirmer la suppression
@@ -518,7 +525,7 @@ Se Déconnecter & 5 \\
   \item $\langle\langle$Include$\rangle\rangle$ consulter produit
   \item L'Agent commercial demande de modifier un produit
   \item Le système affiche les informations actuelles du produit
-  \item L'Agent commercial modifier les informations souhaités (nom, categorie, prix unitaire, quantité)
+  \item L'Agent commercial modifier les informations souhaités (nom, categorie, prix unitaire, stock)
   \item L'Agent commercial Enregistre les modifications
   \item Le système vérifie si toutes les informations obligatoires sont remplies
   \item Le système vérifie que le nom n'est pas déjà utilisé
