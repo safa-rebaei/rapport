@@ -3,11 +3,11 @@
 \section{Introduction}
 Dans ce chapitre se concentre sur l'expression et l'analyse des besoins de notre système.
 Dans un premier temps, nous identifions les divers acteurs qui interagissent avec le systéme
-puis Les besoins fonctionnels, non fonctionnels et les besoins décisionnels qui sont répertoriés dans Notre système.
+puis les besoins fonctionnels, non fonctionnels et les besoins décisionnels qui sont répertoriés dans notre système.
 Enfin, nous élaborons ces besoins par des  spécifications détaillées des cas d'utilisation, présentée par un diagramme  de cas d'utilisation raffiné
 \section{Identifications des acteurs}
 
-Un acteur est une abstraction d'un rôle joué par les utilisateurs du système pouvent  être une personne ou un autre système qui interagissent directement avec le système à modéliser.
+Un acteur est une abstraction d'un rôle joué par les utilisateurs du système pouvant être une personne ou un autre système qui interagissent directement avec le système à modéliser.
 
 Notre système est utilisé par deux acteurs :CEO (l'administrateur) et l'agent commercial.
 
@@ -299,11 +299,7 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Description brève :} & Ce cas d'utilisation permet au CEO de supprimer un agent existant \\
 \hline
-\textbf{Pré-condition(s)} &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le CEO est connecté
-  \item Au moins un agent existe dans le système
-\end{itemize} \\
+\textbf{Pré-condition(s)} & Le CEO est connecté et au moins un agent existe dans le système \\
 \hline
 \textbf{Post-condition(s)} & L'agent est supprimé définitivement du système et ne peut plus se connecter \\
 \hline
@@ -350,10 +346,7 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial d'ajouter un nouveau produit (boisson gazeuse, jus, eau) en renseignant ses informations telles que le nom du produit, la catégorie, le prix unitaire, le prix d'achat et la quantité en stock. \\
 \hline
-\textbf{Pré-condition(s)} &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'Agent commercial est connecté.
-\end{itemize} \\
+\textbf{Pré-condition(s)} & L'Agent commercial est connecté \\
 \hline
 \textbf{Postcondition(s)} & Le produit est enregistré avec le statut disponible à la vente ou faible \\
 \hline
@@ -366,9 +359,9 @@ Se Déconnecter & 5 \\
   \item L'Agent commercial demande d'enregistrer tous les détails du produit
   \item Le système vérifie si toutes les informations obligatoires sont remplies et sont valides
   \item Le système vérifie si le produit existe déjà
-  \item Le système enregistre le produit avec l'etat disponible
-  \item Le système informe l'agent que le produit est ajouté avec sucées
-  \item le systéme affecté un etat au produit en fonction de la valeur de stock introduit par l'agent
+  \item Le système affecte un état au produit en fonction de la valeur de stock introduite par l’agent
+  \item Le système enregistre le produit à l'état disponible
+  \item Le système informe l'agent que le produit est ajouté avec succès
 \end{enumerate} \\
 \hline
 \textbf{Autre(s) scénario(s)} &
@@ -388,9 +381,9 @@ Se Déconnecter & 5 \\
   \item Le système informe l'agent que le produit existe déjà
   \item Le CU se termine sans ajout d'un nouveau produit
 \end{enumerate}
-\textbf{8.a quantite de stock <= 5 :}
+\textbf{9.a quantite de stock <= 5 :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système enregistre le produit avec l'etat faible
+  \item Le système enregistre le produit à l'état faible
 \end{enumerate} \\
 \hline
 \caption{Spécification du CU : Ajouter Produit}
@@ -410,11 +403,7 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial de supprimer un produit du système (boisson gazeuse / eau/jus). Le système vérifie si le produit est associé à des ventes déjà enregistrées, dans ce cas la suppression est refusée sinon le produit est définitivement supprimé du système \\
 \hline
-\textbf{Pré-condition(s)} &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial est connecté
-  \item Au moins un produit existe dans le système.
-\end{itemize} \\
+\textbf{Pré-condition(s)} & L'agent commercial est connecté et au moins un produit existe dans le système \\
 \hline
 \textbf{Post-condition(s)} & Le produit est supprimé \\
 \hline
@@ -427,7 +416,7 @@ Se Déconnecter & 5 \\
   \item Le système affiche un message pour confirmer la suppression
   \item L'Agent commercial confirme la suppression de produit
   \item Le système supprime le produit sélectionné
-  \item Le système informe l'agent que le produit a été supprimé avec sucées
+  \item Le système informe l'agent que le produit a été supprimé avec succès
 \end{enumerate} \\
 \hline
 \textbf{Autre(s) scénario(s)} &
@@ -462,11 +451,7 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial d'effectuer une recherche ou un filtrage sur les produits (eau et boissons gazeuses, jus) enregistrés dans le système \\
 \hline
-\textbf{Pré-condition(s)} &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial est connecté
-  \item Au moins un produit existe dans le système.
-\end{itemize} \\
+\textbf{Pré-condition(s)} & L'agent commercial est connecté et au moins un produit existe dans le système \\
 \hline
 \textbf{Post-condition(s)} & Les détails du produit sont affichés à l'écran. \\
 \hline
@@ -485,9 +470,9 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Autre(s) scénario(s)} &
 \textbf{5.a. Liste filtrage Vide}
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent commercial qu'aucun produit ne correspond aux critères de filtrage appliqués
-\end{itemize}
+\end{enumerate}
 \textbf{7.a. le produit recherché n'existe pas}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système affiche un message indiquant que le produit recherché n'existe pas dans le système
@@ -500,52 +485,59 @@ Se Déconnecter & 5 \\
 \end{table}
 
 \newpage
-\subsection{Spécification de cas d'utilisation modifier produit}
+\subsection{Spécification de cas d’utilisation modifier produit}
 
 \begin{table}[H]
-\begin{tabularx}{\textwidth}{|l|X|}
+\footnotesize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\textwidth}{|p{3.4cm}|X|}
 \hline
 \textbf{Titre CU :} & Modifier produit \\
 \hline
 \textbf{Acteur(s) :} & Agent commercial \\
 \hline
-\textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial de modifier les informations d'un produit existe dans le système (nom, catégorie, stock, prix unitaire, statut). \\
+\textbf{Description brève :} & Ce cas d’utilisation permet à l’Agent commercial de modifier les informations d’un produit existant dans le système (nom, catégorie, stock, prix unitaire, statut). \\
 \hline
-\textbf{Pré-condition(s)} &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Au moins un produit enregistré dans le système
-  \item L'agent commercial est connecté
-\end{itemize} \\
+\textbf{Pré-condition(s)} & L’agent commercial est connecté et au moins un produit enregistré dans le système \\
 \hline
 \textbf{Post-condition(s)} & Les modifications effectuées au produit sont enregistrées. \\
 \hline
 \textbf{Scénario de base :} &
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'Agent commercial demande la gestion des Produits
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item L’Agent commercial demande la gestion des Produits
   \item $\langle\langle$Include$\rangle\rangle$ consulter produit
-  \item L'Agent commercial demande de modifier un produit
+  \item L’Agent commercial demande de modifier un produit
   \item Le système affiche les informations actuelles du produit
-  \item L'Agent commercial modifier les informations souhaités (nom, categorie, prix unitaire, stock)
-  \item L'Agent commercial Enregistre les modifications
+  \item L’Agent commercial modifie les informations souhaitées (nom, catégorie, prix unitaire, stock)
+  \item L’Agent commercial enregistre les modifications
   \item Le système vérifie si toutes les informations obligatoires sont remplies
-  \item Le système vérifie que le nom n'est pas déjà utilisé
-  \item Le système enregistre la modification du produit
-  \item Le système informe l'agent que le produit a été modifié avec succès
-  \item le systéme affecté un etat au produit en fonction de la valeur de stock modifier par l'agent
+  \item Le système vérifie que le nom n’est pas déjà utilisé
+  \item Le système affecte un état au produit en fonction de la valeur de stock introduite par l’agent
+  \item Le système enregistre la modification du produit à l’état disponible
+  \item Le système informe l’agent que le produit a été modifié avec succès
 \end{enumerate} \\
 \hline
-\textbf{Autres scénarios} &
-\textbf{7.a information obligatoires manquantes :}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système détecte qu'il Ya des détails obligatoires manquants
-  \item Le système informe l'agent de remplir les informations manquantes
-  \item Le système retourne à l'étape 5 du scénario de base
+\textbf{Autre(s) scénario(s)} &
+\textbf{7.a Informations obligatoires manquantes :}
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item Le système détecte qu’il y a des détails obligatoires manquants
+  \item Le système informe l’agent de remplir les informations manquantes
+  \item Le système retourne à l’étape 5 du scénario de base
 \end{enumerate}
-\textbf{8.a nom déjà utilisés :}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système détecte que le nom saisi est déjà utilisé.
-  \item Le système informe l'agent que le produit existe déjà
-  \item Le système retourne à l'étape 5 du scénario de base
+\textbf{7.b Quantité de stock = 0 :}
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item Le système informe l’agent que le stock doit être supérieur à 0
+  \item Le système retourne à l’étape 5 du scénario de base
+\end{enumerate}
+\textbf{8.a Nom déjà utilisé :}
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item Le système détecte que le nom saisi est déjà utilisé
+  \item Le système informe l’agent que le produit existe déjà
+  \item Le système retourne à l’étape 5 du scénario de base
+\end{enumerate}
+\textbf{10.a Quantité de stock $\leq$ 5 :}
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item Le système enregistre le produit à l’état faible
 \end{enumerate} \\
 \hline
 \end{tabularx}
@@ -565,25 +557,20 @@ Se Déconnecter & 5 \\
 \hline
 \textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial d'archiver un produit existant dans le système. L'archivage désactive le produit sans le supprimer définitivement, afin qu'il ne soit plus disponible à la vente ni visible dans la liste active des produits. \\
 \hline
-\textbf{Précondition :} &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'Agent commercial est connecté
-  \item Au moins un Produit est enregistré dans le système
-\end{itemize} \\
+\textbf{Précondition :} & L'Agent commercial est connecté et au moins un Produit est enregistré dans le système \\
 \hline
 \textbf{Post condition :} & Le produit est archivé et n'apparaît plus dans la liste active des produits. \\
 \hline
 \textbf{Scenario de base :} &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'agent commerciale demande la gestion des produits
-  \item $\langle\langle$include$\rangle\rangle$ Consulter produits
+  \item <<include>>Consulter produit
   \item L'agent commercial demande d'archiver un produit
   \item Le système demande la confirmation de l'opération d'archivage.
   \item L'agent commercial confirme l'archivage
+  \item Le système affecte un état au produit archivé
   \item Le système archive le produit.
-  \item Le système affiche un message de confirmation indiquant que le produit a été archivé avec succès.
-  \item Le système met à jour la liste des produits.
-  \item le systéme affecté un etat au produit archivé
+  \item Le système informe l'agent que le produit a été archivé avec succès.
 \end{enumerate} \\
 \hline
 \textbf{Autre(s) scénario(s) :} &
@@ -610,11 +597,11 @@ Titre : & ajouter Client \\
 \hline
 Acteur : & Agent commercial \\
 \hline
-Description brève du CU : & Ce cas d'utilisation permet à l'Agent commercial d'ajouter un nouveau client au système. Il choisi le type de client et introduit les informations nécessaires (prénom, nom, téléphone, e-mail, adresse et ville s'il s'agit d'une personne et il introduit nom de societe, mail, telephone, adresse, ville et matricule fisacl s'il s'agit d'une entreprise). L'ajout est possible uniquement si le client n'est pas déjà enregistré dans le système. \\
+Description brève : & Ce cas d'utilisation permet à l'Agent commercial d'ajouter un nouveau client au système. Il choisi le type de client et introduit les informations nécessaires (prénom, nom, téléphone, e-mail, adresse et ville s'il s'agit d'une personne et il introduit nom de societe, mail, telephone, adresse, ville et matricule fisacl s'il s'agit d'une entreprise). L'ajout est possible uniquement si le client n'est pas déjà enregistré dans le système. \\
 \hline
-Précondition : & L'agent commercial connecté \\
+Précondition : & L'agent commercial est connecté \\
 \hline
-Postcondition : & Client enregistre avec succès et devient disponible pour être associé à une vente \\
+Post-condition : & Client enregistre avec succès et devient disponible pour être associé à une vente \\
 \hline
 Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
@@ -625,27 +612,26 @@ Scénario de base : &
   \item L'Agent commercial demande d'enregistre tous les details du clients
   \item Le système vérifie si toutes les informations obligatoires sont remplies et sont valides
   \item Le système vérifie si le client existe déjà
-  \item Le système enregistre le client
-  \item Le système informe l'agent que le client est ajouté avec sucées
-  \item le systéme affecté un etat au client  en fonction de type  introduit par l'agent
+  \item Le système enregistre le client 
+  \item Le système informe l'agent que le client est ajouté avec succès
 \end{enumerate} \\
 \hline
-Autres scenarios : &
-\textbf{6.a information obligatoire non remplis :}
+Autre(s) scénario(s) : &
+\textbf{6.a information obligatoire non remplie :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système détecte qu'il Ya des détails obligatoires manquants
+  \item Le système détecte qu'il y a des détails obligatoires manquants
   \item Le système informe l'agent de remplir les informations manquantes
   \item Le système retourne à l'étape 4 du scénario de base
 \end{enumerate}
-\textbf{6.a Numéro de téléphone invalide (moins de 8 chiffres) :}
+\textbf{6.b Numéro de téléphone invalide (moins de 8 chiffres) :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système détecte que le numéro de téléphone contient moins de 8 chiffres.
   \item Le système affiche un message indiquant que le numéro de téléphone doit contenir 8 chiffres.
   \item Le système retourne à l'étape 4 du scénario de base
 \end{enumerate}
-\textbf{7.a email ou numero de téléphone déjà enregistré dans le système :}
+\textbf{7.a email, matricule fiscal ou numero de téléphone déjà enregistré dans le système :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système détecte que l'email ou le numéro est déjà utilisé
+  \item Le système détecte que l'email, matricule fiscal ou le numéro est déjà utilisé
   \item Le système informe l'agent que le client existe déjà
   \item Le système retourne à l'étape 4 du scénario de base
 \end{enumerate} \\
@@ -665,24 +651,20 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'agent commercial de supprimer un client du système. Le système vérifie si le client est associé à des ventes déjà enregistrées ; dans ce cas, la suppression est refusée. Sinon, le client est définitivement supprimé du système et ne peut plus être utilisé dans une vente \\
 \hline
-Pré-condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial connecté
-  \item Au moins un client existe dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins un client existe dans le système \\
 \hline
-Post condition : & Le client est définitivement supprimé du système \\
+Post-condition : & Le client est définitivement supprimé du système \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Clients.
-  \item $\langle\langle$Include$\rangle\rangle$ consulter Clients
+  \item <<Include>> consulter Clients
   \item L'Agent commercial demande de supprimer client
   \item Le système vérifie si le client est associé à des ventes existantes
   \item Le système affiche un message pour confirmer la suppression
   \item L'Agent commercial confirme la suppression de client
   \item Le système supprime le client sélectionné
-  \item Le système informe l'agent que le client a été supprimé avec sucées
+  \item Le système informe l'agent que le client a été supprimé avec succès
 \end{enumerate} \\
 \hline
 Autre(s) scénario(s) : &
@@ -690,7 +672,7 @@ Autre(s) scénario(s) : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système détecte que ce client est associé à une vente
   \item Le système informe l'agent que la suppression d'un client ayant effectué une vente est impossible
-  \item $\langle\langle$Extend$\rangle\rangle$ archiver Client
+  \item <<Extend>> archiver Client
   \item Le CU se termine
 \end{enumerate}
 \textbf{6.a Annulation de confirmation de suppression}
@@ -715,20 +697,16 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'Agent commercial d'effectuer une recherche ou un filtrage sur les clients afin d'accéder aux informations détaillées d'un client enregistré dans le système y compris ses ventes \\
 \hline
-Pré-condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial connecté
-  \item Au moins un client est enregistré dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins un client est enregistré dans le système \\
 \hline
 Post-condition : & Les détails du client sont affichés \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Clients
   \item Le système recherche les clients enregistres dans le systéme
   \item Le système affiche la liste des clients enregistres
-  \item L'agent commercial peut s'il désire, filtrer les clients par statut (actif, non actif, archivé)
+  \item L'agent commercial peut s'il désire, filtrer les clients par statut ou types (personne, entreprise, archivé)
   \item Si le filtre est choisi le systém affiche les client correspondants au filtre
   \item L'agent commercial peut s'il désire, chercher les clients dans la barre de recherche
   \item Le systéme affiche les clients correspondants
@@ -752,61 +730,55 @@ Autre(s) scénario(s) : &
 \label{tab:cu-consulter-client}
 \end{longtable}
 
-\needspace{4\baselineskip}
 \subsection{Spécification de cas d'utilisation Modifier Client}
 
-\begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|p{\dimexpr\textwidth-3.5cm-4\tabcolsep-2\arrayrulewidth}|}
-
+\begin{table}[H]
+\footnotesize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\textwidth}{|p{3.4cm}|X|}
 \hline
-Titre : & Modifier Client \\
+\textbf{Titre :} & Modifier Client \\
 \hline
-Acteur : & Agent commercial \\
+\textbf{Acteur :} & Agent commercial \\
 \hline
-Description brève : & Ce cas d'utilisation permet à l'Agent commercial de modifier 
-les informations d'un client qui existe dans le système (telles que : prénom, nom, 
-téléphone, e-mail, adresse et ville pour une personne physique ou nom de société, 
-téléphone, email, adresse, ville, matricule fiscal pour entreprise). \\
+\textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial de modifier les informations d'un client qui existe dans le système (telles que : prénom, nom, téléphone, e-mail, adresse et ville pour une personne physique ou nom de société, téléphone, email, adresse, ville, matricule fiscal pour entreprise). \\
 \hline
-Pré-condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial est connecté.
-  \item Au moins un client est enregistré.
-\end{itemize} \\
+\textbf{Pré-condition :} & L'agent commercial est connecté et au moins un client est enregistré \\
 \hline
-Post condition : & Les modifications effectuées au client sont enregistrées avec succès. \\
+\textbf{Post condition :} & Les modifications effectuées au client sont enregistrées avec succès. \\
 \hline
-Scenario de base : &
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+\textbf{Scenario de base :} &
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
   \item L'Agent commercial demande la gestion des clients.
-  \item $\langle\langle$Include$\rangle\rangle$ consulter clients.
+  \item <<Include>> consulter clients.
   \item L'Agent commercial demande de modifier le client.
   \item Le système affiche les informations actuelles du client.
-  \item L'Agent commercial modifie les informations souhaitées (nom, prénom, email, ville).
+  \item L'Agent commercial modifie les informations souhaitées (nom, prénom, email, telephone, matricule-fiscale, ville, adresse).
   \item Le système enregistre les modifications.
-  \item Le système vérifie si toutes les informations obligatoires sont remplies.
+  \item Le système vérifie si toutes les informations obligatoires sont remplies et valides.
   \item Le système vérifie que les nouvelles informations ne sont pas déjà utilisées.
   \item Le système enregistre la modification du client.
   \item Le système informe l'agent que le client a été modifié avec succès.
 \end{enumerate} \\
 \hline
-Autre(s) scenario(s) : &
+\textbf{Autre(s) scenario(s) :} &
 \textbf{7.a Informations obligatoires manquantes :}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
   \item Le système détecte qu'il y a des détails obligatoires manquants.
   \item Le système informe l'agent de remplir les informations manquantes.
   \item Le système retourne à l'étape 4 du scénario de base.
 \end{enumerate}
 \textbf{8.a Informations client déjà utilisées :}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
   \item Le système détecte que l'email ou le numéro est déjà utilisé.
   \item Le système informe l'agent que le client existe déjà.
   \item Le système retourne à l'étape 4 du scénario de base.
 \end{enumerate} \\
 \hline
+\end{tabularx}
 \caption{Spécification du CU : Modifier Client}
 \label{tab:cu-modifier-client}
-\end{longtable}
-\newpage
+\end{table}
 \subsection{Spécification de cas d'utilisation Archiver Client}
 
 \begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|p{\dimexpr\textwidth-3.5cm-4\tabcolsep-2\arrayrulewidth}|}
@@ -817,24 +789,21 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'Agent commercial d'archiver un client enregistré dans le système, afin de le désactiver sans le supprimer définitivement du système. \\
 \hline
-Précondition : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'Agent commercial est connecté
-  \item Au moins un client est enregistré dans le système
-\end{itemize} \\
+Précondition : & L'Agent commercial est connecté et au moins un client est enregistré dans le système \\
 \hline
-Post condition : & Le client est archivé et n'apparaît plus dans la liste des clients \\
+Post-condition : & Le client est archivé et n'apparaît plus dans la liste des clients \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Clients
-  \item $\langle\langle$Include$\rangle\rangle$ consulter Clients
+  \item <<Include>> consulter Clients
   \item L'agent commercial demande d'archiver client
   \item Le système affiche un message pour confirmer l'archivage.
-  \item Largent commercial confirme l'archivage de client.
+  \item L'agent commercial confirme l'archivage de client.
+  \item Le système affecte un état au client archivé
   \item Le système archive le client.
   \item Le système informe l'agent que le client a été archivé avec succès
-  \item le systéme affecté un etat au client archivé
+ 
 \end{enumerate} \\
 \hline
 Autre(s) scénario(s) : &
@@ -857,23 +826,15 @@ Autre(s) scénario(s) : &
 
 \begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|p{\dimexpr\textwidth-3.5cm-4\tabcolsep-2\arrayrulewidth}|}
 \hline
-Titre CU : & Enregistrer vente \\
+Titre : & Enregistrer vente \\
 \hline
 Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'agent commercial d'enregistrer une nouvelle vente en sélectionnant un client, un produit, une quantité et une date de vente. \\
 \hline
-Pré-condition(s) : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial connecté
-  \item Au moins un client et au moins un produit existent dans le systéme
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins un client et un produit existent dans le système \\
 \hline
-Post-condition(s) : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item La vente est enregistrée avec succès
-  \item Stock produits mis à jour
-\end{itemize} \\
+Post-condition : & La vente est enregistrée avec succès et le stock des produits est mis à jour \\
 \hline
 Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
@@ -881,27 +842,28 @@ Scénario de base : &
   \item L'agent commercial demande Ajouter Vente
   \item Le système permet à l'agent commercial de choisir les informations nécessaires d'une nouvelle vente.
   \item L'agent commercial sélectionne un client, un ou plusieurs produit(s), fournit la quantité de chaque produit et la date de vente
+  \item Le système vérifie si les quantités choisies sont disponibles dans le stock des produits concernés
   \item Le système calcule automatiquement le total de chaque  ligne de vente à partir du prix unitaire des produits et des quantités vendues
   \item le systéme desactiver la selectionne de ce produit dans cette vente
   \item L'agent commercial demande d'enregistrer l'ajoute de la nouvelle vente
   \item Le système vérifie si toutes les informations obligatoires sont remplies et sont valides
-  \item Le système vérifie si les quantités choisies sont disponibles dans le stock des produits concernés
-  \item Le système enregistre la vente
-  \item Le système informe l'agent que la vente enregistré avec succé
-  \item le systéme affecté un etat au vente en fonction de statut par defaut (non payé)
+  \item Le système enregistre la vente avec un statut non payée par défaut
+  \item Le système informe l'agent que la vente est enregistrée avec succès
+  \item le systeme met a jour le stock des produits
+  \item le systeme envoi une notification informe l'agent que le produit en repture ou faible
 \end{enumerate} \\
 \hline
 Autre(s) scénario(s) : &
-\textbf{7.a. informations de ventes obligatoires manquantes}
+\textbf{5.a Quantité supérieure au stock disponible}
+\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+  \item Le système informe l'agent que la quantité demandée dépasse le stock disponible du produit concerné
+  \item Le système revient à l'étape 4 du scenario de base
+\end{enumerate}
+\textbf{9.a. informations de ventes obligatoires manquantes}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système détecte qu'il ya des champs obligatoires manquants
   \item Le système informe l'agent de remplir les informations manquants
   \item Le système retourne à l'étape 4 du scénario de base
-\end{enumerate}
-\textbf{8.a Quantité supérieure au stock disponible}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système informe l'agent que la quantité demandée dépasse le stock disponible du produit concerné
-  \item Le système revient à l'étape 4 du scenario de base
 \end{enumerate} \\
 \hline
 \caption{Spécification du CU : Enregistrer Vente}
@@ -918,17 +880,13 @@ Titre : & Consulter Vente \\
 \hline
 Acteur : & Agent commercial \\
 \hline
-Description brève : & Ce cas d'utilisation permet à L'Agent commercial d'effectuer une recherche ou un filtrage sur les ventes afin d'accéder aux informations détaillées d'une vente enregistrée dans le système y compris sa facture s'elle existe \\
+Description brève : & Ce cas d'utilisation permet à L'Agent commercial d'effectuer une recherche ou un filtrage sur les ventes afin d'accéder aux informations détaillées d'une vente enregistrée dans le système y compris sa facture si elle existe \\
 \hline
-Précondition : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial est connecté
-  \item Au moins une vente enregistrée dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins une vente enregistrée dans le système \\
 \hline
-Post condition : & Les Details de la vente affiché à l'écran \\
+Post-condition : & Les Details de la vente affiché à l'écran \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des ventes
   \item Le système recherche les ventes enregistrées dans le système
@@ -938,12 +896,12 @@ Scenario de base : &
   \item L'agent commercial peut s'il désire, chercher la vente dans la barre de recherche
   \item Le systéme affiche les ventes correspondants
   \item L'agent commercial peut s'il désire, consulter détails de vente souhaitées
-  \item Le système affiche les détails de la vente tels que : client, produits, quantites, total, date de création, date d'échéance, statut, sa facture et détails de facture
-  \item $\langle\langle$Extend$\rangle\rangle$ Imprimer facture
-  \item $\langle\langle$Extend$\rangle\rangle$ envoyer via WhatsApp
+  \item Le système affiche les détails de la vente tels que : client, produits, quantités, total, date de création, statut, sa facture et détails de facture
+  \item <<Extend>>Imprimer facture
+  \item <<Extend>> envoyer via WhatsApp
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{5.a. liste filtrage vide}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système affiche un message indiquant qu'aucune vente ne correspond aux critères de filtrage appliqués
@@ -969,30 +927,27 @@ Titre : & Archiver Vente \\
 \hline
 Acteur : & Agent commercial \\
 \hline
-Description brève : & Ce cas d'utilisation permet à l'Agent commercial d'archiver une vente totalement payée dans le système, afin de la désactiver sans le supprimer définitivement du système \\
+Description brève : & Ce cas d'utilisation permet à l'Agent commercial d'archiver une vente totalement payée dans le système, afin de la désactiver sans le supprimer définitivement du système .l'archivage d'une vente payée entraîne automatiquement l'archivage de sa facture\\
 \hline
-Pré-condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'agent commercial est connecté
-  \item Au moins une vente enregistrée dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins une vente enregistrée dans le système \\
 \hline
 Post-condition : & La vente est archivée et n'apparaît plus dans la liste des ventes affiché \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'agent commercial demande la gestion des ventes
-  \item $\langle\langle$include$\rangle\rangle$ Consulter ventes.
+  \item <<include>> Consulter ventes
   \item L'agent commercial demande d'archiver la vente
   \item Le système vérifie que la vente est totalement payée
-  \item Le système informe l'agent que l'archivage de la vente entraine par defaut l'archivage automatique de la facture associée et demande la confirmation de cette opération.
-  \item L'agent commercial confirme l'action.
-  \item Le système archive la vente.
-  \item Le systéme archive la facture
-  \item Le système affiche un message indiquant que la vente et sa facture ont été archivées avec succès.
+  \item Le système informe l'agent que l'archivage de la vente entraine par defaut l'archivage automatique de la facture associée et demande la confirmation de cette opération
+  \item L'agent commercial confirme l'action
+  \item Le système affecte un état à la vente archivée
+  \item Le systéme archive la facture associée à la vente
+  \item Le système archive la vente
+  \item Le système affiche un message indiquant que la vente et sa facture ont été archivées avec succès
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{4.a. la vente est non payée ou partiellement payée.}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent que l'archivage d'une vente qui n'est pas encore totalement payée est impossible.
@@ -1024,9 +979,9 @@ Description brève : & Ce cas d'utilisation permet à l'agent commercial d'ajout
 \hline
 Pré condition : & Au moins une vente existe dans le système \\
 \hline
-Post condition : & Facture ajouté dans la liste des factures \\
+Post-condition : & Facture ajouté dans la liste des factures \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'agent commercial demande la gestion des factures
   \item L'agent commerciale demande Ajouter facture
@@ -1035,12 +990,11 @@ Scenario de base : &
   \item L'agent commercial choisi une vente et renseigne la date d'échéance
   \item L'Agent commercial demande d'enregistrer la facture de cette vente
   \item Le système vérifie si toutes les informations obligatoires sont remplies et sont valides
-  \item Le système Créer la facture.
+  \item Le système Créer la facture avec un statut non payée par défaut
   \item Le système informe l'agent que la facture ajoutée avec succès
-  \item le systéme affecte un etat au facture par defaut (non payé)
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{4.a Le système ne trouve aucune vente sans facture :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système affiche une liste vide.
@@ -1075,23 +1029,22 @@ Description brève : & Ce cas d'utilisation permet à l'agent commercial de vali
 \hline
 Pré condition : & Au moins une vente existe dans le système \\
 \hline
-Post condition : & Facture ajouté dans la liste des factures \\
+Post-condition : & Facture ajouté dans la liste des factures \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'agent commercial demande la gestion des ventes
-  \item $\langle\langle$include$\rangle\rangle$ consulter Vente
+  \item <<include>>consulter Vente
   \item Le système vérifie que la vente sélectionnée n'est pas encore associée à une facture.
-  \item L'agent commercial demande de créer une facture pour cette vente.
+  \item L'agent commercial demande de créer une facture pour cette vente
   \item Le système permet à l'agent commercial de renseigne la date d'echéance
   \item L'Agent commercial demande d'enregistrer la facture de cette vente
   \item Le système vérifie si toutes les informations obligatoires sont remplies et sont valides
-  \item Le système Créer la facture.
+  \item Le système Créer la facture avec un statut non payée par défaut
   \item Le système informe l'agent que la facture ajoutée avec succès
-  \item le systéme affecte un etat au facture par defaut (non payé)
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{3.a Une facture a déjà été créée pour cette vente :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système désactive l'option de creation de facture
@@ -1124,24 +1077,14 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'agent commercial d'enregistrer un règlement associé à une facture. Il consiste à saisir les informations du paiement (montant, date et mode de paiement). \\
 \hline
-Pré condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item L'agent commercial est connecté
-  \item Au moins une facture est créée dans le systéme
-\end{itemize} \\
+Pré condition : & L'agent commercial est connecté et au moins une facture est créée dans le systéme \\
 \hline
-Post condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item Mise à jour automatique du montant restant de la facture
-  \item Le règlement est ajouté dans l'historique des règlements de la facture
-  \item Le statut de la facture est mis à jour (payée ou partiellement-payée).
-  \item Le statut de vente associé est mis à jour (payée ou partiellement-payée).
-\end{itemize} \\
+Post-condition : & Le montant restant de la facture est mis à jour, le règlement est ajouté dans l'historique, et le statut de la facture ainsi que celui de la vente associée sont mis à jour (payée ou partiellement-payée). \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Factures.
-  \item $\langle\langle$Include$\rangle\rangle$ consulter Factures
+  \item <<Include>> consulter Factures
   \item Le système vérifie que la facture sélectionnée n'est pas totalement payée
   \item L'agent commercial demande d'Enregistrer règlement
   \item Le système permet à l'agent commercial d'entrer les informations de ce paiement (montant a payée, date, mode de paiement)
@@ -1150,12 +1093,13 @@ Scenario de base : &
   \item Le système vérifie si toutes les informations obligatoires sont remplies et valides
   \item Le système vérifie que le montant saisi n'excède pas au reste à paye de la facture
   \item Le système enregistrer le règlement
-  \item Le système met à jour le statut de facture
+  \item Le système met à jour le statut de facture en fonction de la valeur de nouveau reste
   \item Le système met à jour le statut de vente
   \item Le système met à jour le montant restant
+  \item le systéme informe l'agent du statut de le facture
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{3.a la facture selectionnée est déjà soldée :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système désactive l'option d'enregistrement du réglement
@@ -1166,12 +1110,12 @@ Autre scenario : &
   \item Le système informe l'agent de remplir les informations manquantes
   \item Le système retourne à l'étape 5 du scénario de base
 \end{enumerate}
-\textbf{8.a date de règlement $<$ date de facture :}
+\textbf{8.b date de règlement $<$ date de facture :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent commercial que la date de règlement doit être supérieure ou égale à la date de facture.
   \item Le système retourne à l'étape 5 du scénario de base
 \end{enumerate}
-\textbf{8.a montant saisi $>$ reste :}
+\textbf{9 .a montant saisi $>$ reste :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent commercial que le montant ne doit pas dépasser le reste
   \item Le système retourne à l'étape 5 du scénario de base
@@ -1199,12 +1143,12 @@ Pré condition : &
   \item Au moins une facture existe dans le système
 \end{itemize} \\
 \hline
-Post condition : & Facture imprimée \\
+Post-condition : & Facture imprimée \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Factures.
-  \item $\langle\langle$include$\rangle\rangle$ consulter Factures
+  \item <<include>> consulter Factures
   \item L'agent commercial demande d'imprimer la facture
   \item Le système génère la facture en format PDF
   \item Le système ouvre la boîte de dialogue Impression
@@ -1222,7 +1166,8 @@ Scenario de base : &
 \hline
 Titre : & envoyer facture via WhatsApp \\
 \hline
-Acteur : & Agent commercial \\
+Acteur : & Agent commercial(principal)
+,whatsapp(secondaire) \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'agent commercial d'envoyer directement au client une facture via WhatsApp \\
 \hline
@@ -1232,12 +1177,12 @@ Pré condition : &
   \item Au moins une facture existe dans le système
 \end{itemize} \\
 \hline
-Post condition : & Facture est envoyée via WhatsApp. \\
+Post-condition : & Facture est envoyée via WhatsApp. \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Factures
-  \item $\langle\langle$include$\rangle\rangle$ consulter Factures
+  \item <<include>> consulter Factures
   \item L'agent commercial demande d'Envoyer facture via WhatsApp
   \item Le système ouvre WhatsApp avec lien de facture
   \item L'agent commercial confirme l'envoi
@@ -1247,57 +1192,54 @@ Scenario de base : &
 \label{tab:cu-envoyer-whatsapp}
 \end{longtable}
 
-\newpage
 \subsection{Spécification de cas d'utilisation : Consulter Facture}
 
-\begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|p{\dimexpr\textwidth-3.5cm-4\tabcolsep-2\arrayrulewidth}|}
+\begin{table}[H]
+\footnotesize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\textwidth}{|p{3.4cm}|X|}
 \hline
-Titre : & Consulter Facture \\
+\textbf{Titre :} & Consulter Facture \\
 \hline
-Acteur : & Agent commercial \\
+\textbf{Acteur :} & Agent commercial \\
 \hline
-Description brève : & Ce cas d'utilisation permet à L'Agent commercial d'effectuer une recherche ou un filtrage sur les factures afin d'accéder aux informations détails d'une facture enregistrée dans le système \\
+\textbf{Description brève :} & Ce cas d'utilisation permet à l'Agent commercial d'effectuer une recherche ou un filtrage sur les factures afin d'accéder aux informations détails d'une facture enregistrée dans le système. \\
 \hline
-Précondition : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item L'agent commercial est connecté
-  \item Au moins une facture enregistrée
-\end{itemize} \\
+\textbf{Précondition :} & L'agent commercial est connecté et au moins une facture enregistrée. \\
 \hline
-Post condition : & Details de facture est affiché à l'écran \\
+\textbf{Post condition :} & Details de facture est affiché à l'écran. \\
 \hline
-Scenario de base : &
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item L'Agent commercial demande la gestion des Factures
-  \item Le système recherche les factures enregistres dans le système
-  \item Le système affiche la liste des Facture enregistres
-  \item L'agent commercial peut s'il désire, filtrer les clients par statut (payée, non payée, partiellement payée, archivé)
-  \item Si le filtre est choisi le systéme affiche les factures correspondants au filtre
-  \item L'agent commercial peut s'il désire, chercher les factures dans la barre de recherche
-  \item Le systéme affiche les factures correspondants
-  \item L'agent commerciale peut egalement consulter les détails d'une facture souhaité
-  \item Le système affiche les détails de facture tels que : réf facture, numéro de vente, nom client, montant, si existe montant payé, type, mode, date d'échéance, date de paiement, statut et reste
-  \item $\langle\langle$Extend$\rangle\rangle$ Imprimer facture
-  \item $\langle\langle$Extend$\rangle\rangle$ envoyer via WhatsApp
+\textbf{Scenario de base :} &
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item L'Agent commercial demande la gestion des Factures.
+  \item Le système recherche les factures enregistrées dans le système.
+  \item Le système affiche la liste des Factures enregistrées.
+  \item L'agent commercial peut, s'il le désire, filtrer les factures par statut (payée, non payée, partiellement payée, archivé).
+  \item Si le filtre est choisi, le système affiche les factures correspondantes au filtre.
+  \item L'agent commercial peut, s'il le désire, chercher les factures dans la barre de recherche.
+  \item Le système affiche les factures correspondantes.
+  \item L'agent commercial peut également consulter les détails d'une facture souhaitée.
+  \item Le système affiche les détails de facture tels que : réf facture, numéro de vente, nom client, montant, montant payé, type, mode, date facture,date d'échéance, date de paiement, statut et reste.
+  \item <<Extend>> Imprimer facture.
+  \item <<Extend>>Envoyer via WhatsApp.
 \end{enumerate} \\
 \hline
-Autre(s) scénario(s) : &
+\textbf{Autre(s) scénario(s) :} &
 \textbf{4.a. liste filtrage vide :}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système affiche un message indiquant qu'aucune facture ne correspond aux critères de filtrage appliqués
-  \item Le CU se termine
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item Le système affiche un message indiquant qu'aucune facture ne correspond aux critères de filtrage appliqués.
+  \item Le CU se termine.
 \end{enumerate}
 \textbf{7.a. la facture recherchée n'existe pas :}
-\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
-  \item Le système affiche un message indiquant que la facture recherchée n'existe pas dans le système
-  \item Le CU se termine
+\begin{enumerate}[leftmargin=1.5em, topsep=1pt, itemsep=0pt]
+  \item Le système affiche un message indiquant que la facture recherchée n'existe pas dans le système.
+  \item Le CU se termine.
 \end{enumerate} \\
 \hline
+\end{tabularx}
 \caption{Spécification du CU : Consulter Facture}
 \label{tab:cu-consulter-facture}
-\end{longtable}
-
-\newpage
+\end{table}
 \subsection{Spécification de cas d'utilisation Archiver Facture}
 
 \begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|p{\dimexpr\textwidth-3.5cm-4\tabcolsep-2\arrayrulewidth}|}
@@ -1308,28 +1250,25 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'Agent commercial d'archiver une facture (vente payée) dans le système, afin de le désactiver sans le supprimer définitivement du système. \\
 \hline
-Pré-condition(s) : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item L'agent commercial est connecté
-  \item Au moins une vente est enregistrée dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins une vente est enregistrée dans le système \\
 \hline
-Post-condition(s) : & La facture est archivée et n'apparaît plus dans la liste des factures affiché \\
+Post-condition : & La facture est archivée et n'apparaît plus dans la liste des factures affiché \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande la gestion des Factures
-  \item $\langle\langle$include$\rangle\rangle$ consulter factures
+  \item <<include>> consulter factures
   \item L'agent commercial demande d'archiver une facture
   \item Le système vérifie que la facture est payée
   \item Le système affiche un message pour confirmer l'archivage de facture
   \item L'agent commercial confirme l'archivage de facture
+  \item Le système affecte un état à la facture archivée
   \item Le système archive la facture.
   \item Le système informe l'agent que le facture a été archivé avec succès.
-  \item le systéme affecte un etat au facture archivé
+
 \end{enumerate} \\
 \hline
-Autre(s) scenario(s) : &
+Autre(s) scénario(s) : &
 \textbf{4.a. la facture est non payée ou partiellement payée :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système détecte que cette facture est non payée ou partiellement payée
@@ -1348,6 +1287,44 @@ Autre(s) scenario(s) : &
 \end{longtable}
 
 \newpage
+\needspace{10\baselineskip}
+\section{Spécification de cas d'utilisation : Gérer Notifications}
+
+\subsection{Spécification de cas d'utilisation Consulter Notifications}
+
+\begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|p{\dimexpr\textwidth-3.5cm-4\tabcolsep-2\arrayrulewidth}|}
+\hline
+Titre : & Consulter Notifications \\
+\hline
+Acteur : & Agent commercial \\
+\hline
+Description brève : & Ce cas d'utilisation permet à l'agent commercial de rester informé des événements importants tels que les échéances du jour, les échéances passées, ainsi que les situations de stock faible ou de rupture de stock. \\
+\hline
+Précondition : & L'agent commercial est connecté et au moins une notification existe dans le système \\
+\hline
+Post-condition : & L'agent commercial est informé des nouvelles notifications \\
+\hline
+Scénario de base : &
+\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+  \item L'Agent commercial demande la gestion des notifications
+  \item Le système recherche les notifications enregistrées dans le système
+  \item Le système affiche la liste des notifications enregistrées
+  \item L'agent commercial peut, s'il le désire, filtrer les notifications par statut (toutes, non lues, lues)
+  \item Si le filtre est choisi, le système affiche les notifications correspondant au filtre
+\end{enumerate} \\
+\hline
+Autre(s) scénario(s) : &
+\textbf{4.a. Liste filtrage vide :}
+\begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
+  \item Le système affiche un message indiquant qu'aucune notification ne correspond aux critères de filtrage appliqués
+  \item Le CU se termine
+\end{enumerate} \\
+\hline
+\caption{Spécification du CU : Consulter Notifications}
+\label{tab:cu-consulter-notifications}
+\end{longtable}
+
+\newpage
 \needspace{6\baselineskip}
 \subsection{Spécification de cas d'utilisation Marquer Notifications Comme Lue}
 
@@ -1359,28 +1336,20 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'agent commercial de marquer certaines notifications comme lues afin d'organisé celles déjà consultées \\
 \hline
-Précondition : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item L'agent commercial est connecté
-  \item Au moins une notification non lue existe dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins une notification non lue existe dans le système \\
 \hline
-Post condition : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item Le nombre de notifications diminue
-  \item Statut de notification mis à jour en « lu »
-\end{itemize} \\
+Post-condition : & Le nombre de notifications diminue et le statut de notification est mis à jour en « lu » \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande de consulter notification
-  \item $\langle\langle$Include$\rangle\rangle$ Consulter Notifications
+  \item <<Include>> Consulter Notifications
   \item L'agent commercial demande de marquer notification comme lue
   \item Le systéme met à jour le statut en « lu »
   \item Le systéme met à jour le compteur de notifications
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{3.a marquer toutes les notifications comme lues :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'agent commercial demande de marquer tous comme lues
@@ -1402,18 +1371,14 @@ Acteur : & Agent commercial \\
 \hline
 Description brève : & Ce cas d'utilisation permet à l'agent commercial de supprimer notifications dont ils n'ont plus besoin définitivement du système. \\
 \hline
-Précondition : &
-\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt]
-  \item L'agent commercial est connecté
-  \item Au moins une notification existe dans le système
-\end{itemize} \\
+Précondition : & L'agent commercial est connecté et au moins une notification existe dans le système \\
 \hline
-Post condition : & Notifications supprimées avec succès \\
+Post-condition : & Notifications supprimées avec succès \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item L'Agent commercial demande de consulter notification
-  \item $\langle\langle$Include$\rangle\rangle$ Consulter Notifications
+  \item <<Include>> Consulter Notifications
   \item L'agent commercial demande de supprimer notification
   \item Le système supprime notifications
   \item Le système met à jour le compteur de notifications
@@ -1435,16 +1400,16 @@ Titre : & Consulter Tableaux De Bord \\
 \hline
 Acteur : & CEO \\
 \hline
-Description brève : & Ce cas d'utilisation permet au CEO de consulter les indicateurs clés de performance (KPI) ainsi que les analyses visuelles relatives aux ventes, produits et aux clients \\
+Description brève : & Ce cas d'utilisation permet au CEO de consulter les indicateurs clés de performance (KPI) ainsi que les analyses visuelles relatives aux ventes, produits.clients,factures et aux reglements\\
 \hline
 Précondition : & Le CEO est connecté \\
 \hline
-Post condition : & Les indicateurs clés de performance et les graphiques du tableau de bord sont affichés \\
+Post-condition : & Les indicateurs clés de performance et les graphiques du tableau de bord sont affichés \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le CEO demande d'accéder au tableau de bord
-  \item Le systéme calcule les kpi
+  \item Le système calcule les KPI à partir des données relatives aux ventes, aux clients, aux produits, aux factures et aux règlements.
   \item Le système affiche les indicateurs selon les graphiques appropriés :
   \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
     \item \textbf{Vente :} Le chiffre d'affaires total, le chiffre d'affaires mensuel, taux de croissance, marge brute, taux de marge, le panier moyen, l'évolution du chiffre d'affaires mois par mois, l'évolution du chiffre d'affaires semaine par semaine
@@ -1456,7 +1421,7 @@ Scenario de base : &
   \item Le CEO peut naviguer entre les différentes sections du tableau de bord
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{3.a. Aucune donnée disponible :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent qu'aucune donnée n'est disponible
@@ -1482,9 +1447,9 @@ Description brève : & Ce cas d'utilisation permet au CEO de consulter les analy
 \hline
 Précondition : & Le CEO est connecté \\
 \hline
-Post condition : & Les prévisions sont affichées pour la période choisie \\
+Post-condition : & Les prévisions sont affichées pour la période choisie \\
 \hline
-Scenario de base : &
+Scénario de base : &
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le CEO demande d'accéder au Prévisions
   \item Le système affiche les prévisions tels que :
@@ -1498,7 +1463,7 @@ Scenario de base : &
   \end{itemize}
 \end{enumerate} \\
 \hline
-Autre scenario : &
+Autre(s) scénario(s) : &
 \textbf{2.a. Aucune donnée disponible :}
 \begin{enumerate}[leftmargin=1.5em, topsep=2pt, itemsep=1pt]
   \item Le système informe l'agent qu'aucune donnée n'est disponible
