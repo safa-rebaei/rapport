@@ -56,23 +56,23 @@
 \contentsline {figure}{\numberline {3.50}{\ignorespaces Diagramme de séquence pour le cas d'utilisation Consulter prévisions}}{123}{figure.caption.70}%
 \contentsline {figure}{\numberline {3.51}{\ignorespaces Diagramme de classe pour le cas d'utilisation Consulter prévisions}}{124}{figure.caption.71}%
 \contentsline {figure}{\numberline {3.52}{\ignorespaces Diagramme de classes}}{125}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Se Connecter}}{132}{figure.caption.81}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de composants du Cas D'utilisation Se Connecter}}{133}{figure.caption.82}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Se Déconnecter}}{133}{figure.caption.83}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme de composants du cas d'utilisation Se Déconnecter}}{134}{figure.caption.84}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Agents}}{135}{figure.caption.85}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Agents}}{136}{figure.caption.86}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Produits}}{137}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Produits}}{139}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Clients}}{140}{figure.caption.89}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Clients}}{141}{figure.caption.90}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Traiter Vente}}{142}{figure.caption.91}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme de composants du cas d'utilisation Traiter Vente}}{144}{figure.caption.92}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Factures}}{145}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Factures}}{148}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Consulter Notifications}}{149}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagramme de composants du cas d'utilisation Consulter Notifications}}{150}{figure.caption.96}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Consulter Tableau de Bord}}{151}{figure.caption.97}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagramme de composants du cas d'utilisation Consulter Tableau de Bord}}{153}{figure.caption.98}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Consulter Prévisions}}{153}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de composants du cas d'utilisation Consulter Prévisions}}{155}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Se Connecter}}{132}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de composants du Cas D'utilisation Se Connecter}}{133}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Se Déconnecter}}{133}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme de composants du cas d'utilisation Se Déconnecter}}{134}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Agents}}{135}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Agents}}{136}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Produits}}{137}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Produits}}{139}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Clients}}{140}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Clients}}{141}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Traiter Vente}}{142}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme de composants du cas d'utilisation Traiter Vente}}{144}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Gérer Factures}}{145}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagramme de composants du cas d'utilisation Gérer Factures}}{148}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Consulter Notifications}}{149}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagramme de composants du cas d'utilisation Consulter Notifications}}{150}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Consulter Tableau de Bord}}{151}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagramme de composants du cas d'utilisation Consulter Tableau de Bord}}{153}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Traçabilité MC/MI pour le cas d'utilisation Consulter Prévisions}}{153}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de composants du cas d'utilisation Consulter Prévisions}}{155}{figure.caption.99}%
