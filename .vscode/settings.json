@@ -27,10 +27,6 @@
   ],
   "latex-workshop.latex.recipes": [
     {
-      "name": "latexmk",
-      "tools": ["latexmk"]
-    },
-    {
       "name": "pdflatex x3",
       "tools": ["pdflatex", "pdflatex", "pdflatex"]
     }
