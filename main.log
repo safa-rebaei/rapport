@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.13)  15 MAY 2026 12:51
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.15)  15 MAY 2026 14:53
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,7 +1154,11 @@ Package hyperref Info: Link coloring ON on input line 213.
 \openout4 = `main.out'.
 
  (pageDeGarde.tex
+<<<<<<< Updated upstream
 <images/download.jpg, id=734, 264.99pt x 191.71625pt>
+=======
+<images/download.jpg, id=742, 264.99pt x 191.71625pt>
+>>>>>>> Stashed changes
 File: images/download.jpg Graphic file (type jpg)
 <use images/download.jpg>
 Package pdftex.def Info: images/download.jpg  used on input line 16.
@@ -1195,12 +1203,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+<<<<<<< Updated upstream
 <images/soussse.jpg, id=735, 225.84375pt x 224.84pt>
+=======
+<images/soussse.jpg, id=743, 225.84375pt x 224.84pt>
+>>>>>>> Stashed changes
 File: images/soussse.jpg Graphic file (type jpg)
 <use images/soussse.jpg>
 Package pdftex.def Info: images/soussse.jpg  used on input line 30.
 (pdftex.def)             Requested size: 85.35826pt x 84.98036pt.
+<<<<<<< Updated upstream
 <images/logoteknovat.png, id=736, 301.6068pt x 80.4606pt>
+=======
+<images/logoteknovat.png, id=744, 301.6068pt x 80.4606pt>
+>>>>>>> Stashed changes
 File: images/logoteknovat.png Graphic file (type png)
 <use images/logoteknovat.png>
 Package pdftex.def Info: images/logoteknovat.png  used on input line 63.
@@ -1251,19 +1267,31 @@ Underfull \hbox (badness 1014) in paragraph at lines 52--56
 [4
 
 ]
+<<<<<<< Updated upstream
 <images/organigramme.png, id=1225, 1541.76pt x 1027.84pt>
+=======
+<images/organigramme.png, id=1239, 1541.76pt x 1027.84pt>
+>>>>>>> Stashed changes
 File: images/organigramme.png Graphic file (type png)
 <use images/organigramme.png>
 Package pdftex.def Info: images/organigramme.png  used on input line 78.
 (pdftex.def)             Requested size: 455.24411pt x 303.49248pt.
  [5 <./images/organigramme.png (PNG copy)>] [6] [7] [8] [9]
+<<<<<<< Updated upstream
 <images/processus-unifie.png, id=1249, 526.6074pt x 264.99pt>
+=======
+<images/processus-unifie.png, id=1263, 526.6074pt x 264.99pt>
+>>>>>>> Stashed changes
 File: images/processus-unifie.png Graphic file (type png)
 <use images/processus-unifie.png>
 Package pdftex.def Info: images/processus-unifie.png  used on input line 325.
 (pdftex.def)             Requested size: 364.19667pt x 183.26785pt.
  [10 <./images/processus-unifie.png>]
+<<<<<<< Updated upstream
 <images/gantt.png, id=1266, 464.4552pt x 172.4844pt>
+=======
+<images/gantt.png, id=1280, 464.4552pt x 172.4844pt>
+>>>>>>> Stashed changes
 File: images/gantt.png Graphic file (type png)
 <use images/gantt.png>
 Package pdftex.def Info: images/gantt.png  used on input line 423.
@@ -1274,7 +1302,11 @@ Package pdftex.def Info: images/gantt.png  used on input line 423.
 [14
 
 ] [15]
+<<<<<<< Updated upstream
 <images/MCU_DiagrammeCasUtilisationGlobal.png, id=1292, 715.17188pt x 938.00438
+=======
+<images/MCU_DiagrammeCasUtilisationGlobal.png, id=1306, 715.17188pt x 938.00438
+>>>>>>> Stashed changes
 pt>
 File: images/MCU_DiagrammeCasUtilisationGlobal.png Graphic file (type png)
 <use images/MCU_DiagrammeCasUtilisationGlobal.png>
@@ -1452,7 +1484,11 @@ Overfull \hbox (0.4pt too wide) in alignment at lines 1439--1474
  []
 
 [53]
+<<<<<<< Updated upstream
 <images/MCU_DiagrammeCasUtilisationRaffiné.png, id=1818, 1680.2775pt x 1666.72
+=======
+<images/MCU_DiagrammeCasUtilisationRaffiné.png, id=1832, 1680.2775pt x 1666.72
+>>>>>>> Stashed changes
 687pt>
 File: images/MCU_DiagrammeCasUtilisationRaffiné.png Graphic file (type png)
 <use images/MCU_DiagrammeCasUtilisationRaffiné.png>
@@ -1465,21 +1501,33 @@ n input line 1482.
 ] [57
 
 ]
+<<<<<<< Updated upstream
 <images/1_eqghG-tH1flMjAOFcsOjIQ.png, id=1837, 943.525pt x 790.955pt>
+=======
+<images/1_eqghG-tH1flMjAOFcsOjIQ.png, id=1851, 943.525pt x 790.955pt>
+>>>>>>> Stashed changes
 File: images/1_eqghG-tH1flMjAOFcsOjIQ.png Graphic file (type png)
 <use images/1_eqghG-tH1flMjAOFcsOjIQ.png>
 Package pdftex.def Info: images/1_eqghG-tH1flMjAOFcsOjIQ.png  used on input lin
 e 59.
 (pdftex.def)             Requested size: 409.71692pt x 343.47127pt.
  [58 <./images/1_eqghG-tH1flMjAOFcsOjIQ.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeFormatConnecter.png, id=1843, 691.08188pt x 185.19188pt>
+=======
+<images/MC1_DiagrammeFormatConnecter.png, id=1857, 691.08188pt x 185.19188pt>
+>>>>>>> Stashed changes
 File: images/MC1_DiagrammeFormatConnecter.png Graphic file (type png)
 <use images/MC1_DiagrammeFormatConnecter.png>
 Package pdftex.def Info: images/MC1_DiagrammeFormatConnecter.png  used on input
  line 72.
 (pdftex.def)             Requested size: 455.24411pt x 121.99529pt.
  [59 <./images/MC1_DiagrammeFormatConnecter.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceSeConnecter_1.png, id=1849, 1026.08344pt x 845.408
+=======
+<images/MC_DiagrammeSéquenceSeConnecter_1.png, id=1863, 1026.08344pt x 845.408
+>>>>>>> Stashed changes
 43pt>
 File: images/MC_DiagrammeSéquenceSeConnecter_1.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceSeConnecter_1.png>
@@ -1487,13 +1535,21 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceSeConnecter_1.png  used on
  input line 97.
 (pdftex.def)             Requested size: 523.53049pt x 548.18028pt.
  [60 <./images/MC_DiagrammeSéquenceSeConnecter_1.png>]
+<<<<<<< Updated upstream
 <images/classeConnecter.png, id=1855, 469.2732pt x 328.1058pt>
+=======
+<images/classeConnecter.png, id=1869, 469.2732pt x 328.1058pt>
+>>>>>>> Stashed changes
 File: images/classeConnecter.png Graphic file (type png)
 <use images/classeConnecter.png>
 Package pdftex.def Info: images/classeConnecter.png  used on input line 107.
 (pdftex.def)             Requested size: 341.44238pt x 238.72922pt.
  [61 <./images/classeConnecter.png>]
+<<<<<<< Updated upstream
 <images/MC1_tracabiltéMCUMCseDéconnecter.png, id=1861, 749.80125pt x 190.4615
+=======
+<images/MC1_tracabiltéMCUMCseDéconnecter.png, id=1875, 749.80125pt x 190.4615
+>>>>>>> Stashed changes
 6pt>
 File: images/MC1_tracabiltéMCUMCseDéconnecter.png Graphic file (type png)
 <use images/MC1_tracabiltéMCUMCseDéconnecter.png>
@@ -1501,7 +1557,11 @@ Package pdftex.def Info: images/MC1_tracabiltéMCUMCseDéconnecter.png  used on
  input line 123.
 (pdftex.def)             Requested size: 500.77393pt x 175.70045pt.
  [62 <./images/MC1_tracabiltéMCUMCseDéconnecter.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceSeDéconnecter.png, id=1868, 923.70094pt x 643.654
+=======
+<images/MC_DiagrammeSéquenceSeDéconnecter.png, id=1882, 923.70094pt x 643.654
+>>>>>>> Stashed changes
 7pt>
 File: images/MC_DiagrammeSéquenceSeDéconnecter.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceSeDéconnecter.png>
@@ -1509,14 +1569,22 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceSeDéconnecter.png  used o
 n input line 148.
 (pdftex.def)             Requested size: 523.52698pt x 548.18942pt.
  [63 <./images/MC_DiagrammeSéquenceSeDéconnecter.png>]
+<<<<<<< Updated upstream
 <images/classedeconnecter.png, id=1874, 469.2732pt x 369.0588pt>
+=======
+<images/classedeconnecter.png, id=1888, 469.2732pt x 369.0588pt>
+>>>>>>> Stashed changes
 File: images/classedeconnecter.png Graphic file (type png)
 <use images/classedeconnecter.png>
 Package pdftex.def Info: images/classedeconnecter.png  used on input line 160.
 (pdftex.def)             Requested size: 478.02936pt x 386.5602pt.
 
 [64 <./images/classedeconnecter.png>]
+<<<<<<< Updated upstream
 <images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png, id=1880, 809.27344pt x 2
+=======
+<images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png, id=1894, 809.27344pt x 2
+>>>>>>> Stashed changes
 12.29312pt>
 File: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png Graphic file (type p
 ng)
@@ -1525,7 +1593,11 @@ Package pdftex.def Info: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png
 used on input line 173.
 (pdftex.def)             Requested size: 455.24411pt x 119.4243pt.
  [65 <./images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceSupprimerUtilisateur_1.png, id=1886, 2409.0pt x 1
+=======
+<images/MC1_DiagrammeSéquenceSupprimerUtilisateur_1.png, id=1900, 2409.0pt x 1
+>>>>>>> Stashed changes
 503.36656pt>
 File: images/MC1_DiagrammeSéquenceSupprimerUtilisateur_1.png Graphic file (typ
 e png)
@@ -1534,7 +1606,11 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerUtilisateur_1.pn
 g  used on input line 198.
 (pdftex.def)             Requested size: 523.51218pt x 548.18517pt.
  [66 <./images/MC1_DiagrammeSéquenceSupprimerUtilisateur_1.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png, id=1892, 2357.05594pt x
+=======
+<images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png, id=1906, 2357.05594pt x
+>>>>>>> Stashed changes
  1520.68124pt>
 File: images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png Graphic file (type 
 png)
@@ -1543,7 +1619,11 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png
  used on input line 210.
 (pdftex.def)             Requested size: 523.51718pt x 548.18736pt.
  [67 <./images/MC1_DiagrammeSéquenceSupprimerUtilisateur.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeClasseGérerUtilisateurs_1.png, id=1898, 1176.64594pt x 58
+=======
+<images/MC1_DiagrammeClasseGérerUtilisateurs_1.png, id=1912, 1176.64594pt x 58
+>>>>>>> Stashed changes
 7.94656pt>
 File: images/MC1_DiagrammeClasseGérerUtilisateurs_1.png Graphic file (type png
 )
@@ -1552,12 +1632,17 @@ Package pdftex.def Info: images/MC1_DiagrammeClasseGérerUtilisateurs_1.png  us
 ed on input line 222.
 (pdftex.def)             Requested size: 432.47952pt x 548.17522pt.
  [68 <./images/MC1_DiagrammeClasseGérerUtilisateurs_1.png>]
+<<<<<<< Updated upstream
 <images/mcumcpoduit.png, id=1905, 469.2732pt x 145.5036pt>
+=======
+<images/mcumcpoduit.png, id=1919, 469.2732pt x 145.5036pt>
+>>>>>>> Stashed changes
 File: images/mcumcpoduit.png Graphic file (type png)
 <use images/mcumcpoduit.png>
 Package pdftex.def Info: images/mcumcpoduit.png  used on input line 234.
 (pdftex.def)             Requested size: 455.24411pt x 141.1583pt.
  [69 <./images/mcumcpoduit.png>] [70]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceAjouterProduit_1.png, id=1915, 2298.33656pt x 266
 7.21469pt>
 File: images/MC1_DiagrammeSéquenceAjouterProduit_1.png Graphic file (type png)
@@ -1568,6 +1653,18 @@ d on input line 266.
 (pdftex.def)             Requested size: 523.52118pt x 548.1663pt.
  [71 <./images/MC1_DiagrammeSéquenceAjouterProduit_1.png>]
 <images/MC1_DiagrammeSéquenceSupprimerProduit.png, id=1921, 2334.47156pt x 196
+=======
+<images/MC1_DiagrammeSéquenceAjouterProduit_4.png, id=1929, 3837.08531pt x 417
+8.10938pt>
+File: images/MC1_DiagrammeSéquenceAjouterProduit_4.png Graphic file (type png)
+
+<use images/MC1_DiagrammeSéquenceAjouterProduit_4.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterProduit_4.png  use
+d on input line 266.
+(pdftex.def)             Requested size: 523.4878pt x 548.14601pt.
+ [71 <./images/MC1_DiagrammeSéquenceAjouterProduit_4.png>]
+<images/MC1_DiagrammeSéquenceSupprimerProduit.png, id=1935, 2334.47156pt x 196
+>>>>>>> Stashed changes
 4.08781pt>
 File: images/MC1_DiagrammeSéquenceSupprimerProduit.png Graphic file (type png)
 
@@ -1576,6 +1673,7 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerProduit.png  use
 d on input line 278.
 (pdftex.def)             Requested size: 523.52364pt x 548.17264pt.
  [72 <./images/MC1_DiagrammeSéquenceSupprimerProduit.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceModifierProduit.png, id=1927, 1770.615pt x 1807.5
 028pt>
 File: images/MC1_DiagrammeSéquenceModifierProduit.png Graphic file (type png)
@@ -1585,6 +1683,18 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceModifierProduit.png  used
 (pdftex.def)             Requested size: 523.51567pt x 548.18478pt.
  [73 <./images/MC1_DiagrammeSéquenceModifierProduit.png>]
 <images/MC_DiagrammeSéquenceConsulterProduit.png, id=1933, 2061.95343pt x 1829
+=======
+<images/MC1_DiagrammeSéquenceModifierProduit_2.png, id=1941, 1770.615pt x 1717
+.91812pt>
+File: images/MC1_DiagrammeSéquenceModifierProduit_2.png Graphic file (type png
+)
+<use images/MC1_DiagrammeSéquenceModifierProduit_2.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceModifierProduit_2.png  us
+ed on input line 290.
+(pdftex.def)             Requested size: 523.51567pt x 548.17224pt.
+ [73 <./images/MC1_DiagrammeSéquenceModifierProduit_2.png>]
+<images/MC_DiagrammeSéquenceConsulterProduit.png, id=1947, 2061.95343pt x 1829
+>>>>>>> Stashed changes
 .33438pt>
 File: images/MC_DiagrammeSéquenceConsulterProduit.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceConsulterProduit.png>
@@ -1592,7 +1702,11 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterProduit.png  used
  on input line 302.
 (pdftex.def)             Requested size: 523.51012pt x 548.16255pt.
  [74 <./images/MC_DiagrammeSéquenceConsulterProduit.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceArchiverProduit.png, id=1940, 2038.61626pt x 1834
+=======
+<images/MC1_DiagrammeSéquenceArchiverProduit.png, id=1954, 2038.61626pt x 1834
+>>>>>>> Stashed changes
 .60406pt>
 File: images/MC1_DiagrammeSéquenceArchiverProduit.png Graphic file (type png)
 <use images/MC1_DiagrammeSéquenceArchiverProduit.png>
@@ -1600,6 +1714,7 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverProduit.png  used
  on input line 314.
 (pdftex.def)             Requested size: 523.52643pt x 548.17397pt.
  [75 <./images/MC1_DiagrammeSéquenceArchiverProduit.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeClasseGérerProduit_2.png, id=1946, 8421.71344pt x 5753.745
 94pt>
 File: images/MC_DiagrammeClasseGérerProduit_2.png Graphic file (type png)
@@ -1609,6 +1724,17 @@ input line 327.
 (pdftex.def)             Requested size: 523.40019pt x 548.10406pt.
  [76 <./images/MC_DiagrammeClasseGérerProduit_2.png>]
 <images/MC_tracabiliteMCUMCGererClient.png, id=1952, 1038.88126pt x 398.23781pt
+=======
+<images/MC1_DiagrammeClasseGérerProduit.png, id=1960, 3416.26312pt x 2777.8781
+3pt>
+File: images/MC1_DiagrammeClasseGérerProduit.png Graphic file (type png)
+<use images/MC1_DiagrammeClasseGérerProduit.png>
+Package pdftex.def Info: images/MC1_DiagrammeClasseGérerProduit.png  used on i
+nput line 327.
+(pdftex.def)             Requested size: 523.52061pt x 548.14807pt.
+ [76 <./images/MC1_DiagrammeClasseGérerProduit.png>]
+<images/MC_tracabiliteMCUMCGererClient.png, id=1966, 1038.88126pt x 398.23781pt
+>>>>>>> Stashed changes
 >
 File: images/MC_tracabiliteMCUMCGererClient.png Graphic file (type png)
 <use images/MC_tracabiliteMCUMCGererClient.png>
@@ -1616,6 +1742,7 @@ Package pdftex.def Info: images/MC_tracabiliteMCUMCGererClient.png  used on inp
 ut line 340.
 (pdftex.def)             Requested size: 455.24411pt x 174.50813pt.
  [77 <./images/MC_tracabiliteMCUMCGererClient.png>] [78]
+<<<<<<< Updated upstream
 <images/MC_diagseqAjouterClient_1.png, id=1962, 4102.07532pt x 5845.58907pt>
 File: images/MC_diagseqAjouterClient_1.png Graphic file (type png)
 <use images/MC_diagseqAjouterClient_1.png>
@@ -1634,13 +1761,39 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceModifierClient_1.png  used
 <images/MC_DiagrammeSéquenceConsulterClient_1.png, id=1975, 2680.0125pt x 2935
 .96875pt>
 File: images/MC_DiagrammeSéquenceConsulterClient_1.png Graphic file (type png)
+=======
+<images/MC_diagseqAjouterClient.png, id=1976, 2952.53062pt x 2926.18219pt>
+File: images/MC_diagseqAjouterClient.png Graphic file (type png)
+<use images/MC_diagseqAjouterClient.png>
+Package pdftex.def Info: images/MC_diagseqAjouterClient.png  used on input line
+ 373.
+(pdftex.def)             Requested size: 523.50345pt x 548.16667pt.
+ [79 <./images/MC_diagseqAjouterClient.png>]
+<images/MC_DiagrammeSéquenceModifierClient.png, id=1982, 1925.69438pt x 1815.7
+8375pt>
+File: images/MC_DiagrammeSéquenceModifierClient.png Graphic file (type png)
+<use images/MC_DiagrammeSéquenceModifierClient.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquenceModifierClient.png  used o
+n input line 385.
+(pdftex.def)             Requested size: 523.49986pt x 548.17494pt.
+ [80 <./images/MC_DiagrammeSéquenceModifierClient.png>]
+<images/MC_DiagrammeSéquenceSupprimerClient_1.png, id=1989, 2338.23563pt x 194
+2.25626pt>
+File: images/MC_DiagrammeSéquenceSupprimerClient_1.png Graphic file (type png)
+>>>>>>> Stashed changes
 
 <use images/MC_DiagrammeSéquenceConsulterClient_1.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterClient_1.png  use
 d on input line 397.
+<<<<<<< Updated upstream
 (pdftex.def)             Requested size: 523.52045pt x 548.16324pt.
  [81 <./images/MC_DiagrammeSéquenceConsulterClient_1.png>]
 <images/MC_DiagrammeSéquenceConsulterClient.png, id=1981, 2575.37157pt x 3482.
+=======
+(pdftex.def)             Requested size: 523.51147pt x 548.15497pt.
+ [81 <./images/MC_DiagrammeSéquenceSupprimerClient_1.png>]
+<images/MC_DiagrammeSéquenceConsulterClient.png, id=1995, 2575.37157pt x 3482.
+>>>>>>> Stashed changes
 51062pt>
 File: images/MC_DiagrammeSéquenceConsulterClient.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceConsulterClient.png>
@@ -1648,6 +1801,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterClient.png  used
 on input line 409.
 (pdftex.def)             Requested size: 523.51404pt x 548.12636pt.
  [82 <./images/MC_DiagrammeSéquenceConsulterClient.png>]
+<<<<<<< Updated upstream
 <images/MC_diagrammedeseqArchiverClient_1.png, id=1987, 2392.43813pt x 2494.067
 81pt>
 File: images/MC_diagrammedeseqArchiverClient_1.png Graphic file (type png)
@@ -1666,13 +1820,37 @@ put line 433.
 (pdftex.def)             Requested size: 523.52797pt x 548.14001pt.
  [84 <./images/MC_DiagrammeClasseGererClient_3.png>]
 <images/MC_tracabilitéMCMCUVENTE_1.png, id=1999, 872.50969pt x 253.69781pt>
+=======
+<images/MC_diagrammedeseqArchiverClient.png, id=2001, 1866.22218pt x 1717.91812
+pt>
+File: images/MC_diagrammedeseqArchiverClient.png Graphic file (type png)
+<use images/MC_diagrammedeseqArchiverClient.png>
+Package pdftex.def Info: images/MC_diagrammedeseqArchiverClient.png  used on in
+put line 421.
+(pdftex.def)             Requested size: 523.53532pt x 548.17224pt.
+
+[83 <./images/MC_diagrammedeseqArchiverClient.png>]
+<images/MC_DiagrammeClasseGererClient_2.png, id=2007, 4181.87344pt x 3499.0725p
+t>
+File: images/MC_DiagrammeClasseGererClient_2.png Graphic file (type png)
+<use images/MC_DiagrammeClasseGererClient_2.png>
+Package pdftex.def Info: images/MC_DiagrammeClasseGererClient_2.png  used on in
+put line 433.
+(pdftex.def)             Requested size: 523.49863pt x 548.11693pt.
+ [84 <./images/MC_DiagrammeClasseGererClient_2.png>]
+<images/MC_tracabilitéMCMCUVENTE_1.png, id=2013, 872.50969pt x 253.69781pt>
+>>>>>>> Stashed changes
 File: images/MC_tracabilitéMCMCUVENTE_1.png Graphic file (type png)
 <use images/MC_tracabilitéMCMCUVENTE_1.png>
 Package pdftex.def Info: images/MC_tracabilitéMCMCUVENTE_1.png  used on input 
 line 446.
 (pdftex.def)             Requested size: 455.24411pt x 132.36879pt.
  [85 <./images/MC_tracabilitéMCMCUVENTE_1.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceEnregistrervente.png, id=2005, 2830.575pt x 2952.
+=======
+<images/MC1_DiagrammeSéquenceEnregistrervente.png, id=2019, 2830.575pt x 2952.
+>>>>>>> Stashed changes
 53062pt>
 File: images/MC1_DiagrammeSéquenceEnregistrervente.png Graphic file (type png)
 
@@ -1682,7 +1860,11 @@ d on input line 479.
 (pdftex.def)             Requested size: 523.51862pt x 548.14685pt.
 
 [86]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceConsulterVentes_2.png, id=2011, 5432.295pt x 6060.
+=======
+<images/MC_DiagrammeSéquenceConsulterVentes_2.png, id=2025, 5432.295pt x 6060.
+>>>>>>> Stashed changes
 14063pt>
 File: images/MC_DiagrammeSéquenceConsulterVentes_2.png Graphic file (type png)
 
@@ -1692,7 +1874,11 @@ d on input line 490.
 (pdftex.def)             Requested size: 523.4506pt x 548.16324pt.
  [87 <./images/MC1_DiagrammeSéquenceEnregistrervente.png>] [88 <./images/MC_Di
 agrammeSéquenceConsulterVentes_2.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeSéquenceArchiverVente.png, id=2022, 1554.55782pt x 1531.2
+=======
+<images/MC1_DiagrammeSéquenceArchiverVente.png, id=2036, 1554.55782pt x 1531.2
+>>>>>>> Stashed changes
 2063pt>
 File: images/MC1_DiagrammeSéquenceArchiverVente.png Graphic file (type png)
 <use images/MC1_DiagrammeSéquenceArchiverVente.png>
@@ -1700,7 +1886,11 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverVente.png  used o
 n input line 502.
 (pdftex.def)             Requested size: 523.53763pt x 548.17825pt.
  [89 <./images/MC1_DiagrammeSéquenceArchiverVente.png>]
+<<<<<<< Updated upstream
 <images/MC1_DiagrammeDeClasseGérerVente.png, id=2028, 4798.42688pt x 3299.5772
+=======
+<images/MC1_DiagrammeDeClasseGérerVente.png, id=2042, 4798.42688pt x 3299.5772
+>>>>>>> Stashed changes
 pt>
 File: images/MC1_DiagrammeDeClasseGérerVente.png Graphic file (type png)
 <use images/MC1_DiagrammeDeClasseGérerVente.png>
@@ -1708,7 +1898,11 @@ Package pdftex.def Info: images/MC1_DiagrammeDeClasseGérerVente.png  used on i
 nput line 514.
 (pdftex.def)             Requested size: 523.50873pt x 548.13246pt.
  [90 <./images/MC1_DiagrammeDeClasseGérerVente.png>]
+<<<<<<< Updated upstream
 <images/MC_tracabiliteMCUMCGérerFacture_2.png, id=2034, 1454.43375pt x 555.575
+=======
+<images/MC_tracabiliteMCUMCGérerFacture_2.png, id=2048, 1454.43375pt x 555.575
+>>>>>>> Stashed changes
 62pt>
 File: images/MC_tracabiliteMCUMCGérerFacture_2.png Graphic file (type png)
 <use images/MC_tracabiliteMCUMCGérerFacture_2.png>
@@ -1719,13 +1913,20 @@ Package pdftex.def Info: images/MC_tracabiliteMCUMCGérerFacture_2.png  used on
 [91
 
  <./images/MC_tracabiliteMCUMCGérerFacture_2.png>] [92]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png, id=2045, 3290.54344p
 t x 5404.44093pt>
 File: images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png Graphic file (ty
+=======
+<images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png, id=2059, 2660.43938p
+t x 3914.625pt>
+File: images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png Graphic file (ty
+>>>>>>> Stashed changes
 pe png)
 <use images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceCreerFactureviafacture_2.p
 ng  used on input line 560.
+<<<<<<< Updated upstream
 (pdftex.def)             Requested size: 632.50047pt x 1038.8119pt.
 
 Overfull \hbox (583.5678pt too wide) in paragraph at lines 558--561
@@ -1734,6 +1935,11 @@ Overfull \hbox (583.5678pt too wide) in paragraph at lines 558--561
 
 [93 <./images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png>]
 <images/MC_DiagrammeSéquencecreerfactureviaventes.png, id=2051, 2932.9575pt x 
+=======
+(pdftex.def)             Requested size: 523.51291pt x 548.16324pt.
+ [93 <./images/MC_DiagrammeSéquenceCreerFactureviafacture_1.png>]
+<images/MC_DiagrammeSéquencecreerfactureviaventes.png, id=2065, 2932.9575pt x 
+>>>>>>> Stashed changes
 3504.3422pt>
 File: images/MC_DiagrammeSéquencecreerfactureviaventes.png Graphic file (type 
 png)
@@ -1742,16 +1948,28 @@ Package pdftex.def Info: images/MC_DiagrammeSéquencecreerfactureviaventes.png
  used on input line 572.
 (pdftex.def)             Requested size: 523.52376pt x 548.14032pt.
  [94 <./images/MC_DiagrammeSéquencecreerfactureviaventes.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceConsulterFacture_4.png, id=2057, 6262.64719pt x 56
 43.0825pt>
 File: images/MC_DiagrammeSéquenceConsulterFacture_4.png Graphic file (type png
+=======
+<images/MC_DiagrammeSéquenceConsulterFacture_2.png, id=2071, 8394.61218pt x 64
+44.075pt>
+File: images/MC_DiagrammeSéquenceConsulterFacture_2.png Graphic file (type png
+>>>>>>> Stashed changes
 )
 <use images/MC_DiagrammeSéquenceConsulterFacture_4.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterFacture_4.png  us
 ed on input line 584.
+<<<<<<< Updated upstream
 (pdftex.def)             Requested size: 523.47867pt x 548.15332pt.
  [95 <./images/MC_DiagrammeSéquenceConsulterFacture_4.png>]
 <images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png, id=2063, 4455.89719pt
+=======
+(pdftex.def)             Requested size: 523.50916pt x 548.08328pt.
+ [95 <./images/MC_DiagrammeSéquenceConsulterFacture_2.png>]
+<images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png, id=2077, 4455.89719pt
+>>>>>>> Stashed changes
  x 7382.83218pt>
 File: images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png Graphic file (typ
 e png)
@@ -1760,7 +1978,11 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceEnregistrerRèglement_4.pn
 g  used on input line 596.
 (pdftex.def)             Requested size: 523.46602pt x 548.16855pt.
  [96 <./images/MC_DiagrammeSéquenceEnregistrerRèglement_4.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceArchiverFacture_1.png, id=2069, 2341.9997pt x 2779
+=======
+<images/MC_DiagrammeSéquenceArchiverFacture_1.png, id=2083, 2341.9997pt x 2779
+>>>>>>> Stashed changes
 .38374pt>
 File: images/MC_DiagrammeSéquenceArchiverFacture_1.png Graphic file (type png)
 
@@ -1768,39 +1990,64 @@ File: images/MC_DiagrammeSéquenceArchiverFacture_1.png Graphic file (type png)
 Package pdftex.def Info: images/MC_DiagrammeSéquenceArchiverFacture_1.png  use
 d on input line 608.
 (pdftex.def)             Requested size: 523.53229pt x 548.1483pt.
+<<<<<<< Updated upstream
  [97 <./images/MC_DiagrammeSéquenceArchiverFacture_1.png>]
 <images/MC_DiagrammeSéquenceImprimerFacture.png, id=2075, 3941.72626pt x 2046.
+=======
+
+[97 <./images/MC_DiagrammeSéquenceArchiverFacture_1.png>]
+<images/MC_DiagrammeSéquenceImprimerFacture.png, id=2089, 3941.72626pt x 2046.
+>>>>>>> Stashed changes
 89719pt>
 File: images/MC_DiagrammeSéquenceImprimerFacture.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceImprimerFacture.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceImprimerFacture.png  used 
 on input line 620.
 (pdftex.def)             Requested size: 523.50925pt x 548.17207pt.
+<<<<<<< Updated upstream
 
 [98 <./images/MC_DiagrammeSéquenceImprimerFacture.png>]
 <images/MC_DiagrammeSéquence2.png, id=2082, 3292.80188pt x 1989.68344pt>
+=======
+ [98 <./images/MC_DiagrammeSéquenceImprimerFacture.png>]
+<images/MC_DiagrammeSéquence2.png, id=2096, 3292.80188pt x 1989.68344pt>
+>>>>>>> Stashed changes
 File: images/MC_DiagrammeSéquence2.png Graphic file (type png)
 <use images/MC_DiagrammeSéquence2.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquence2.png  used on input line 
 632.
 (pdftex.def)             Requested size: 523.49272pt x 548.1817pt.
  [99 <./images/MC_DiagrammeSéquence2.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeClasseGérerFacture_1.png, id=2088, 6239.31pt x 4912.10156p
+=======
+<images/MC_DiagrammeClasseGérerFacture_1.png, id=2102, 6239.31pt x 4912.10156p
+>>>>>>> Stashed changes
 t>
 File: images/MC_DiagrammeClasseGérerFacture_1.png Graphic file (type png)
 <use images/MC_DiagrammeClasseGérerFacture_1.png>
 Package pdftex.def Info: images/MC_DiagrammeClasseGérerFacture_1.png  used on 
 input line 644.
 (pdftex.def)             Requested size: 523.52725pt x 548.12791pt.
+<<<<<<< Updated upstream
  [100 <./images/MC_DiagrammeClasseGérerFacture_1.png>]
 <images/image22.png, id=2094, 520.19344pt x 165.61874pt>
+=======
+[100 <./images/MC_DiagrammeClasseGérerFacture_1.png>]
+<images/image22.png, id=2108, 520.19344pt x 165.61874pt>
+>>>>>>> Stashed changes
 File: images/image22.png Graphic file (type png)
 <use images/image22.png>
 Package pdftex.def Info: images/image22.png  used on input line 657.
 (pdftex.def)             Requested size: 455.24411pt x 144.9413pt.
+<<<<<<< Updated upstream
 
 [101 <./images/image22.png>]
 <images/MC_DiagrammeSéquenceConsulterNotif.png, id=2100, 2150.0325pt x 1397.22
+=======
+ [101 <./images/image22.png>]
+<images/MC_DiagrammeSéquenceConsulterNotif.png, id=2114, 2150.0325pt x 1397.22
+>>>>>>> Stashed changes
 pt>
 File: images/MC_DiagrammeSéquenceConsulterNotif.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceConsulterNotif.png>
@@ -1808,7 +2055,11 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterNotif.png  used o
 n input line 680.
 (pdftex.def)             Requested size: 523.53111pt x 548.17555pt.
  [102 <./images/MC_DiagrammeSéquenceConsulterNotif.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquencemarquercommelue.png, id=2106, 1960.32375pt x 1533.
+=======
+<images/MC_DiagrammeSéquencemarquercommelue.png, id=2120, 1960.32375pt x 1533.
+>>>>>>> Stashed changes
 47906pt>
 File: images/MC_DiagrammeSéquencemarquercommelue.png Graphic file (type png)
 <use images/MC_DiagrammeSéquencemarquercommelue.png>
@@ -1816,7 +2067,11 @@ Package pdftex.def Info: images/MC_DiagrammeSéquencemarquercommelue.png  used
 on input line 692.
 (pdftex.def)             Requested size: 523.52145pt x 548.16782pt.
  [103 <./images/MC_DiagrammeSéquencemarquercommelue.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéqSupprimerNotifications.png, id=2112, 1906.12125pt x 109
+=======
+<images/MC_DiagrammeSéqSupprimerNotifications.png, id=2126, 1906.12125pt x 109
+>>>>>>> Stashed changes
 6.84781pt>
 File: images/MC_DiagrammeSéqSupprimerNotifications.png Graphic file (type png)
 
@@ -1825,7 +2080,11 @@ Package pdftex.def Info: images/MC_DiagrammeSéqSupprimerNotifications.png  use
 d on input line 704.
 (pdftex.def)             Requested size: 523.53056pt x 548.17151pt.
  [104 <./images/MC_DiagrammeSéqSupprimerNotifications.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeClasseGérerNotifications.png, id=2119, 1757.06438pt x 1300
+=======
+<images/MC_DiagrammeClasseGérerNotifications.png, id=2133, 1757.06438pt x 1300
+>>>>>>> Stashed changes
 .86pt>
 File: images/MC_DiagrammeClasseGérerNotifications.png Graphic file (type png)
 <use images/MC_DiagrammeClasseGérerNotifications.png>
@@ -1920,7 +2179,11 @@ Overfull \hbox (0.57669pt too wide) in paragraph at lines 1121--1121
  []
 
 [114]
+<<<<<<< Updated upstream
 <images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png, id=2162, 1178.9043
+=======
+<images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png, id=2176, 1178.9043
+>>>>>>> Stashed changes
 7pt x 524.71031pt>
 File: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png Graphic file (
 type png)
@@ -1933,7 +2196,11 @@ Package pdftex.def Info: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1)
 
 pdfTeX warning: pdflatex.exe (file ./images/seq.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <images/seq.pdf, id=2173, 845.07718pt x 1194.98447pt>
+=======
+<images/seq.pdf, id=2187, 845.07718pt x 1194.98447pt>
+>>>>>>> Stashed changes
 File: images/seq.pdf Graphic file (type pdf)
 <use images/seq.pdf>
 Package pdftex.def Info: images/seq.pdf  used on input line 1187.
@@ -1941,7 +2208,11 @@ Package pdftex.def Info: images/seq.pdf  used on input line 1187.
 [117
 
  <./images/seq.pdf>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png, id=2187, 3821.27625pt x
+=======
+<images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png, id=2201, 3821.27625pt x
+>>>>>>> Stashed changes
  3811.48969pt>
 File: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png Graphic file (type 
 png)
@@ -1952,13 +2223,21 @@ Package pdftex.def Info: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png
  [118
 
  <./images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png>]
+<<<<<<< Updated upstream
 <images/etl.png, id=2194, 401.24907pt x 179.16937pt>
+=======
+<images/etl.png, id=2208, 401.24907pt x 179.16937pt>
+>>>>>>> Stashed changes
 File: images/etl.png Graphic file (type png)
 <use images/etl.png>
 Package pdftex.def Info: images/etl.png  used on input line 1228.
 (pdftex.def)             Requested size: 341.43307pt x 152.46965pt.
  [119 <./images/etl.png>] [120]
+<<<<<<< Updated upstream
 <images/MC_tracabilitéMCUMCConsulterPrevision.png, id=2205, 1278.27562pt x 587
+=======
+<images/MC_tracabilitéMCUMCConsulterPrevision.png, id=2219, 1278.27562pt x 587
+>>>>>>> Stashed changes
 .94656pt>
 File: images/MC_tracabilitéMCUMCConsulterPrevision.png Graphic file (type png)
 
@@ -1969,7 +2248,11 @@ d on input line 1260.
  [121
 
  <./images/MC_tracabilitéMCUMCConsulterPrevision.png>] [122]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeSéquenceConsulterprevisions_1.png, id=2216, 4257.9075pt x 
+=======
+<images/MC_DiagrammeSéquenceConsulterprevisions_1.png, id=2230, 4257.9075pt x 
+>>>>>>> Stashed changes
 3809.98407pt>
 File: images/MC_DiagrammeSéquenceConsulterprevisions_1.png Graphic file (type 
 png)
@@ -1978,7 +2261,11 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterprevisions_1.png
  used on input line 1286.
 (pdftex.def)             Requested size: 523.46614pt x 548.16058pt.
  [123 <./images/MC_DiagrammeSéquenceConsulterprevisions_1.png>]
+<<<<<<< Updated upstream
 <images/MC_DiagrammeClasseConsulterPrévisions (1).png, id=2222, 3431.31938pt x
+=======
+<images/MC_DiagrammeClasseConsulterPrévisions (1).png, id=2236, 3431.31938pt x
+>>>>>>> Stashed changes
  3783.63562pt>
 File: images/MC_DiagrammeClasseConsulterPrévisions (1).png Graphic file (type 
 png)
@@ -1987,28 +2274,51 @@ Package pdftex.def Info: images/MC_DiagrammeClasseConsulterPrévisions (1).png
  used on input line 1298.
 (pdftex.def)             Requested size: 477.97299pt x 597.36911pt.
  [124 <./images/MC_DiagrammeClasseConsulterPrévisions (1).png>]
+<<<<<<< Updated upstream
 <images/Packagevierge_DiagrammeClasse_2.png, id=2228, 5528.655pt x 3131.7pt>
+=======
+<images/Packagevierge_DiagrammeClasse_2.png, id=2242, 5528.655pt x 3131.7pt>
+>>>>>>> Stashed changes
 File: images/Packagevierge_DiagrammeClasse_2.png Graphic file (type png)
 <use images/Packagevierge_DiagrammeClasse_2.png>
 Package pdftex.def Info: images/Packagevierge_DiagrammeClasse_2.png  used on in
 put line 1310.
 (pdftex.def)             Requested size: 477.98589pt x 597.3707pt.
 
-[125 <./images/Packagevierge_DiagrammeClasse_2.png>]) (chapitre4.tex [126]
-[127
+[125 <./images/Packagevierge_DiagrammeClasse_2.png>] [126]
+<images/MC1_DiagrammeDéploiement_1.png, id=2252, 522.45187pt x 210.03468pt>
+File: images/MC1_DiagrammeDéploiement_1.png Graphic file (type png)
+<use images/MC1_DiagrammeDéploiement_1.png>
+Package pdftex.def Info: images/MC1_DiagrammeDéploiement_1.png  used on input 
+line 1358.
+(pdftex.def)             Requested size: 546.29153pt x 219.62312pt.
+) (chapitre4.tex
+[127 <./images/MC1_DiagrammeDéploiement_1.png>] [128
 
 ]
+<<<<<<< Updated upstream
 <images/vscode.jpg, id=2242, 84.315pt x 89.58469pt>
+=======
+<images/vscode.jpg, id=2263, 84.315pt x 89.58469pt>
+>>>>>>> Stashed changes
 File: images/vscode.jpg Graphic file (type jpg)
 <use images/vscode.jpg>
 Package pdftex.def Info: images/vscode.jpg  used on input line 26.
 (pdftex.def)             Requested size: 71.13188pt x 75.57867pt.
+<<<<<<< Updated upstream
 <images/github.png, id=2244, 103.13531pt x 79.79813pt>
+=======
+<images/github.png, id=2265, 103.13531pt x 79.79813pt>
+>>>>>>> Stashed changes
 File: images/github.png Graphic file (type png)
 <use images/github.png>
 Package pdftex.def Info: images/github.png  used on input line 44.
 (pdftex.def)             Requested size: 71.13188pt x 55.03639pt.
+<<<<<<< Updated upstream
 <images/reactjs.jpg, id=2246, 97.86563pt x 87.32625pt>
+=======
+<images/reactjs.jpg, id=2267, 97.86563pt x 87.32625pt>
+>>>>>>> Stashed changes
 File: images/reactjs.jpg Graphic file (type jpg)
 <use images/reactjs.jpg>
 Package pdftex.def Info: images/reactjs.jpg  used on input line 67.
@@ -2018,7 +2328,11 @@ Underfull \hbox (badness 4328) in paragraph at lines 68--75
 \T1/ptm/m/n/12 (+20) ReactJS est une bi-blio-th�que Ja-vaS-cript gra-tuite et
  []
 
+<<<<<<< Updated upstream
 <images/fastapi.png, id=2248, 120.45pt x 114.4275pt>
+=======
+<images/fastapi.png, id=2269, 120.45pt x 114.4275pt>
+>>>>>>> Stashed changes
 File: images/fastapi.png Graphic file (type png)
 <use images/fastapi.png>
 Package pdftex.def Info: images/fastapi.png  used on input line 76.
@@ -2028,7 +2342,11 @@ Underfull \hbox (badness 2828) in paragraph at lines 77--84
 \T1/ptm/m/n/12 (+20) FastAPI est un fra-me-work web per-for-mant pour la
  []
 
+<<<<<<< Updated upstream
 <images/recharts.png, id=2250, 103.88812pt x 103.88812pt>
+=======
+<images/recharts.png, id=2271, 103.88812pt x 103.88812pt>
+>>>>>>> Stashed changes
 File: images/recharts.png Graphic file (type png)
 <use images/recharts.png>
 Package pdftex.def Info: images/recharts.png  used on input line 85.
@@ -2038,16 +2356,24 @@ Underfull \hbox (badness 1490) in paragraph at lines 86--91
 \T1/ptm/m/n/12 (+20) don-n�es de notre sys-t�me sous forme de gra-phiques
  []
 
+<<<<<<< Updated upstream
 <images/tailwind.jpg, id=2252, 122.5305pt x 90.3375pt>
+=======
+<images/tailwind.jpg, id=2273, 122.5305pt x 90.3375pt>
+>>>>>>> Stashed changes
 File: images/tailwind.jpg Graphic file (type jpg)
 <use images/tailwind.jpg>
 Package pdftex.def Info: images/tailwind.jpg  used on input line 92.
 (pdftex.def)             Requested size: 71.13188pt x 52.44539pt.
-[128
+[129
 
- <./images/vscode.jpg> <./images/github.png>] [129 <./images/reactjs.jpg> <./im
+ <./images/vscode.jpg> <./images/github.png>] [130 <./images/reactjs.jpg> <./im
 ages/fastapi.png> <./images/recharts.png> <./images/tailwind.jpg>]
+<<<<<<< Updated upstream
 <images/skitlearn.png, id=2272, 192.72pt x 120.45pt>
+=======
+<images/skitlearn.png, id=2292, 192.72pt x 120.45pt>
+>>>>>>> Stashed changes
 File: images/skitlearn.png Graphic file (type png)
 <use images/skitlearn.png>
 Package pdftex.def Info: images/skitlearn.png  used on input line 110.
@@ -2058,29 +2384,57 @@ Underfull \hbox (badness 1540) in paragraph at lines 111--116
 non
  []
 
+<<<<<<< Updated upstream
 <images/sqlite.jpg, id=2274, 159.3225pt x 67.3425pt>
+=======
+<images/sqlite.jpg, id=2294, 159.3225pt x 67.3425pt>
+>>>>>>> Stashed changes
 File: images/sqlite.jpg Graphic file (type jpg)
 <use images/sqlite.jpg>
 Package pdftex.def Info: images/sqlite.jpg  used on input line 127.
 (pdftex.def)             Requested size: 71.13188pt x 30.06544pt.
+<<<<<<< Updated upstream
 <images/alchemy.jpg, id=2276, 356.33125pt x 142.5325pt>
+=======
+<images/alchemy.jpg, id=2296, 356.33125pt x 142.5325pt>
+>>>>>>> Stashed changes
 File: images/alchemy.jpg Graphic file (type jpg)
 <use images/alchemy.jpg>
 Package pdftex.def Info: images/alchemy.jpg  used on input line 133.
 (pdftex.def)             Requested size: 71.13188pt x 28.45161pt.
+<<<<<<< Updated upstream
 <images/ibm.png, id=2278, 130.086pt x 103.1052pt>
+=======
+<images/ibm.png, id=2298, 130.086pt x 103.1052pt>
+>>>>>>> Stashed changes
 File: images/ibm.png Graphic file (type png)
 <use images/ibm.png>
 Package pdftex.def Info: images/ibm.png  used on input line 153.
 (pdftex.def)             Requested size: 71.13188pt x 56.38078pt.
+<<<<<<< Updated upstream
 <images/jwt.png, id=2280, 130.98938pt x 84.315pt>
+=======
+<images/jwt.png, id=2300, 130.98938pt x 84.315pt>
+>>>>>>> Stashed changes
 File: images/jwt.png Graphic file (type png)
 <use images/jwt.png>
 Package pdftex.def Info: images/jwt.png  used on input line 173.
 (pdftex.def)             Requested size: 71.13188pt x 45.78671pt.
+<<<<<<< Updated upstream
 [130 <./images/skitlearn.png> <./images/sqlite.jpg> <./images/alchemy.jpg> <./i
 mages/ibm.png>] [131 <./images/jwt.png>]
 <images/MI_tracabilitéMCMISECONNECTER.png, id=2299, 512.66531pt x 135.50626pt>
+=======
+[131 <./images/skitlearn.png> <./images/sqlite.jpg> <./images/alchemy.jpg> <./i
+mages/ibm.png>]
+<images/latex.png, id=2313, 391.4625pt x 129.48375pt>
+File: images/latex.png Graphic file (type png)
+<use images/latex.png>
+Package pdftex.def Info: images/latex.png  used on input line 192.
+(pdftex.def)             Requested size: 71.13188pt x 23.52734pt.
+ [132 <./images/jwt.png> <./images/latex.png>]
+<images/MI_tracabilitéMCMISECONNECTER.png, id=2323, 512.66531pt x 135.50626pt>
+>>>>>>> Stashed changes
 
 File: images/MI_tracabilitéMCMISECONNECTER.png Graphic file (type png)
 <use images/MI_tracabilitéMCMISECONNECTER.png>
@@ -2103,15 +2457,24 @@ Overfull \hbox (22.3839pt too wide) in paragraph at lines 213--214
 se le mo-dele uti-li-sa-teur pour ge-rer l'au-then-ti-fi-ca-tion 
  []
 
+<<<<<<< Updated upstream
 [132 <./images/MI_tracabilitéMCMISECONNECTER.png>]
 <images/MI_DiagrammeComposantSeConnecter_1.png, id=2306, 450.18187pt x 233.3718
+=======
+[133 <./images/MI_tracabilitéMCMISECONNECTER.png>]
+<images/MI_DiagrammeComposantSeConnecter_1.png, id=2330, 450.18187pt x 233.3718
+>>>>>>> Stashed changes
 7pt>
 File: images/MI_DiagrammeComposantSeConnecter_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantSeConnecter_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantSeConnecter_1.png  used on
  input line 222.
 (pdftex.def)             Requested size: 455.26398pt x 236.0064pt.
+<<<<<<< Updated upstream
 <images/MI_tracabilitéMCMISEdeconnecter.png, id=2307, 691.08188pt x 162.6075pt
+=======
+<images/MI_tracabilitéMCMISEdeconnecter.png, id=2331, 691.08188pt x 162.6075pt
+>>>>>>> Stashed changes
 >
 File: images/MI_tracabilitéMCMISEdeconnecter.png Graphic file (type png)
 <use images/MI_tracabilitéMCMISEdeconnecter.png>
@@ -2124,22 +2487,31 @@ Overfull \hbox (22.48122pt too wide) in paragraph at lines 238--240
 li-sa-tion Se D�-con-nec-ter illustre la cor-res-pon-dance
  []
 
-[133 <./images/MI_DiagrammeComposantSeConnecter_1.png> <./images/MI_tracabilit�
+[134 <./images/MI_DiagrammeComposantSeConnecter_1.png> <./images/MI_tracabilit�
 �MCMISEdeconnecter.png>]
 Overfull \hbox (18.20576pt too wide) in paragraph at lines 252--253
 []\T1/cmtt/m/n/12 confirmDialog.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui cont
 ient le mes-sage de confir-ma-tion de d�-con-nexion 
  []
 
+<<<<<<< Updated upstream
 <images/MI_DiagrammeComposantSeDéconnecter_1.png, id=2314, 335.75438pt x 311.6
+=======
+<images/MI_DiagrammeComposantSeDéconnecter_1.png, id=2339, 335.75438pt x 311.6
+>>>>>>> Stashed changes
 6437pt>
 File: images/MI_DiagrammeComposantSeDéconnecter_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantSeDéconnecter_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantSeDéconnecter_1.png  used
  on input line 265.
 (pdftex.def)             Requested size: 341.43307pt x 316.93756pt.
+<<<<<<< Updated upstream
 [134 <./images/MI_DiagrammeComposantSeDéconnecter_1.png>]
 <images/MI_tracabilitéMCMIGérerUtilisateurs_1.png, id=2321, 704.6325pt x 286.
+=======
+[135 <./images/MI_DiagrammeComposantSeDéconnecter_1.png>]
+<images/MI_tracabilitéMCMIGérerUtilisateurs_1.png, id=2345, 704.6325pt x 286.
+>>>>>>> Stashed changes
 06876pt>
 File: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png Graphic file (type png
 )
@@ -2159,8 +2531,13 @@ Overfull \hbox (1.27083pt too wide) in paragraph at lines 288--289
 e af-fi-chant la liste des agents et le for-mu-laire
  []
 
+<<<<<<< Updated upstream
 [135 <./images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>]
 <images/MI_diagrammedecomposantgererutilisateurs.png, id=2327, 740.0147pt x 325
+=======
+[136 <./images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>]
+<images/MI_diagrammedecomposantgererutilisateurs.png, id=2351, 740.0147pt x 325
+>>>>>>> Stashed changes
 .215pt>
 File: images/MI_diagrammedecomposantgererutilisateurs.png Graphic file (type pn
 g)
@@ -2168,8 +2545,13 @@ g)
 Package pdftex.def Info: images/MI_diagrammedecomposantgererutilisateurs.png  u
 sed on input line 313.
 (pdftex.def)             Requested size: 455.24411pt x 200.06807pt.
+<<<<<<< Updated upstream
  [136 <./images/MI_diagrammedecomposantgererutilisateurs.png>]
 <images/MI_Main.png, id=2333, 1598.97375pt x 639.89063pt>
+=======
+ [137 <./images/MI_diagrammedecomposantgererutilisateurs.png>]
+<images/MI_Main.png, id=2357, 1598.97375pt x 639.89063pt>
+>>>>>>> Stashed changes
 File: images/MI_Main.png Graphic file (type png)
 <use images/MI_Main.png>
 Package pdftex.def Info: images/MI_Main.png  used on input line 326.
@@ -2186,22 +2568,37 @@ Overfull \hbox (1.83438pt too wide) in paragraph at lines 344--345
 is-sant les co-lonnes du ta-bleau (nom, ca-t�-go-rie,
  []
 
+<<<<<<< Updated upstream
 [137 <./images/MI_Main.png>]
 Overfull \hbox (10.44598pt too wide) in paragraph at lines 373--374
+=======
+[138 <./images/MI_Main.png>]
+Overfull \hbox (10.44598pt too wide) in paragraph at lines 393--394
+>>>>>>> Stashed changes
 []\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
 ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
+<<<<<<< Updated upstream
 [138]
 <images/MI_DiagrammeComposantGérerProduit_2.png, id=2343, 672.26157pt x 462.22
+=======
+[139]
+<images/MI_DiagrammeComposantGérerProduit_2.png, id=2367, 672.26157pt x 462.22
+>>>>>>> Stashed changes
 687pt>
 File: images/MI_DiagrammeComposantGérerProduit_2.png Graphic file (type png)
 <use images/MI_DiagrammeComposantGérerProduit_2.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantGérerProduit_2.png  used 
 on input line 385.
 (pdftex.def)             Requested size: 455.24411pt x 313.01236pt.
+<<<<<<< Updated upstream
  [139 <./images/MI_DiagrammeComposantGérerProduit_2.png>]
 <images/MI_tracabilitéMCMIgererclient.png, id=2349, 938.00438pt x 374.90062pt>
+=======
+ [140 <./images/MI_DiagrammeComposantGérerProduit_2.png>]
+<images/MI_tracabilitéMCMIgererclient.png, id=2374, 938.00438pt x 374.90062pt>
+>>>>>>> Stashed changes
 
 File: images/MI_tracabilitéMCMIgererclient.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIgererclient.png>
@@ -2214,21 +2611,35 @@ Overfull \hbox (11.39131pt too wide) in paragraph at lines 401--403
 li-sa-tion G�-rer Clients illustre la cor-res-pon-dance
  []
 
+<<<<<<< Updated upstream
 [140 <./images/MI_tracabilitéMCMIgererclient.png>]
 Overfull \hbox (11.92526pt too wide) in paragraph at lines 422--423
+=======
+[141 <./images/MI_tracabilitéMCMIgererclient.png>]
+Overfull \hbox (11.92526pt too wide) in paragraph at lines 442--443
+>>>>>>> Stashed changes
 []\T1/ptm/b/n/12 (-20) IUArchiverClient : \T1/ptm/m/n/12 (-20) re-pr�-sente l'i
 n-ter-face de confir-ma-tion d'ar-chi-vage d'un client im-pl�-men-t�e
  []
 
+<<<<<<< Updated upstream
 <images/MI_DiagrammeComposantGérerClient_1.png, id=2356, 597.73312pt x 441.148
+=======
+<images/MI_DiagrammeComposantGérerClient_1.png, id=2380, 597.73312pt x 441.148
+>>>>>>> Stashed changes
 13pt>
 File: images/MI_DiagrammeComposantGérerClient_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantGérerClient_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantGérerClient_1.png  used o
 n input line 440.
 (pdftex.def)             Requested size: 428.51602pt x 316.25993pt.
+<<<<<<< Updated upstream
 [141 <./images/MI_DiagrammeComposantGérerClient_1.png>]
 <images/11.png, id=2362, 1769.86218pt x 560.0925pt>
+=======
+[142 <./images/MI_DiagrammeComposantGérerClient_1.png>]
+<images/11.png, id=2386, 1769.86218pt x 560.0925pt>
+>>>>>>> Stashed changes
 File: images/11.png Graphic file (type png)
 <use images/11.png>
 Package pdftex.def Info: images/11.png  used on input line 453.
@@ -2239,8 +2650,13 @@ Overfull \hbox (9.6277pt too wide) in paragraph at lines 456--457
 li-sa-tion Trai-ter Vente illustre la cor-res-pon-dance
  []
 
+<<<<<<< Updated upstream
 [142 <./images/11.png>]
 Overfull \hbox (16.7322pt too wide) in paragraph at lines 480--481
+=======
+[143 <./images/11.png>]
+Overfull \hbox (16.7322pt too wide) in paragraph at lines 500--501
+>>>>>>> Stashed changes
 []\T1/ptm/b/n/12 (-20) IUArchiverVente : \T1/ptm/m/n/12 (-20) re-pr�-sente l'in
 -ter-face de confir-ma-tion d'ar-chi-vage d'une vente, im-pl�-men-t�e
  []
@@ -2263,15 +2679,24 @@ Overfull \hbox (16.85338pt too wide) in paragraph at lines 503--504
 a struc-ture des don-n�es ainsi que les prin-ci-pales
  []
 
+<<<<<<< Updated upstream
 <images/MI_DiagrammeComposantTraiterVente_1.png, id=2368, 1326.45563pt x 358.33
+=======
+<images/MI_DiagrammeComposantTraiterVente_1.png, id=2392, 1326.45563pt x 358.33
+>>>>>>> Stashed changes
 875pt>
 File: images/MI_DiagrammeComposantTraiterVente_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantTraiterVente_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantTraiterVente_1.png  used o
 n input line 511.
 (pdftex.def)             Requested size: 455.23936pt x 122.9818pt.
+<<<<<<< Updated upstream
 [143] [144 <./images/MI_DiagrammeComposantTraiterVente_1.png>]
 <images/MI_tracabilitéMCMIGérerFacture_3.png, id=2378, 1017.04968pt x 466.743
+=======
+[144] [145 <./images/MI_DiagrammeComposantTraiterVente_1.png>]
+<images/MI_tracabilitéMCMIGérerFacture_3.png, id=2402, 1017.04968pt x 466.743
+>>>>>>> Stashed changes
 74pt>
 File: images/MI_tracabilitéMCMIGérerFacture_3.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIGérerFacture_3.png>
@@ -2290,8 +2715,13 @@ Overfull \hbox (1.83598pt too wide) in paragraph at lines 540--541
 -ch� pour sai-sir les in-for-ma-tions d'une nou-velle
  []
 
+<<<<<<< Updated upstream
 [145 <./images/MI_tracabilitéMCMIGérerFacture_3.png>]
 Overfull \hbox (18.95914pt too wide) in paragraph at lines 548--549
+=======
+[146 <./images/MI_tracabilitéMCMIGérerFacture_3.png>]
+Overfull \hbox (18.95914pt too wide) in paragraph at lines 568--569
+>>>>>>> Stashed changes
 []\T1/cmtt/m/n/12 FactureModal.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui af-fi
 che les d�-tails com-plets d'une fac-ture s�-lec-tion-n�e 
  []
@@ -2308,25 +2738,44 @@ Overfull \hbox (6.15202pt too wide) in paragraph at lines 565--566
  contient la lo-gique m�-tier et les trai-te-ments
  []
 
+<<<<<<< Updated upstream
 [146]
 Overfull \hbox (4.27249pt too wide) in paragraph at lines 585--586
+=======
+[147]
+Overfull \hbox (4.27249pt too wide) in paragraph at lines 605--606
+>>>>>>> Stashed changes
 []\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
+<<<<<<< Updated upstream
 [147]
 <images/MI_facturemcmi_1.png, id=2393, 541.27219pt x 444.15938pt>
+=======
+[148]
+<images/MI_facturemcmi_1.png, id=2417, 541.27219pt x 444.15938pt>
+>>>>>>> Stashed changes
 File: images/MI_facturemcmi_1.png Graphic file (type png)
 <use images/MI_facturemcmi_1.png>
 Package pdftex.def Info: images/MI_facturemcmi_1.png  used on input line 597.
 (pdftex.def)             Requested size: 455.24411pt x 373.57928pt.
+<<<<<<< Updated upstream
  [148 <./images/MI_facturemcmi_1.png>]
 Overfull \hbox (11.06429pt too wide) in paragraph at lines 608--610
+=======
+ [149 <./images/MI_facturemcmi_1.png>]
+Overfull \hbox (11.06429pt too wide) in paragraph at lines 628--630
+>>>>>>> Stashed changes
 \T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-t
 ion (MC) et les com-po-sants d'im-pl�-men-ta-tion
  []
 
+<<<<<<< Updated upstream
 <images/MI_tracabilitéMCMIconsulterNotification.png, id=2399, 503.63156pt x 34
+=======
+<images/MI_tracabilitéMCMIconsulterNotification.png, id=2423, 503.63156pt x 34
+>>>>>>> Stashed changes
 7.79938pt>
 File: images/MI_tracabilitéMCMIconsulterNotification.png Graphic file (type pn
 g)
@@ -2346,8 +2795,13 @@ Overfull \hbox (12.21907pt too wide) in paragraph at lines 626--627
 qui re-�oit les re-qu�tes li�es � la r�-cu-p�-ra-tion
  []
 
+<<<<<<< Updated upstream
 [149 <./images/MI_tracabilitéMCMIconsulterNotification.png>]
 <images/MI_DiagrammeComposantConsulterNotifications.png, id=2405, 557.08125pt x
+=======
+[150 <./images/MI_tracabilitéMCMIconsulterNotification.png>]
+<images/MI_DiagrammeComposantConsulterNotifications.png, id=2429, 557.08125pt x
+>>>>>>> Stashed changes
  260.47313pt>
 File: images/MI_DiagrammeComposantConsulterNotifications.png Graphic file (type
  png)
@@ -2355,8 +2809,13 @@ File: images/MI_DiagrammeComposantConsulterNotifications.png Graphic file (type
 Package pdftex.def Info: images/MI_DiagrammeComposantConsulterNotifications.png
   used on input line 638.
 (pdftex.def)             Requested size: 455.24411pt x 212.86201pt.
+<<<<<<< Updated upstream
  [150 <./images/MI_DiagrammeComposantConsulterNotifications.png>]
 <images/MI_TracabiltéMCMIConsulterTableauDeBord.png, id=2411, 895.09406pt x 40
+=======
+ [151 <./images/MI_DiagrammeComposantConsulterNotifications.png>]
+<images/MI_TracabiltéMCMIConsulterTableauDeBord.png, id=2435, 895.09406pt x 40
+>>>>>>> Stashed changes
 2.00188pt>
 File: images/MI_TracabiltéMCMIConsulterTableauDeBord.png Graphic file (type pn
 g)
@@ -2364,8 +2823,13 @@ g)
 Package pdftex.def Info: images/MI_TracabiltéMCMIConsulterTableauDeBord.png  u
 sed on input line 651.
 (pdftex.def)             Requested size: 455.24411pt x 204.46004pt.
+<<<<<<< Updated upstream
  [151 <./images/MI_TracabiltéMCMIConsulterTableauDeBord.png>]
 Overfull \hbox (10.44598pt too wide) in paragraph at lines 677--678
+=======
+ [152 <./images/MI_TracabiltéMCMIConsulterTableauDeBord.png>]
+Overfull \hbox (10.44598pt too wide) in paragraph at lines 697--698
+>>>>>>> Stashed changes
 []\T1/cmtt/m/n/12 Produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
 ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
@@ -2376,8 +2840,13 @@ Overfull \hbox (4.27249pt too wide) in paragraph at lines 681--682
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
+<<<<<<< Updated upstream
 [152]
 <images/MI_DiagrammeComposantconsulterprevisions.png, id=2422, 1021.56656pt x 3
+=======
+[153]
+<images/MI_DiagrammeComposantconsulterprevisions.png, id=2446, 1021.56656pt x 3
+>>>>>>> Stashed changes
 06.39468pt>
 File: images/MI_DiagrammeComposantconsulterprevisions.png Graphic file (type pn
 g)
@@ -2385,7 +2854,11 @@ g)
 Package pdftex.def Info: images/MI_DiagrammeComposantconsulterprevisions.png  u
 sed on input line 706.
 (pdftex.def)             Requested size: 455.24411pt x 136.53922pt.
+<<<<<<< Updated upstream
 <images/MI_tracabiltéMCMIConsulterPrévisions_1.png, id=2423, 647.41875pt x 30
+=======
+<images/MI_tracabiltéMCMIConsulterPrévisions_1.png, id=2447, 647.41875pt x 30
+>>>>>>> Stashed changes
 7.1475pt>
 File: images/MI_tracabiltéMCMIConsulterPrévisions_1.png Graphic file (type pn
 g)
@@ -2399,28 +2872,42 @@ Overfull \hbox (11.06429pt too wide) in paragraph at lines 721--722
 ion (MC) et les com-po-sants d'im-pl�-men-ta-tion
  []
 
-[153 <./images/MI_DiagrammeComposantconsulterprevisions.png> <./images/MI_traca
+[154 <./images/MI_DiagrammeComposantconsulterprevisions.png> <./images/MI_traca
 biltéMCMIConsulterPrévisions_1.png>]
 Overfull \hbox (4.27249pt too wide) in paragraph at lines 744--745
 []\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
+<<<<<<< Updated upstream
 <images/MI_previsions_1.png, id=2430, 511.15968pt x 453.19313pt>
+=======
+<images/MI_previsions_1.png, id=2454, 511.15968pt x 453.19313pt>
+>>>>>>> Stashed changes
 File: images/MI_previsions_1.png Graphic file (type png)
 <use images/MI_previsions_1.png>
 Package pdftex.def Info: images/MI_previsions_1.png  used on input line 760.
 (pdftex.def)             Requested size: 455.24411pt x 403.61722pt.
+<<<<<<< Updated upstream
 [154] [155 <./images/MI_previsions_1.png>]
 Overfull \hbox (2.8122pt too wide) in paragraph at lines 814--817
+=======
+[155] [156 <./images/MI_previsions_1.png>]
+Overfull \hbox (2.8122pt too wide) in paragraph at lines 834--837
+>>>>>>> Stashed changes
 []\T1/ptm/m/n/12 (-20) Une ges-tion cen-tra-li-s�e et fiable des bois-sons, des
  clients (per-sonnes phy-siques et en-tre-prises),
  []
 
-[156
+[157
 
+<<<<<<< Updated upstream
 ]) [157]
 Underfull \hbox (badness 2608) in paragraph at lines 260--264
+=======
+]) [158]
+Underfull \hbox (badness 2608) in paragraph at lines 259--263
+>>>>>>> Stashed changes
 []\T1/ptm/m/n/12 (+20) Scribd, \T1/ptm/m/it/12 (+20) Pro-ces-sus Uni-fi�\T1/ptm
 /m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : / / fr . scribd
  . com / document /
@@ -2484,7 +2971,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--335
 web-[]token-[]jwt/$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
+<<<<<<< Updated upstream
 [158
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--341
+\T1/cmtt/m/n/12 umontreal . ca / wiki / index . php / LaTeX # Fonctionnement _ 
+g % C3 % A9n % C3 % A9ral$[][]\T1/ptm/m/n/12 (+20) ,
+ []
+
+[159
+>>>>>>> Stashed changes
 
 ]
 Underfull \hbox (badness 2626) in paragraph at lines 355--359
@@ -2518,19 +3015,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--414
  = diagramme-[]classes$[][]\T1/ptm/m/n/12 (+20) ,
  []
 
+<<<<<<< Updated upstream
 [159]
 Underfull \hbox (badness 3471) in paragraph at lines 440--444
+=======
+[160]
+Underfull \hbox (badness 3471) in paragraph at lines 446--450
+>>>>>>> Stashed changes
 []\T1/ptm/m/n/12 (+20) Liora.io, \T1/ptm/m/it/12 (+20) Cinq fonc-tions de Sciki
 t-learn\T1/ptm/m/n/12 (+20) , Dis-po-nible sur : [][]$\T1/cmtt/m/n/12 https : /
  / liora . io /
  []
 
-[160] (main.aux)
+[161] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< Updated upstream
 (rerunfilecheck)             Checksum: 541BB770DCC957256A8B44B41139C92B;56329.
  ) 
 Here is how much of TeX's memory you used:
@@ -2553,4 +3056,28 @@ PDF statistics:
  2810 PDF objects out of 2984 (max. 8388607)
  868 named destinations out of 1000 (max. 500000)
  107908 words of extra memory for PDF output out of 128383 (max. 10000000)
+=======
+(rerunfilecheck)             Checksum: 9617F7B470F30C0657BAF9C1E99D382B;56699.
+ ) 
+Here is how much of TeX's memory you used:
+ 34148 strings out of 467691
+ 676617 string characters out of 5416396
+ 1125886 words of memory out of 5000000
+ 61308 multiletter control sequences out of 15000+600000
+ 725996 words of font info for 422 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,15n,94p,1043b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\rebae\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1200.pk><C:/Program Files/Application Verifier/tex/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/
+times/utmb8a.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/times/
+utmri8a.pfb>
+Output written on main.pdf (172 pages, 19487389 bytes).
+PDF statistics:
+ 2840 PDF objects out of 2984 (max. 8388607)
+ 874 named destinations out of 1000 (max. 500000)
+ 112030 words of extra memory for PDF output out of 128383 (max. 10000000)
+>>>>>>> Stashed changes
 

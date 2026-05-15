@@ -262,7 +262,7 @@ L'acteur et Les classes impliquées dans ce diagramme sont les suivantes :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceAjouterProduit_3.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceAjouterProduit_4.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Ajouter Produit}
   \label{fig:seqAjouterProduit}
@@ -1346,6 +1346,22 @@ date\_paiement, type\_paiement, statut, \#id\_vente\textbf{)}
 \noindent\textbf{parametres (}\underline{id}, societe\_nom, societe\_adresse, societe\_ville\textbf{)}
 
 \fussy
+
+\newpage
+
+\section{Diagramme de Déploiement}
+
+\begin{figure}[H]
+  \centering
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.2\textwidth, keepaspectratio]{images/MC1_DiagrammeDéploiement_1.png}%
+  }
+  \caption{Diagramme de déploiement}
+  \label{fig:diagramme-deploiement}
+\end{figure}
+
+\noindent
+Ce diagramme de déploiement présente l'architecture physique du notre système. Il est composé de quatre nœuds : le \textbf{PC de l'utilisateur}, le \textbf{serveur système}, le \textbf{serveur de base de données} et l'\textbf{imprimante}. Le PC de l'utilisateur communique avec le serveur système via \textbf{Internet}, le serveur système est relié au serveur de base de données via \textbf{Ethernet}, et le PC de l'utilisateur est connecté à l'imprimante via \textbf{Bluetooth}.
 
 \section*{Conclusion}
 Ce chapitre a exposé la conception de notre systéme , en incluant l'architecture logique adopté, les diagrammes de séquence, les diagrammes de  Classes, les indicateurs clés de performance, ainsi que le schéma de la base.

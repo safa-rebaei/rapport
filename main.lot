@@ -34,9 +34,19 @@
 \contentsline {table}{\numberline {3.3}{\ignorespaces Conception des KPIs — Tableau de Bord Clients}}{109}{table.3.3}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces Conception des KPIs — Tableau de Bord Facturation}}{113}{table.3.4}%
 \contentsline {table}{\numberline {3.5}{\ignorespaces Conception des KPIs — Tableau de Bord Prévisions}}{114}{table.3.5}%
+<<<<<<< Updated upstream
 \contentsline {table}{\numberline {4.1}{\ignorespaces Outils de développement}}{128}{table.caption.73}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Outils de gestion de collaboration}}{128}{table.caption.74}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Frameworks et bibliothèques utilisés}}{129}{table.caption.75}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Base de données utilisée}}{130}{table.caption.77}%
 \contentsline {table}{\numberline {4.5}{\ignorespaces Outils de modélisation utilisés}}{130}{table.caption.78}%
 \contentsline {table}{\numberline {4.6}{\ignorespaces Outils de sécurité et d'authentification}}{131}{table.caption.79}%
+=======
+\contentsline {table}{\numberline {4.1}{\ignorespaces Outils de développement}}{129}{table.caption.74}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Outils de gestion de collaboration}}{129}{table.caption.75}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Frameworks et bibliothèques utilisés}}{130}{table.caption.76}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Base de données utilisée}}{131}{table.caption.78}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Outils de modélisation utilisés}}{131}{table.caption.79}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Outils de sécurité et d'authentification}}{132}{table.caption.80}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Outils de documentation utilisés}}{132}{table.caption.81}%
+>>>>>>> Stashed changes

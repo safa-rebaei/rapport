@@ -140,6 +140,7 @@
 \contentsline {subsection}{\numberline {3.12.5}Diagramme de Classe du Cas D'utilisation Consulter prévisions}{124}{subsection.3.12.5}%
 \contentsline {section}{\numberline {3.13}Diagramme de Classes Entité du systéme }{125}{section.3.13}%
 \contentsline {section}{\numberline {3.14}Schéma de la Base de Données}{126}{section.3.14}%
+<<<<<<< Updated upstream
 \contentsline {chapter}{\numberline {4}Implémentation}{127}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{128}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Environnement logiciel}{128}{section.4.2}%
@@ -180,3 +181,47 @@
 \contentsline {subsection}{\numberline {4.12.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Prévisions}{153}{subsection.4.12.1}%
 \contentsline {subsection}{\numberline {4.12.2}Diagramme de composants du Cas D'utilisation Consulter Prévisions}{155}{subsection.4.12.2}%
 \contentsline {chapter}{Conclusion Générale}{156}{chapter*.100}%
+=======
+\contentsline {section}{\numberline {3.15}Diagramme de Déploiement}{127}{section.3.15}%
+\contentsline {chapter}{\numberline {4}Implémentation}{128}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{129}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Environnement logiciel}{129}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Outils de développement}{129}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Gestion de collaboration}{129}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Frameworks et bibliothèques}{130}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Base de données}{131}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Outils de modélisation}{131}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Sécurité et authentification}{132}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Outils de documentation}{132}{subsection.4.2.7}%
+\contentsline {section}{\numberline {4.3}Implémentation du Cas D'utilisation Se Connecter}{133}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Traçabilité MC/MI pour le Cas D'utilisation Se Connecter}{133}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Diagramme de composants du Cas D'utilisation Se Connecter}{134}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Implémentation du Cas D'utilisation Se Déconnecter}{134}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Traçabilité MC/MI pour le Cas D'utilisation Se Déconnecter}{134}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Diagramme de composants du Cas D'utilisation Se Déconnecter}{135}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Implémentation du Cas D'utilisation Gérer Agents}{136}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Agents}{136}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Diagramme de composants du Cas D'utilisation Gérer Agents}{137}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Implémentation du Cas D'utilisation Gérer Produits}{138}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Produits}{138}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Diagramme de composants du Cas D'utilisation Gérer Produits}{140}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Implémentation du Cas D'utilisation Gérer Clients}{141}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Clients}{141}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Diagramme de composants du Cas D'utilisation Gérer Clients}{142}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Implémentation du Cas D'utilisation Traiter Vente}{143}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Traçabilité MC/MI pour le Cas D'utilisation Traiter Vente}{143}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Diagramme de composants du Cas D'utilisation Traiter Vente}{145}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Implémentation du Cas D'utilisation Gérer Factures}{146}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Traçabilité MC/MI pour le Cas D'utilisation Gérer Factures}{146}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Diagramme de composants du Cas D'utilisation Gérer Factures}{149}{subsection.4.9.2}%
+\contentsline {section}{\numberline {4.10}Implémentation du Cas D'utilisation Consulter Notifications}{150}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Notifications}{150}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Diagramme de composants du Cas D'utilisation Consulter Notifications}{151}{subsection.4.10.2}%
+\contentsline {section}{\numberline {4.11}Implémentation du Cas D'utilisation Consulter Tableau de Bord}{152}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Tableau de Bord}{152}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Diagramme de composants du Cas D'utilisation Consulter Tableau de Bord}{154}{subsection.4.11.2}%
+\contentsline {section}{\numberline {4.12}Implémentation du Cas D'utilisation Consulter Prévisions}{154}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Traçabilité MC/MI pour le Cas D'utilisation Consulter Prévisions}{154}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Diagramme de composants du Cas D'utilisation Consulter Prévisions}{156}{subsection.4.12.2}%
+\contentsline {chapter}{Conclusion Générale}{157}{chapter*.102}%
+>>>>>>> Stashed changes
