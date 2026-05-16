@@ -61,6 +61,9 @@
 
 % ===== FLOAT =====
 \usepackage{float}
+\setlength{\floatsep}{4pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{6pt plus 1pt minus 2pt}
+\setlength{\intextsep}{4pt plus 1pt minus 1pt}
 
 % ===== CAPTION =====
 \usepackage{caption}
@@ -70,6 +73,9 @@
   textfont=sc,
   labelfont=sc,
   justification=centering
+}
+\captionsetup[figure]{
+  skip=4pt
 }
 
 % ===== TIKZ =====
@@ -124,7 +130,7 @@
 \renewcommand{\listtablename}{\centering\Huge\bfseries Liste des tableaux}
 
 % ===== TITRES =====
-\usepackage{titlesec}
+\usepackage[nobottomtitles*]{titlesec}
 
 \titleformat{\chapter}[display]
   {\normalfont\fontsize{16}{20}\bfseries}{}{0pt}{}

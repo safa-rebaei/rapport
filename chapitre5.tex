@@ -1,4 +1,4 @@
-
+﻿
 \mychapter{Implémentation}
 %----------------------------------
 \section{Introduction}
@@ -224,6 +224,13 @@ Chaque classe du MC est implémentée par un ou plusieurs composant du MI comme 
   \caption{Diagramme de composants du Cas D'utilisation Se Connecter}
 \end{figure}
 
+\subsection{Interfaces du cas d'utilisation « Se Connecter »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/connecter.png}
+  \caption{Interface du cas d'utilisation Se connecter}
+\end{figure}
+
 %----------------------------------
 \section{Implémentation du Cas D'utilisation Se Déconnecter}
 %----------------------------------
@@ -265,6 +272,14 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \centering
   \includegraphics[width=0.75\textwidth]{images/MI_DiagrammeComposantSeConnecter_3.png}
   \caption{Diagramme de composants du cas d'utilisation Se Déconnecter}
+\end{figure}
+
+\subsection{Interfaces du cas d'utilisation « Se Déconnecter »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/deconnecter.png}
+  \caption{Interface du cas d'utilisation Se Déconnecter}
 \end{figure}
 
 \newpage
@@ -313,6 +328,20 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \centering
   \includegraphics[width=\textwidth]{images/MI_diagrammedecomposantgererutilisateurs.png}
   \caption{Diagramme de composants du cas d'utilisation Gérer Agents}
+\end{figure}
+
+\subsection{Interfaces du cas d'utilisation « Gérer Agents »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/ajouter_agent.png}
+  \caption{Interface d'ajout d'un agent}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/supprimer_agent.png}
+  \caption{Interface de suppression d'un agent}
 \end{figure}
 
 \newpage
@@ -387,6 +416,44 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \caption{Diagramme de composants du cas d'utilisation Gérer Produits}
 \end{figure}
 
+\subsection{Interfaces du cas d'utilisation « Gérer Produits »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/liste_produits.png}
+  \caption{Interface de la liste des produits}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/ajouter_produit.png}
+  \caption{Interface d'ajout d'un produit}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/modifier_produit.png}
+  \caption{Interface de modification d'un produit}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_produit.png}
+  \caption{Interface de consultation des détails d'un produit}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/archiver_produit.png}
+  \caption{Interface d'archivage d'un produit}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/supprimer produit.png}
+  \caption{Interface de supprimer d'un produit}
+\end{figure}
+supprimer produit.png
+
 \newpage
 %----------------------------------
 \section{Implémentation du Cas D'utilisation Gérer Clients}
@@ -440,6 +507,50 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \centering
  \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{images/MI_DiagrammeComposantGérerClient_1.png}
   \caption{Diagramme de composants du cas d'utilisation Gérer Clients}
+\end{figure}
+
+\subsection{Interfaces du cas d'utilisation « Gérer Clients »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/liste_clients.png}
+  \caption{Interface de la liste des clients}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/ajouter_client.png}
+  \caption{Interface d'ajout d'un client}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/modifier_client.png}
+  \caption{Interface de modification d'un client}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_client_1.png}
+  \caption{Interface de consultation des détails d'un client (1)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_client_2.png}
+  \caption{Interface de consultation des détails d'un client (2)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/supprimer_client.png}
+  \caption{Interface de suppression d'un client}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/archiver_client.png}
+  \caption{Interface d'archivage d'un client}
 \end{figure}
 
 \newpage
@@ -511,6 +622,38 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \centering
   \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{images/MI_DiagrammeComposantTraiterVente_1.png}
   \caption{Diagramme de composants du cas d'utilisation Traiter Vente}
+\end{figure}
+
+\subsection{Interfaces du cas d'utilisation « Traiter Vente »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/liste_ventes.png}
+  \caption{Interface de la liste des ventes}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/ajouter_vente.png}
+  \caption{Interface d'ajout d'une vente}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_vente_1.png}
+  \caption{Interface de consultation des détails d'une vente (1)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_vente_2.png}
+  \caption{Interface de consultation des détails d'une vente (2)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/archiver_vente.png}
+  \caption{Interface d'archivage d'une vente}
 \end{figure}
 
 \newpage
@@ -599,6 +742,68 @@ Les classes impliquées dans ce diagramme sont les suivantes :
     \caption{Diagramme de composants du cas d'utilisation Gérer Factures}
   \end{figure}
 
+\subsection{Interfaces du cas d'utilisation « Gérer Factures »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/liste_factures.png}
+  \caption{Interface de la liste des factures}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/creer_facture.png}
+  \caption{Interface de création d'une facture}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_facture_1.png}
+  \caption{Interface de consultation d'une facture (1)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_facture_2.png}
+  \caption{Interface de consultation d'une facture (2)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/consulter_facture_3.png}
+  \caption{Interface de consultation d'une facture (3)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/enregistrer_reglement.png}
+  \caption{Interface d'enregistrement d'un règlement}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/imprimer_facture.png}
+  \caption{Interface d'impression de la facture en PDF}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/envoyer_whatsapp_1.png}
+  \caption{Interface d'envoi de la facture via WhatsApp (1)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/envoyer_whatsapp_2.png}
+  \caption{Interface d'envoi de la facture via WhatsApp (2)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/archiver_facture.png}
+  \caption{Interface d'archivage d'une facture}
+\end{figure}
+
 \newpage
 %----------------------------------
 \section{Implémentation du Cas D'utilisation Consulter Notifications}
@@ -639,6 +844,20 @@ Les classes impliquées dans ce diagramme sont les suivantes :
    \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantConsulterNotifications.png}
    \caption{Diagramme de composants du cas d'utilisation Consulter Notifications}
  \end{figure}
+
+\subsection{Interfaces du cas d'utilisation « Consulter Notifications »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/liste_notifications.png}
+  \caption{Interface de la liste des notifications}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/supprimer_notification.png}
+  \caption{Interface de suppression d'une notification}
+\end{figure}
 
 \newpage
 %----------------------------------
@@ -709,6 +928,26 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \caption{Diagramme de composants du cas d'utilisation Consulter Tableau de Bord}
 \end{figure}
 
+\subsection{Interfaces du cas d'utilisation « Consulter Tableau de Bord »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/tdb_1.png}
+  \caption{Interface du tableau de bord (1)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/tdb_2.png}
+  \caption{Interface du tableau de bord (2)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/tdb_3.png}
+  \caption{Interface du tableau de bord (3)}
+\end{figure}
+
 %----------------------------------
 \section{Implémentation du Cas D'utilisation Consulter Prévisions}
 %----------------------------------
@@ -762,6 +1001,21 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \includegraphics[width=\textwidth]{images/MI_previsions_1.png}
    \caption{Diagramme de composants du cas d'utilisation Consulter Prévisions}
  \end{figure}
+
+\subsection{Interfaces du cas d'utilisation « Consulter Prévisions »}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/prevision_1.png}
+  \caption{Interface de consultation des prévisions (1)}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/prevision_2.png}
+  \caption{Interface de consultation des prévisions (2)}
+\end{figure}
+
  \section*{Conclusion}
 Après ce chapitre, nous avons exposé l'environnement technologique mis en place, couvrant la pile technique complète ainsi que les outils de développement utilisés dans notre systéme
 Les technologies choisies sont complémentaires, formant un cadre cohérent qui assure la scalabilité et  la maintenabilité.
