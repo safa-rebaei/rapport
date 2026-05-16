@@ -310,10 +310,10 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceArchiverProduit.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceArchiverProduit_1.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Archiver Produit}
-  \label{fig:seqArchiverProduit}
+  \label{fig:seqArchiverProduit} 
 \end{figure}
 \newpage
 
@@ -369,7 +369,7 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{MC_diagseqAjouterClient_1.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_diagseqAjouterClient_1.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Ajouter Client}
   \label{fig:seqAjouterClient}
@@ -393,7 +393,7 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterClient_1.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceSupprimerClient_2.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Client}
   \label{fig:seqSupprimerClient}
@@ -405,7 +405,7 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterClient.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterClient_2.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Consulter Client}
   \label{fig:seqConsulterClient}
@@ -429,7 +429,7 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeClasseGererClient_3.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeClasseGererClient_4.png}%
   }
   \caption{Diagramme de classe pour le cas d'utilisation Gérer Clients}
   \label{fig:classeClients}
@@ -475,7 +475,7 @@ Il est à noter que le CEO peut également effectuer les mêmes opérations de g
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceEnregistrervente.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC1_DiagrammeSéquenceEnregistrervente_1.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Enregistrer Vente}
   \label{fig:seqEnregistrerVente}
@@ -555,8 +555,8 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 
 \begin{figure}[H]
   \centering
-  \rotatebox{90}{%
-    \includegraphics[width=0.90\textheight, keepaspectratio]{images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png}%
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Créer Facture Via Facture}
   \label{fig:seqCreerFactureViaFacture}
@@ -670,6 +670,14 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
   \item \textbf{:Notifications :} l'entité du système qui contient les données et les traitements métier relatives aux notifications
 \end{itemize}
 
+Le système génère automatiquement deux types de notifications :
+
+\begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{Notification de stock :} déclenchée automatiquement après chaque vente enregistrée, lorsque la quantité en stock d'un produit atteint un seuil critique. Elle alerte l'agent commercial afin qu'il prenne les mesures nécessaires pour réapprovisionner.
+
+  \item \textbf{Notification d'échéance de facture :} générée par un \textbf{scheduler} (tâche de fond) qui s'exécute au démarrage du serveur puis toutes les heures. Il vérifie les dates d'échéance de toutes les factures non payées et crée automatiquement une notification pour chaque facture dont l'échéance est dépassée, arrive aujourd'hui ou dans les 3 prochains jours.
+\end{itemize}
+
 \needspace{0.88\textheight}
 \subsection{Diagramme de Séquence du Cas D'utilisation Consulter Notifications}
 
@@ -700,7 +708,7 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéqSupprimerNotifications.png}%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéqSupprimerNotifications_1.png}%
   }
   \caption{Diagramme de séquence pour le cas d'utilisation Supprimer Notifications}
   \label{fig:seqSupprimerNotif}
@@ -1184,7 +1192,9 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 \subsection{Diagramme de Séquence du Cas D'utilisation Consulter Tableaux de Bord}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio]{images/seq.pdf}
+  \makebox[\textwidth][c]{%
+    \includegraphics[width=1.15\textwidth, height=0.78\textheight]{images/MC_DiagrammeSéquenceConsulterTableauxdebord.png}%
+  }
   \caption{Diagramme de séquence pour le cas d'utilisation Consulter Tableaux de Bord}
   \label{fig:ConsulterTableauxdeBord}
 \end{figure}
@@ -1306,7 +1316,7 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 \begin{figure}[H]
   \centering
   \makebox[\textwidth][c]{%
-    \includegraphics[width=1.05\textwidth, height=0.85\textheight]{images/Packagevierge_DiagrammeClasse_2.png}%
+    \includegraphics[width=1.05\textwidth, height=0.85\textheight]{images/Packagevierge_DiagrammeClasse.png}%
   }
   \caption{Diagramme de classes}
   \label{fig:diagrammeClasse}
@@ -1318,7 +1328,7 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 
 \sloppy
 
-\noindent\textbf{Users (}\underline{id}, email, mot\_de\_passe, role\textbf{)}
+\noindent\textbf{Utilisateur (}\underline{id}, email, mot\_de\_passe, role\textbf{)}
 
 \vspace{6pt}
 \noindent\textbf{Clients (}\underline{id}, type\_client, nom, prenom, email, telephone, ville, adresse, matricule\_fiscal, date\_creation, statut\textbf{)}
@@ -1330,10 +1340,10 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 \noindent\textbf{Ventes (}\underline{id}, numero, total, date\_vente, statut, \#id\_client\textbf{)}
 
 \vspace{6pt}
-\noindent\textbf{Ligne\_vente (}\underline{id}, sous\_total, quantite, prix\_vente, prix\_achat, \#id\_produit, \#id\_vente\textbf{)}
+\noindent\textbf{Ligne\_vente (}\underline{id}, sous\_total, quantite, \#id\_produit, \#id\_vente\textbf{)}
 
 \vspace{6pt}
-\noindent\textbf{Facturations (}\underline{id}, ref\_facture, total, montant\_paye, reste, date\_echeance,
+\noindent\textbf{Facturations (}\underline{id}, ref\_facture, total, montant\_paye, reste,date\_facture, date\_echeance,
 date\_paiement, type\_paiement, statut, \#id\_vente\textbf{)}
 
 \vspace{6pt}
@@ -1343,7 +1353,7 @@ date\_paiement, type\_paiement, statut, \#id\_vente\textbf{)}
 \noindent\textbf{Notifications (}\underline{id}, type, titre, message, lue, date, reference\textbf{)}
 
 \vspace{6pt}
-\noindent\textbf{parametres (}\underline{id}, societe\_nom, societe\_adresse, societe\_ville\textbf{)}
+\noindent\textbf{ligne\_notif(}\underline{id}, id\_notifications, id\_utilisateur\textbf{)}
 
 \fussy
 
