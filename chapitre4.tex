@@ -456,78 +456,6 @@ Liste classée &
 
 \newpage
 
-\subsection*{Conception des KPIs — Tableau de Bord Prévisions}
-\addcontentsline{toc}{subsection}{Conception des KPIs — Tableau de Bord Prévisions}
-
-\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2cm}|>{\raggedright\arraybackslash}p{3cm}|>{\raggedright\arraybackslash}p{2.8cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.5cm}|}
-\hline
-\rowcolor{blue!20}
-\textcolor{black}{\textbf{KPI}} &
-\textcolor{black}{\textbf{Description}} &
-\textcolor{black}{\textbf{Algorithme}} &
-\textcolor{black}{\textbf{Type IA}} &
-\textcolor{black}{\textbf{Graphique}} &
-\textcolor{black}{\textbf{Couleur}} \\
-\hline
-\endfirsthead
-\hline
-\rowcolor{blue!20}
-\textcolor{black}{\textbf{KPI}} &
-\textcolor{black}{\textbf{Description}} &
-\textcolor{black}{\textbf{Algorithme}} &
-\textcolor{black}{\textbf{Type IA}} &
-\textcolor{black}{\textbf{Graphique}} &
-\textcolor{black}{\textbf{Couleur}} \\
-\hline
-\endhead
-Prévision CA &
-Cette section est chargée d'afficher les prévisions futures du CA basées sur les tendances historiques. &
-Régression Linéaire &
-ML supervisé &
-Graphique en courbe aires &
-\\
-\hline
-Prévision ventes par produit &
-Cette section est chargée de prédire la quantité et le CA pour chaque produit à partir de son historique. &
-Régression Linéaire &
-ML supervisé &
-Graphique en barres horizontales &
-\\
-\hline
-Clients à risque de perte &
-Cette section permet d'identifier les clients inactifs ou en baisse. &
-Modèle RFM (Récence, Fréquence, Montant) &
-ML non supervisé (scoring) &
-Graphique en bulles &
-\begin{tabular}[c]{@{}c@{}}
-\colorswatch{red!80}\\[-2pt]
-{\tiny Risque}\\[4pt]
-\colorswatch{orange!80}\\[-2pt]
-{\tiny Critique}\\[4pt]
-\colorswatch{green!60!black}\\[-2pt]
-{\tiny Actif}
-\end{tabular} \\
-\hline
-Clients mauvais payeurs &
-Cette section est chargée de calculer et d'afficher le score pour chaque client ayant des factures en retard de paiement. &
-Score crédit pondéré &
-Scoring expert &
-Graphique en barres empilées &
-\begin{tabular}[c]{@{}c@{}}
-\colorswatch{red!80}\\[-2pt]
-{\tiny Critique}\\[4pt]
-\colorswatch{orange!80}\\[-2pt]
-{\tiny Élevé}\\[4pt]
-\colorswatch{yellow!80!black}\\[-2pt]
-{\tiny Faible}
-\end{tabular} \\
-\hline
-\caption{Conception des KPIs — Tableau de Bord Prévisions}
-\label{tab:kpi-previsions}
-\end{longtable}
-
-\newpage
-
 \textbf{Étape 7 --- Système de tableaux de bord :}
 Dans cette étape, nous avons construit et intégré le système complet de tableaux de
 bord interactifs, en assurant la cohérence globale des indicateurs et des
@@ -654,15 +582,6 @@ entraîner ou « superviser » les algorithmes afin qu'ils classifient les donn�
 prédisent les résultats avec précision. Cette approche a été appliquée dans notre
 projet pour prévoir le chiffre d'affaires et les ventes par produit \cite{ibm_supervised}.
 
-\subsubsection{Apprentissage non supervisé}
-
-L'apprentissage non supervisé utilise des algorithmes de machine learning pour analyser
-et regrouper des ensembles de données non étiquetés. Ces algorithmes découvrent des
-modèles cachés dans les données sans avoir besoin d'intervention humaine
-\cite{ibm_supervised}.
-Dans ce projet, cette approche permet de détecter les clients à risque et les mauvais
-payeurs.
-
 \subsubsection{Outils d'analyse intelligente}
 
 Le tableau~\ref{tab:algorithmes} présente les principaux algorithmes mis en œuvre
@@ -708,3 +627,200 @@ au sein d'un ensemble d'arbres de décision \cite{datacamp_iforest}. \\
 \label{tab:algorithmes}
 \end{longtable}
 
+\subsubsection{Apprentissage non supervisé}
+
+L'apprentissage non supervisé utilise des algorithmes de machine learning pour analyser
+et regrouper des ensembles de données non étiquetés. Ces algorithmes découvrent des
+modèles cachés dans les données sans avoir besoin d'intervention humaine
+\cite{ibm_supervised}.
+Dans ce projet, cette approche permet de détecter les clients à risque et les mauvais
+payeurs.
+
+\subsection{Choix des algorithmes appliqués}
+
+Notre module de prévision repose sur des données réelles accumulées par notre système :
+historique des ventes, comportements clients et situations de paiement.
+Pour exploiter ces données de manière intelligente, quatre algorithmes ont été
+sélectionnés, chacun répondant à un besoin précis.
+
+\begin{itemize}
+
+  \item \textbf{La prévision du chiffre d'affaires}
+  s'appuie sur la \textbf{Régression Linéaire Simple}. Ce choix s'explique par la
+  nature évolutive des données disponibles, qui suivent une tendance dans le temps,
+  ce qui permet à cet algorithme d'identifier une tendance générale et de projeter
+  les valeurs futures.
+
+  \item \textbf{La prévision des ventes par produit}
+  utilise la même Régression Linéaire, appliquée cette fois produit par produit.
+  Chaque article dispose de son propre modèle, permettant d'identifier les produits
+  en croissance et ceux en déclin.
+
+  \item \textbf{La segmentation des clients à risque}
+  repose sur une approche combinant la méthode \textbf{RFM} (Récence, Fréquence,
+  Montant) et l'algorithme \textbf{K-Means} ($k=4$). Cette méthode permet de
+  regrouper automatiquement les clients selon leur comportement d'achat.
+
+  \item \textbf{La détection des mauvais payeurs}
+  est réalisée à l'aide de l'algorithme \textbf{Isolation Forest}. Cet algorithme
+  détecte les clients dont le comportement de paiement est anormal par rapport aux
+  autres, en se basant sur le retard de paiement, le montant impayé et le nombre
+  de factures dues.
+
+\end{itemize}
+
+\vspace{6pt}
+
+\begin{longtable}{|>{\centering\arraybackslash\bfseries}p{2.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Algorithme}} &
+\textcolor{black}{\textbf{Type IA}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{KPI}} &
+\textcolor{black}{\textbf{Description}} &
+\textcolor{black}{\textbf{Algorithme}} &
+\textcolor{black}{\textbf{Type IA}} &
+\textcolor{black}{\textbf{Graphique}} &
+\textcolor{black}{\textbf{Couleur}} \\
+\hline
+\endhead
+Prévision CA &
+Prévisions futures du CA basées sur les tendances historiques. &
+Régression Linéaire &
+ML supervisé &
+Graphique en courbe aires &
+\colorswatch{blue!60} \\
+\hline
+Prévision ventes par produit &
+Prédit la quantité et le CA pour chaque produit à partir de son historique. &
+Régression Linéaire &
+ML supervisé &
+Graphique en barres horizontales &
+\colorswatch{violet} \\
+\hline
+Clients à risque de perte &
+Identifie les clients inactifs ou en baisse. &
+K-Means &
+ML non supervisé &
+Graphique en bulles &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{orange!80}\\[-2pt]
+{\tiny Risque}\\[4pt]
+\colorswatch{red!80}\\[-2pt]
+{\tiny Critique}\\[4pt]
+\colorswatch{green!60!black}\\[-2pt]
+{\tiny Actif}
+\end{tabular} \\
+\hline
+Clients mauvais payeurs &
+Détecte les comportements anormaux de paiement pour chaque client ayant des factures en retard de paiement. &
+Isolation Forest &
+ML non supervisé &
+Graphique en barres empilées &
+\begin{tabular}[c]{@{}c@{}}
+\colorswatch{red!70}\\[-2pt]
+{\tiny Critique}\\[4pt]
+\colorswatch{orange!80}\\[-2pt]
+{\tiny Élevé}\\[4pt]
+\colorswatch{green!60!black}\\[-2pt]
+{\tiny Faible}
+\end{tabular} \\
+\hline
+\caption{Algorithmes appliqués — Module de Prévision}
+\label{tab:kpi-previsions}
+\end{longtable}
+
+
+\subsection{Présentation des graphiques du module de prévision}
+
+Les graphiques ci-dessous illustrent les résultats produits par chacun des
+algorithmes intégrés dans notre module de prévision et d'analyse intelligente.
+
+%--- Prévision CA ---
+\subsubsection*{Prévision du Chiffre d'affaires}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{images/prev_ca.png}
+  \caption{Prévision du Chiffre d'affaires — Régression Linéaire}
+\end{figure}
+
+Nous avons opté pour un \textbf{graphique en courbe avec aire} pour la prévision
+du chiffre d'affaires, car il permet de visualiser clairement la tendance
+haussière projetée mois par mois. L'info-bulle affiche le CA prévu pour chaque
+mois, et l'indicateur en haut à droite synthétise la croissance mensuelle
+estimée (ex. : +795 TND/mois).
+
+%--- Prévision ventes par produit ---
+\subsubsection*{Prévision des ventes par produit}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{images/prev_produit.png}
+  \caption{Prévision des ventes par produit — Graphique en barres horizontales}
+\end{figure}
+
+Nous avons sélectionné un \textbf{graphique en barres horizontales} pour la
+prévision des ventes par produit, car il permet de comparer facilement les
+quantités prévues pour chaque article. Le code couleur distingue les produits
+en \textbf{hausse} (vert) de ceux en \textbf{baisse} (rouge), offrant une
+lecture immédiate des tendances par produit pour le mois à venir.
+
+%--- Clients à risque ---
+\subsubsection*{Clients à risque de perte — K-Means (RFM)}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{images/prev_clients_risque.png}
+  \caption{Clients à risque de perte — Graphique en bulles (K-Means RFM)}
+\end{figure}
+
+Nous avons opté pour un \textbf{graphique en bulles} pour la segmentation des
+clients, car il représente simultanément deux dimensions clés : la récence
+(axe des abscisses) et la fréquence d'achat (axe des ordonnées). Le code
+couleur distingue trois segments : les clients \textbf{actifs} (vert),
+\textbf{à risque} (orange) et \textbf{critiques} (rouge), permettant
+d'identifier rapidement les clients nécessitant une action commerciale.
+
+%--- Mauvais payeurs ---
+\subsubsection*{Clients mauvais payeurs — Isolation Forest}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{images/prev_mauvais_payeurs.png}
+  \caption{Clients mauvais payeurs — Graphique en barres empilées (Isolation Forest)}
+\end{figure}
+
+Nous avons sélectionné un \textbf{graphique en barres empilées} pour la
+détection des mauvais payeurs, car il permet de visualiser pour chaque client
+la répartition des retards de paiement selon trois niveaux de risque :
+\textbf{Faible} (0--30 jours, vert), \textbf{Élevé} (30--90 jours, orange)
+et \textbf{Critique} (plus de 90 jours, rouge). L'indicateur en haut à droite
+affiche le nombre total d'anomalies et de cas critiques détectés.
+%----------------------------------
+\clearpage
+\section{Conclusion}
+%----------------------------------
+
+Au terme de ce chapitre, nous avons exposé les deux axes analytiques qui
+constituent le cœur décisionnel de notre système. D'un côté, le volet
+Business Intelligence a permis de concevoir des tableaux de bord interactifs
+structurés autour de la méthode GIMSI, donnant aux utilisateurs une vision
+synthétique et en temps réel de l'activité commerciale à travers des
+indicateurs de performance couvrant les ventes, les clients et la
+facturation. De l'autre, le module d'Intelligence Artificielle vient
+enrichir cette analyse en introduisant une dimension prédictive, grâce à
+quatre algorithmes soigneusement choisis : la Régression Linéaire pour
+anticiper l'évolution du chiffre d'affaires et des ventes par produit,
+K-Means couplé à l'approche RFM pour segmenter les clients selon leur
+comportement d'achat, et Isolation Forest pour identifier les mauvais
+payeurs. Ensemble, ces deux composantes transforment les données brutes
+de l'entreprise en leviers concrets d'aide à la décision.
