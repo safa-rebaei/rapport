@@ -776,57 +776,6 @@ L'acteur et les classes impliquées dans ce diagramme sont les suivants :
 \end{figure}
 
 \newpage
-
-%----------------------------------
-\section{Processus ETL}
-%----------------------------------
-
-Afin d'assurer une migration fluide et fiable des données historiques du client 
-vers notre nouveau système, nous avons mis en place un processus ETL structuré 
-en trois phases distinctes.
-
-L'ETL (Extract, Transform, Load) est un processus d'intégration de données qui 
-combine des données provenant de l'ancien système Odoo utilisé par le client et 
-destiné à être remplacé par la solution développée dans le cadre de ce projet, 
-exportées sous format CSV, en un ensemble de données unifié, cohérent et adapté 
-à notre nouveau système. Ce processus consiste à extraire des données brutes à 
-partir des fichiers CSV contenant les informations sur les clients, les produits, 
-les ventes et les factures, à les transformer afin de les nettoyer pour répondre 
-à des exigences spécifiques, puis à les charger dans un entrepôt de données. 
-Il en résulte un référentiel centralisé de données structurées et de haute qualité, 
-prêt à être analysées et visualisées dans les tableaux de bord décisionnel 
-\cite{etl_ovh}.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.75\textwidth]{images/etl.png}
-  \caption{Schéma du processus ETL}
-  \label{fig:etl-process}
-\end{figure}
-
-\subsection{Extraction}
-
-La phase d'extraction dans notre système est conçue pour lire les données brutes 
-issues des fichiers CSV exportés depuis l'ancien système (Odoo), représentant 
-l'historique de la société. Cette extraction n'effectue aucune modification sur 
-les données sources ; elle garantit la préservation de leur état original ainsi 
-que l'intégrité de la migration.
-
-\subsection{Transformation}
-
-La phase de transformation dans notre système consiste à appliquer des règles de 
-nettoyage et de conformité nécessaires à l'intégration des données. Ce processus 
-implique le filtrage des données non pertinentes, la normalisation des dates et 
-des formats, ainsi que la séparation des champs.
-
-\subsection{Chargement}
-
-La phase de chargement consiste à charger les données transformées dans la base 
-de données de notre système. Ces données, désormais organisées, nettoyées et 
-conformes à la structure des tables actuelles, sont prêtes à être exploitées 
-pour l'analyse et le reporting.
-
-\clearpage
 \subsection*{Conception de Cas D'utilisation Consulter Prévisions}
 
 \begin{figure}[H]
