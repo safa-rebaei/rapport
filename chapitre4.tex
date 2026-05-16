@@ -15,6 +15,11 @@ visant à anticiper les tendances futures de l'activité.
 \section{Business Intelligence}
 %----------------------------------
 
+Face à la concurrence croissante et à la complexité des marchés, les entreprises
+ne peuvent plus se contenter de gérer leurs données a posteriori. L'analyse prédictive
+est devenue un levier essentiel pour anticiper les tendances, identifier les risques
+et optimiser la prise de décision.
+
 \subsection{Définition}
 
 La Business Intelligence (BI) est un processus technologique d'analyse des données
@@ -31,36 +36,62 @@ afin de prendre des décisions basées sur des données concrètes \cite{oracle_
 
 La structure de notre partie BI s'appuie sur la méthode GIMSI, dont nous avons
 appliqué 7 étapes réparties sur 3 phases. Chacune de ces étapes a été traitée
-dans les différents chapitres du présent rapport, comme détaillé ci-dessous.
+dans les différents chapitres du présent rapport, comme détaillé dans le
+tableau~\ref{tab:gimsi}.
 
-\subsubsection*{Phase 1 : Identification}
+\vspace{6pt}
 
-\textbf{Étape 1 --- Environnement de l'entreprise :}
-Dans cette étape, nous avons analysé l'environnement économique et la stratégie
-de l'entreprise afin de définir le périmètre et la portée du projet
-(voir Chapitre~1, page~\pageref{sec:ch1:orga}).
-
-\textbf{Étape 2 --- Identification de l'entreprise :}
-Dans cette étape, nous avons identifié les structures de l'entreprise, ses
-processus, ses activités et ses acteurs concernés
-(voir Chapitre~1, page~\pageref{sec:ch1:contexte} et
-Chapitre~2, page~\pageref{sec:ch2:acteurs}).
-
-\subsubsection*{Phase 2 : Conception}
-
-\textbf{Étape 3 --- Définition des objectifs :}
-Dans cette étape, nous avons défini les objectifs décisionnels du système en
-lien avec les besoins stratégiques identifiés
-(voir Chapitre~2, page~\pageref{sec:ch2:decisionnels}).
-
-\textbf{Étape 4 --- Construction du tableau de bord :}
-Dans cette étape, nous avons conçu les tableaux de bord adaptés aux besoins
-de chaque acteur du système
-(voir Chapitre~3, page~\pageref{sec:ch3:tdb}).
-
-\textbf{Étape 5 --- Choix des indicateurs :}
-Dans cette étape, nous avons sélectionné les indicateurs clés de performance
-(KPIs) en fonction des objectifs choisis et du contexte de l'entreprise.
+\begin{longtable}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{0.8cm}|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{5cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{Phase}} &
+\textcolor{black}{\textbf{Étape}} &
+\textcolor{black}{\textbf{Intitulé}} &
+\textcolor{black}{\textbf{Description}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{Phase}} &
+\textcolor{black}{\textbf{Étape}} &
+\textcolor{black}{\textbf{Intitulé}} &
+\textcolor{black}{\textbf{Description}} \\
+\hline
+\endhead
+\multirow{2}{3cm}{\centering\textbf{Phase 1}\\\textbf{Identification}} &
+1 & Environnement de l'entreprise &
+Analyse de l'environnement économique et de la stratégie afin de définir le périmètre
+et la portée du projet (voir Chapitre~1). \\
+\cline{2-4}
+& 2 & Identification de l'entreprise &
+Identification des structures, processus, activités et acteurs concernés
+(voir Chapitres~1 et~2). \\
+\hline
+\multirow{3}{3cm}{\centering\textbf{Phase 2}\\\textbf{Conception}} &
+3 & Définition des objectifs &
+Définition des objectifs décisionnels en lien avec les besoins stratégiques
+(voir Chapitre~2). \\
+\cline{2-4}
+& 4 & Construction du tableau de bord &
+Conception des tableaux de bord adaptés aux besoins de chaque acteur
+(voir Chapitre~3). \\
+\cline{2-4}
+& 5 & Choix des indicateurs &
+Sélection des indicateurs clés de performance (KPIs) en fonction des objectifs
+et du contexte de l'entreprise (voir Chapitre~4). \\
+\cline{2-4}
+& 7 & Système de tableaux de bord &
+Construction et intégration du système complet de tableaux de bord interactifs
+(voir Chapitre~4). \\
+\hline
+\textbf{Phase 3}\newline\textbf{Mise en œuvre} &
+9 & Intégration et déploiement &
+Déploiement de la solution complète au sein de l'environnement de l'entreprise
+(voir Chapitre~5). \\
+\hline
+\caption{Application de la méthode GIMSI}
+\label{tab:gimsi}
+\end{longtable}
 
 \subsection*{Conception des Indicateurs Clés de Performances}
 \label{sec:ch3:kpi}
@@ -498,9 +529,94 @@ Graphique en barres empilées &
 \newpage
 
 \textbf{Étape 7 --- Système de tableaux de bord :}
-Dans cette étape, nous avons construit et intégré le système de tableaux de bord
-interactifs, en assurant la cohérence globale des indicateurs et des visualisations
-(voir Chapitre~5, page~\pageref{sec:ch5:tdb}).
+Dans cette étape, nous avons construit et intégré le système complet de tableaux de
+bord interactifs, en assurant la cohérence globale des indicateurs et des
+visualisations. Nous présentons ci-dessous des exemples représentatifs des graphiques
+utilisés dans chaque tableau de bord.
+
+%--- Tableau de bord CA ---
+\subsubsection*{Tableau de bord — Chiffre d'affaires}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{images/tdb_ca_card.png}
+  \caption{Indicateur KPI — Chiffre d'affaires total}
+\end{figure}
+
+Nous avons opté pour une \textbf{carte avec icône} pour afficher les indicateurs
+synthétiques tels que le chiffre d'affaires total, le panier moyen et le taux de
+croissance. Ce format permet une lecture immédiate des valeurs clés sans interprétation
+visuelle supplémentaire.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/tdb_ca_anomalies.png}
+  \caption{Anomalies CA Journalier — Graphique en courbe avec détection de pics}
+\end{figure}
+
+Nous avons choisi un \textbf{graphique en courbe} pour les anomalies du CA journalier,
+car il permet de visualiser l'évolution continue des ventes et de mettre en évidence
+les pics anormaux (en rouge) détectés par le Z-score, avec la moyenne affichée en
+ligne pointillée comme référence.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.65\textwidth]{images/tdb_ca_top5.png}
+  \caption{Top 5 Produits par Chiffre d'affaires — Liste classée}
+\end{figure}
+
+Nous avons opté pour une \textbf{liste classée} pour le Top 5 des produits, car elle
+offre une lecture directe du classement avec le CA et le nombre d'unités vendues pour
+chaque produit, sans nécessiter d'interprétation graphique.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.65\textwidth]{images/tdb_ca_repartition_produit.png}
+  \caption{Répartition du CA par Produit — Diagramme en secteurs}
+\end{figure}
+
+Nous avons sélectionné un \textbf{diagramme en secteurs} pour la répartition du CA
+par produit et catégorie, car il illustre clairement la contribution proportionnelle
+de chaque catégorie (Boisson gazeuse, Gazeuse, Eau, Jus) au chiffre d'affaires global.
+
+%--- Tableau de bord Clients ---
+\subsubsection*{Tableau de bord — Clients}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.65\textwidth]{images/tdb_clients_repartition.png}
+  \caption{Répartition du CA par Client — Diagramme en secteurs}
+\end{figure}
+
+Nous avons opté pour un \textbf{diagramme en secteurs} pour la répartition du CA par
+client et type (Particulier / Entreprise), car il représente efficacement la part de
+chaque segment dans le chiffre d'affaires global et permet d'identifier rapidement
+les types de clientèle les plus contributifs.
+
+%--- Tableau de bord Facturation ---
+\subsubsection*{Tableau de bord — Facturation}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.55\textwidth]{images/tdb_fact_statut.png}
+  \caption{Statut des Factures — Graphique en anneau (donut)}
+\end{figure}
+
+Nous avons sélectionné un \textbf{graphique en anneau (donut)} pour le statut des
+factures, car il permet d'afficher simultanément le nombre total de factures au centre
+(341 factures) et la répartition par statut — Payé (53\%), Partiellement payé (26\%),
+Non payé (21\%) — en segments colorés immédiatement lisibles.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.65\textwidth]{images/tdb_fact_encaisse.png}
+  \caption{Total Encaissé — Carte KPI}
+\end{figure}
+
+Nous avons opté pour une \textbf{carte KPI} pour les indicateurs financiers agrégés
+tels que le total encaissé et le total attendu, car ce format met en valeur les
+montants clés et leur détail (dont la part partielle) de manière synthétique et lisible.
+
 
 \subsubsection*{Phase 3 : Mise en œuvre}
 
@@ -508,4 +624,87 @@ interactifs, en assurant la cohérence globale des indicateurs et des visualisat
 Dans cette étape, nous avons déployé la solution complète au sein de
 l'environnement de l'entreprise, en intégrant l'ensemble des modules développés
 (voir Chapitre~5, page~\pageref{sec:ch5:impl}).
+
+\newpage
+
+%----------------------------------
+\section{Module de Prévision et d'Analyse Intelligente}
+%----------------------------------
+
+\subsection{Fondements théoriques}
+
+\subsubsection{L'apprentissage automatique}
+
+L'apprentissage automatique (Machine Learning) est une branche de l'intelligence
+artificielle (IA) qui se concentre sur le développement d'algorithmes informatiques
+qui s'améliorent automatiquement grâce à l'expérience et à l'utilisation de données.
+Il permet à un système d'apprendre à partir de données et de prendre des décisions
+ou de faire des prédictions sans avoir été explicitement programmé pour le faire
+\cite{datacamp_ml}.
+
+Dans notre projet, il constitue le socle du module de prévision, permettant d'anticiper
+le chiffre d'affaires, de segmenter les clients et de détecter les risques de non-paiement.
+Les méthodes d'apprentissage se divisent en deux grandes catégories.
+
+\subsubsection{Apprentissage supervisé}
+
+L'apprentissage supervisé est une approche de machine learning qui se définit par
+l'utilisation d'ensembles de données étiquetés. Ces jeux de données sont conçus pour
+entraîner ou « superviser » les algorithmes afin qu'ils classifient les données ou
+prédisent les résultats avec précision. Cette approche a été appliquée dans notre
+projet pour prévoir le chiffre d'affaires et les ventes par produit \cite{ibm_supervised}.
+
+\subsubsection{Apprentissage non supervisé}
+
+L'apprentissage non supervisé utilise des algorithmes de machine learning pour analyser
+et regrouper des ensembles de données non étiquetés. Ces algorithmes découvrent des
+modèles cachés dans les données sans avoir besoin d'intervention humaine
+\cite{ibm_supervised}.
+Dans ce projet, cette approche permet de détecter les clients à risque et les mauvais
+payeurs.
+
+\subsubsection{Outils d'analyse intelligente}
+
+Le tableau~\ref{tab:algorithmes} présente les principaux algorithmes mis en œuvre
+dans notre module de prévision et d'analyse intelligente.
+
+\vspace{6pt}
+
+\begin{longtable}{|>{\bfseries\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{9cm}|}
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{Algorithme}} &
+\textcolor{black}{\textbf{Description}} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{blue!20}
+\textcolor{black}{\textbf{Algorithme}} &
+\textcolor{black}{\textbf{Description}} \\
+\hline
+\endhead
+Régression Linéaire Simple &
+La régression linéaire est une technique d'analyse de données qui prédit la valeur
+de données inconnues en utilisant une autre valeur de données apparentée et connue.
+Elle modélise mathématiquement la variable dépendante et la variable indépendante
+sous forme d'équation linéaire \cite{aws_regression}. \\
+\hline
+K-Means &
+Le clustering k-means est un algorithme d'apprentissage non supervisé utilisé dans
+le partitionnement de données, qui regroupe les points de données non étiquetés
+en groupes ou clusters \cite{ibm_kmeans}. \\
+\hline
+RFM &
+La segmentation RFM est une approche de classification des clients basée sur la
+Récence de leur dernier achat, la Fréquence des transactions et le Montant total
+dépensé \cite{dinmo_rfm}. \\
+\hline
+Isolation Forest &
+Isolation Forest est un algorithme de machine learning non supervisé qui identifie
+les anomalies dans les données en les isolant via des partitionnements aléatoires
+au sein d'un ensemble d'arbres de décision \cite{datacamp_iforest}. \\
+\hline
+\caption{Outils d'analyse intelligente}
+\label{tab:algorithmes}
+\end{longtable}
 

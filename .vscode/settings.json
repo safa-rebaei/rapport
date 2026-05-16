@@ -2,7 +2,7 @@
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk",
-      "command": "C:\\Users\\asus\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\latexmk.exe",
+      "command": "C:\\Program Files\\Application Verifier\\tex\\miktex\\bin\\x64\\latexmk.exe",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
@@ -11,12 +11,12 @@
         "%DOC%"
       ],
       "env": {
-        "PATH": "C:\\Strawberry\\perl\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\c\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64;%PATH%"
+        "PATH": "C:\\Strawberry\\perl\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\c\\bin;C:\\Program Files\\Application Verifier\\tex\\miktex\\bin\\x64;%PATH%"
       }
     },
     {
       "name": "pdflatex",
-      "command": "C:\\Users\\asus\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+      "command": "C:\\Program Files\\Application Verifier\\tex\\miktex\\bin\\x64\\pdflatex.exe",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
@@ -35,5 +35,5 @@
       "tools": ["pdflatex", "pdflatex", "pdflatex"]
     }
   ],
-  "latex-workshop.latex.recipe.default": "latexmk"
+  "latex-workshop.latex.recipe.default": "pdflatex x3"
 }
