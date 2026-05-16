@@ -107,6 +107,10 @@
   \textbf{#1 :} #2\par\smallskip
 }
 
+\newcommand{\colorswatch}[1]{%
+  \tikz\draw[fill=#1, draw=none] (0,0) rectangle (0.5cm,0.5cm);%
+}
+
 % ===== TABLE DES MATIÈRES =====
 \usepackage{tocloft}
 \renewcommand{\contentsname}{\centering\Huge\bfseries Table des matières}
@@ -249,6 +253,7 @@
 \input{chapitre2}
 \input{chapitre3}
 \input{chapitre4}
+\input{chapitre5}
 
 
 
@@ -443,6 +448,12 @@ Piloter.org,
 Disponible sur : \url{https://www.piloter.org/mesurer/methode/methode-gimsi-10-points.htm},
 Consulté le : 20 février 2026.
 
+\bibitem{gimsi_phases}
+Piloter.org,
+\textit{Méthode GIMSI -- Description des phases},
+Disponible sur : \url{https://www.piloter.org/mesurer/methode/methode-GIMSI-phases.htm},
+Consulté le : mai 2026.
+
 \bibitem{sklearn}
 Liora.io,
 \textit{Cinq fonctions de Scikit-learn},
@@ -462,6 +473,12 @@ Medium,
 Disponible sur :
 \url{https://medium.com/@nehagoel66/mvc-architecture-d09fa2439d07},
 Consulté le : 14 mai 2026.
+
+\bibitem{oracle_bi}
+Oracle,
+\textit{Définition de la Business Intelligence},
+Disponible sur : \url{https://www.oracle.com/fr/database/business-intelligence-definition/},
+Consulté le : mai 2026.
 
 \end{thebibliography}
 \end{document}
