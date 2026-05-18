@@ -291,7 +291,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.95\textwidth]{images/MI_tracabilitéMCMIGérerUtilisateurs_1.png}
+  \includegraphics[width=0.95\textwidth]{images/MI_tracabilitéMCMIGérerUtilisateurs.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Agents}
 \end{figure}
 
@@ -326,7 +326,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_diagrammedecomposantgererutilisateurs.png}
+  \includegraphics[width=\textwidth]{images/MI_diagrammedecomposantgererutilisateurs.jpg}
   \caption{Diagramme de composants du cas d'utilisation Gérer Agents}
 \end{figure}
 
@@ -353,7 +353,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_Main.png}
+  \includegraphics[width=\textwidth]{images/MI_Main.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Produits}
 \end{figure}
 Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Produit illustre la correspondance entre les classes du modèle de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
@@ -401,10 +401,12 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \item \textbf{Produit :} représente l'entité du produit, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{produit.py (models)} : représente la structure des données et les principales opérations liées à la gestion des produits en base de données
+    \item \texttt{produit.db} : table de la base de données qui stocke les enregistrements des produits
   \end{itemize}
   \item \textbf{LigneDeVente :} représente l'entité de la ligne de vente, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux lignes de vente en base de données
+    \item \texttt{vente.db} : table de la base de données qui stocke les enregistrements des ventes et des lignes de vente
   \end{itemize}
 \end{itemize}
 \newpage
@@ -412,7 +414,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantGérerProduit_2.png}
+  \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantGérerProduit.jpg}
   \caption{Diagramme de composants du cas d'utilisation Gérer Produits}
 \end{figure}
 

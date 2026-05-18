@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.15)  18 MAY 2026 01:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.15)  18 MAY 2026 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1549,32 +1549,32 @@ Package pdftex.def Info: images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png
 used on input line 170.
 (pdftex.def)             Requested size: 455.24411pt x 119.4243pt.
  [65 <./images/MC1_tracabilitéMCUMCGérerUtilisateurs_1.png>]
-<images/MC1_DiagrammeSéquenceAjouterUtilisateur_1.png, id=2096, 2144.76282pt x
- 2278.01062pt>
-File: images/MC1_DiagrammeSéquenceAjouterUtilisateur_1.png Graphic file (type 
+<images/MC1_DiagrammeSéquenceAjouterUtilisateur_3.png, id=2096, 2236.60594pt x
+ 2354.7975pt>
+File: images/MC1_DiagrammeSéquenceAjouterUtilisateur_3.png Graphic file (type 
 png)
-<use images/MC1_DiagrammeSéquenceAjouterUtilisateur_1.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterUtilisateur_1.png 
+<use images/MC1_DiagrammeSéquenceAjouterUtilisateur_3.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterUtilisateur_3.png 
  used on input line 195.
-(pdftex.def)             Requested size: 523.52428pt x 548.15887pt.
- [66 <./images/MC1_DiagrammeSéquenceAjouterUtilisateur_1.png>]
-<images/MC1_DiagrammeSéquenceSupprimerUtilisateur_3.png, id=2102, 2414.26968pt
- x 1495.08563pt>
+(pdftex.def)             Requested size: 523.52068pt x 548.16747pt.
+ [66 <./images/MC1_DiagrammeSéquenceAjouterUtilisateur_3.png>]
+<images/MC1_DiagrammeSéquenceSupprimerUtilisateur_3.png, id=2102, 3060.93562pt
+ x 2330.7075pt>
 File: images/MC1_DiagrammeSéquenceSupprimerUtilisateur_3.png Graphic file (typ
 e png)
 <use images/MC1_DiagrammeSéquenceSupprimerUtilisateur_3.png>
 Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerUtilisateur_3.pn
 g  used on input line 207.
-(pdftex.def)             Requested size: 523.51535pt x 548.17696pt.
+(pdftex.def)             Requested size: 523.5282pt x 548.14311pt.
  [67 <./images/MC1_DiagrammeSéquenceSupprimerUtilisateur_3.png>]
-<images/MC1_DiagrammeClasseGérerUtilisateurs_1.png, id=2108, 1176.64594pt x 58
-7.94656pt>
+<images/MC1_DiagrammeClasseGérerUtilisateurs_1.png, id=2108, 1253.43282pt x 64
+2.14906pt>
 File: images/MC1_DiagrammeClasseGérerUtilisateurs_1.png Graphic file (type png
 )
 <use images/MC1_DiagrammeClasseGérerUtilisateurs_1.png>
 Package pdftex.def Info: images/MC1_DiagrammeClasseGérerUtilisateurs_1.png  us
 ed on input line 219.
-(pdftex.def)             Requested size: 432.47952pt x 548.17522pt.
+(pdftex.def)             Requested size: 500.77129pt x 256.55132pt.
  [68 <./images/MC1_DiagrammeClasseGérerUtilisateurs_1.png>]
 <images/mcumcpoduit.png, id=2114, 469.2732pt x 145.5036pt>
 File: images/mcumcpoduit.png Graphic file (type png)
@@ -1582,43 +1582,42 @@ File: images/mcumcpoduit.png Graphic file (type png)
 Package pdftex.def Info: images/mcumcpoduit.png  used on input line 231.
 (pdftex.def)             Requested size: 455.24411pt x 141.1583pt.
  [69 <./images/mcumcpoduit.png>] [70]
-<images/MC1_DiagrammeSéquenceAjouterProduit_4.png, id=2125, 5538.6925pt x 5856
-.88126pt>
-File: images/MC1_DiagrammeSéquenceAjouterProduit_4.png Graphic file (type png)
+<images/MC1_DiagrammeSéquenceAjouterProduit_5.png, id=2125, 4348.245pt x 4948.
+98938pt>
+File: images/MC1_DiagrammeSéquenceAjouterProduit_5.png Graphic file (type png)
 
-<use images/MC1_DiagrammeSéquenceAjouterProduit_4.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterProduit_4.png  use
+<use images/MC1_DiagrammeSéquenceAjouterProduit_5.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceAjouterProduit_5.png  use
 d on input line 263.
-(pdftex.def)             Requested size: 523.47684pt x 548.09822pt.
- [71 <./images/MC1_DiagrammeSéquenceAjouterProduit_4.png (PNG copy)>]
-<images/MC1_DiagrammeSéquenceSupprimerProduit.png, id=2130, 2334.47156pt x 196
-4.08781pt>
-File: images/MC1_DiagrammeSéquenceSupprimerProduit.png Graphic file (type png)
-
-<use images/MC1_DiagrammeSéquenceSupprimerProduit.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerProduit.png  use
-d on input line 275.
-(pdftex.def)             Requested size: 523.52364pt x 548.17264pt.
-
-[72 <./images/MC1_DiagrammeSéquenceSupprimerProduit.png>]
-<images/MC1_DiagrammeSéquenceModifierProduit_2.png, id=2136, 1770.615pt x 1717
-.91812pt>
-File: images/MC1_DiagrammeSéquenceModifierProduit_2.png Graphic file (type png
+(pdftex.def)             Requested size: 523.49196pt x 548.16629pt.
+ [71 <./images/MC1_DiagrammeSéquenceAjouterProduit_5.png>]
+<images/MC1_DiagrammeSéquenceSupprimerProduit_2.png, id=2131, 2832.83344pt x 2
+098.84125pt>
+File: images/MC1_DiagrammeSéquenceSupprimerProduit_2.png Graphic file (type pn
+g)
+<use images/MC1_DiagrammeSéquenceSupprimerProduit_2.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceSupprimerProduit_2.png  u
+sed on input line 275.
+(pdftex.def)             Requested size: 523.50406pt x 548.15184pt.
+ [72 <./images/MC1_DiagrammeSéquenceSupprimerProduit_2.png>]
+<images/MC1_DiagrammeSéquenceModifierProduit_3.png, id=2137, 1770.615pt x 1709
+.63719pt>
+File: images/MC1_DiagrammeSéquenceModifierProduit_3.png Graphic file (type png
 )
-<use images/MC1_DiagrammeSéquenceModifierProduit_2.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceModifierProduit_2.png  us
+<use images/MC1_DiagrammeSéquenceModifierProduit_3.png>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceModifierProduit_3.png  us
 ed on input line 287.
-(pdftex.def)             Requested size: 523.51567pt x 548.17224pt.
- [73 <./images/MC1_DiagrammeSéquenceModifierProduit_2.png>]
-<images/MC_DiagrammeSéquenceConsulterProduit.png, id=2142, 2061.95343pt x 1829
+(pdftex.def)             Requested size: 523.51567pt x 548.16464pt.
+ [73 <./images/MC1_DiagrammeSéquenceModifierProduit_3.png>]
+<images/MC_DiagrammeSéquenceConsulterProduit.png, id=2143, 2061.95343pt x 1829
 .33438pt>
 File: images/MC_DiagrammeSéquenceConsulterProduit.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceConsulterProduit.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterProduit.png  used
  on input line 299.
-(pdftex.def)             Requested size: 523.51012pt x 548.16255pt.
+(pdftex.def)             Requested size: 523.51012pt x 618.4484pt.
  [74 <./images/MC_DiagrammeSéquenceConsulterProduit.png>]
-<images/MC1_DiagrammeSéquenceArchiverProduit_1.png, id=2148, 2036.35782pt x 17
+<images/MC1_DiagrammeSéquenceArchiverProduit_1.png, id=2149, 2036.35782pt x 17
 09.63719pt>
 File: images/MC1_DiagrammeSéquenceArchiverProduit_1.png Graphic file (type png
 )
@@ -1627,16 +1626,15 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverProduit_1.png  us
 ed on input line 311.
 (pdftex.def)             Requested size: 523.53682pt x 548.16464pt.
  [75 <./images/MC1_DiagrammeSéquenceArchiverProduit_1.png>]
-<images/MC1_DiagrammeClasseGérerProduit.png, id=2155, 3416.26312pt x 2777.8781
+<images/MC1_DiagrammeClasseGérerProduit.png, id=2156, 3416.26312pt x 2777.8781
 3pt>
 File: images/MC1_DiagrammeClasseGérerProduit.png Graphic file (type png)
 <use images/MC1_DiagrammeClasseGérerProduit.png>
 Package pdftex.def Info: images/MC1_DiagrammeClasseGérerProduit.png  used on i
 nput line 324.
 (pdftex.def)             Requested size: 523.52061pt x 548.14807pt.
-
-[76 <./images/MC1_DiagrammeClasseGérerProduit.png>]
-<images/MC_tracabiliteMCUMCGererClient.png, id=2161, 1038.88126pt x 398.23781pt
+ [76 <./images/MC1_DiagrammeClasseGérerProduit.png>]
+<images/MC_tracabiliteMCUMCGererClient.png, id=2162, 1038.88126pt x 398.23781pt
 >
 File: images/MC_tracabiliteMCUMCGererClient.png Graphic file (type png)
 <use images/MC_tracabiliteMCUMCGererClient.png>
@@ -1644,23 +1642,22 @@ Package pdftex.def Info: images/MC_tracabiliteMCUMCGererClient.png  used on inp
 ut line 337.
 (pdftex.def)             Requested size: 455.24411pt x 174.50813pt.
  [77 <./images/MC_tracabiliteMCUMCGererClient.png>] [78]
-<images/MC_diagseqAjouterClient_1.png, id=2171, 4102.07532pt x 5845.58907pt>
-File: images/MC_diagseqAjouterClient_1.png Graphic file (type png)
-<use images/MC_diagseqAjouterClient_1.png>
-Package pdftex.def Info: images/MC_diagseqAjouterClient_1.png  used on input li
+<images/MC_DiagrammeSéquence12_1.png, id=2172, 4291.03125pt x 6328.14188pt>
+File: images/MC_DiagrammeSéquence12_1.png Graphic file (type png)
+<use images/MC_DiagrammeSéquence12_1.png>
+Package pdftex.def Info: images/MC_DiagrammeSéquence12_1.png  used on input li
 ne 370.
-(pdftex.def)             Requested size: 523.52408pt x 548.11183pt.
- [79 <./images/MC_diagseqAjouterClient_1.png>]
-<images/MC_DiagrammeSéquenceModifierClient_1.png, id=2177, 2457.18pt x 2667.21
+(pdftex.def)             Requested size: 523.47887pt x 618.36734pt.
+ [79 <./images/MC_DiagrammeSéquence12_1.png>]
+<images/MC_DiagrammeSéquenceModifierClient_1.png, id=2178, 2457.18pt x 2667.21
 469pt>
 File: images/MC_DiagrammeSéquenceModifierClient_1.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceModifierClient_1.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceModifierClient_1.png  used
  on input line 382.
 (pdftex.def)             Requested size: 523.52173pt x 548.1663pt.
-
-[80 <./images/MC_DiagrammeSéquenceModifierClient_1.png>]
-<images/MC_DiagrammeSéquenceSupprimerClient_2.png, id=2183, 3389.91469pt x 339
+ [80 <./images/MC_DiagrammeSéquenceModifierClient_1.png>]
+<images/MC_DiagrammeSéquenceSupprimerClient_2.png, id=2184, 3389.91469pt x 339
 9.70125pt>
 File: images/MC_DiagrammeSéquenceSupprimerClient_2.png Graphic file (type png)
 
@@ -1669,16 +1666,16 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceSupprimerClient_2.png  use
 d on input line 394.
 (pdftex.def)             Requested size: 523.5175pt x 548.16522pt.
  [81 <./images/MC_DiagrammeSéquenceSupprimerClient_2.png>]
-<images/MC_DiagrammeSéquenceConsulterClient_2.png, id=2190, 3971.83875pt x 454
+<images/MC_DiagrammeSéquenceConsulterClient_2.png, id=2191, 3971.83875pt x 454
 6.9875pt>
 File: images/MC_DiagrammeSéquenceConsulterClient_2.png Graphic file (type png)
 
 <use images/MC_DiagrammeSéquenceConsulterClient_2.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterClient_2.png  use
 d on input line 406.
-(pdftex.def)             Requested size: 523.50859pt x 548.1127pt.
+(pdftex.def)             Requested size: 523.50859pt x 618.39601pt.
  [82 <./images/MC_DiagrammeSéquenceConsulterClient_2.png>]
-<images/MC_diagrammedeseqArchiverClient_1.png, id=2196, 2392.43813pt x 2494.067
+<images/MC_diagrammedeseqArchiverClient_1.png, id=2197, 2392.43813pt x 2494.067
 81pt>
 File: images/MC_diagrammedeseqArchiverClient_1.png Graphic file (type png)
 <use images/MC_diagrammedeseqArchiverClient_1.png>
@@ -1686,31 +1683,30 @@ Package pdftex.def Info: images/MC_diagrammedeseqArchiverClient_1.png  used on
 input line 418.
 (pdftex.def)             Requested size: 523.52708pt x 548.16383pt.
  [83 <./images/MC_diagrammedeseqArchiverClient_1.png>]
-<images/MC_DiagrammeClasseGererClient_4.png, id=2202, 5732.66719pt x 3940.22063
+<images/MC_DiagrammeClasseGererClient_4.png, id=2203, 5732.66719pt x 3940.22063
 pt>
 File: images/MC_DiagrammeClasseGererClient_4.png Graphic file (type png)
 <use images/MC_DiagrammeClasseGererClient_4.png>
 Package pdftex.def Info: images/MC_DiagrammeClasseGererClient_4.png  used on in
 put line 430.
 (pdftex.def)             Requested size: 523.52797pt x 548.14001pt.
-
-[84 <./images/MC_DiagrammeClasseGererClient_4.png>]
-<images/MC_tracabilitéMCMCUVENTE_1.png, id=2208, 872.50969pt x 253.69781pt>
-File: images/MC_tracabilitéMCMCUVENTE_1.png Graphic file (type png)
-<use images/MC_tracabilitéMCMCUVENTE_1.png>
-Package pdftex.def Info: images/MC_tracabilitéMCMCUVENTE_1.png  used on input 
-line 443.
-(pdftex.def)             Requested size: 455.24411pt x 132.36879pt.
- [85 <./images/MC_tracabilitéMCMCUVENTE_1.png>]
-<images/MC1_DiagrammeSéquenceEnregistrervente_1.png, id=2214, 4778.85374pt x 6
-678.9525pt>
-File: images/MC1_DiagrammeSéquenceEnregistrervente_1.png Graphic file (type pn
+ [84 <./images/MC_DiagrammeClasseGererClient_4.png>]
+<images/MC1_tracabilitéMCMCUVENTE.jpg, id=2209, 1200.485pt x 338.26375pt>
+File: images/MC1_tracabilitéMCMCUVENTE.jpg Graphic file (type jpg)
+<use images/MC1_tracabilitéMCMCUVENTE.jpg>
+Package pdftex.def Info: images/MC1_tracabilitéMCMCUVENTE.jpg  used on input l
+ine 443.
+(pdftex.def)             Requested size: 455.24411pt x 128.27315pt.
+ [85 <./images/MC1_tracabilitéMCMCUVENTE.jpg>]
+<images/MC1_DiagrammeSéquenceEnregistrervente_3.jpg, id=2214, 9240.5225pt x 10
+023.4475pt>
+File: images/MC1_DiagrammeSéquenceEnregistrervente_3.jpg Graphic file (type jp
 g)
-<use images/MC1_DiagrammeSéquenceEnregistrervente_1.png>
-Package pdftex.def Info: images/MC1_DiagrammeSéquenceEnregistrervente_1.png  u
+<use images/MC1_DiagrammeSéquenceEnregistrervente_3.jpg>
+Package pdftex.def Info: images/MC1_DiagrammeSéquenceEnregistrervente_3.jpg  u
 sed on input line 476.
-(pdftex.def)             Requested size: 523.48796pt x 548.08531pt.
- [86]
+(pdftex.def)             Requested size: 523.3877pt x 618.35785pt.
+[86]
 <images/MC_DiagrammeSéquenceConsulterVentes_2.png, id=2219, 5432.295pt x 6060.
 14063pt>
 File: images/MC_DiagrammeSéquenceConsulterVentes_2.png Graphic file (type png)
@@ -1719,9 +1715,9 @@ File: images/MC_DiagrammeSéquenceConsulterVentes_2.png Graphic file (type png)
 Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterVentes_2.png  use
 d on input line 487.
 (pdftex.def)             Requested size: 523.4506pt x 548.16324pt.
- [87 <./images/MC1_DiagrammeSéquenceEnregistrervente_1.png>] [88 <./images/MC_
+ [87 <./images/MC1_DiagrammeSéquenceEnregistrervente_3.jpg>] [88 <./images/MC_
 DiagrammeSéquenceConsulterVentes_2.png>]
-<images/MC1_DiagrammeSéquenceArchiverVente_1.png, id=2231, 1925.69438pt x 1779
+<images/MC1_DiagrammeSéquenceArchiverVente_1.png, id=2230, 1925.69438pt x 1779
 .64874pt>
 File: images/MC1_DiagrammeSéquenceArchiverVente_1.png Graphic file (type png)
 <use images/MC1_DiagrammeSéquenceArchiverVente_1.png>
@@ -1729,7 +1725,7 @@ Package pdftex.def Info: images/MC1_DiagrammeSéquenceArchiverVente_1.png  used
  on input line 499.
 (pdftex.def)             Requested size: 523.49986pt x 548.15524pt.
  [89 <./images/MC1_DiagrammeSéquenceArchiverVente_1.png>]
-<images/MC1_DiagrammeDeClasseGérerVente_2.png, id=2237, 4920.3825pt x 3299.577
+<images/MC1_DiagrammeDeClasseGérerVente_2.png, id=2236, 4920.3825pt x 3299.577
 2pt>
 File: images/MC1_DiagrammeDeClasseGérerVente_2.png Graphic file (type png)
 <use images/MC1_DiagrammeDeClasseGérerVente_2.png>
@@ -1737,18 +1733,17 @@ Package pdftex.def Info: images/MC1_DiagrammeDeClasseGérerVente_2.png  used on
  input line 511.
 (pdftex.def)             Requested size: 523.52515pt x 548.13246pt.
  [90 <./images/MC1_DiagrammeDeClasseGérerVente_2.png>]
-<images/MC_tracabiliteMCUMCGérerFacture_2.png, id=2243, 1454.43375pt x 555.575
+<images/MC_tracabiliteMCUMCGérerFacture_2.png, id=2242, 1454.43375pt x 555.575
 62pt>
 File: images/MC_tracabiliteMCUMCGérerFacture_2.png Graphic file (type png)
 <use images/MC_tracabiliteMCUMCGérerFacture_2.png>
 Package pdftex.def Info: images/MC_tracabiliteMCUMCGérerFacture_2.png  used on
  input line 523.
 (pdftex.def)             Requested size: 455.24411pt x 173.8967pt.
- [91
+[91
 
- <./images/MC_tracabiliteMCUMCGérerFacture_2.png>]
-[92]
-<images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png, id=2253, 3290.54344p
+ <./images/MC_tracabiliteMCUMCGérerFacture_2.png>] [92]
+<images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png, id=2252, 3290.54344p
 t x 5404.44093pt>
 File: images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png Graphic file (ty
 pe png)
@@ -1757,7 +1752,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceCreerFactureviafacture_2.p
 ng  used on input line 557.
 (pdftex.def)             Requested size: 523.48514pt x 548.145pt.
  [93 <./images/MC_DiagrammeSéquenceCreerFactureviafacture_2.png>]
-<images/MC_DiagrammeSéquencecreerfactureviaventes.png, id=2260, 2932.9575pt x 
+<images/MC_DiagrammeSéquencecreerfactureviaventes.png, id=2259, 2932.9575pt x 
 3504.3422pt>
 File: images/MC_DiagrammeSéquencecreerfactureviaventes.png Graphic file (type 
 png)
@@ -1766,7 +1761,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquencecreerfactureviaventes.png
  used on input line 569.
 (pdftex.def)             Requested size: 523.52376pt x 548.14032pt.
  [94 <./images/MC_DiagrammeSéquencecreerfactureviaventes.png>]
-<images/MC_DiagrammeSéquenceConsulterFacture_4.png, id=2266, 6262.64719pt x 56
+<images/MC_DiagrammeSéquenceConsulterFacture_4.png, id=2265, 6262.64719pt x 56
 43.0825pt>
 File: images/MC_DiagrammeSéquenceConsulterFacture_4.png Graphic file (type png
 )
@@ -1775,7 +1770,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterFacture_4.png  us
 ed on input line 581.
 (pdftex.def)             Requested size: 523.47867pt x 548.15332pt.
  [95 <./images/MC_DiagrammeSéquenceConsulterFacture_4.png>]
-<images/MC_DiagrammeSéquenceEnregistrerRèglement_2.png, id=2272, 4455.89719pt
+<images/MC_DiagrammeSéquenceEnregistrerRèglement_2.png, id=2271, 4455.89719pt
  x 7540.17pt>
 File: images/MC_DiagrammeSéquenceEnregistrerRèglement_2.png Graphic file (typ
 e png)
@@ -1784,7 +1779,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceEnregistrerRèglement_2.pn
 g  used on input line 593.
 (pdftex.def)             Requested size: 523.46602pt x 548.11526pt.
  [96 <./images/MC_DiagrammeSéquenceEnregistrerRèglement_2.png>]
-<images/MC_DiagrammeSéquenceArchiverFacture_2.png, id=2278, 3637.59pt x 3791.9
+<images/MC_DiagrammeSéquenceArchiverFacture_2.png, id=2277, 3637.59pt x 3791.9
 1656pt>
 File: images/MC_DiagrammeSéquenceArchiverFacture_2.png Graphic file (type png)
 
@@ -1792,8 +1787,9 @@ File: images/MC_DiagrammeSéquenceArchiverFacture_2.png Graphic file (type png)
 Package pdftex.def Info: images/MC_DiagrammeSéquenceArchiverFacture_2.png  use
 d on input line 605.
 (pdftex.def)             Requested size: 523.52394pt x 548.16483pt.
- [97 <./images/MC_DiagrammeSéquenceArchiverFacture_2.png>]
-<images/MC_DiagrammeSéquenceImprimerFacture_1.png, id=2284, 5348.73282pt x 200
+
+[97 <./images/MC_DiagrammeSéquenceArchiverFacture_2.png>]
+<images/MC_DiagrammeSéquenceImprimerFacture_1.png, id=2283, 5348.73282pt x 200
 7.75093pt>
 File: images/MC_DiagrammeSéquenceImprimerFacture_1.png Graphic file (type png)
 
@@ -1802,14 +1798,14 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceImprimerFacture_1.png  use
 d on input line 617.
 (pdftex.def)             Requested size: 523.47853pt x 548.1659pt.
  [98 <./images/MC_DiagrammeSéquenceImprimerFacture_1.png>]
-<images/MC_DiagrammeSéquence1_1.png, id=2290, 4714.86469pt x 1962.58218pt>
+<images/MC_DiagrammeSéquence1_1.png, id=2289, 4714.86469pt x 1962.58218pt>
 File: images/MC_DiagrammeSéquence1_1.png Graphic file (type png)
 <use images/MC_DiagrammeSéquence1_1.png>
 Package pdftex.def Info: images/MC_DiagrammeSéquence1_1.png  used on input lin
 e 629.
 (pdftex.def)             Requested size: 523.52885pt x 548.17168pt.
  [99 <./images/MC_DiagrammeSéquence1_1.png>]
-<images/MC_DiagrammeClasseGérerFacture_1.png, id=2297, 6239.31pt x 4912.10156p
+<images/MC_DiagrammeClasseGérerFacture_1.png, id=2296, 6239.31pt x 4912.10156p
 t>
 File: images/MC_DiagrammeClasseGérerFacture_1.png Graphic file (type png)
 <use images/MC_DiagrammeClasseGérerFacture_1.png>
@@ -1817,13 +1813,13 @@ Package pdftex.def Info: images/MC_DiagrammeClasseGérerFacture_1.png  used on
 input line 641.
 (pdftex.def)             Requested size: 523.52725pt x 548.12791pt.
  [100 <./images/MC_DiagrammeClasseGérerFacture_1.png>]
-<images/image22.png, id=2303, 520.19344pt x 165.61874pt>
+<images/image22.png, id=2302, 520.19344pt x 165.61874pt>
 File: images/image22.png Graphic file (type png)
 <use images/image22.png>
 Package pdftex.def Info: images/image22.png  used on input line 654.
 (pdftex.def)             Requested size: 455.24411pt x 144.9413pt.
  [101 <./images/image22.png>]
-<images/MC_DiagrammeSéquenceConsulterNotif.png, id=2309, 2150.0325pt x 1397.22
+<images/MC_DiagrammeSéquenceConsulterNotif.png, id=2308, 2150.0325pt x 1397.22
 pt>
 File: images/MC_DiagrammeSéquenceConsulterNotif.png Graphic file (type png)
 <use images/MC_DiagrammeSéquenceConsulterNotif.png>
@@ -1831,7 +1827,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterNotif.png  used o
 n input line 685.
 (pdftex.def)             Requested size: 523.53111pt x 548.17555pt.
  [102 <./images/MC_DiagrammeSéquenceConsulterNotif.png>]
-<images/MC_DiagrammeSéquencemarquercommelue.png, id=2315, 1960.32375pt x 1533.
+<images/MC_DiagrammeSéquencemarquercommelue.png, id=2314, 1960.32375pt x 1533.
 47906pt>
 File: images/MC_DiagrammeSéquencemarquercommelue.png Graphic file (type png)
 <use images/MC_DiagrammeSéquencemarquercommelue.png>
@@ -1839,7 +1835,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquencemarquercommelue.png  used
 on input line 697.
 (pdftex.def)             Requested size: 523.52145pt x 548.16782pt.
  [103 <./images/MC_DiagrammeSéquencemarquercommelue.png>]
-<images/MC_DiagrammeSéqSupprimerNotifications_1.png, id=2321, 1809.00844pt x 9
+<images/MC_DiagrammeSéqSupprimerNotifications_1.png, id=2320, 1809.00844pt x 9
 81.6675pt>
 File: images/MC_DiagrammeSéqSupprimerNotifications_1.png Graphic file (type pn
 g)
@@ -1848,7 +1844,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéqSupprimerNotifications_1.png  u
 sed on input line 709.
 (pdftex.def)             Requested size: 523.52249pt x 548.18721pt.
  [104 <./images/MC_DiagrammeSéqSupprimerNotifications_1.png>]
-<images/MC_DiagrammeClasseGérerNotifications.png, id=2327, 1757.06438pt x 1300
+<images/MC_DiagrammeClasseGérerNotifications.png, id=2326, 1757.06438pt x 1300
 .86pt>
 File: images/MC_DiagrammeClasseGérerNotifications.png Graphic file (type png)
 <use images/MC_DiagrammeClasseGérerNotifications.png>
@@ -1856,7 +1852,7 @@ Package pdftex.def Info: images/MC_DiagrammeClasseGérerNotifications.png  used
  on input line 721.
 (pdftex.def)             Requested size: 478.00635pt x 456.79654pt.
  [105 <./images/MC_DiagrammeClasseGérerNotifications.png>]
-<images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png, id=2334, 1178.9043
+<images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png, id=2333, 1178.9043
 7pt x 524.71031pt>
 File: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png Graphic file (
 type png)
@@ -1864,8 +1860,9 @@ type png)
 Package pdftex.def Info: images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1)
 .png  used on input line 734.
 (pdftex.def)             Requested size: 455.24411pt x 202.61858pt.
- [106 <./images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png>] [107]
-<images/MC_DiagrammeSéquenceConsulterTableauxdebord.png, id=2344, 4282.7503pt 
+ [106 <./images/MC_tracabiliteMCUMCConsultertableaudebord_2 (1).png>]
+[107]
+<images/MC_DiagrammeSéquenceConsulterTableauxdebord.png, id=2343, 4282.7503pt 
 x 9650.30344pt>
 File: images/MC_DiagrammeSéquenceConsulterTableauxdebord.png Graphic file (typ
 e png)
@@ -1876,7 +1873,7 @@ g  used on input line 761.
  [108
 
  <./images/MC_DiagrammeSéquenceConsulterTableauxdebord.png>]
-<images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png, id=2350, 3821.27625pt x
+<images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png, id=2349, 3821.27625pt x
  3811.48969pt>
 File: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png Graphic file (type 
 png)
@@ -1884,10 +1881,11 @@ png)
 Package pdftex.def Info: images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png 
  used on input line 773.
 (pdftex.def)             Requested size: 478.00821pt x 456.77745pt.
- [109
+
+[109
 
  <./images/MC_DiagrammeClasseConsulterTbaleaudebord_1.png>]
-<images/MC_tracabilitéMCUMCConsulterPrevision.png, id=2356, 1278.27562pt x 587
+<images/MC_tracabilitéMCUMCConsulterPrevision.png, id=2355, 1278.27562pt x 587
 .94656pt>
 File: images/MC_tracabilitéMCUMCConsulterPrevision.png Graphic file (type png)
 
@@ -1895,9 +1893,8 @@ File: images/MC_tracabilitéMCUMCConsulterPrevision.png Graphic file (type png)
 Package pdftex.def Info: images/MC_tracabilitéMCUMCConsulterPrevision.png  use
 d on input line 783.
 (pdftex.def)             Requested size: 455.24411pt x 209.39085pt.
-
-[110 <./images/MC_tracabilitéMCUMCConsulterPrevision.png>]
-<images/MC_DiagrammeSéquenceConsulterprevisions_1.png, id=2362, 4257.9075pt x 
+ [110 <./images/MC_tracabilitéMCUMCConsulterPrevision.png>]
+<images/MC_DiagrammeSéquenceConsulterprevisions_1.png, id=2361, 4257.9075pt x 
 3809.98407pt>
 File: images/MC_DiagrammeSéquenceConsulterprevisions_1.png Graphic file (type 
 png)
@@ -1906,7 +1903,7 @@ Package pdftex.def Info: images/MC_DiagrammeSéquenceConsulterprevisions_1.png
  used on input line 809.
 (pdftex.def)             Requested size: 523.46614pt x 548.16058pt.
  [111 <./images/MC_DiagrammeSéquenceConsulterprevisions_1.png>]
-<images/MC_DiagrammeClasseConsulterPrévisions (1).png, id=2369, 3431.31938pt x
+<images/MC_DiagrammeClasseConsulterPrévisions (1).png, id=2368, 3431.31938pt x
  3783.63562pt>
 File: images/MC_DiagrammeClasseConsulterPrévisions (1).png Graphic file (type 
 png)
@@ -1915,7 +1912,7 @@ Package pdftex.def Info: images/MC_DiagrammeClasseConsulterPrévisions (1).png
  used on input line 821.
 (pdftex.def)             Requested size: 477.97299pt x 597.36911pt.
  [112 <./images/MC_DiagrammeClasseConsulterPrévisions (1).png>]
-<images/Packagevierge_DiagrammeClasse.png, id=2375, 4416.75093pt x 3217.52063pt
+<images/Packagevierge_DiagrammeClasse.png, id=2374, 4416.75093pt x 3217.52063pt
 >
 File: images/Packagevierge_DiagrammeClasse.png Graphic file (type png)
 <use images/Packagevierge_DiagrammeClasse.png>
@@ -1929,7 +1926,7 @@ al, mon-tant_paye, reste,date_facture, date_echeance,
  []
 
 [114]
-<images/MC1_DiagrammeDéploiement_1.png, id=2385, 522.45187pt x 210.03468pt>
+<images/MC1_DiagrammeDéploiement_1.png, id=2384, 522.45187pt x 210.03468pt>
 File: images/MC1_DiagrammeDéploiement_1.png Graphic file (type png)
 <use images/MC1_DiagrammeDéploiement_1.png>
 Package pdftex.def Info: images/MC1_DiagrammeDéploiement_1.png  used on input 
@@ -2033,42 +2030,42 @@ ignored: Infinite glue shrinkage f
 ound in box being split [124]
 ignored: Infinite glue shrinkage found in box being split [
 125] [126]
-<images/tdb_ca_card.png, id=2440, 178.86826pt x 99.9735pt>
+<images/tdb_ca_card.png, id=2439, 178.86826pt x 99.9735pt>
 File: images/tdb_ca_card.png Graphic file (type png)
 <use images/tdb_ca_card.png>
 Package pdftex.def Info: images/tdb_ca_card.png  used on input line 470.
 (pdftex.def)             Requested size: 273.14923pt x 152.68892pt.
-<images/tdb_ca_anomalies.png, id=2441, 927.465pt x 257.763pt>
+<images/tdb_ca_anomalies.png, id=2440, 927.465pt x 257.763pt>
 File: images/tdb_ca_anomalies.png Graphic file (type png)
 <use images/tdb_ca_anomalies.png>
 Package pdftex.def Info: images/tdb_ca_anomalies.png  used on input line 481.
 (pdftex.def)             Requested size: 455.24411pt x 126.52522pt.
-<images/tdb_ca_top5.png, id=2442, 412.54124pt x 301.72725pt>
+<images/tdb_ca_top5.png, id=2441, 412.54124pt x 301.72725pt>
 File: images/tdb_ca_top5.png Graphic file (type png)
 <use images/tdb_ca_top5.png>
 Package pdftex.def Info: images/tdb_ca_top5.png  used on input line 492.
 (pdftex.def)             Requested size: 295.90588pt x 216.42393pt.
  [127 <./images/tdb_ca_card.png> <./images/tdb_ca_anomalies.png>]
-<images/tdb_ca_repartition_produit.png, id=2449, 507.69675pt x 299.9205pt>
+<images/tdb_ca_repartition_produit.png, id=2448, 507.69675pt x 299.9205pt>
 File: images/tdb_ca_repartition_produit.png Graphic file (type png)
 <use images/tdb_ca_repartition_produit.png>
 Package pdftex.def Info: images/tdb_ca_repartition_produit.png  used on input l
 ine 502.
 (pdftex.def)             Requested size: 295.90588pt x 174.8052pt.
  [128 <./images/tdb_ca_top5.png> <./images/tdb_ca_repartition_produit.png>]
-<images/tdb_clients_repartition.png, id=2456, 347.49825pt x 295.70474pt>
+<images/tdb_clients_repartition.png, id=2455, 347.49825pt x 295.70474pt>
 File: images/tdb_clients_repartition.png Graphic file (type png)
 <use images/tdb_clients_repartition.png>
 Package pdftex.def Info: images/tdb_clients_repartition.png  used on input line
  515.
 (pdftex.def)             Requested size: 295.90588pt x 251.81946pt.
-<images/tdb_fact_statut.png, id=2457, 311.36325pt x 269.20575pt>
+<images/tdb_fact_statut.png, id=2456, 311.36325pt x 269.20575pt>
 File: images/tdb_fact_statut.png Graphic file (type png)
 <use images/tdb_fact_statut.png>
 Package pdftex.def Info: images/tdb_fact_statut.png  used on input line 529.
 (pdftex.def)             Requested size: 250.38564pt x 216.4863pt.
  [129 <./images/tdb_clients_repartition.png> <./images/tdb_fact_statut.png>]
-<images/tdb_fact_encaisse.png, id=2465, 467.346pt x 87.32625pt>
+<images/tdb_fact_encaisse.png, id=2464, 467.346pt x 87.32625pt>
 File: images/tdb_fact_encaisse.png Graphic file (type png)
 <use images/tdb_fact_encaisse.png>
 Package pdftex.def Info: images/tdb_fact_encaisse.png  used on input line 540.
@@ -2096,25 +2093,25 @@ Overfull \hbox (17.89438pt too wide) in alignment at lines 694--739
  []
 
 [133]
-<images/prev_ca.png.png, id=2503, 460.119pt x 275.22826pt>
+<images/prev_ca.png.png, id=2502, 460.119pt x 275.22826pt>
 File: images/prev_ca.png.png Graphic file (type png)
 <use images/prev_ca.png.png>
 Package pdftex.def Info: images/prev_ca.png.png  used on input line 752.
 (pdftex.def)             Requested size: 386.96027pt x 231.47574pt.
-<images/prev_produit.png.png, id=2504, 469.755pt x 289.08pt>
+<images/prev_produit.png.png, id=2503, 469.755pt x 289.08pt>
 File: images/prev_produit.png.png Graphic file (type png)
 <use images/prev_produit.png.png>
 Package pdftex.def Info: images/prev_produit.png.png  used on input line 767.
 (pdftex.def)             Requested size: 386.96027pt x 238.12782pt.
  [134 <./images/prev_ca.png.png>]
-<images/prev_clients_risque.png.png, id=2510, 469.755pt x 158.994pt>
+<images/prev_clients_risque.png.png, id=2509, 469.755pt x 158.994pt>
 File: images/prev_clients_risque.png.png Graphic file (type png)
 <use images/prev_clients_risque.png.png>
 Package pdftex.def Info: images/prev_clients_risque.png.png  used on input line
  782.
 (pdftex.def)             Requested size: 386.96027pt x 130.97029pt.
  [135 <./images/prev_produit.png.png> <./images/prev_clients_risque.png.png>]
-<images/prev_mauvais_payeurs.png.png, id=2518, 469.755pt x 159.59625pt>
+<images/prev_mauvais_payeurs.png.png, id=2517, 469.755pt x 159.59625pt>
 File: images/prev_mauvais_payeurs.png.png Graphic file (type png)
 <use images/prev_mauvais_payeurs.png.png>
 Package pdftex.def Info: images/prev_mauvais_payeurs.png.png  used on input lin
@@ -2123,17 +2120,17 @@ e 798.
 ) (chapitre5.tex [136 <./images/prev_mauvais_payeurs.png.png>] [137
 
 ]
-<images/vscode.jpg, id=2528, 84.315pt x 89.58469pt>
+<images/vscode.jpg, id=2527, 84.315pt x 89.58469pt>
 File: images/vscode.jpg Graphic file (type jpg)
 <use images/vscode.jpg>
 Package pdftex.def Info: images/vscode.jpg  used on input line 27.
 (pdftex.def)             Requested size: 71.13188pt x 75.57867pt.
-<images/github.png, id=2530, 103.13531pt x 79.79813pt>
+<images/github.png, id=2529, 103.13531pt x 79.79813pt>
 File: images/github.png Graphic file (type png)
 <use images/github.png>
 Package pdftex.def Info: images/github.png  used on input line 45.
 (pdftex.def)             Requested size: 71.13188pt x 55.03639pt.
-<images/reactjs.jpg, id=2532, 97.86563pt x 87.32625pt>
+<images/reactjs.jpg, id=2531, 97.86563pt x 87.32625pt>
 File: images/reactjs.jpg Graphic file (type jpg)
 <use images/reactjs.jpg>
 Package pdftex.def Info: images/reactjs.jpg  used on input line 68.
@@ -2143,7 +2140,7 @@ Underfull \hbox (badness 4328) in paragraph at lines 69--76
 \T1/ptm/m/n/12 (+20) ReactJS est une bi-blio-th�que Ja-vaS-cript gra-tuite et
  []
 
-<images/fastapi.png, id=2534, 120.45pt x 114.4275pt>
+<images/fastapi.png, id=2533, 120.45pt x 114.4275pt>
 File: images/fastapi.png Graphic file (type png)
 <use images/fastapi.png>
 Package pdftex.def Info: images/fastapi.png  used on input line 77.
@@ -2153,7 +2150,7 @@ Underfull \hbox (badness 2828) in paragraph at lines 78--85
 \T1/ptm/m/n/12 (+20) FastAPI est un fra-me-work web per-for-mant pour la
  []
 
-<images/recharts.png, id=2536, 103.88812pt x 103.88812pt>
+<images/recharts.png, id=2535, 103.88812pt x 103.88812pt>
 File: images/recharts.png Graphic file (type png)
 <use images/recharts.png>
 Package pdftex.def Info: images/recharts.png  used on input line 86.
@@ -2163,7 +2160,7 @@ Underfull \hbox (badness 1490) in paragraph at lines 87--92
 \T1/ptm/m/n/12 (+20) don-n�es de notre sys-t�me sous forme de gra-phiques
  []
 
-<images/tailwind.jpg, id=2538, 122.5305pt x 90.3375pt>
+<images/tailwind.jpg, id=2537, 122.5305pt x 90.3375pt>
 File: images/tailwind.jpg Graphic file (type jpg)
 <use images/tailwind.jpg>
 Package pdftex.def Info: images/tailwind.jpg  used on input line 93.
@@ -2172,7 +2169,7 @@ Package pdftex.def Info: images/tailwind.jpg  used on input line 93.
 
  <./images/vscode.jpg> <./images/github.png>] [139 <./images/reactjs.jpg> <./im
 ages/fastapi.png> <./images/recharts.png> <./images/tailwind.jpg>]
-<images/skitlearn.png, id=2557, 192.72pt x 120.45pt>
+<images/skitlearn.png, id=2556, 192.72pt x 120.45pt>
 File: images/skitlearn.png Graphic file (type png)
 <use images/skitlearn.png>
 Package pdftex.def Info: images/skitlearn.png  used on input line 111.
@@ -2183,29 +2180,29 @@ Underfull \hbox (badness 1540) in paragraph at lines 112--117
 non
  []
 
-<images/sqlite.jpg, id=2559, 159.3225pt x 67.3425pt>
+<images/sqlite.jpg, id=2558, 159.3225pt x 67.3425pt>
 File: images/sqlite.jpg Graphic file (type jpg)
 <use images/sqlite.jpg>
 Package pdftex.def Info: images/sqlite.jpg  used on input line 128.
 (pdftex.def)             Requested size: 71.13188pt x 30.06544pt.
-<images/alchemy.jpg, id=2561, 356.33125pt x 142.5325pt>
+<images/alchemy.jpg, id=2560, 356.33125pt x 142.5325pt>
 File: images/alchemy.jpg Graphic file (type jpg)
 <use images/alchemy.jpg>
 Package pdftex.def Info: images/alchemy.jpg  used on input line 134.
 (pdftex.def)             Requested size: 71.13188pt x 28.45161pt.
-<images/ibm.png, id=2563, 130.086pt x 103.1052pt>
+<images/ibm.png, id=2562, 130.086pt x 103.1052pt>
 File: images/ibm.png Graphic file (type png)
 <use images/ibm.png>
 Package pdftex.def Info: images/ibm.png  used on input line 154.
 (pdftex.def)             Requested size: 71.13188pt x 56.38078pt.
-<images/jwt.png, id=2565, 130.98938pt x 84.315pt>
+<images/jwt.png, id=2564, 130.98938pt x 84.315pt>
 File: images/jwt.png Graphic file (type png)
 <use images/jwt.png>
 Package pdftex.def Info: images/jwt.png  used on input line 174.
 (pdftex.def)             Requested size: 71.13188pt x 45.78671pt.
 [140 <./images/skitlearn.png> <./images/sqlite.jpg> <./images/alchemy.jpg> <./i
 mages/ibm.png>] [141 <./images/jwt.png>]
-<images/MI_tracabilitéMCMISECONNECTER_1.png, id=2585, 710.655pt x 159.59625pt>
+<images/MI_tracabilitéMCMISECONNECTER_1.png, id=2584, 710.655pt x 159.59625pt>
 
 File: images/MI_tracabilitéMCMISECONNECTER_1.png Graphic file (type png)
 <use images/MI_tracabilitéMCMISECONNECTER_1.png>
@@ -2223,14 +2220,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 [142 <./images/MI_tracabilitéMCMISECONNECTER_1.png>]
-<images/MI_DiagrammeComposantSeConnecter_1.png, id=2592, 446.41782pt x 233.3718
+<images/MI_DiagrammeComposantSeConnecter_1.png, id=2591, 446.41782pt x 233.3718
 7pt>
 File: images/MI_DiagrammeComposantSeConnecter_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantSeConnecter_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantSeConnecter_1.png  used on
  input line 223.
 (pdftex.def)             Requested size: 455.25159pt x 237.98985pt.
-<images/connecter.png, id=2593, 1035.87pt x 428.802pt>
+<images/connecter.png, id=2592, 1035.87pt x 428.802pt>
 File: images/connecter.png Graphic file (type png)
 <use images/connecter.png>
 Package pdftex.def Info: images/connecter.png  used on input line 230.
@@ -2253,7 +2250,7 @@ Overfull \hbox (18.20576pt too wide) in paragraph at lines 260--261
 ient le mes-sage de confir-ma-tion de d�-con-nexion 
  []
 
-<images/MI_DiagrammeComposantSeConnecter_3.png, id=2600, 446.41782pt x 233.3718
+<images/MI_DiagrammeComposantSeConnecter_3.png, id=2599, 446.41782pt x 233.3718
 7pt>
 File: images/MI_DiagrammeComposantSeConnecter_3.png Graphic file (type png)
 <use images/MI_DiagrammeComposantSeConnecter_3.png>
@@ -2261,21 +2258,20 @@ Package pdftex.def Info: images/MI_DiagrammeComposantSeConnecter_3.png  used on
  input line 273.
 (pdftex.def)             Requested size: 341.43307pt x 178.49329pt.
 [144]
-<images/deconnecter.png, id=2605, 939.51pt x 370.38374pt>
+<images/deconnecter.png, id=2604, 939.51pt x 370.38374pt>
 File: images/deconnecter.png Graphic file (type png)
 <use images/deconnecter.png>
 Package pdftex.def Info: images/deconnecter.png  used on input line 281.
 (pdftex.def)             Requested size: 455.24411pt x 179.472pt.
  [145 <./images/MI_DiagrammeComposantSeConnecter_3.png> <./images/deconnecter.p
 ng>]
-<images/MI_tracabilitéMCMIGérerUtilisateurs_1.png, id=2612, 704.6325pt x 286.
-06876pt>
-File: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png Graphic file (type png
-)
-<use images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>
-Package pdftex.def Info: images/MI_tracabilitéMCMIGérerUtilisateurs_1.png  us
-ed on input line 294.
-(pdftex.def)             Requested size: 432.48051pt x 175.57985pt.
+<images/MI_tracabilitéMCMIGérerUtilisateurs.jpg, id=2611, 987.69pt x 405.515p
+t>
+File: images/MI_tracabilitéMCMIGérerUtilisateurs.jpg Graphic file (type jpg)
+<use images/MI_tracabilitéMCMIGérerUtilisateurs.jpg>
+Package pdftex.def Info: images/MI_tracabilitéMCMIGérerUtilisateurs.jpg  used
+ on input line 294.
+(pdftex.def)             Requested size: 432.48051pt x 177.56087pt.
 
 Overfull \hbox (11.37984pt too wide) in paragraph at lines 298--299
 []\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
@@ -2288,33 +2284,32 @@ Overfull \hbox (1.27083pt too wide) in paragraph at lines 304--305
 e af-fi-chant la liste des agents et le for-mu-laire
  []
 
-[146 <./images/MI_tracabilitéMCMIGérerUtilisateurs_1.png>]
-<images/MI_diagrammedecomposantgererutilisateurs.png, id=2618, 740.0147pt x 325
-.215pt>
-File: images/MI_diagrammedecomposantgererutilisateurs.png Graphic file (type pn
+[146 <./images/MI_tracabilitéMCMIGérerUtilisateurs.jpg>]
+<images/MI_diagrammedecomposantgererutilisateurs.jpg, id=2616, 945.5325pt x 387
+.4475pt>
+File: images/MI_diagrammedecomposantgererutilisateurs.jpg Graphic file (type jp
 g)
-<use images/MI_diagrammedecomposantgererutilisateurs.png>
-Package pdftex.def Info: images/MI_diagrammedecomposantgererutilisateurs.png  u
+<use images/MI_diagrammedecomposantgererutilisateurs.jpg>
+Package pdftex.def Info: images/MI_diagrammedecomposantgererutilisateurs.jpg  u
 sed on input line 329.
-(pdftex.def)             Requested size: 455.24411pt x 200.06807pt.
-<images/ajouter_agent.png, id=2619, 1149.093pt x 495.0495pt>
+(pdftex.def)             Requested size: 455.24411pt x 186.54614pt.
+<images/ajouter_agent.png, id=2617, 1149.093pt x 495.0495pt>
 File: images/ajouter_agent.png Graphic file (type png)
 <use images/ajouter_agent.png>
 Package pdftex.def Info: images/ajouter_agent.png  used on input line 337.
 (pdftex.def)             Requested size: 455.24411pt x 196.12782pt.
-<images/supprimer_agent.png, id=2620, 817.25325pt x 414.95026pt>
+<images/supprimer_agent.png, id=2618, 817.25325pt x 414.95026pt>
 File: images/supprimer_agent.png Graphic file (type png)
 <use images/supprimer_agent.png>
 Package pdftex.def Info: images/supprimer_agent.png  used on input line 343.
 (pdftex.def)             Requested size: 455.24411pt x 231.14221pt.
- [147 <./images/MI_diagrammedecomposantgererutilisateurs.png> <./images/ajouter
-_agent.png>]
-[148 <./images/supprimer_agent.png>]
-<images/MI_Main.png, id=2633, 1598.97375pt x 639.89063pt>
-File: images/MI_Main.png Graphic file (type png)
-<use images/MI_Main.png>
-Package pdftex.def Info: images/MI_Main.png  used on input line 356.
-(pdftex.def)             Requested size: 455.24411pt x 182.17543pt.
+ [147 <./images/MI_diagrammedecomposantgererutilisateurs.jpg> <./images/ajouter
+_agent.png>] [148 <./images/supprimer_agent.png>]
+<images/MI_Main.jpg, id=2630, 2571.6075pt x 889.3225pt>
+File: images/MI_Main.jpg Graphic file (type jpg)
+<use images/MI_Main.jpg>
+Package pdftex.def Info: images/MI_Main.jpg  used on input line 356.
+(pdftex.def)             Requested size: 455.24411pt x 157.42499pt.
 
 Overfull \hbox (12.69695pt too wide) in paragraph at lines 359--360
 []\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
@@ -2327,441 +2322,441 @@ Overfull \hbox (1.83438pt too wide) in paragraph at lines 374--375
 is-sant les co-lonnes du ta-bleau (nom, ca-t�-go-rie,
  []
 
-[149 <./images/MI_Main.png>]
+[149 <./images/MI_Main.jpg>]
 Overfull \hbox (10.44598pt too wide) in paragraph at lines 403--404
 []\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
 ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 [150]
-<images/MI_DiagrammeComposantGérerProduit_2.png, id=2643, 672.26157pt x 462.22
-687pt>
-File: images/MI_DiagrammeComposantGérerProduit_2.png Graphic file (type png)
-<use images/MI_DiagrammeComposantGérerProduit_2.png>
-Package pdftex.def Info: images/MI_DiagrammeComposantGérerProduit_2.png  used 
-on input line 415.
-(pdftex.def)             Requested size: 455.24411pt x 313.01236pt.
-<images/liste_produits.png, id=2644, 1151.502pt x 495.65175pt>
+<images/MI_DiagrammeComposantGérerProduit.jpg, id=2639, 951.555pt x 710.655pt>
+
+File: images/MI_DiagrammeComposantGérerProduit.jpg Graphic file (type jpg)
+<use images/MI_DiagrammeComposantGérerProduit.jpg>
+Package pdftex.def Info: images/MI_DiagrammeComposantGérerProduit.jpg  used on
+ input line 417.
+(pdftex.def)             Requested size: 455.24411pt x 339.99362pt.
+<images/liste_produits.png, id=2640, 1151.502pt x 495.65175pt>
 File: images/liste_produits.png Graphic file (type png)
 <use images/liste_produits.png>
-Package pdftex.def Info: images/liste_produits.png  used on input line 423.
+Package pdftex.def Info: images/liste_produits.png  used on input line 425.
 (pdftex.def)             Requested size: 455.24411pt x 195.95802pt.
-<images/ajouter_produit.png, id=2645, 1140.6615pt x 519.1395pt>
+<images/ajouter_produit.png, id=2641, 1140.6615pt x 519.1395pt>
 File: images/ajouter_produit.png Graphic file (type png)
 <use images/ajouter_produit.png>
-Package pdftex.def Info: images/ajouter_produit.png  used on input line 429.
+Package pdftex.def Info: images/ajouter_produit.png  used on input line 431.
 (pdftex.def)             Requested size: 455.24411pt x 207.18474pt.
- [151 <./images/MI_DiagrammeComposantGérerProduit_2.png> <./images/liste_produ
-its.png>]
-<images/modifier_produit.png, id=2652, 1130.42325pt x 511.9125pt>
+ [151 <./images/MI_DiagrammeComposantGérerProduit.jpg> <./images/liste_produit
+s.png>]
+<images/modifier_produit.png, id=2647, 1130.42325pt x 511.9125pt>
 File: images/modifier_produit.png Graphic file (type png)
 <use images/modifier_produit.png>
-Package pdftex.def Info: images/modifier_produit.png  used on input line 435.
+Package pdftex.def Info: images/modifier_produit.png  used on input line 437.
 (pdftex.def)             Requested size: 455.24411pt x 206.15956pt.
-<images/consulter_produit.png, id=2653, 653.44125pt x 491.436pt>
+<images/consulter_produit.png, id=2648, 653.44125pt x 491.436pt>
 File: images/consulter_produit.png Graphic file (type png)
 <use images/consulter_produit.png>
-Package pdftex.def Info: images/consulter_produit.png  used on input line 441.
+Package pdftex.def Info: images/consulter_produit.png  used on input line 443.
 (pdftex.def)             Requested size: 455.24411pt x 342.37564pt.
  [152 <./images/ajouter_produit.png> <./images/modifier_produit.png>]
-<images/archiver_produit.png, id=2660, 604.659pt x 263.7855pt>
+<images/archiver_produit.png, id=2655, 604.659pt x 263.7855pt>
 File: images/archiver_produit.png Graphic file (type png)
 <use images/archiver_produit.png>
-Package pdftex.def Info: images/archiver_produit.png  used on input line 447.
+Package pdftex.def Info: images/archiver_produit.png  used on input line 449.
 (pdftex.def)             Requested size: 455.24411pt x 198.59937pt.
-<images/supprimer produit.png, id=2661, 579.96675pt x 373.99725pt>
+<images/supprimer produit.png, id=2656, 579.96675pt x 373.99725pt>
 File: images/supprimer produit.png Graphic file (type png)
 <use images/supprimer produit.png>
-Package pdftex.def Info: images/supprimer produit.png  used on input line 452.
+Package pdftex.def Info: images/supprimer produit.png  used on input line 454.
 (pdftex.def)             Requested size: 455.24411pt x 293.57706pt.
  [153 <./images/consulter_produit.png> <./images/archiver_produit.png>]
 [154 <./images/supprimer produit.png>]
-<images/MI_tracabilitéMCMIgererclient.png, id=2674, 938.00438pt x 374.90062pt>
+<images/MI_tracabilitéMCMIgererclient.png, id=2669, 938.00438pt x 374.90062pt>
 
 File: images/MI_tracabilitéMCMIgererclient.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIgererclient.png>
 Package pdftex.def Info: images/MI_tracabilitéMCMIgererclient.png  used on inp
-ut line 466.
+ut line 468.
 (pdftex.def)             Requested size: 455.24411pt x 181.9467pt.
 
-Overfull \hbox (11.39131pt too wide) in paragraph at lines 469--471
+Overfull \hbox (11.39131pt too wide) in paragraph at lines 471--473
 []\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
 li-sa-tion G�-rer Clients illustre la cor-res-pon-dance
  []
 
 
-Overfull \hbox (11.92526pt too wide) in paragraph at lines 490--491
+Overfull \hbox (11.92526pt too wide) in paragraph at lines 492--493
 []\T1/ptm/b/n/12 (-20) IUArchiverClient : \T1/ptm/m/n/12 (-20) re-pr�-sente l'i
 n-ter-face de confir-ma-tion d'ar-chi-vage d'un client im-pl�-men-t�e
  []
 
 [155 <./images/MI_tracabilitéMCMIgererclient.png>]
-<images/MI_DiagrammeComposantGérerClient_1.png, id=2680, 597.73312pt x 441.148
+<images/MI_DiagrammeComposantGérerClient_1.png, id=2675, 597.73312pt x 441.148
 13pt>
 File: images/MI_DiagrammeComposantGérerClient_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantGérerClient_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantGérerClient_1.png  used o
-n input line 508.
+n input line 510.
 (pdftex.def)             Requested size: 428.51602pt x 316.25993pt.
-<images/liste_clients.png, id=2681, 1152.10425pt x 501.072pt>
+<images/liste_clients.png, id=2676, 1152.10425pt x 501.072pt>
 File: images/liste_clients.png Graphic file (type png)
 <use images/liste_clients.png>
-Package pdftex.def Info: images/liste_clients.png  used on input line 516.
+Package pdftex.def Info: images/liste_clients.png  used on input line 518.
 (pdftex.def)             Requested size: 455.24411pt x 197.99391pt.
  [156 <./images/MI_DiagrammeComposantGérerClient_1.png>]
-<images/ajouter_client.png, id=2687, 1077.42525pt x 513.117pt>
+<images/ajouter_client.png, id=2682, 1077.42525pt x 513.117pt>
 File: images/ajouter_client.png Graphic file (type png)
 <use images/ajouter_client.png>
-Package pdftex.def Info: images/ajouter_client.png  used on input line 522.
+Package pdftex.def Info: images/ajouter_client.png  used on input line 524.
 (pdftex.def)             Requested size: 455.24411pt x 216.80737pt.
-<images/modifier_client.png, id=2688, 1067.78925pt x 520.344pt>
+<images/modifier_client.png, id=2683, 1067.78925pt x 520.344pt>
 File: images/modifier_client.png Graphic file (type png)
 <use images/modifier_client.png>
-Package pdftex.def Info: images/modifier_client.png  used on input line 528.
+Package pdftex.def Info: images/modifier_client.png  used on input line 530.
 (pdftex.def)             Requested size: 455.24411pt x 221.84593pt.
  [157 <./images/liste_clients.png> <./images/ajouter_client.png>]
-<images/consulter_client_1.png, id=2695, 617.9085pt x 509.5035pt>
+<images/consulter_client_1.png, id=2690, 617.9085pt x 509.5035pt>
 File: images/consulter_client_1.png Graphic file (type png)
 <use images/consulter_client_1.png>
-Package pdftex.def Info: images/consulter_client_1.png  used on input line 534.
+Package pdftex.def Info: images/consulter_client_1.png  used on input line 536.
 
 (pdftex.def)             Requested size: 455.24411pt x 375.37073pt.
-<images/consulter_client_2.png, id=2696, 629.9535pt x 502.87875pt>
+<images/consulter_client_2.png, id=2691, 629.9535pt x 502.87875pt>
 File: images/consulter_client_2.png Graphic file (type png)
 <use images/consulter_client_2.png>
-Package pdftex.def Info: images/consulter_client_2.png  used on input line 540.
+Package pdftex.def Info: images/consulter_client_2.png  used on input line 542.
 
 (pdftex.def)             Requested size: 455.24411pt x 363.41525pt.
  [158 <./images/modifier_client.png> <./images/consulter_client_1.png>]
-<images/supprimer_client.png, id=2703, 595.023pt x 340.8735pt>
+<images/supprimer_client.png, id=2698, 595.023pt x 340.8735pt>
 File: images/supprimer_client.png Graphic file (type png)
 <use images/supprimer_client.png>
-Package pdftex.def Info: images/supprimer_client.png  used on input line 546.
+Package pdftex.def Info: images/supprimer_client.png  used on input line 548.
 (pdftex.def)             Requested size: 455.24411pt x 260.80377pt.
-<images/archiver_client.png, id=2704, 492.6405pt x 325.215pt>
+<images/archiver_client.png, id=2699, 492.6405pt x 325.215pt>
 File: images/archiver_client.png Graphic file (type png)
 <use images/archiver_client.png>
-Package pdftex.def Info: images/archiver_client.png  used on input line 552.
+Package pdftex.def Info: images/archiver_client.png  used on input line 554.
 (pdftex.def)             Requested size: 455.24411pt x 300.5363pt.
  [159 <./images/consulter_client_2.png> <./images/supprimer_client.png>] [160 <
 ./images/archiver_client.png>]
-<images/11.png, id=2717, 1769.86218pt x 560.0925pt>
+<images/11.png, id=2712, 1769.86218pt x 560.0925pt>
 File: images/11.png Graphic file (type png)
 <use images/11.png>
-Package pdftex.def Info: images/11.png  used on input line 565.
+Package pdftex.def Info: images/11.png  used on input line 567.
 (pdftex.def)             Requested size: 455.23825pt x 144.06519pt.
 
-Overfull \hbox (9.6277pt too wide) in paragraph at lines 568--569
+Overfull \hbox (9.6277pt too wide) in paragraph at lines 570--571
 []\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
 li-sa-tion Trai-ter Vente illustre la cor-res-pon-dance
  []
 
 [161 <./images/11.png>]
-Overfull \hbox (16.7322pt too wide) in paragraph at lines 592--593
+Overfull \hbox (16.7322pt too wide) in paragraph at lines 594--595
 []\T1/ptm/b/n/12 (-20) IUArchiverVente : \T1/ptm/m/n/12 (-20) re-pr�-sente l'in
 -ter-face de confir-ma-tion d'ar-chi-vage d'une vente, im-pl�-men-t�e
  []
 
 
-Overfull \hbox (10.44598pt too wide) in paragraph at lines 607--608
+Overfull \hbox (10.44598pt too wide) in paragraph at lines 609--610
 []\T1/cmtt/m/n/12 produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
 ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 
-Overfull \hbox (4.27249pt too wide) in paragraph at lines 611--612
+Overfull \hbox (4.27249pt too wide) in paragraph at lines 613--614
 []\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 
-Overfull \hbox (16.85338pt too wide) in paragraph at lines 615--616
+Overfull \hbox (16.85338pt too wide) in paragraph at lines 617--618
 []\T1/cmtt/m/n/12 facturation.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente l
 a struc-ture des don-n�es ainsi que les prin-ci-pales
  []
 
-<images/MI_DiagrammeComposantTraiterVente_1.png, id=2723, 1326.45563pt x 358.33
+<images/MI_DiagrammeComposantTraiterVente_1.png, id=2718, 1326.45563pt x 358.33
 875pt>
 File: images/MI_DiagrammeComposantTraiterVente_1.png Graphic file (type png)
 <use images/MI_DiagrammeComposantTraiterVente_1.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantTraiterVente_1.png  used o
-n input line 623.
+n input line 625.
 (pdftex.def)             Requested size: 455.23936pt x 122.9818pt.
-<images/liste_ventes.png, id=2724, 1155.71774pt x 495.65175pt>
+<images/liste_ventes.png, id=2719, 1155.71774pt x 495.65175pt>
 File: images/liste_ventes.png Graphic file (type png)
 <use images/liste_ventes.png>
-Package pdftex.def Info: images/liste_ventes.png  used on input line 631.
+Package pdftex.def Info: images/liste_ventes.png  used on input line 633.
 (pdftex.def)             Requested size: 455.24411pt x 195.23953pt.
 [162 <./images/MI_DiagrammeComposantTraiterVente_1.png>]
-<images/ajouter_vente.png, id=2730, 1155.71774pt x 508.90125pt>
+<images/ajouter_vente.png, id=2725, 1155.71774pt x 508.90125pt>
 File: images/ajouter_vente.png Graphic file (type png)
 <use images/ajouter_vente.png>
-Package pdftex.def Info: images/ajouter_vente.png  used on input line 637.
+Package pdftex.def Info: images/ajouter_vente.png  used on input line 639.
 (pdftex.def)             Requested size: 455.24411pt x 200.45857pt.
-<images/consulter_vente_1.png, id=2731, 758.835pt x 518.53725pt>
+<images/consulter_vente_1.png, id=2726, 758.835pt x 518.53725pt>
 File: images/consulter_vente_1.png Graphic file (type png)
 <use images/consulter_vente_1.png>
-Package pdftex.def Info: images/consulter_vente_1.png  used on input line 643.
+Package pdftex.def Info: images/consulter_vente_1.png  used on input line 645.
 (pdftex.def)             Requested size: 455.24411pt x 311.08519pt.
  [163 <./images/liste_ventes.png> <./images/ajouter_vente.png>]
-<images/consulter_vente_2.png, id=2738, 765.45975pt x 507.0945pt>
+<images/consulter_vente_2.png, id=2733, 765.45975pt x 507.0945pt>
 File: images/consulter_vente_2.png Graphic file (type png)
 <use images/consulter_vente_2.png>
-Package pdftex.def Info: images/consulter_vente_2.png  used on input line 649.
+Package pdftex.def Info: images/consulter_vente_2.png  used on input line 651.
 (pdftex.def)             Requested size: 455.24411pt x 301.58955pt.
-<images/archiver_vente.png, id=2739, 442.65375pt x 255.95625pt>
+<images/archiver_vente.png, id=2734, 442.65375pt x 255.95625pt>
 File: images/archiver_vente.png Graphic file (type png)
 <use images/archiver_vente.png>
-Package pdftex.def Info: images/archiver_vente.png  used on input line 655.
+Package pdftex.def Info: images/archiver_vente.png  used on input line 657.
 (pdftex.def)             Requested size: 455.24411pt x 263.25122pt.
  [164 <./images/consulter_vente_1.png> <./images/consulter_vente_2.png>] [165 <
 ./images/archiver_vente.png>]
-<images/MI_tracabilitéMCMIGérerFacture_3.png, id=2752, 1017.04968pt x 466.743
+<images/MI_tracabilitéMCMIGérerFacture_3.png, id=2747, 1017.04968pt x 466.743
 74pt>
 File: images/MI_tracabilitéMCMIGérerFacture_3.png Graphic file (type png)
 <use images/MI_tracabilitéMCMIGérerFacture_3.png>
 Package pdftex.def Info: images/MI_tracabilitéMCMIGérerFacture_3.png  used on
- input line 668.
+ input line 670.
 (pdftex.def)             Requested size: 455.24718pt x 208.92172pt.
 
-Overfull \hbox (13.15201pt too wide) in paragraph at lines 671--673
+Overfull \hbox (13.15201pt too wide) in paragraph at lines 673--675
 []\T1/ptm/m/n/12 (-20) Ce dia-gramme de tra-�a-bi-lit� MC/MI pour le cas d'uti-
 li-sa-tion G�-rer Fac-ture illustre la cor-res-pon-dance
  []
 
 
-Overfull \hbox (1.83598pt too wide) in paragraph at lines 684--685
+Overfull \hbox (1.83598pt too wide) in paragraph at lines 686--687
 []\T1/cmtt/m/n/12 FacturationForm.jsx \T1/ptm/m/n/12 (-20) : for-mu-laire af-fi
 -ch� pour sai-sir les in-for-ma-tions d'une nou-velle
  []
 
 [166 <./images/MI_tracabilitéMCMIGérerFacture_3.png>]
-Overfull \hbox (18.95914pt too wide) in paragraph at lines 692--693
+Overfull \hbox (18.95914pt too wide) in paragraph at lines 694--695
 []\T1/cmtt/m/n/12 FactureModal.jsx \T1/ptm/m/n/12 (-20) : com-po-sant qui af-fi
 che les d�-tails com-plets d'une fac-ture s�-lec-tion-n�e 
  []
 
 
-Overfull \hbox (1.03352pt too wide) in paragraph at lines 696--697
+Overfull \hbox (1.03352pt too wide) in paragraph at lines 698--699
 []\T1/cmtt/m/n/12 Facturationcolumns.jsx \T1/ptm/m/n/12 (-20) : com-po-sant d�-
 fi-nis-sant les co-lonnes du ta-bleau (r�-f�-rence,
  []
 
 
-Overfull \hbox (6.15202pt too wide) in paragraph at lines 709--710
+Overfull \hbox (6.15202pt too wide) in paragraph at lines 711--712
 []\T1/cmtt/m/n/12 facturation_service.py \T1/ptm/m/n/12 (-20) : com-po-sant qui
  contient la lo-gique m�-tier et les trai-te-ments
  []
 
 [167]
-Overfull \hbox (4.27249pt too wide) in paragraph at lines 729--730
+Overfull \hbox (4.27249pt too wide) in paragraph at lines 731--732
 []\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 [168]
-<images/MI_facturemcmi_1.png, id=2766, 541.27219pt x 444.15938pt>
+<images/MI_facturemcmi_1.png, id=2761, 541.27219pt x 444.15938pt>
 File: images/MI_facturemcmi_1.png Graphic file (type png)
 <use images/MI_facturemcmi_1.png>
-Package pdftex.def Info: images/MI_facturemcmi_1.png  used on input line 741.
+Package pdftex.def Info: images/MI_facturemcmi_1.png  used on input line 743.
 (pdftex.def)             Requested size: 455.24411pt x 373.57928pt.
-<images/liste_factures.png, id=2767, 1155.71774pt x 499.8675pt>
+<images/liste_factures.png, id=2762, 1155.71774pt x 499.8675pt>
 File: images/liste_factures.png Graphic file (type png)
 <use images/liste_factures.png>
-Package pdftex.def Info: images/liste_factures.png  used on input line 749.
+Package pdftex.def Info: images/liste_factures.png  used on input line 751.
 (pdftex.def)             Requested size: 455.24411pt x 196.90013pt.
-<images/creer_facture.png, id=2768, 1143.67274pt x 494.44725pt>
+<images/creer_facture.png, id=2763, 1143.67274pt x 494.44725pt>
 File: images/creer_facture.png Graphic file (type png)
 <use images/creer_facture.png>
-Package pdftex.def Info: images/creer_facture.png  used on input line 755.
+Package pdftex.def Info: images/creer_facture.png  used on input line 757.
 (pdftex.def)             Requested size: 455.24411pt x 196.81721pt.
  [169 <./images/MI_facturemcmi_1.png> <./images/liste_factures.png>]
-<images/consulter_facture_1.png, id=2775, 849.77475pt x 513.117pt>
+<images/consulter_facture_1.png, id=2770, 849.77475pt x 513.117pt>
 File: images/consulter_facture_1.png Graphic file (type png)
 <use images/consulter_facture_1.png>
-Package pdftex.def Info: images/consulter_facture_1.png  used on input line 761
+Package pdftex.def Info: images/consulter_facture_1.png  used on input line 763
 .
 (pdftex.def)             Requested size: 455.24411pt x 274.89462pt.
-<images/consulter_facture_2.png, id=2776, 709.4505pt x 434.22224pt>
+<images/consulter_facture_2.png, id=2771, 709.4505pt x 434.22224pt>
 File: images/consulter_facture_2.png Graphic file (type png)
 <use images/consulter_facture_2.png>
-Package pdftex.def Info: images/consulter_facture_2.png  used on input line 767
+Package pdftex.def Info: images/consulter_facture_2.png  used on input line 769
 .
 (pdftex.def)             Requested size: 455.24411pt x 278.63673pt.
 
 [170 <./images/creer_facture.png> <./images/consulter_facture_1.png>]
-<images/consulter_facture_3.png, id=2783, 849.77475pt x 465.53925pt>
+<images/consulter_facture_3.png, id=2778, 849.77475pt x 465.53925pt>
 File: images/consulter_facture_3.png Graphic file (type png)
 <use images/consulter_facture_3.png>
-Package pdftex.def Info: images/consulter_facture_3.png  used on input line 773
+Package pdftex.def Info: images/consulter_facture_3.png  used on input line 775
 .
 (pdftex.def)             Requested size: 455.24411pt x 249.40555pt.
-<images/enregistrer_reglement.png, id=2784, 741.36975pt x 448.67625pt>
+<images/enregistrer_reglement.png, id=2779, 741.36975pt x 448.67625pt>
 File: images/enregistrer_reglement.png Graphic file (type png)
 <use images/enregistrer_reglement.png>
 Package pdftex.def Info: images/enregistrer_reglement.png  used on input line 7
-79.
+81.
 (pdftex.def)             Requested size: 455.24411pt x 275.52005pt.
  [171 <./images/consulter_facture_2.png> <./images/consulter_facture_3.png>]
-<images/imprimer_facture.png, id=2792, 847.36575pt x 545.6385pt>
+<images/imprimer_facture.png, id=2787, 847.36575pt x 545.6385pt>
 File: images/imprimer_facture.png Graphic file (type png)
 <use images/imprimer_facture.png>
-Package pdftex.def Info: images/imprimer_facture.png  used on input line 785.
+Package pdftex.def Info: images/imprimer_facture.png  used on input line 787.
 (pdftex.def)             Requested size: 455.24411pt x 293.14175pt.
-<images/envoyer_whatsapp_1.png, id=2793, 754.017pt x 517.935pt>
+<images/envoyer_whatsapp_1.png, id=2788, 754.017pt x 517.935pt>
 File: images/envoyer_whatsapp_1.png Graphic file (type png)
 <use images/envoyer_whatsapp_1.png>
-Package pdftex.def Info: images/envoyer_whatsapp_1.png  used on input line 791.
+Package pdftex.def Info: images/envoyer_whatsapp_1.png  used on input line 793.
 
 (pdftex.def)             Requested size: 455.24411pt x 312.70753pt.
  [172 <./images/enregistrer_reglement.png> <./images/imprimer_facture.png>]
-<images/envoyer_whatsapp_2.png, id=2800, 758.23276pt x 516.12825pt>
+<images/envoyer_whatsapp_2.png, id=2795, 758.23276pt x 516.12825pt>
 File: images/envoyer_whatsapp_2.png Graphic file (type png)
 <use images/envoyer_whatsapp_2.png>
-Package pdftex.def Info: images/envoyer_whatsapp_2.png  used on input line 797.
+Package pdftex.def Info: images/envoyer_whatsapp_2.png  used on input line 799.
 
 (pdftex.def)             Requested size: 455.24411pt x 309.8841pt.
-<images/archiver_facture.png, id=2801, 578.16pt x 316.7835pt>
+<images/archiver_facture.png, id=2796, 578.16pt x 316.7835pt>
 File: images/archiver_facture.png Graphic file (type png)
 <use images/archiver_facture.png>
-Package pdftex.def Info: images/archiver_facture.png  used on input line 803.
+Package pdftex.def Info: images/archiver_facture.png  used on input line 805.
 (pdftex.def)             Requested size: 455.24411pt x 249.43448pt.
  [173 <./images/envoyer_whatsapp_1.png> <./images/envoyer_whatsapp_2.png>] [174
  <./images/archiver_facture.png>]
-Overfull \hbox (11.06429pt too wide) in paragraph at lines 814--816
+Overfull \hbox (11.06429pt too wide) in paragraph at lines 816--818
 \T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-t
 ion (MC) et les com-po-sants d'im-pl�-men-ta-tion
  []
 
-<images/MI_tracabilitéMCMIconsulterNotification.png, id=2813, 503.63156pt x 34
+<images/MI_tracabilitéMCMIconsulterNotification.png, id=2808, 503.63156pt x 34
 7.79938pt>
 File: images/MI_tracabilitéMCMIconsulterNotification.png Graphic file (type pn
 g)
 <use images/MI_tracabilitéMCMIconsulterNotification.png>
 Package pdftex.def Info: images/MI_tracabilitéMCMIconsulterNotification.png  u
-sed on input line 820.
+sed on input line 822.
 (pdftex.def)             Requested size: 455.24411pt x 314.38574pt.
 
-Overfull \hbox (3.98216pt too wide) in paragraph at lines 830--831
+Overfull \hbox (3.98216pt too wide) in paragraph at lines 832--833
 []\T1/ptm/b/n/12 (-20) controleurG�rerNotifications : \T1/ptm/m/n/12 (-20) g�re
  la lo-gique de consul-ta-tion des no-ti-fi-ca-tions, im-pl�-ment�
  []
 
 
-Overfull \hbox (12.21907pt too wide) in paragraph at lines 832--833
+Overfull \hbox (12.21907pt too wide) in paragraph at lines 834--835
 []\T1/cmtt/m/n/12 notifications.py (routes) \T1/ptm/m/n/12 (-20) : com-po-sant 
 qui re-�oit les re-qu�tes li�es � la r�-cu-p�-ra-tion
  []
 
 [175 <./images/MI_tracabilitéMCMIconsulterNotification.png>]
-<images/MI_DiagrammeComposantConsulterNotifications.png, id=2819, 557.08125pt x
+<images/MI_DiagrammeComposantConsulterNotifications.png, id=2814, 557.08125pt x
  260.47313pt>
 File: images/MI_DiagrammeComposantConsulterNotifications.png Graphic file (type
  png)
 <use images/MI_DiagrammeComposantConsulterNotifications.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantConsulterNotifications.png
-  used on input line 844.
+  used on input line 846.
 (pdftex.def)             Requested size: 455.24411pt x 212.86201pt.
-<images/liste_notifications.png, id=2820, 1155.71774pt x 499.26524pt>
+<images/liste_notifications.png, id=2815, 1155.71774pt x 499.26524pt>
 File: images/liste_notifications.png Graphic file (type png)
 <use images/liste_notifications.png>
-Package pdftex.def Info: images/liste_notifications.png  used on input line 852
+Package pdftex.def Info: images/liste_notifications.png  used on input line 854
 .
 (pdftex.def)             Requested size: 455.24411pt x 196.6629pt.
-<images/supprimer_notification.png, id=2821, 961.191pt x 492.6405pt>
+<images/supprimer_notification.png, id=2816, 961.191pt x 492.6405pt>
 File: images/supprimer_notification.png Graphic file (type png)
 <use images/supprimer_notification.png>
 Package pdftex.def Info: images/supprimer_notification.png  used on input line 
-858.
+860.
 (pdftex.def)             Requested size: 455.24411pt x 233.32262pt.
  [176 <./images/MI_DiagrammeComposantConsulterNotifications.png> <./images/list
 e_notifications.png>] [177 <./images/supprimer_notification.png>]
-<images/MI_TracabiltéMCMIConsulterTableauDeBord.png, id=2834, 895.09406pt x 40
+<images/MI_TracabiltéMCMIConsulterTableauDeBord.png, id=2829, 895.09406pt x 40
 2.00188pt>
 File: images/MI_TracabiltéMCMIConsulterTableauDeBord.png Graphic file (type pn
 g)
 <use images/MI_TracabiltéMCMIConsulterTableauDeBord.png>
 Package pdftex.def Info: images/MI_TracabiltéMCMIConsulterTableauDeBord.png  u
-sed on input line 872.
+sed on input line 874.
 (pdftex.def)             Requested size: 455.24411pt x 204.46004pt.
  [178 <./images/MI_TracabiltéMCMIConsulterTableauDeBord.png>]
-Overfull \hbox (10.44598pt too wide) in paragraph at lines 898--899
+Overfull \hbox (10.44598pt too wide) in paragraph at lines 900--901
 []\T1/cmtt/m/n/12 Produit.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la st
 ruc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 
-Overfull \hbox (4.27249pt too wide) in paragraph at lines 902--903
+Overfull \hbox (4.27249pt too wide) in paragraph at lines 904--905
 []\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 [179]
-<images/MI_DiagrammeComposantconsulterprevisions.png, id=2844, 1021.56656pt x 3
+<images/MI_DiagrammeComposantconsulterprevisions.png, id=2839, 1021.56656pt x 3
 06.39468pt>
 File: images/MI_DiagrammeComposantconsulterprevisions.png Graphic file (type pn
 g)
 <use images/MI_DiagrammeComposantconsulterprevisions.png>
 Package pdftex.def Info: images/MI_DiagrammeComposantconsulterprevisions.png  u
-sed on input line 927.
+sed on input line 929.
 (pdftex.def)             Requested size: 455.24411pt x 136.53922pt.
-<images/tdb_1.png, id=2845, 1149.69525pt x 507.69675pt>
+<images/tdb_1.png, id=2840, 1149.69525pt x 507.69675pt>
 File: images/tdb_1.png Graphic file (type png)
 <use images/tdb_1.png>
-Package pdftex.def Info: images/tdb_1.png  used on input line 935.
+Package pdftex.def Info: images/tdb_1.png  used on input line 937.
 (pdftex.def)             Requested size: 455.24411pt x 201.02994pt.
-<images/tdb_2.png, id=2846, 1155.71774pt x 505.28775pt>
+<images/tdb_2.png, id=2841, 1155.71774pt x 505.28775pt>
 File: images/tdb_2.png Graphic file (type png)
 <use images/tdb_2.png>
-Package pdftex.def Info: images/tdb_2.png  used on input line 941.
+Package pdftex.def Info: images/tdb_2.png  used on input line 943.
 (pdftex.def)             Requested size: 455.24411pt x 199.0352pt.
-<images/tdb_3.png, id=2847, 1149.69525pt x 507.0945pt>
+<images/tdb_3.png, id=2842, 1149.69525pt x 507.0945pt>
 File: images/tdb_3.png Graphic file (type png)
 <use images/tdb_3.png>
-Package pdftex.def Info: images/tdb_3.png  used on input line 947.
+Package pdftex.def Info: images/tdb_3.png  used on input line 949.
 (pdftex.def)             Requested size: 455.24411pt x 200.79146pt.
  [180 <./images/MI_DiagrammeComposantconsulterprevisions.png> <./images/tdb_1.p
 ng> <./images/tdb_2.png>]
-<images/MI_tracabiltéMCMIConsulterPrévisions_1.png, id=2855, 647.41875pt x 30
+<images/MI_tracabiltéMCMIConsulterPrévisions_1.png, id=2850, 647.41875pt x 30
 7.1475pt>
 File: images/MI_tracabiltéMCMIConsulterPrévisions_1.png Graphic file (type pn
 g)
 <use images/MI_tracabiltéMCMIConsulterPrévisions_1.png>
 Package pdftex.def Info: images/MI_tracabiltéMCMIConsulterPrévisions_1.png  u
-sed on input line 959.
+sed on input line 961.
 (pdftex.def)             Requested size: 455.24411pt x 215.97661pt.
 
-Overfull \hbox (11.06429pt too wide) in paragraph at lines 962--963
+Overfull \hbox (11.06429pt too wide) in paragraph at lines 964--965
 \T1/ptm/m/n/12 (-20) cor-res-pon-dance entre les classes du mo-d�le de concep-t
 ion (MC) et les com-po-sants d'im-pl�-men-ta-tion
  []
 
 [181 <./images/tdb_3.png> <./images/MI_tracabiltéMCMIConsulterPrévisions_1.pn
 g>]
-Overfull \hbox (4.27249pt too wide) in paragraph at lines 985--986
+Overfull \hbox (4.27249pt too wide) in paragraph at lines 987--988
 []\T1/cmtt/m/n/12 client.py (models) \T1/ptm/m/n/12 (-20) : re-pr�-sente la str
 uc-ture des don-n�es et les prin-ci-pales op�-ra-tions
  []
 
 [182]
-<images/MI_previsions_1.png, id=2866, 511.15968pt x 453.19313pt>
+<images/MI_previsions_1.png, id=2861, 511.15968pt x 453.19313pt>
 File: images/MI_previsions_1.png Graphic file (type png)
 <use images/MI_previsions_1.png>
-Package pdftex.def Info: images/MI_previsions_1.png  used on input line 1001.
+Package pdftex.def Info: images/MI_previsions_1.png  used on input line 1003.
 (pdftex.def)             Requested size: 455.24411pt x 403.61722pt.
-<images/prevision_1.png, id=2867, 1153.911pt x 498.663pt>
+<images/prevision_1.png, id=2862, 1153.911pt x 498.663pt>
 File: images/prevision_1.png Graphic file (type png)
 <use images/prevision_1.png>
-Package pdftex.def Info: images/prevision_1.png  used on input line 1009.
+Package pdftex.def Info: images/prevision_1.png  used on input line 1011.
 (pdftex.def)             Requested size: 455.24411pt x 196.73004pt.
  [183 <./images/MI_previsions_1.png>]
-<images/prevision_2.png, id=2874, 1150.89975pt x 508.90125pt>
+<images/prevision_2.png, id=2869, 1150.89975pt x 508.90125pt>
 File: images/prevision_2.png Graphic file (type png)
 <use images/prevision_2.png>
-Package pdftex.def Info: images/prevision_2.png  used on input line 1015.
+Package pdftex.def Info: images/prevision_2.png  used on input line 1017.
 (pdftex.def)             Requested size: 455.24411pt x 201.29721pt.
  [184 <./images/prevision_1.png> <./images/prevision_2.png>]
-Overfull \hbox (2.8122pt too wide) in paragraph at lines 1070--1073
+Overfull \hbox (2.8122pt too wide) in paragraph at lines 1072--1075
 []\T1/ptm/m/n/12 (-20) Une ges-tion cen-tra-li-s�e et fiable des bois-sons, des
  clients (per-sonnes phy-siques et en-tre-prises),
  []
@@ -2780,8 +2775,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34840 strings out of 467691
- 694335 string characters out of 5416396
- 1128836 words of memory out of 5000000
+ 694314 string characters out of 5416396
+ 1128837 words of memory out of 5000000
  61879 multiletter control sequences out of 15000+600000
  724584 words of font info for 420 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2798,9 +2793,9 @@ amsfonts/cm/cmsy10.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/u
 rw/times/utmb8a.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/Application Verifier/tex/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on main.pdf (206 pages, 25310696 bytes).
+Output written on main.pdf (206 pages, 28944642 bytes).
 PDF statistics:
- 3273 PDF objects out of 3580 (max. 8388607)
+ 3268 PDF objects out of 3580 (max. 8388607)
  980 named destinations out of 1000 (max. 500000)
  112385 words of extra memory for PDF output out of 128383 (max. 10000000)
 
