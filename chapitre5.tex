@@ -299,9 +299,17 @@ Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Agents illu
 
 Les classes impliquées dans ce diagramme sont les suivantes :
 \begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
+  \item \textbf{IUAcceuil :} représente l'interface principale depuis laquelle le CEO accède à la page de gestion des agents, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{sideBar.jsx} : composant de navigation contenant le lien vers la page de gestion des agents
+  \end{itemize}
   \item \textbf{IUAgents :} représente l'interface de la page de gestion des agents, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{listeUtilisateurs.jsx} : page principale affichant la liste des agents et le formulaire d'ajout
+  \end{itemize}
+  \item \textbf{IUListeAgent :} représente l'interface d'affichage de la liste des agents sous forme de tableau, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{utilisateurColumns.jsx} : composant définissant les colonnes du tableau (id, email, rôle, actions)
   \end{itemize}
   \item \textbf{IUAjouterAgent :} représente l'interface d'ajout et de modification d'un agent, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
@@ -319,6 +327,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \item \textbf{Utilisateur :} représente l'entité de l'utilisateur, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{user.py (models)} : représente la structure des données et les principales opérations liées à la gestion des agents en base de données
+    \item \texttt{user.db} : table de la base de données qui stocke les enregistrements des utilisateurs
   \end{itemize}
 \end{itemize}
 
@@ -353,7 +362,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_Main.jpg}
+  \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{images/MI_Main.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Produits}
 \end{figure}
 Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Produit illustre la correspondance entre les classes du modèle de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
@@ -465,41 +474,59 @@ supprimer produit.png
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMIgererclient.png}
+  \includegraphics[width=\textwidth, height=0.90\textheight, keepaspectratio]{images/MI_tracabilitéMCMIgererclient.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Clients}
 \end{figure}
 Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Clients illustre la correspondance entre les classes du modèle  de conception  (MC) et les composants d'implémentation du modèle d'implémentation (MI).
 Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
-  \item \textbf{IUAcceuil :} représente l'interface qui permet aux agents d'accéder à la page de gestion des Clients, elle est implémentée par :
-  \item \textbf{IUGérerClient :} représente l'interface principale de gestion des clients implémentée par :
+  \item \textbf{IUAcceuil :} représente l'interface principale depuis laquelle l'agent accède à la page de gestion des clients, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{sideBar.jsx} : composant de navigation contenant le lien vers la page de gestion des clients
+  \end{itemize}
+  \item \textbf{IUGérerClient :} représente l'interface principale de gestion des clients implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{listeClients.jsx} : composant affichant la liste des clients avec les onglets de filtrage et la barre de recherche
   \end{itemize}
   \item \textbf{IUListeClient :} représente l'interface d'affichage de la liste des clients implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{clientColumns.jsx} : composant définissant les colonnes du tableau (type, nom, prénom, email, téléphone, ville)
   \end{itemize}
-  \item \textbf{IUModifierClient :} représente l'interface modification d'un client implémenté par :
+  \item \textbf{IUAjouterClient :} représente l'interface qui permet à l'agent d'ajouter un nouveau client, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
-    \item \texttt{ProduitForm.jsx} : formulaire affiché pour modifier les informations du client souhaité
+    \item \texttt{ClientForm.jsx} : formulaire affiché pour remplir les informations du nouveau client
+  \end{itemize}
+  \item \textbf{IUModifierClient :} représente l'interface de modification d'un client implémenté par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ClientForm.jsx} : formulaire affiché pour modifier les informations du client souhaité
+  \end{itemize}
+  \item \textbf{IUConsulterDetailsClient :} représente l'interface de consultation des détails d'un client sélectionné, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{ClientForm.jsx} : formulaire contenant les données du client tels que (type, nom, prénom, email, téléphone, ville, adresse)
   \end{itemize}
   \item \textbf{IUSupprimerClient :} représente l'interface de confirmation de suppression d'un client implémenté par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
- \item \texttt{confirmDialog.jsx} :fenêtre qui propose l'archivage si le client lié a une vente ou confirme la suppression définitive
+    \item \texttt{confirmDialog.jsx} : fenêtre qui propose l'archivage si le client est lié à une vente ou confirme la suppression définitive
   \end{itemize}
   \item \textbf{IUArchiverClient :} représente l'interface de confirmation d'archivage d'un client implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
-    \item \texttt{ConfirmDialog.jsx} : fenêtre de confirmation ou d'annulation de l'archivage
+    \item \texttt{confirmDialog.jsx} : fenêtre de confirmation ou d'annulation de l'archivage
   \end{itemize}
   \item \textbf{ControleurClient :} gère la logique de gestion des clients implémenté par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
-    \item \texttt{Produit.py(routes)} : composant qui reçoit les requêtes des opérations liées à la gestion des clients et la vérification du lien avec la vente
+    \item \texttt{client.py (routes)} : composant qui reçoit les requêtes des opérations liées à la gestion des clients et la vérification du lien avec la vente
+    \item \texttt{client\_service.py} : composant qui contient la logique métier et les traitements liés à la gestion des clients
+  \end{itemize}
+  \item \textbf{Client :} représente l'entité du client, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées à la gestion des clients en base de données
+    \item \texttt{client.db} : table de la base de données qui stocke les enregistrements des clients
   \end{itemize}
   \item \textbf{Vente :} représente l'entité de la vente implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
-    \item \texttt{vente.py(models)} : représente la structure des données et les principales opérations liées à la vente en base de données
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées à la vente en base de données
+    \item \texttt{vente.db} : table de la base de données qui stocke les enregistrements des ventes associées aux clients
   \end{itemize}
 \end{itemize}
 
@@ -507,7 +534,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
- \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{images/MI_DiagrammeComposantGérerClient_1.png}
+ \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{images/MI_DiagrammeComposantGérerClient.jpg}
   \caption{Diagramme de composants du cas d'utilisation Gérer Clients}
 \end{figure}
 
@@ -564,7 +591,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{images/11.png}
+  \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{images/MI_tracabiltéMCMIGerervente_2.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Traiter Vente}
 \end{figure}
 Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Traiter Vente illustre la correspondance entre les classes du modèle de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
@@ -612,6 +639,10 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées à la gestion des clients en base de données
   \end{itemize}
+  \item \textbf{LigneDeVente :} représente l'entité de la ligne de vente, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{vente.py (models)} : représente la structure des données et les principales opérations liées aux lignes de vente en base de données
+  \end{itemize}
   \item \textbf{Facture :} représente l'entité de la facture associée à la vente, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{facturation.py (models)} : représente la structure des données ainsi que les principales opérations liées à la gestion des factures associées aux ventes et aux règlements
@@ -622,11 +653,12 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{images/MI_DiagrammeComposantTraiterVente_1.png}
+  \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{images/MI_DiagrammeComposantTraiterVente_2.jpg}
   \caption{Diagramme de composants du cas d'utilisation Traiter Vente}
 \end{figure}
 
 \subsection{Interface réelle du cas d'utilisation Traiter Vente}
+
 
 \begin{figure}[H]
   \centering
@@ -667,7 +699,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth, height=0.65\textheight, keepaspectratio]{images/MI_tracabilitéMCMIGérerFacture_3.png}
+  \includegraphics[width=\textwidth, height=0.65\textheight, keepaspectratio]{images/MI_tracabilitéMCMIGérerFacture_2.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Gérer Factures}
 \end{figure}
 Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Gérer Facture illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
@@ -730,17 +762,13 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{client.py (models)} : représente la structure des données et les principales opérations liées aux clients en base de données
   \end{itemize}
-  \item \textbf{parametres :} représente l'entité des paramètres du système utilisés lors de la génération des factures, implémentée par :
-  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
-    \item \texttt{parametre.py (models)} : représente la structure des données et les principales opérations liées aux paramètres de l'application en base de données
-  \end{itemize}
 \end{itemize}
 \newpage
 \subsection{Diagramme de composants du Cas D'utilisation Gérer Factures}
 
  \begin{figure}[H]
    \centering
-   \includegraphics[width=\textwidth]{images/MI_facturemcmi_1.png}
+   \includegraphics[width=\textwidth]{images/MI_facturecomposant_1.jpg}
     \caption{Diagramme de composants du cas d'utilisation Gérer Factures}
   \end{figure}
 
@@ -819,12 +847,15 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
  \begin{figure}[H]
    \centering
-   \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMIconsulterNotification.png}
+   \includegraphics[width=\textwidth]{images/MI_tracabilitéMCMIconsulterNotification_1.jpg}
    \caption{Traçabilité MC/MI pour le cas d'utilisation Consulter Notifications}
  \end{figure}
 
 \begin{itemize}[leftmargin=2em, topsep=4pt, itemsep=4pt]
-  \item \textbf{IUAcceuil :} représente l'interface qui permet aux agents d'accéder à la boutton consulter notifications, elle est implémentée par :
+  \item \textbf{IUAcceuil :} représente l'interface principale depuis laquelle l'agent accède à la page des notifications, implémentée par :
+  \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
+    \item \texttt{navbar.jsx} : composant contenant l'icône de notification permettant d'accéder à la liste des notifications
+  \end{itemize}
   \item \textbf{IUListeNotifications :} l'interface qui affiche la liste des notifications, elle est implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{ListeNotifications.jsx} : composant qui affiche la liste des notifications reçues
@@ -832,10 +863,12 @@ Les classes impliquées dans ce diagramme sont les suivantes :
   \item \textbf{controleurGérerNotifications :} gère la logique de consultation des notifications, implémenté par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{notifications.py (routes)} : composant qui reçoit les requêtes liées à la récupération et la gestion des notifications
+    \item \texttt{notifications\_service.py} : composant qui contient la logique métier et les traitements liés à la gestion des notifications
   \end{itemize}
   \item \textbf{Notifications :} représente l'entité de la notification, implémentée par :
   \begin{itemize}[leftmargin=2em, topsep=2pt, itemsep=2pt]
     \item \texttt{notifications.py (models)} : représente la structure des données et les principales opérations liées aux notifications en base de données
+    \item \texttt{notifications.db} : table de la base de données qui stocke les enregistrements des notifications
   \end{itemize}
 \end{itemize}
 \subsection{Diagramme de composants du Cas D'utilisation Consulter Notifications}
@@ -843,7 +876,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
  \begin{figure}[H]
    \centering
-   \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantConsulterNotifications.png}
+   \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantConsulterNotifications.jpg}
    \caption{Diagramme de composants du cas d'utilisation Consulter Notifications}
  \end{figure}
 
@@ -871,7 +904,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_TracabiltéMCMIConsulterTableauDeBord.png}
+  \includegraphics[width=\textwidth]{images/MI_TracabiltéMCMIConsulterTableauDeBord_1.jpg}
   \caption{Traçabilité MC/MI pour le cas d'utilisation Consulter Tableau de Bord}
 \end{figure}
 
@@ -926,7 +959,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantconsulterprevisions.png}
+  \includegraphics[width=\textwidth]{images/MI_DiagrammeComposantConsulterTableauDeBord.jpg}
   \caption{Diagramme de composants du cas d'utilisation Consulter Tableau de Bord}
 \end{figure}
 
@@ -958,7 +991,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
 \begin{figure}[H]
    \centering
-   \includegraphics[width=\textwidth]{images/MI_tracabiltéMCMIConsulterPrévisions_1.png}
+   \includegraphics[width=\textwidth]{images/MI_tracabiltemcmiconsulterprevisions.jpg}
    \caption{Traçabilité MC/MI pour le cas d'utilisation Consulter Prévisions}
  \end{figure}
 Ce diagramme de traçabilité MC/MI pour le cas d'utilisation Consulter Prévisions illustre la correspondance entre les classes du modèle  de conception (MC) et les composants d'implémentation du modèle d'implémentation (MI).
@@ -1000,7 +1033,7 @@ Les classes impliquées dans ce diagramme sont les suivantes :
 
  \begin{figure}[H]
    \centering
-  \includegraphics[width=\textwidth]{images/MI_previsions_1.png}
+  \includegraphics[width=\textwidth]{images/MI_previsioncomposant_1.jpg}
    \caption{Diagramme de composants du cas d'utilisation Consulter Prévisions}
  \end{figure}
 

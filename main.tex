@@ -1,9 +1,5 @@
 \documentclass[12pt, oneside, a4paper]{report}
 
-% Supprimer la première page blanche
-\usepackage{atbegshi}
-\AtBeginShipoutNext{\AtBeginShipoutDiscard}
-
 \usepackage{amsmath}
 
 % ===== MARGES =====
@@ -222,6 +218,9 @@
 % ===== DOCUMENT =====
 \begin{document}
 
+% Désactiver les ancres hyperref pour les pages non-numérotées (évite la page blanche)
+\hypersetup{pageanchor=false}
+
 % --- Page de garde sans numérotation ---
 \pagenumbering{gobble}
 \input{pageDeGarde}
@@ -234,6 +233,7 @@
 \clearpage
 
 % ===== PAGES PRÉLIMINAIRES : numérotation romaine minuscule =====
+\hypersetup{pageanchor=true}
 \pagenumbering{roman}
 \setcounter{page}{1}
 
@@ -252,8 +252,6 @@
 % ===== LISTE DES TABLEAUX =====
 {\hypersetup{linkcolor=black}
 \listoftables}
-
-\newpage
 
 % ===== CORPS DU DOCUMENT : numérotation arabe à partir de 1 =====
 \pagenumbering{arabic}
